@@ -1,1 +1,336 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUsIHVzZVJlZiwgdXNlRWZmZWN0IH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBIZWFkZXIsIEZvb3RlciB9IGZyb20gIkAvY29tcG9uZW50cy9sYXlvdXQiOwppbXBvcnQgeyBDYXJkLCBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkiOwppbXBvcnQgeyBJY29uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL0ljb24iOwppbXBvcnQgTGluayBmcm9tICJuZXh0L2xpbmsiOwoKaW50ZXJmYWNlIE1lc3NhZ2UgewogIGlkOiBzdHJpbmc7CiAgcm9sZTogInVzZXIiIHwgImFzc2lzdGFudCI7CiAgY29udGVudDogc3RyaW5nOwogIHRpbWVzdGFtcDogRGF0ZTsKfQoKY29uc3Qgc3VnZ2VzdGVkUXVlc3Rpb25zID0gWwogICJXYXMgaXN0IG1laW4gVW50ZXJuZWhtZW4gd2VydD8iLAogICJXaWUgbMOkdWZ0IGVpbmUgVW50ZXJuZWhtZW5zbmFjaGZvbGdlIGFiPyIsCiAgIldlbGNoZSBLw6R1ZmVydHlwZW4gZ2lidCBlcz8iLAogICJXaWUgbGFuZ2UgZGF1ZXJ0IGVpbiBWZXJrYXVmc3Byb3plc3M/IiwKICAiV2FzIGlzdCBlaW5lIER1ZSBEaWxpZ2VuY2U/IiwKICAiV2VsY2hlIFVudGVybGFnZW4gYnJhdWNoZSBpY2g/IiwKXTsKCmNvbnN0IHNhbXBsZVJlc3BvbnNlczogUmVjb3JkPHN0cmluZywgc3RyaW5nPiA9IHsKICAid2FzIGlzdCBtZWluIHVudGVybmVobWVuIHdlcnQiOgogICAgIkRlciBVbnRlcm5laG1lbnN3ZXJ0IGjDpG5ndCB2b24gdmllbGVuIEZha3RvcmVuIGFiOiBVbXNhdHosIEVCSVQvRUJJVERBLCBCcmFuY2hlLCBNYXJrdHBvc2l0aW9uLCBXYWNoc3R1bXNwb3RlbnppYWwgdW5kIG1laHIuIEFscyBGYXVzdHJlZ2VsIGdpbHQ6IERlciBXZXJ0IGxpZWd0IG9mdCB6d2lzY2hlbiBkZW0gNC0gYmlzIDgtZmFjaGVuIGRlcyBFQklULiBGw7xyIGVpbmUgZ2VuYXVlIEVpbnNjaMOkdHp1bmcgZW1wZmVobGUgaWNoIHVuc2VyZW4gKipCZXdlcnR1bmdzcmVjaG5lcioqIG9kZXIgZWluIHBlcnPDtm5saWNoZXMgR2VzcHLDpGNoIG1pdCB1bnNlcmVuIEV4cGVydGVuLiIsCiAgIndpZSBsw6R1ZnQgZWluZSB1bnRlcm5laG1lbnNuYWNoZm9sZ2UgYWIiOgogICAgIkVpbmUgdHlwaXNjaGUgVW50ZXJuZWhtZW5zbmFjaGZvbGdlIGR1cmNobMOkdWZ0IG1laHJlcmUgUGhhc2VuOlxuXG4xLiAqKlZvcmJlcmVpdHVuZyoqICgzLTYgTW9uYXRlKTogVW50ZXJuZWhtZW5zYmV3ZXJ0dW5nLCBEb2t1bWVudGF0aW9uLCBTdHJhdGVnaWVcbjIuICoqS8OkdWZlcnN1Y2hlKiogKDMtNiBNb25hdGUpOiBBbnNwcmFjaGUgcG90ZW56aWVsbGVyIEvDpHVmZXIsIE5EQXMsIGVyc3RlIEdlc3Byw6RjaGVcbjMuICoqRHVlIERpbGlnZW5jZSoqICgyLTMgTW9uYXRlKTogRGV0YWlscHLDvGZ1bmcgZHVyY2ggZGVuIEvDpHVmZXJcbjQuICoqVmVyaGFuZGx1bmcgJiBBYnNjaGx1c3MqKiAoMi0zIE1vbmF0ZSk6IEthdWZ2ZXJ0cmFnLCBDbG9zaW5nXG5cbkRlciBnZXNhbXRlIFByb3plc3MgZGF1ZXJ0IHR5cGlzY2hlcndlaXNlIDktMTggTW9uYXRlLiIsCiAgIndlbGNoZSBrw6R1ZmVydHlwZW4gZ2lidCBlcyI6CiAgICAiRXMgZ2lidCB2ZXJzY2hpZWRlbmUgS8OkdWZlcnR5cGVuIG1pdCB1bnRlcnNjaGllZGxpY2hlbiBNb3RpdmF0aW9uZW46XG5cbuKAoiAqKlN0cmF0ZWdpc2NoZSBLw6R1ZmVyKio6IFdldHRiZXdlcmJlciBvZGVyIFVudGVybmVobWVuIGF1cyB2ZXJ3YW5kdGVuIEJyYW5jaGVuLCBkaWUgU3luZXJnaWVuIG51dHplbiB3b2xsZW5cbuKAoiAqKkZpbmFuemludmVzdG9yZW4qKjogUHJpdmF0ZSBFcXVpdHksIEZhbWlseSBPZmZpY2VzIOKAkyBmb2t1c3NpZXJ0IGF1ZiBSZW5kaXRlXG7igKIgKipNYW5hZ2VtZW50IEJ1eS1PdXQgKE1CTykqKjogRGFzIGJlc3RlaGVuZGUgTWFuYWdlbWVudCDDvGJlcm5pbW10XG7igKIgKipNYW5hZ2VtZW50IEJ1eS1JbiAoTUJJKSoqOiBFeHRlcm5lIE1hbmFnZXIga2F1ZmVuIGRhcyBVbnRlcm5laG1lblxu4oCiICoqRmFtaWxpZW5pbnRlcm5lIE5hY2hmb2xnZSoqOiDDnGJlcmdhYmUgYW4gZGllIG7DpGNoc3RlIEdlbmVyYXRpb25cblxuSmVkZXIgS8OkdWZlcnR5cCBoYXQgVm9yLSB1bmQgTmFjaHRlaWxlLiIsCiAgIndpZSBsYW5nZSBkYXVlcnQgZWluIHZlcmthdWZzcHJvemVzcyI6CiAgICAiRWluIHByb2Zlc3Npb25lbGwgZ2Vmw7xocnRlciBVbnRlcm5laG1lbnN2ZXJrYXVmIGRhdWVydCB0eXBpc2NoZXJ3ZWlzZSAqKjktMTggTW9uYXRlKiouIERpZSBEYXVlciBow6RuZ3QgYWIgdm9uOlxuXG7igKIgS29tcGxleGl0w6R0IGRlcyBVbnRlcm5laG1lbnNcbuKAoiBRdWFsaXTDpHQgZGVyIFZvcmJlcmVpdHVuZ1xu4oCiIE1hcmt0dW1mZWxkIHVuZCBLw6R1ZmVyaW50ZXJlc3NlXG7igKIgRmluYW56aWVydW5nc3NpdHVhdGlvbiBkZXMgS8OkdWZlcnNcbuKAoiBWZXJoYW5kbHVuZ3NiZXJlaXRzY2hhZnQgYmVpZGVyIFNlaXRlblxuXG5NaXQgZ3V0ZXIgVm9yYmVyZWl0dW5nIGthbm4gZGVyIFByb3plc3MgYmVzY2hsZXVuaWd0IHdlcmRlbi4iLAogICJ3YXMgaXN0IGVpbmUgZHVlIGRpbGlnZW5jZSI6CiAgICAiRGllICoqRHVlIERpbGlnZW5jZSoqIGlzdCBkaWUgc29yZ2bDpGx0aWdlIFByw7xmdW5nIGVpbmVzIFVudGVybmVobWVucyB2b3IgZGVtIEthdWYuIFNpZSB1bWZhc3N0OlxuXG7igKIgKipGaW5hbmNpYWwgREQqKjogUHLDvGZ1bmcgdm9uIEZpbmFuemVuLCBCdWNoaGFsdHVuZywgU3RldWVyblxu4oCiICoqTGVnYWwgREQqKjogVmVydHLDpGdlLCBSZWNodHNyaXNpa2VuLCBDb21wbGlhbmNlXG7igKIgKipDb21tZXJjaWFsIEREKio6IE1hcmt0LCBLdW5kZW4sIFdldHRiZXdlcmJcbuKAoiAqKlRlY2huaWNhbCBERCoqOiBQcm9kdWt0ZSwgSVQtU3lzdGVtZSwgUGF0ZW50ZVxu4oCiICoqSFIgREQqKjogTWl0YXJiZWl0ZXIsIFZlcnRyw6RnZSwgUGVuc2lvbnN2ZXJwZmxpY2h0dW5nZW5cblxuV2lyIHVudGVyc3TDvHR6ZW4gU2llIGJlaSBkZXIgVm9yYmVyZWl0dW5nIHVuZCBCZWdsZWl0dW5nIGRlciBEdWUgRGlsaWdlbmNlLiIsCiAgIndlbGNoZSB1bnRlcmxhZ2VuIGJyYXVjaGUgaWNoIjoKICAgICJGw7xyIGVpbmVuIFVudGVybmVobWVuc3ZlcmthdWYgYmVuw7Z0aWdlbiBTaWUgdHlwaXNjaGVyd2Vpc2U6XG5cbioqRmluYW56aWVsbDoqKlxu4oCiIEphaHJlc2Fic2NobMO8c3NlIGRlciBsZXR6dGVuIDMtNSBKYWhyZVxu4oCiIEJXQSB1bmQgU3VtbWVuLVNhbGRlbi1MaXN0ZW5cbuKAoiBQbGFudW5nc3JlY2hudW5nZW5cblxuKipSZWNodGxpY2g6KipcbuKAoiBHZXNlbGxzY2hhZnRzdmVydHJhZ1xu4oCiIFdpY2h0aWdlIFZlcnRyw6RnZSAoS3VuZGVuLCBMaWVmZXJhbnRlbiwgTWl0YXJiZWl0ZXIpXG7igKIgR3J1bmRidWNoYXVzesO8Z2UgYmVpIEltbW9iaWxpZW5cblxuKipPcGVyYXRpdjoqKlxu4oCiIE9yZ2FuaWdyYW1tXG7igKIgQmVzY2hyZWlidW5nIGRlciBHZXNjaMOkZnRzcHJvemVzc2VcbuKAoiBLdW5kZW5saXN0ZSAoYW5vbnltaXNpZXJ0KVxuXG5XaXIgaGVsZmVuIElobmVuIGJlaSBkZXIgc3RydWt0dXJpZXJ0ZW4gQXVmYmVyZWl0dW5nLiIsCn07CgpmdW5jdGlvbiBnZXRSZXNwb25zZShxdWVzdGlvbjogc3RyaW5nKTogc3RyaW5nIHsKICBjb25zdCBub3JtYWxpemVkUXVlc3Rpb24gPSBxdWVzdGlvbi50b0xvd2VyQ2FzZSgpLnRyaW0oKTsKCiAgZm9yIChjb25zdCBba2V5LCByZXNwb25zZV0gb2YgT2JqZWN0LmVudHJpZXMoc2FtcGxlUmVzcG9uc2VzKSkgewogICAgaWYgKG5vcm1hbGl6ZWRRdWVzdGlvbi5pbmNsdWRlcyhrZXkpKSB7CiAgICAgIHJldHVybiByZXNwb25zZTsKICAgIH0KICB9CgogIHJldHVybiBgVmllbGVuIERhbmsgZsO8ciBJaHJlIEZyYWdlLiBEYXMgaXN0IGVpbiB3aWNodGlnZXMgVGhlbWEgaW0gQmVyZWljaCBVbnRlcm5laG1lbnNuYWNoZm9sZ2UgdW5kIE0mQS4KCkbDvHIgZWluZSBmdW5kaWVydGUgQW50d29ydCBhdWYgSWhyZSBzcGV6aWZpc2NoZSBTaXR1YXRpb24gZW1wZmVobGUgaWNoIGVpbiAqKnBlcnPDtm5saWNoZXMgR2VzcHLDpGNoKiogbWl0IHVuc2VyZW4gRXhwZXJ0ZW4uIFdpciBrw7ZubmVuIGRhbm4gYXVmIElocmUgaW5kaXZpZHVlbGxlIFNpdHVhdGlvbiBlaW5nZWhlbi4KCioqTcO2Y2h0ZW4gU2llOioqCuKAoiBFaW5lbiBrb3N0ZW5sb3NlbiBCZXJhdHVuZ3N0ZXJtaW4gdmVyZWluYmFyZW4/CuKAoiBVbnNlcmVuIEJld2VydHVuZ3NyZWNobmVyIG51dHplbj8K4oCiIE1laHIgw7xiZXIgdW5zZXJlIExlaXN0dW5nZW4gZXJmYWhyZW4/CgpLb250YWt0aWVyZW4gU2llIHVucyBnZXJuZSB1bnRlciBbaW5mb0BxYW5uYS1jb25zdWx0aW5nLmRlXShtYWlsdG86aW5mb0BxYW5uYS1jb25zdWx0aW5nLmRlKSBvZGVyIG51dHplbiBTaWUgdW5zZXIgS29udGFrdGZvcm11bGFyLmA7Cn0KCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIENoYXREZW1vUGFnZSgpIHsKICBjb25zdCBbbWVzc2FnZXMsIHNldE1lc3NhZ2VzXSA9IHVzZVN0YXRlPE1lc3NhZ2VbXT4oWwogICAgewogICAgICBpZDogIndlbGNvbWUiLAogICAgICByb2xlOiAiYXNzaXN0YW50IiwKICAgICAgY29udGVudDoKICAgICAgICAiR3V0ZW4gVGFnISBJY2ggYmluIGRlciBLSS1Bc3Npc3RlbnQgdm9uIFFBTk5BIENvbnN1bHRpbmcuIEljaCBrYW5uIElobmVuIGVyc3RlIEZyYWdlbiB6dXIgVW50ZXJuZWhtZW5zbmFjaGZvbGdlLCBCZXdlcnR1bmcgdW5kIE0mQS1Qcm96ZXNzZW4gYmVhbnR3b3J0ZW4uXG5cbioqV2llIGthbm4gaWNoIElobmVuIGhlbGZlbj8qKiIsCiAgICAgIHRpbWVzdGFtcDogbmV3IERhdGUoKSwKICAgIH0sCiAgXSk7CiAgY29uc3QgW2lucHV0LCBzZXRJbnB1dF0gPSB1c2VTdGF0ZSgiIik7CiAgY29uc3QgW2lzVHlwaW5nLCBzZXRJc1R5cGluZ10gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgbWVzc2FnZXNFbmRSZWYgPSB1c2VSZWY8SFRNTERpdkVsZW1lbnQ+KG51bGwpOwoKICBjb25zdCBzY3JvbGxUb0JvdHRvbSA9ICgpID0+IHsKICAgIG1lc3NhZ2VzRW5kUmVmLmN1cnJlbnQ/LnNjcm9sbEludG9WaWV3KHsgYmVoYXZpb3I6ICJzbW9vdGgiIH0pOwogIH07CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBzY3JvbGxUb0JvdHRvbSgpOwogIH0sIFttZXNzYWdlc10pOwoKICBjb25zdCBoYW5kbGVTZW5kID0gYXN5bmMgKHF1ZXN0aW9uPzogc3RyaW5nKSA9PiB7CiAgICBjb25zdCB0ZXh0ID0gcXVlc3Rpb24gfHwgaW5wdXQ7CiAgICBpZiAoIXRleHQudHJpbSgpKSByZXR1cm47CgogICAgY29uc3QgdXNlck1lc3NhZ2U6IE1lc3NhZ2UgPSB7CiAgICAgIGlkOiBEYXRlLm5vdygpLnRvU3RyaW5nKCksCiAgICAgIHJvbGU6ICJ1c2VyIiwKICAgICAgY29udGVudDogdGV4dCwKICAgICAgdGltZXN0YW1wOiBuZXcgRGF0ZSgpLAogICAgfTsKCiAgICBzZXRNZXNzYWdlcygocHJldikgPT4gWy4uLnByZXYsIHVzZXJNZXNzYWdlXSk7CiAgICBzZXRJbnB1dCgiIik7CiAgICBzZXRJc1R5cGluZyh0cnVlKTsKCiAgICAvLyBTaW11bGF0ZSBBUEkgZGVsYXkKICAgIGF3YWl0IG5ldyBQcm9taXNlKChyZXNvbHZlKSA9PiBzZXRUaW1lb3V0KHJlc29sdmUsIDEwMDAgKyBNYXRoLnJhbmRvbSgpICogMTAwMCkpOwoKICAgIGNvbnN0IHJlc3BvbnNlID0gZ2V0UmVzcG9uc2UodGV4dCk7CgogICAgY29uc3QgYXNzaXN0YW50TWVzc2FnZTogTWVzc2FnZSA9IHsKICAgICAgaWQ6IChEYXRlLm5vdygpICsgMSkudG9TdHJpbmcoKSwKICAgICAgcm9sZTogImFzc2lzdGFudCIsCiAgICAgIGNvbnRlbnQ6IHJlc3BvbnNlLAogICAgICB0aW1lc3RhbXA6IG5ldyBEYXRlKCksCiAgICB9OwoKICAgIHNldE1lc3NhZ2VzKChwcmV2KSA9PiBbLi4ucHJldiwgYXNzaXN0YW50TWVzc2FnZV0pOwogICAgc2V0SXNUeXBpbmcoZmFsc2UpOwogIH07CgogIGNvbnN0IGhhbmRsZUtleURvd24gPSAoZTogUmVhY3QuS2V5Ym9hcmRFdmVudCkgPT4gewogICAgaWYgKGUua2V5ID09PSAiRW50ZXIiICYmICFlLnNoaWZ0S2V5KSB7CiAgICAgIGUucHJldmVudERlZmF1bHQoKTsKICAgICAgaGFuZGxlU2VuZCgpOwogICAgfQogIH07CgogIHJldHVybiAoCiAgICA8bWFpbj4KICAgICAgPEhlYWRlciAvPgoKICAgICAgey8qIEhlcm8gU2VjdGlvbiAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJwdC0zMiBwYi04IGJnLWdyYWRpZW50LXRvLWIgZnJvbS1xYW5uYS1uYXZ5IHRvLXFhbm5hLW5hdnktZGFyayI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lci1xYW5uYSB0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1ibG9jayBweC00IHB5LTIgYmctcWFubmEtZ29sZC8yMCB0ZXh0LXFhbm5hLWdvbGQgdGV4dC1zbSBmb250LXNlbWlib2xkIHJvdW5kZWQtZnVsbCBtYi00Ij4KICAgICAgICAgICAgS0ktQVNTSVNURU5UCiAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICA8aDEgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBtZDp0ZXh0LTR4bCBmb250LWJvbGQgdGV4dC13aGl0ZSBtYi00Ij4KICAgICAgICAgICAgSWhyIHBlcnPDtm5saWNoZXIgQmVyYXR1bmdzYXNzaXN0ZW50CiAgICAgICAgICA8L2gxPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWxnIHRleHQtZ3JheS0zMDAgbWF4LXctMnhsIG14LWF1dG8iPgogICAgICAgICAgICBTdGVsbGVuIFNpZSBJaHJlIEZyYWdlbiB6dXIgVW50ZXJuZWhtZW5zbmFjaGZvbGdlLCBCZXdlcnR1bmcgdW5kCiAgICAgICAgICAgIE0mQS1Qcm96ZXNzZW4uIFVuc2VyIEtJLUFzc2lzdGVudCBnaWJ0IElobmVuIGVyc3RlIE9yaWVudGllcnVuZy4KICAgICAgICAgIDwvcD4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgey8qIENoYXQgSW50ZXJmYWNlICovfQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InNlY3Rpb24tcGFkZGluZyBiZy1xYW5uYS1ncmF5LTUwIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyLXFhbm5hIG1heC13LTR4bCI+CiAgICAgICAgICA8Q2FyZCB2YXJpYW50PSJkZWZhdWx0IiBwYWRkaW5nPSJub25lIiBjbGFzc05hbWU9Im92ZXJmbG93LWhpZGRlbiI+CiAgICAgICAgICAgIHsvKiBDaGF0IEhlYWRlciAqL30KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXFhbm5hLW5hdnkgcHgtNiBweS00IGZsZXggaXRlbXMtY2VudGVyIGdhcC00Ij4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xMiBoLTEyIGJnLXFhbm5hLWdvbGQgcm91bmRlZC1mdWxsIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIj4KICAgICAgICAgICAgICAgIDxJY29uIG5hbWU9ImNoaXAiIGNsYXNzTmFtZT0idy02IGgtNiB0ZXh0LXdoaXRlIiAvPgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtd2hpdGUiPlFBTk5BIEtJLUFzc2lzdGVudDwvaDM+CiAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1ncmF5LTMwMCI+CiAgICAgICAgICAgICAgICAgIHtpc1R5cGluZyA/ICJTY2hyZWlidC4uLiIgOiAiT25saW5lIn0KICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICB7LyogTWVzc2FnZXMgQXJlYSAqL30KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImgtWzUwMHB4XSBvdmVyZmxvdy15LWF1dG8gcC02IGJnLXdoaXRlIj4KICAgICAgICAgICAgICB7bWVzc2FnZXMubWFwKChtZXNzYWdlKSA9PiAoCiAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgIGtleT17bWVzc2FnZS5pZH0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgbWItNCBmbGV4ICR7CiAgICAgICAgICAgICAgICAgICAgbWVzc2FnZS5yb2xlID09PSAidXNlciIgPyAianVzdGlmeS1lbmQiIDogImp1c3RpZnktc3RhcnQiCiAgICAgICAgICAgICAgICAgIH1gfQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgbWF4LXctWzgwJV0gcm91bmRlZC0yeGwgcHgtNCBweS0zICR7CiAgICAgICAgICAgICAgICAgICAgICBtZXNzYWdlLnJvbGUgPT09ICJ1c2VyIgogICAgICAgICAgICAgICAgICAgICAgICA/ICJiZy1xYW5uYS1uYXZ5IHRleHQtd2hpdGUiCiAgICAgICAgICAgICAgICAgICAgICAgIDogImJnLXFhbm5hLWdyYXktMTAwIHRleHQtcWFubmEtZ3JheS04MDAiCiAgICAgICAgICAgICAgICAgICAgfWB9CiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InByb3NlIHByb3NlLXNtIG1heC13LW5vbmUiCiAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17ewogICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogbWVzc2FnZS5yb2xlID09PSAidXNlciIgPyAid2hpdGUiIDogImluaGVyaXQiLAogICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAgIGRhbmdlcm91c2x5U2V0SW5uZXJIVE1MPXt7CiAgICAgICAgICAgICAgICAgICAgICAgIF9faHRtbDogbWVzc2FnZS5jb250ZW50CiAgICAgICAgICAgICAgICAgICAgICAgICAgLnJlcGxhY2UoL1wqXCooLio/KVwqXCovZywgIjxzdHJvbmc+JDE8L3N0cm9uZz4iKQogICAgICAgICAgICAgICAgICAgICAgICAgIC5yZXBsYWNlKC9cbi9nLCAiPGJyIC8+IikKICAgICAgICAgICAgICAgICAgICAgICAgICAucmVwbGFjZSgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIC/igKIgL2csCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAnPHNwYW4gY2xhc3M9InRleHQtcWFubmEtZ29sZCBtci0xIj7igKI8L3NwYW4+ICcKICAgICAgICAgICAgICAgICAgICAgICAgICApLAogICAgICAgICAgICAgICAgICAgICAgfX0KICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgIDxwCiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2B0ZXh0LXhzIG10LTIgJHsKICAgICAgICAgICAgICAgICAgICAgICAgbWVzc2FnZS5yb2xlID09PSAidXNlciIKICAgICAgICAgICAgICAgICAgICAgICAgICA/ICJ0ZXh0LWdyYXktMzAwIgogICAgICAgICAgICAgICAgICAgICAgICAgIDogInRleHQtcWFubmEtZ3JheS01MDAiCiAgICAgICAgICAgICAgICAgICAgICB9YH0KICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICB7bWVzc2FnZS50aW1lc3RhbXAudG9Mb2NhbGVUaW1lU3RyaW5nKCJkZS1ERSIsIHsKICAgICAgICAgICAgICAgICAgICAgICAgaG91cjogIjItZGlnaXQiLAogICAgICAgICAgICAgICAgICAgICAgICBtaW51dGU6ICIyLWRpZ2l0IiwKICAgICAgICAgICAgICAgICAgICAgIH0pfQogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICB7aXNUeXBpbmcgJiYgKAogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXgganVzdGlmeS1zdGFydCBtYi00Ij4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXFhbm5hLWdyYXktMTAwIHJvdW5kZWQtMnhsIHB4LTQgcHktMyI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTEiPgogICAgICAgICAgICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJ3LTIgaC0yIGJnLXFhbm5hLWdyYXktNDAwIHJvdW5kZWQtZnVsbCBhbmltYXRlLWJvdW5jZSIgLz4KICAgICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy0yIGgtMiBiZy1xYW5uYS1ncmF5LTQwMCByb3VuZGVkLWZ1bGwgYW5pbWF0ZS1ib3VuY2UiCiAgICAgICAgICAgICAgICAgICAgICAgIHN0eWxlPXt7IGFuaW1hdGlvbkRlbGF5OiAiMC4xcyIgfX0KICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgICA8c3BhbgogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctMiBoLTIgYmctcWFubmEtZ3JheS00MDAgcm91bmRlZC1mdWxsIGFuaW1hdGUtYm91bmNlIgogICAgICAgICAgICAgICAgICAgICAgICBzdHlsZT17eyBhbmltYXRpb25EZWxheTogIjAuMnMiIH19CiAgICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICl9CiAgICAgICAgICAgICAgPGRpdiByZWY9e21lc3NhZ2VzRW5kUmVmfSAvPgogICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgIHsvKiBTdWdnZXN0ZWQgUXVlc3Rpb25zICovfQogICAgICAgICAgICB7bWVzc2FnZXMubGVuZ3RoID09PSAxICYmICgKICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNiBweS00IGJnLXFhbm5hLWdyYXktNTAgYm9yZGVyLXQgYm9yZGVyLXFhbm5hLWdyYXktMjAwIj4KICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXFhbm5hLWdyYXktNjAwIG1iLTMiPgogICAgICAgICAgICAgICAgICBIw6R1ZmlnIGdlc3RlbGx0ZSBGcmFnZW46CiAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LXdyYXAgZ2FwLTIiPgogICAgICAgICAgICAgICAgICB7c3VnZ2VzdGVkUXVlc3Rpb25zLm1hcCgocXVlc3Rpb24pID0+ICgKICAgICAgICAgICAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgICAgICAgICAgICBrZXk9e3F1ZXN0aW9ufQogICAgICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gaGFuZGxlU2VuZChxdWVzdGlvbil9CiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InB4LTMgcHktMS41IHRleHQtc20gYmctd2hpdGUgYm9yZGVyIGJvcmRlci1xYW5uYS1ncmF5LTIwMCByb3VuZGVkLWZ1bGwgaG92ZXI6Ym9yZGVyLXFhbm5hLWdvbGQgaG92ZXI6dGV4dC1xYW5uYS1nb2xkIHRyYW5zaXRpb24tY29sb3JzIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIHtxdWVzdGlvbn0KICAgICAgICAgICAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKX0KCiAgICAgICAgICAgIHsvKiBJbnB1dCBBcmVhICovfQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHgtNiBweS00IGJnLXdoaXRlIGJvcmRlci10IGJvcmRlci1xYW5uYS1ncmF5LTIwMCI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTQiPgogICAgICAgICAgICAgICAgPHRleHRhcmVhCiAgICAgICAgICAgICAgICAgIHZhbHVlPXtpbnB1dH0KICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9eyhlKSA9PiBzZXRJbnB1dChlLnRhcmdldC52YWx1ZSl9CiAgICAgICAgICAgICAgICAgIG9uS2V5RG93bj17aGFuZGxlS2V5RG93bn0KICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9IlN0ZWxsZW4gU2llIElocmUgRnJhZ2UuLi4iCiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleC0xIHB4LTQgcHktMyBib3JkZXIgYm9yZGVyLXFhbm5hLWdyYXktMjAwIHJvdW5kZWQteGwgcmVzaXplLW5vbmUgZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOnJpbmctMiBmb2N1czpyaW5nLXFhbm5hLWdvbGQgZm9jdXM6Ym9yZGVyLXRyYW5zcGFyZW50IgogICAgICAgICAgICAgICAgICByb3dzPXsxfQogICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgdmFyaWFudD0icHJpbWFyeSIKICAgICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gaGFuZGxlU2VuZCgpfQogICAgICAgICAgICAgICAgICBkaXNhYmxlZD17IWlucHV0LnRyaW0oKSB8fCBpc1R5cGluZ30KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgPHN2ZwogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy01IGgtNSIKICAgICAgICAgICAgICAgICAgICBmaWxsPSJub25lIgogICAgICAgICAgICAgICAgICAgIHZpZXdCb3g9IjAgMCAyNCAyNCIKICAgICAgICAgICAgICAgICAgICBzdHJva2U9ImN1cnJlbnRDb2xvciIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgICAgICAgICBzdHJva2VMaW5lY2FwPSJyb3VuZCIKICAgICAgICAgICAgICAgICAgICAgIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIKICAgICAgICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoPXsyfQogICAgICAgICAgICAgICAgICAgICAgZD0iTTEyIDE5bDkgMi05LTE4LTkgMTggOS0yem0wIDB2LTgiCiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1xYW5uYS1ncmF5LTUwMCBtdC0yIj4KICAgICAgICAgICAgICAgIERpZXMgaXN0IGVpbmUgRGVtby4gRsO8ciB2ZXJiaW5kbGljaGUgQmVyYXR1bmcga29udGFrdGllcmVuIFNpZQogICAgICAgICAgICAgICAgdW5zIGJpdHRlIGRpcmVrdC4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9DYXJkPgoKICAgICAgICAgIHsvKiBJbmZvIENhcmRzICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTIgZ2FwLTYgbXQtOCI+CiAgICAgICAgICAgIDxDYXJkIHZhcmlhbnQ9ImRlZmF1bHQiIHBhZGRpbmc9ImxnIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtNCI+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0xMiBoLTEyIGJnLXFhbm5hLWdvbGQvMjAgcm91bmRlZC1sZyBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBmbGV4LXNocmluay0wIj4KICAgICAgICAgICAgICAgICAgPEljb24gbmFtZT0iY2hhcnQtYmFyIiBjbGFzc05hbWU9InctNiBoLTYgdGV4dC1xYW5uYS1nb2xkIiAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtcWFubmEtbmF2eSBtYi0yIj4KICAgICAgICAgICAgICAgICAgICBCZXdlcnR1bmcgYmVyZWNobmVuCiAgICAgICAgICAgICAgICAgIDwvaDQ+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXFhbm5hLWdyYXktNjAwIG1iLTMiPgogICAgICAgICAgICAgICAgICAgIEVyaGFsdGVuIFNpZSBlaW5lIGVyc3RlIEVpbnNjaMOkdHp1bmcgenVtIFdlcnQgSWhyZXMKICAgICAgICAgICAgICAgICAgICBVbnRlcm5laG1lbnMuCiAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAgICBocmVmPSIva2ktbG9lc3VuZ2VuL2Jld2VydHVuZ3NyZWNobmVyIgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1nb2xkIGZvbnQtbWVkaXVtIHRleHQtc20gaG92ZXI6dW5kZXJsaW5lIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgWnVtIEJld2VydHVuZ3NyZWNobmVyCiAgICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L0NhcmQ+CgogICAgICAgICAgICA8Q2FyZCB2YXJpYW50PSJkZWZhdWx0IiBwYWRkaW5nPSJsZyI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtc3RhcnQgZ2FwLTQiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMTIgaC0xMiBiZy1xYW5uYS1nb2xkLzIwIHJvdW5kZWQtbGcgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgZmxleC1zaHJpbmstMCI+CiAgICAgICAgICAgICAgICAgIDxJY29uIG5hbWU9ImNhbGVuZGFyIiBjbGFzc05hbWU9InctNiBoLTYgdGV4dC1xYW5uYS1nb2xkIiAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtcWFubmEtbmF2eSBtYi0yIj4KICAgICAgICAgICAgICAgICAgICBQZXJzw7ZubGljaGVzIEdlc3Byw6RjaAogICAgICAgICAgICAgICAgICA8L2g0PgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1xYW5uYS1ncmF5LTYwMCBtYi0zIj4KICAgICAgICAgICAgICAgICAgICBGw7xyIGtvbXBsZXhlIEZyYWdlbiB2ZXJlaW5iYXJlbiBTaWUgZWluZW4gVGVybWluIG1pdCB1bnNlcmVuCiAgICAgICAgICAgICAgICAgICAgRXhwZXJ0ZW4uCiAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAgICBocmVmPSIva29udGFrdCIKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtcWFubmEtZ29sZCBmb250LW1lZGl1bSB0ZXh0LXNtIGhvdmVyOnVuZGVybGluZSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIFRlcm1pbiBidWNoZW4KICAgICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvQ2FyZD4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICA8Rm9vdGVyIC8+CiAgICA8L21haW4+CiAgKTsKfQo=
+"use client";
+
+import { useState, useRef, useEffect } from "react";
+import { Header, Footer } from "@/components/layout";
+import { Card, Button } from "@/components/ui";
+import { Icon } from "@/components/ui/Icon";
+import Link from "next/link";
+
+interface Message {
+  id: string;
+  role: "user" | "assistant";
+  content: string;
+  timestamp: Date;
+}
+
+const suggestedQuestions = [
+  "Was ist mein Unternehmen wert?",
+  "Wie läuft eine Unternehmensnachfolge ab?",
+  "Welche Käufertypen gibt es?",
+  "Wie lange dauert ein Verkaufsprozess?",
+  "Was ist eine Due Diligence?",
+  "Welche Unterlagen brauche ich?",
+];
+
+const sampleResponses: Record<string, string> = {
+  "was ist mein unternehmen wert":
+    "Der Unternehmenswert hängt von vielen Faktoren ab: Umsatz, EBIT/EBITDA, Branche, Marktposition, Wachstumspotenzial und mehr. Als Faustregel gilt: Der Wert liegt oft zwischen dem 4- bis 8-fachen des EBIT. Für eine genaue Einschätzung empfehle ich unseren **Bewertungsrechner** oder ein persönliches Gespräch mit unseren Experten.",
+  "wie läuft eine unternehmensnachfolge ab":
+    "Eine typische Unternehmensnachfolge durchläuft mehrere Phasen:\n\n1. **Vorbereitung** (3-6 Monate): Unternehmensbewertung, Dokumentation, Strategie\n2. **Käufersuche** (3-6 Monate): Ansprache potenzieller Käufer, NDAs, erste Gespräche\n3. **Due Diligence** (2-3 Monate): Detailprüfung durch den Käufer\n4. **Verhandlung & Abschluss** (2-3 Monate): Kaufvertrag, Closing\n\nDer gesamte Prozess dauert typischerweise 9-18 Monate.",
+  "welche käufertypen gibt es":
+    "Es gibt verschiedene Käufertypen mit unterschiedlichen Motivationen:\n\n• **Strategische Käufer**: Wettbewerber oder Unternehmen aus verwandten Branchen, die Synergien nutzen wollen\n• **Finanzinvestoren**: Private Equity, Family Offices – fokussiert auf Rendite\n• **Management Buy-Out (MBO)**: Das bestehende Management übernimmt\n• **Management Buy-In (MBI)**: Externe Manager kaufen das Unternehmen\n• **Familieninterne Nachfolge**: Übergabe an die nächste Generation\n\nJeder Käufertyp hat Vor- und Nachteile.",
+  "wie lange dauert ein verkaufsprozess":
+    "Ein professionell geführter Unternehmensverkauf dauert typischerweise **9-18 Monate**. Die Dauer hängt ab von:\n\n• Komplexität des Unternehmens\n• Qualität der Vorbereitung\n• Marktumfeld und Käuferinteresse\n• Finanzierungssituation des Käufers\n• Verhandlungsbereitschaft beider Seiten\n\nMit guter Vorbereitung kann der Prozess beschleunigt werden.",
+  "was ist eine due diligence":
+    "Die **Due Diligence** ist die sorgfältige Prüfung eines Unternehmens vor dem Kauf. Sie umfasst:\n\n• **Financial DD**: Prüfung von Finanzen, Buchhaltung, Steuern\n• **Legal DD**: Verträge, Rechtsrisiken, Compliance\n• **Commercial DD**: Markt, Kunden, Wettbewerb\n• **Technical DD**: Produkte, IT-Systeme, Patente\n• **HR DD**: Mitarbeiter, Verträge, Pensionsverpflichtungen\n\nWir unterstützen Sie bei der Vorbereitung und Begleitung der Due Diligence.",
+  "welche unterlagen brauche ich":
+    "Für einen Unternehmensverkauf benötigen Sie typischerweise:\n\n**Finanziell:**\n• Jahresabschlüsse der letzten 3-5 Jahre\n• BWA und Summen-Salden-Listen\n• Planungsrechnungen\n\n**Rechtlich:**\n• Gesellschaftsvertrag\n• Wichtige Verträge (Kunden, Lieferanten, Mitarbeiter)\n• Grundbuchauszüge bei Immobilien\n\n**Operativ:**\n• Organigramm\n• Beschreibung der Geschäftsprozesse\n• Kundenliste (anonymisiert)\n\nWir helfen Ihnen bei der strukturierten Aufbereitung.",
+};
+
+function getResponse(question: string): string {
+  const normalizedQuestion = question.toLowerCase().trim();
+
+  for (const [key, response] of Object.entries(sampleResponses)) {
+    if (normalizedQuestion.includes(key)) {
+      return response;
+    }
+  }
+
+  return `Vielen Dank für Ihre Frage. Das ist ein wichtiges Thema im Bereich Unternehmensnachfolge und M&A.
+
+Für eine fundierte Antwort auf Ihre spezifische Situation empfehle ich ein **persönliches Gespräch** mit unseren Experten. Wir können dann auf Ihre individuelle Situation eingehen.
+
+**Möchten Sie:**
+• Einen kostenlosen Beratungstermin vereinbaren?
+• Unseren Bewertungsrechner nutzen?
+• Mehr über unsere Leistungen erfahren?
+
+Kontaktieren Sie uns gerne unter [info@qanna-consulting.de](mailto:info@qanna-consulting.de) oder nutzen Sie unser Kontaktformular.`;
+}
+
+export default function ChatDemoPage() {
+  const [messages, setMessages] = useState<Message[]>([
+    {
+      id: "welcome",
+      role: "assistant",
+      content:
+        "Guten Tag! Ich bin der KI-Assistent von QANNA Consulting. Ich kann Ihnen erste Fragen zur Unternehmensnachfolge, Bewertung und M&A-Prozessen beantworten.\n\n**Wie kann ich Ihnen helfen?**",
+      timestamp: new Date(),
+    },
+  ]);
+  const [input, setInput] = useState("");
+  const [isTyping, setIsTyping] = useState(false);
+  const messagesEndRef = useRef<HTMLDivElement>(null);
+
+  const scrollToBottom = () => {
+    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
+  useEffect(() => {
+    scrollToBottom();
+  }, [messages]);
+
+  const handleSend = async (question?: string) => {
+    const text = question || input;
+    if (!text.trim()) return;
+
+    const userMessage: Message = {
+      id: Date.now().toString(),
+      role: "user",
+      content: text,
+      timestamp: new Date(),
+    };
+
+    setMessages((prev) => [...prev, userMessage]);
+    setInput("");
+    setIsTyping(true);
+
+    // Simulate API delay
+    await new Promise((resolve) => setTimeout(resolve, 1000 + Math.random() * 1000));
+
+    const response = getResponse(text);
+
+    const assistantMessage: Message = {
+      id: (Date.now() + 1).toString(),
+      role: "assistant",
+      content: response,
+      timestamp: new Date(),
+    };
+
+    setMessages((prev) => [...prev, assistantMessage]);
+    setIsTyping(false);
+  };
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === "Enter" && !e.shiftKey) {
+      e.preventDefault();
+      handleSend();
+    }
+  };
+
+  return (
+    <main>
+      <Header />
+
+      {/* Hero Section */}
+      <section className="pt-32 pb-8 bg-gradient-to-b from-qanna-navy to-qanna-navy-dark">
+        <div className="container-qanna text-center">
+          <span className="inline-block px-4 py-2 bg-qanna-gold/20 text-qanna-gold text-sm font-semibold rounded-full mb-4">
+            KI-ASSISTENT
+          </span>
+          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Ihr persönlicher Beratungsassistent
+          </h1>
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+            Stellen Sie Ihre Fragen zur Unternehmensnachfolge, Bewertung und
+            M&A-Prozessen. Unser KI-Assistent gibt Ihnen erste Orientierung.
+          </p>
+        </div>
+      </section>
+
+      {/* Chat Interface */}
+      <section className="section-padding bg-qanna-gray-50">
+        <div className="container-qanna max-w-4xl">
+          <Card variant="default" padding="none" className="overflow-hidden">
+            {/* Chat Header */}
+            <div className="bg-qanna-navy px-6 py-4 flex items-center gap-4">
+              <div className="w-12 h-12 bg-qanna-gold rounded-full flex items-center justify-center">
+                <Icon name="chip" className="w-6 h-6 text-white" />
+              </div>
+              <div>
+                <h3 className="font-semibold text-white">QANNA KI-Assistent</h3>
+                <p className="text-sm text-gray-300">
+                  {isTyping ? "Schreibt..." : "Online"}
+                </p>
+              </div>
+            </div>
+
+            {/* Messages Area */}
+            <div className="h-[500px] overflow-y-auto p-6 bg-white">
+              {messages.map((message) => (
+                <div
+                  key={message.id}
+                  className={`mb-4 flex ${
+                    message.role === "user" ? "justify-end" : "justify-start"
+                  }`}
+                >
+                  <div
+                    className={`max-w-[80%] rounded-2xl px-4 py-3 ${
+                      message.role === "user"
+                        ? "bg-qanna-navy text-white"
+                        : "bg-qanna-gray-100 text-qanna-gray-800"
+                    }`}
+                  >
+                    <div
+                      className="prose prose-sm max-w-none"
+                      style={{
+                        color: message.role === "user" ? "white" : "inherit",
+                      }}
+                      dangerouslySetInnerHTML={{
+                        __html: message.content
+                          .replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")
+                          .replace(/\n/g, "<br />")
+                          .replace(
+                            /• /g,
+                            '<span class="text-qanna-gold mr-1">•</span> '
+                          ),
+                      }}
+                    />
+                    <p
+                      className={`text-xs mt-2 ${
+                        message.role === "user"
+                          ? "text-gray-300"
+                          : "text-qanna-gray-500"
+                      }`}
+                    >
+                      {message.timestamp.toLocaleTimeString("de-DE", {
+                        hour: "2-digit",
+                        minute: "2-digit",
+                      })}
+                    </p>
+                  </div>
+                </div>
+              ))}
+              {isTyping && (
+                <div className="flex justify-start mb-4">
+                  <div className="bg-qanna-gray-100 rounded-2xl px-4 py-3">
+                    <div className="flex gap-1">
+                      <span className="w-2 h-2 bg-qanna-gray-400 rounded-full animate-bounce" />
+                      <span
+                        className="w-2 h-2 bg-qanna-gray-400 rounded-full animate-bounce"
+                        style={{ animationDelay: "0.1s" }}
+                      />
+                      <span
+                        className="w-2 h-2 bg-qanna-gray-400 rounded-full animate-bounce"
+                        style={{ animationDelay: "0.2s" }}
+                      />
+                    </div>
+                  </div>
+                </div>
+              )}
+              <div ref={messagesEndRef} />
+            </div>
+
+            {/* Suggested Questions */}
+            {messages.length === 1 && (
+              <div className="px-6 py-4 bg-qanna-gray-50 border-t border-qanna-gray-200">
+                <p className="text-sm text-qanna-gray-600 mb-3">
+                  Häufig gestellte Fragen:
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {suggestedQuestions.map((question) => (
+                    <button
+                      key={question}
+                      onClick={() => handleSend(question)}
+                      className="px-3 py-1.5 text-sm bg-white border border-qanna-gray-200 rounded-full hover:border-qanna-gold hover:text-qanna-gold transition-colors"
+                    >
+                      {question}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {/* Input Area */}
+            <div className="px-6 py-4 bg-white border-t border-qanna-gray-200">
+              <div className="flex gap-4">
+                <textarea
+                  value={input}
+                  onChange={(e) => setInput(e.target.value)}
+                  onKeyDown={handleKeyDown}
+                  placeholder="Stellen Sie Ihre Frage..."
+                  className="flex-1 px-4 py-3 border border-qanna-gray-200 rounded-xl resize-none focus:outline-none focus:ring-2 focus:ring-qanna-gold focus:border-transparent"
+                  rows={1}
+                />
+                <Button
+                  variant="primary"
+                  onClick={() => handleSend()}
+                  disabled={!input.trim() || isTyping}
+                >
+                  <svg
+                    className="w-5 h-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"
+                    />
+                  </svg>
+                </Button>
+              </div>
+              <p className="text-xs text-qanna-gray-500 mt-2">
+                Dies ist eine Demo. Für verbindliche Beratung kontaktieren Sie
+                uns bitte direkt.
+              </p>
+            </div>
+          </Card>
+
+          {/* Info Cards */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+            <Card variant="default" padding="lg">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-qanna-gold/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="chart-bar" className="w-6 h-6 text-qanna-gold" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-qanna-navy mb-2">
+                    Bewertung berechnen
+                  </h4>
+                  <p className="text-sm text-qanna-gray-600 mb-3">
+                    Erhalten Sie eine erste Einschätzung zum Wert Ihres
+                    Unternehmens.
+                  </p>
+                  <Link
+                    href="/ki-loesungen/bewertungsrechner"
+                    className="text-qanna-gold font-medium text-sm hover:underline"
+                  >
+                    Zum Bewertungsrechner
+                  </Link>
+                </div>
+              </div>
+            </Card>
+
+            <Card variant="default" padding="lg">
+              <div className="flex items-start gap-4">
+                <div className="w-12 h-12 bg-qanna-gold/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Icon name="calendar" className="w-6 h-6 text-qanna-gold" />
+                </div>
+                <div>
+                  <h4 className="font-semibold text-qanna-navy mb-2">
+                    Persönliches Gespräch
+                  </h4>
+                  <p className="text-sm text-qanna-gray-600 mb-3">
+                    Für komplexe Fragen vereinbaren Sie einen Termin mit unseren
+                    Experten.
+                  </p>
+                  <Link
+                    href="/kontakt"
+                    className="text-qanna-gold font-medium text-sm hover:underline"
+                  >
+                    Termin buchen
+                  </Link>
+                </div>
+              </div>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </main>
+  );
+}

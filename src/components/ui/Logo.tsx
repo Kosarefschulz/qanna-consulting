@@ -1,1 +1,125 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IEltYWdlIGZyb20gIm5leHQvaW1hZ2UiOwoKaW50ZXJmYWNlIExvZ29Qcm9wcyB7CiAgaXNTY3JvbGxlZDogYm9vbGVhbjsKICBpc0xpZ2h0PzogYm9vbGVhbjsKICBjbGFzc05hbWU/OiBzdHJpbmc7Cn0KCmV4cG9ydCBmdW5jdGlvbiBMb2dvKHsgaXNTY3JvbGxlZCwgaXNMaWdodCA9IGZhbHNlLCBjbGFzc05hbWUgPSAiIiB9OiBMb2dvUHJvcHMpIHsKICBjb25zdCB0ZXh0Q29sb3IgPSAidGV4dC1xYW5uYS1nb2xkIjsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPXtgcmVsYXRpdmUgZmxleCBpdGVtcy1jZW50ZXIgJHtjbGFzc05hbWV9YH0+CiAgICAgIHsvKiBRIE1vbm9ncmFtIC0gc3dpdGNoZXMgYmV0d2VlbiBnb2xkLW9ubHkgYW5kIHdpdGgtcGF0dGVybiBiYXNlZCBvbiBzY3JvbGwgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSB3LTEyIGgtMTIgbWQ6dy0xNCBtZDpoLTE0IGZsZXgtc2hyaW5rLTAgei0xMCI+CiAgICAgICAgey8qIEdvbGQgUSBvbmx5IC0gZm9yIGRhcmsgYmFja2dyb3VuZHMgKGhlcm8pICovfQogICAgICAgIDxJbWFnZQogICAgICAgICAgc3JjPSIvaW1hZ2VzL3EtZ29sZC5wbmciCiAgICAgICAgICBhbHQ9IlFBTk5BIgogICAgICAgICAgZmlsbAogICAgICAgICAgY2xhc3NOYW1lPXtgb2JqZWN0LWNvbnRhaW4gdHJhbnNpdGlvbi1vcGFjaXR5IGR1cmF0aW9uLTMwMCAke2lzU2Nyb2xsZWQgPyAib3BhY2l0eS0wIiA6ICJvcGFjaXR5LTEwMCJ9YH0KICAgICAgICAgIHByaW9yaXR5CiAgICAgICAgLz4KICAgICAgICB7LyogUSB3aXRoIG5hdnkgcGF0dGVybiAtIGZvciB3aGl0ZSBiYWNrZ3JvdW5kcyAoc2Nyb2xsZWQpICovfQogICAgICAgIDxJbWFnZQogICAgICAgICAgc3JjPSIvaW1hZ2VzL3Etd2l0aC1wYXR0ZXJuLnBuZyIKICAgICAgICAgIGFsdD0iUUFOTkEiCiAgICAgICAgICBmaWxsCiAgICAgICAgICBjbGFzc05hbWU9e2BvYmplY3QtY29udGFpbiB0cmFuc2l0aW9uLW9wYWNpdHkgZHVyYXRpb24tMzAwICR7aXNTY3JvbGxlZCA/ICJvcGFjaXR5LTEwMCIgOiAib3BhY2l0eS0wIn1gfQogICAgICAgICAgcHJpb3JpdHkKICAgICAgICAvPgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBBTk5BIFRleHQgLSBzbGlkZXMgaW50byBRIHdoZW4gc2Nyb2xsZWQgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJvdmVyZmxvdy1oaWRkZW4iIHN0eWxlPXt7IG1hcmdpblRvcDogIi04cHgiIH19PgogICAgICAgIDxzcGFuCiAgICAgICAgICBjbGFzc05hbWU9e2AKICAgICAgICAgICAgYmxvY2sgZm9udC1ub3JtYWwgdHJhY2tpbmctWzAuMjVlbV0gd2hpdGVzcGFjZS1ub3dyYXAgdXBwZXJjYXNlCiAgICAgICAgICAgIHRleHQtWzEuNHJlbV0gbWQ6dGV4dC1bMS43cmVtXQogICAgICAgICAgICB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0xMDAwIGVhc2Utb3V0CiAgICAgICAgICAgICR7dGV4dENvbG9yfQogICAgICAgICAgICAke2lzU2Nyb2xsZWQgPyAiLXRyYW5zbGF0ZS14LWZ1bGwgb3BhY2l0eS0wIiA6ICJ0cmFuc2xhdGUteC0wIG9wYWNpdHktMTAwIG1sLTAuNSJ9CiAgICAgICAgICBgfQogICAgICAgICAgc3R5bGU9e3sgZm9udEZhbWlseTogInZhcigtLWZvbnQtcGxheWZhaXIpLCBHZW9yZ2lhLCBzZXJpZiIgfX0KICAgICAgICA+CiAgICAgICAgICBBTk5BCiAgICAgICAgPC9zcGFuPgogICAgICA8L2Rpdj4KICAgIDwvZGl2PgogICk7Cn0KCi8vIEZ1bGwgbG9nbyBmb3IgZm9vdGVyIGFuZCBvdGhlciBzdGF0aWMgdXNlcwpleHBvcnQgZnVuY3Rpb24gTG9nb0Z1bGwoewogIGNsYXNzTmFtZSA9ICIiLAogIHZhcmlhbnQgPSAiZGFyayIsCiAgc2l6ZSA9ICJkZWZhdWx0Igp9OiB7CiAgY2xhc3NOYW1lPzogc3RyaW5nOwogIHZhcmlhbnQ/OiAiZGFyayIgfCAibGlnaHQiOwogIHNpemU/OiAic21hbGwiIHwgImRlZmF1bHQiIHwgImxhcmdlIjsKfSkgewogIC8vIEFOTkEgYWx3YXlzIGluIGdvbGQgdG8gbWF0Y2ggUQogIGNvbnN0IHRleHRDb2xvciA9ICJ0ZXh0LXFhbm5hLWdvbGQiOwoKICBjb25zdCBzaXplcyA9IHsKICAgIHNtYWxsOiB7IGNvbnRhaW5lcjogInctMTAgaC0xMCIsIHRleHQ6ICJ0ZXh0LVsxLjFyZW1dIiB9LAogICAgZGVmYXVsdDogeyBjb250YWluZXI6ICJ3LTEyIGgtMTIgbWQ6dy0xNCBtZDpoLTE0IiwgdGV4dDogInRleHQtWzEuNHJlbV0gbWQ6dGV4dC1bMS43cmVtXSIgfSwKICAgIGxhcmdlOiB7IGNvbnRhaW5lcjogInctMTYgaC0xNiIsIHRleHQ6ICJ0ZXh0LVsxLjhyZW1dIiB9CiAgfTsKCiAgY29uc3QgcyA9IHNpemVzW3NpemVdOwoKICByZXR1cm4gKAogICAgPGRpdiBjbGFzc05hbWU9e2BmbGV4IGl0ZW1zLWNlbnRlciAke2NsYXNzTmFtZX1gfT4KICAgICAgey8qIFEgTW9ub2dyYW0gLSBhbHJlYWR5IGhhcyBnb2xkIFEgKyBuYXZ5IHBhdHRlcm4gKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPXtgcmVsYXRpdmUgZmxleC1zaHJpbmstMCAke3MuY29udGFpbmVyfWB9PgogICAgICAgIDxJbWFnZQogICAgICAgICAgc3JjPSIvaW1hZ2VzL3EtZ29sZC5wbmciCiAgICAgICAgICBhbHQ9IlFBTk5BIgogICAgICAgICAgZmlsbAogICAgICAgICAgY2xhc3NOYW1lPSJvYmplY3QtY29udGFpbiIKICAgICAgICAvPgogICAgICA8L2Rpdj4KCiAgICAgIHsvKiBBTk5BIC0gc2FtZSBzcGFjaW5nIGFzIGhlYWRlciAqL30KICAgICAgPHNwYW4KICAgICAgICBjbGFzc05hbWU9e2BtbC0wLjUgZm9udC1ub3JtYWwgdHJhY2tpbmctWzAuMjVlbV0gdXBwZXJjYXNlICR7dGV4dENvbG9yfSAke3MudGV4dH1gfQogICAgICAgIHN0eWxlPXt7IGZvbnRGYW1pbHk6ICJ2YXIoLS1mb250LXBsYXlmYWlyKSwgR2VvcmdpYSwgc2VyaWYiLCBtYXJnaW5Ub3A6ICItOHB4IiB9fQogICAgICA+CiAgICAgICAgQU5OQQogICAgICA8L3NwYW4+CiAgICA8L2Rpdj4KICApOwp9CgovLyBKdXN0IHRoZSBRIG1vbm9ncmFtCmV4cG9ydCBmdW5jdGlvbiBMb2dvTW9ub2dyYW0oewogIGNsYXNzTmFtZSA9ICIiLAogIHNpemUgPSAiZGVmYXVsdCIsCiAgaW52ZXJ0ID0gZmFsc2UKfTogewogIGNsYXNzTmFtZT86IHN0cmluZzsKICBzaXplPzogInNtYWxsIiB8ICJkZWZhdWx0IiB8ICJsYXJnZSI7CiAgaW52ZXJ0PzogYm9vbGVhbjsKfSkgewogIGNvbnN0IHNpemVzID0gewogICAgc21hbGw6ICJ3LTggaC04IiwKICAgIGRlZmF1bHQ6ICJ3LTEyIGgtMTIiLAogICAgbGFyZ2U6ICJ3LTE2IGgtMTYiCiAgfTsKCiAgcmV0dXJuICgKICAgIDxkaXYgY2xhc3NOYW1lPXtgcmVsYXRpdmUgJHtzaXplc1tzaXplXX0gJHtjbGFzc05hbWV9YH0+CiAgICAgIDxJbWFnZQogICAgICAgIHNyYz0iL2ltYWdlcy9xLWdvbGQucG5nIgogICAgICAgIGFsdD0iUUFOTkEiCiAgICAgICAgZmlsbAogICAgICAgIGNsYXNzTmFtZT17YG9iamVjdC1jb250YWluICR7aW52ZXJ0ID8gImJyaWdodG5lc3MtMCBpbnZlcnQiIDogIiJ9YH0KICAgICAgLz4KICAgIDwvZGl2PgogICk7Cn0K
+"use client";
+
+import Image from "next/image";
+
+interface LogoProps {
+  isScrolled: boolean;
+  isLight?: boolean;
+  className?: string;
+}
+
+export function Logo({ isScrolled, isLight = false, className = "" }: LogoProps) {
+  const textColor = "text-qanna-gold";
+
+  return (
+    <div className={`relative flex items-center ${className}`}>
+      {/* Q Monogram - switches between gold-only and with-pattern based on scroll */}
+      <div className="relative w-12 h-12 md:w-14 md:h-14 flex-shrink-0 z-10">
+        {/* Gold Q only - for dark backgrounds (hero) */}
+        <Image
+          src="/images/q-gold.png"
+          alt="QANNA"
+          fill
+          className={`object-contain transition-opacity duration-300 ${isScrolled ? "opacity-0" : "opacity-100"}`}
+          priority
+        />
+        {/* Q with navy pattern - for white backgrounds (scrolled) */}
+        <Image
+          src="/images/q-with-pattern.png"
+          alt="QANNA"
+          fill
+          className={`object-contain transition-opacity duration-300 ${isScrolled ? "opacity-100" : "opacity-0"}`}
+          priority
+        />
+      </div>
+
+      {/* ANNA Text - slides into Q when scrolled */}
+      <div className="overflow-hidden" style={{ marginTop: "-8px" }}>
+        <span
+          className={`
+            block font-normal tracking-[0.25em] whitespace-nowrap uppercase
+            text-[1.4rem] md:text-[1.7rem]
+            transition-all duration-1000 ease-out
+            ${textColor}
+            ${isScrolled ? "-translate-x-full opacity-0" : "translate-x-0 opacity-100 ml-0.5"}
+          `}
+          style={{ fontFamily: "var(--font-playfair), Georgia, serif" }}
+        >
+          ANNA
+        </span>
+      </div>
+    </div>
+  );
+}
+
+// Full logo for footer and other static uses
+export function LogoFull({
+  className = "",
+  variant = "dark",
+  size = "default"
+}: {
+  className?: string;
+  variant?: "dark" | "light";
+  size?: "small" | "default" | "large";
+}) {
+  // ANNA always in gold to match Q
+  const textColor = "text-qanna-gold";
+
+  const sizes = {
+    small: { container: "w-10 h-10", text: "text-[1.1rem]" },
+    default: { container: "w-12 h-12 md:w-14 md:h-14", text: "text-[1.4rem] md:text-[1.7rem]" },
+    large: { container: "w-16 h-16", text: "text-[1.8rem]" }
+  };
+
+  const s = sizes[size];
+
+  return (
+    <div className={`flex items-center ${className}`}>
+      {/* Q Monogram - already has gold Q + navy pattern */}
+      <div className={`relative flex-shrink-0 ${s.container}`}>
+        <Image
+          src="/images/q-gold.png"
+          alt="QANNA"
+          fill
+          className="object-contain"
+        />
+      </div>
+
+      {/* ANNA - same spacing as header */}
+      <span
+        className={`ml-0.5 font-normal tracking-[0.25em] uppercase ${textColor} ${s.text}`}
+        style={{ fontFamily: "var(--font-playfair), Georgia, serif", marginTop: "-8px" }}
+      >
+        ANNA
+      </span>
+    </div>
+  );
+}
+
+// Just the Q monogram
+export function LogoMonogram({
+  className = "",
+  size = "default",
+  invert = false
+}: {
+  className?: string;
+  size?: "small" | "default" | "large";
+  invert?: boolean;
+}) {
+  const sizes = {
+    small: "w-8 h-8",
+    default: "w-12 h-12",
+    large: "w-16 h-16"
+  };
+
+  return (
+    <div className={`relative ${sizes[size]} ${className}`}>
+      <Image
+        src="/images/q-gold.png"
+        alt="QANNA"
+        fill
+        className={`object-contain ${invert ? "brightness-0 invert" : ""}`}
+      />
+    </div>
+  );
+}

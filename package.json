@@ -1,1 +1,27 @@
-ewogICJuYW1lIjogInFhbm5hLW5hY2hmb2xnZSIsCiAgInZlcnNpb24iOiAiMC4xLjAiLAogICJwcml2YXRlIjogdHJ1ZSwKICAic2NyaXB0cyI6IHsKICAgICJkZXYiOiAibmV4dCBkZXYiLAogICAgImJ1aWxkIjogIm5leHQgYnVpbGQiLAogICAgInN0YXJ0IjogIm5leHQgc3RhcnQiLAogICAgImxpbnQiOiAiZXNsaW50IgogIH0sCiAgImRlcGVuZGVuY2llcyI6IHsKICAgICJmcmFtZXItbW90aW9uIjogIl4xMi4yNi4yIiwKICAgICJuZXh0IjogIjE2LjEuMSIsCiAgICAicmVhY3QiOiAiMTkuMi4zIiwKICAgICJyZWFjdC1kb20iOiAiMTkuMi4zIgogIH0sCiAgImRldkRlcGVuZGVuY2llcyI6IHsKICAgICJAdGFpbHdpbmRjc3MvcG9zdGNzcyI6ICJeNCIsCiAgICAiQHR5cGVzL25vZGUiOiAiXjIwIiwKICAgICJAdHlwZXMvcmVhY3QiOiAiXjE5IiwKICAgICJAdHlwZXMvcmVhY3QtZG9tIjogIl4xOSIsCiAgICAiZXNsaW50IjogIl45IiwKICAgICJlc2xpbnQtY29uZmlnLW5leHQiOiAiMTYuMS4xIiwKICAgICJ0YWlsd2luZGNzcyI6ICJeNCIsCiAgICAidHlwZXNjcmlwdCI6ICJeNSIKICB9Cn0K
+{
+  "name": "qanna-nachfolge",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "framer-motion": "^12.26.2",
+    "next": "16.1.1",
+    "react": "19.2.3",
+    "react-dom": "19.2.3"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.1.1",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}

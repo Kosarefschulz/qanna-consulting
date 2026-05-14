@@ -1,1 +1,500 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUgfSBmcm9tICJyZWFjdCI7CmltcG9ydCB7IEhlYWRlciwgRm9vdGVyIH0gZnJvbSAiQC9jb21wb25lbnRzL2xheW91dCI7CmltcG9ydCB7IENhcmQsIEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aSI7CmltcG9ydCBMaW5rIGZyb20gIm5leHQvbGluayI7CgppbnRlcmZhY2UgVmFsdWF0aW9uUmVzdWx0IHsKICBtaW5WYWx1ZTogbnVtYmVyOwogIG1heFZhbHVlOiBudW1iZXI7CiAgYXZnVmFsdWU6IG51bWJlcjsKICBtdWx0aXBsZTogeyBtaW46IG51bWJlcjsgbWF4OiBudW1iZXIgfTsKICBtZXRob2Q6IHN0cmluZzsKfQoKY29uc3QgaW5kdXN0cmllcyA9IFsKICB7IHZhbHVlOiAiaW5kdXN0cmllIiwgbGFiZWw6ICJJbmR1c3RyaWUgJiBIYW5kd2VyayIsIG11bHRpcGxlOiBbNC41LCA3XSB9LAogIHsgdmFsdWU6ICJoYW5kZWwiLCBsYWJlbDogIkhhbmRlbCAmIEVpbnplbGhhbmRlbCIsIG11bHRpcGxlOiBbMy41LCA1LjVdIH0sCiAgeyB2YWx1ZTogImRpZW5zdGxlaXN0dW5nZW4iLCBsYWJlbDogIkRpZW5zdGxlaXN0dW5nZW4iLCBtdWx0aXBsZTogWzQsIDddIH0sCiAgeyB2YWx1ZTogImdlc3VuZGhlaXRzd2VzZW4iLCBsYWJlbDogIkdlc3VuZGhlaXRzd2VzZW4iLCBtdWx0aXBsZTogWzUsIDhdIH0sCiAgeyB2YWx1ZTogImdhc3Ryb25vbWllIiwgbGFiZWw6ICJHYXN0cm9ub21pZSAmIEhvdGVsIiwgbXVsdGlwbGU6IFszLCA1XSB9LAogIHsgdmFsdWU6ICJ0ZWNobm9sb2dpZSIsIGxhYmVsOiAiVGVjaG5vbG9naWUgJiBTb2Z0d2FyZSIsIG11bHRpcGxlOiBbNiwgMTJdIH0sCiAgeyB2YWx1ZTogImJhdSIsIGxhYmVsOiAiSW1tb2JpbGllbiAmIEJhdSIsIG11bHRpcGxlOiBbNCwgNi41XSB9LAogIHsgdmFsdWU6ICJsb2dpc3RpayIsIGxhYmVsOiAiTG9naXN0aWsgJiBUcmFuc3BvcnQiLCBtdWx0aXBsZTogWzQsIDZdIH0sCiAgeyB2YWx1ZTogInNvbnN0aWdlIiwgbGFiZWw6ICJTb25zdGlnZSIsIG11bHRpcGxlOiBbNCwgNl0gfSwKXTsKCmZ1bmN0aW9uIGNhbGN1bGF0ZVZhbHVhdGlvbigKICByZXZlbnVlOiBudW1iZXIsCiAgZWJpdDogbnVtYmVyLAogIGluZHVzdHJ5OiBzdHJpbmcsCiAgZW1wbG95ZWVzOiBudW1iZXIsCiAgZ3Jvd3RoUmF0ZTogbnVtYmVyCik6IFZhbHVhdGlvblJlc3VsdCB7CiAgY29uc3QgaW5kdXN0cnlEYXRhID0gaW5kdXN0cmllcy5maW5kKChpKSA9PiBpLnZhbHVlID09PSBpbmR1c3RyeSk7CiAgY29uc3QgYmFzZU11bHRpcGxlID0gaW5kdXN0cnlEYXRhPy5tdWx0aXBsZSB8fCBbNCwgNl07CgogIC8vIEFkanVzdCBtdWx0aXBsZSBiYXNlZCBvbiBncm93dGggcmF0ZQogIGxldCBncm93dGhBZGp1c3RtZW50ID0gMDsKICBpZiAoZ3Jvd3RoUmF0ZSA+IDEwKSBncm93dGhBZGp1c3RtZW50ID0gMC41OwogIGlmIChncm93dGhSYXRlID4gMjApIGdyb3d0aEFkanVzdG1lbnQgPSAxOwogIGlmIChncm93dGhSYXRlIDwgMCkgZ3Jvd3RoQWRqdXN0bWVudCA9IC0wLjU7CgogIC8vIEFkanVzdCBmb3IgY29tcGFueSBzaXplCiAgbGV0IHNpemVBZGp1c3RtZW50ID0gMDsKICBpZiAocmV2ZW51ZSA+IDEwMDAwMDAwKSBzaXplQWRqdXN0bWVudCA9IDAuMzsKICBpZiAocmV2ZW51ZSA+IDUwMDAwMDAwKSBzaXplQWRqdXN0bWVudCA9IDAuNTsKICBpZiAocmV2ZW51ZSA8IDIwMDAwMDApIHNpemVBZGp1c3RtZW50ID0gLTAuMzsKCiAgLy8gQWRqdXN0IGZvciBwcm9maXRhYmlsaXR5CiAgY29uc3QgcHJvZml0TWFyZ2luID0gKGViaXQgLyByZXZlbnVlKSAqIDEwMDsKICBsZXQgcHJvZml0QWRqdXN0bWVudCA9IDA7CiAgaWYgKHByb2ZpdE1hcmdpbiA+IDE1KSBwcm9maXRBZGp1c3RtZW50ID0gMC41OwogIGlmIChwcm9maXRNYXJnaW4gPiAyNSkgcHJvZml0QWRqdXN0bWVudCA9IDE7CiAgaWYgKHByb2ZpdE1hcmdpbiA8IDUpIHByb2ZpdEFkanVzdG1lbnQgPSAtMC41OwoKICBjb25zdCBhZGp1c3RlZE11bHRpcGxlID0gewogICAgbWluOiBNYXRoLm1heCgyLCBiYXNlTXVsdGlwbGVbMF0gKyBncm93dGhBZGp1c3RtZW50ICsgc2l6ZUFkanVzdG1lbnQgKyBwcm9maXRBZGp1c3RtZW50KSwKICAgIG1heDogTWF0aC5tYXgoMywgYmFzZU11bHRpcGxlWzFdICsgZ3Jvd3RoQWRqdXN0bWVudCArIHNpemVBZGp1c3RtZW50ICsgcHJvZml0QWRqdXN0bWVudCksCiAgfTsKCiAgY29uc3QgbWluVmFsdWUgPSBlYml0ICogYWRqdXN0ZWRNdWx0aXBsZS5taW47CiAgY29uc3QgbWF4VmFsdWUgPSBlYml0ICogYWRqdXN0ZWRNdWx0aXBsZS5tYXg7CiAgY29uc3QgYXZnVmFsdWUgPSAobWluVmFsdWUgKyBtYXhWYWx1ZSkgLyAyOwoKICByZXR1cm4gewogICAgbWluVmFsdWUsCiAgICBtYXhWYWx1ZSwKICAgIGF2Z1ZhbHVlLAogICAgbXVsdGlwbGU6IGFkanVzdGVkTXVsdGlwbGUsCiAgICBtZXRob2Q6ICJFQklULU11bHRpcGxpa2F0b3IiLAogIH07Cn0KCmZ1bmN0aW9uIGZvcm1hdEN1cnJlbmN5KHZhbHVlOiBudW1iZXIpOiBzdHJpbmcgewogIGlmICh2YWx1ZSA+PSAxMDAwMDAwKSB7CiAgICByZXR1cm4gYCR7KHZhbHVlIC8gMTAwMDAwMCkudG9GaXhlZCgxKX0gTWlvLiBFVVJgOwogIH0KICByZXR1cm4gYCR7KHZhbHVlIC8gMTAwMCkudG9GaXhlZCgwKX0gVHNkLiBFVVJgOwp9CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBCZXdlcnR1bmdzcmVjaG5lclBhZ2UoKSB7CiAgY29uc3QgW3N0ZXAsIHNldFN0ZXBdID0gdXNlU3RhdGUoMSk7CiAgY29uc3QgW2Zvcm1EYXRhLCBzZXRGb3JtRGF0YV0gPSB1c2VTdGF0ZSh7CiAgICByZXZlbnVlOiAiIiwKICAgIGViaXQ6ICIiLAogICAgaW5kdXN0cnk6ICIiLAogICAgZW1wbG95ZWVzOiAiIiwKICAgIGdyb3d0aFJhdGU6ICIiLAogIH0pOwogIGNvbnN0IFtyZXN1bHQsIHNldFJlc3VsdF0gPSB1c2VTdGF0ZTxWYWx1YXRpb25SZXN1bHQgfCBudWxsPihudWxsKTsKICBjb25zdCBbc2hvd1Jlc3VsdCwgc2V0U2hvd1Jlc3VsdF0gPSB1c2VTdGF0ZShmYWxzZSk7CgogIGNvbnN0IGhhbmRsZUlucHV0Q2hhbmdlID0gKAogICAgZTogUmVhY3QuQ2hhbmdlRXZlbnQ8SFRNTElucHV0RWxlbWVudCB8IEhUTUxTZWxlY3RFbGVtZW50PgogICkgPT4gewogICAgc2V0Rm9ybURhdGEoewogICAgICAuLi5mb3JtRGF0YSwKICAgICAgW2UudGFyZ2V0Lm5hbWVdOiBlLnRhcmdldC52YWx1ZSwKICAgIH0pOwogIH07CgogIGNvbnN0IGhhbmRsZUNhbGN1bGF0ZSA9ICgpID0+IHsKICAgIGNvbnN0IHJldmVudWUgPSBwYXJzZUZsb2F0KGZvcm1EYXRhLnJldmVudWUpOwogICAgY29uc3QgZWJpdCA9IHBhcnNlRmxvYXQoZm9ybURhdGEuZWJpdCk7CiAgICBjb25zdCBlbXBsb3llZXMgPSBwYXJzZUludChmb3JtRGF0YS5lbXBsb3llZXMpOwogICAgY29uc3QgZ3Jvd3RoUmF0ZSA9IHBhcnNlRmxvYXQoZm9ybURhdGEuZ3Jvd3RoUmF0ZSk7CgogICAgaWYgKHJldmVudWUgJiYgZWJpdCAmJiBmb3JtRGF0YS5pbmR1c3RyeSkgewogICAgICBjb25zdCB2YWx1YXRpb24gPSBjYWxjdWxhdGVWYWx1YXRpb24oCiAgICAgICAgcmV2ZW51ZSwKICAgICAgICBlYml0LAogICAgICAgIGZvcm1EYXRhLmluZHVzdHJ5LAogICAgICAgIGVtcGxveWVlcyB8fCAwLAogICAgICAgIGdyb3d0aFJhdGUgfHwgMAogICAgICApOwogICAgICBzZXRSZXN1bHQodmFsdWF0aW9uKTsKICAgICAgc2V0U2hvd1Jlc3VsdCh0cnVlKTsKICAgIH0KICB9OwoKICBjb25zdCBoYW5kbGVSZXNldCA9ICgpID0+IHsKICAgIHNldEZvcm1EYXRhKHsKICAgICAgcmV2ZW51ZTogIiIsCiAgICAgIGViaXQ6ICIiLAogICAgICBpbmR1c3RyeTogIiIsCiAgICAgIGVtcGxveWVlczogIiIsCiAgICAgIGdyb3d0aFJhdGU6ICIiLAogICAgfSk7CiAgICBzZXRSZXN1bHQobnVsbCk7CiAgICBzZXRTaG93UmVzdWx0KGZhbHNlKTsKICAgIHNldFN0ZXAoMSk7CiAgfTsKCiAgY29uc3QgY2FuUHJvY2VlZCA9ICgpID0+IHsKICAgIGlmIChzdGVwID09PSAxKSByZXR1cm4gZm9ybURhdGEucmV2ZW51ZSAmJiBmb3JtRGF0YS5lYml0OwogICAgaWYgKHN0ZXAgPT09IDIpIHJldHVybiBmb3JtRGF0YS5pbmR1c3RyeTsKICAgIHJldHVybiB0cnVlOwogIH07CgogIHJldHVybiAoCiAgICA8bWFpbj4KICAgICAgPEhlYWRlciAvPgoKICAgICAgey8qIEhlcm8gU2VjdGlvbiAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJwdC0zMiBwYi04IGJnLWdyYWRpZW50LXRvLWIgZnJvbS1xYW5uYS1uYXZ5IHRvLXFhbm5hLW5hdnktZGFyayI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lci1xYW5uYSB0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1ibG9jayBweC00IHB5LTIgYmctcWFubmEtZ29sZC8yMCB0ZXh0LXFhbm5hLWdvbGQgdGV4dC1zbSBmb250LXNlbWlib2xkIHJvdW5kZWQtZnVsbCBtYi00Ij4KICAgICAgICAgICAgQkVXRVJUVU5HU1JFQ0hORVIKICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtM3hsIG1kOnRleHQtNHhsIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIG1iLTQiPgogICAgICAgICAgICBXYXMgaXN0IElociBVbnRlcm5laG1lbiB3ZXJ0PwogICAgICAgICAgPC9oMT4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1sZyB0ZXh0LWdyYXktMzAwIG1heC13LTJ4bCBteC1hdXRvIj4KICAgICAgICAgICAgRXJoYWx0ZW4gU2llIGVpbmUgZXJzdGUgRWluc2NoYWV0enVuZyB6dW0gV2VydCBJaHJlcyBVbnRlcm5laG1lbnMuCiAgICAgICAgICAgIEJhc2llcmVuZCBhdWYgYmV3YWVocnRlbiBCZXdlcnR1bmdzbWV0aG9kZW4gdW5kIGFrdHVlbGxlbiBNYXJrdGRhdGVuLgogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICB7LyogQ2FsY3VsYXRvciBTZWN0aW9uICovfQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InNlY3Rpb24tcGFkZGluZyBiZy1xYW5uYS1ncmF5LTUwIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyLXFhbm5hIG1heC13LTN4bCI+CiAgICAgICAgICB7IXNob3dSZXN1bHQgPyAoCiAgICAgICAgICAgIDxDYXJkIHZhcmlhbnQ9ImRlZmF1bHQiIHBhZGRpbmc9ImxnIj4KICAgICAgICAgICAgICB7LyogUHJvZ3Jlc3MgU3RlcHMgKi99CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktYmV0d2VlbiBtYi04Ij4KICAgICAgICAgICAgICAgIHtbMSwgMiwgM10ubWFwKChzKSA9PiAoCiAgICAgICAgICAgICAgICAgIDxkaXYga2V5PXtzfSBjbGFzc05hbWU9ImZsZXggaXRlbXMtY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2CiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2B3LTEwIGgtMTAgcm91bmRlZC1mdWxsIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIGZvbnQtc2VtaWJvbGQgJHsKICAgICAgICAgICAgICAgICAgICAgICAgcyA8PSBzdGVwCiAgICAgICAgICAgICAgICAgICAgICAgICAgPyAiYmctcWFubmEtZ29sZCB0ZXh0LXdoaXRlIgogICAgICAgICAgICAgICAgICAgICAgICAgIDogImJnLXFhbm5hLWdyYXktMjAwIHRleHQtcWFubmEtZ3JheS01MDAiCiAgICAgICAgICAgICAgICAgICAgICB9YH0KICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICB7c30KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgICB7cyA8IDMgJiYgKAogICAgICAgICAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9e2B3LTI0IGgtMSBteC0yICR7CiAgICAgICAgICAgICAgICAgICAgICAgICAgcyA8IHN0ZXAgPyAiYmctcWFubmEtZ29sZCIgOiAiYmctcWFubmEtZ3JheS0yMDAiCiAgICAgICAgICAgICAgICAgICAgICAgIH1gfQogICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICB7LyogU3RlcCAxOiBGaW5hbmNpYWwgRGF0YSAqL30KICAgICAgICAgICAgICB7c3RlcCA9PT0gMSAmJiAoCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS02Ij4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIG1iLTgiPgogICAgICAgICAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbWItMiI+CiAgICAgICAgICAgICAgICAgICAgICBGaW5hbnprZW5uemFobGVuCiAgICAgICAgICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS02MDAiPgogICAgICAgICAgICAgICAgICAgICAgR2ViZW4gU2llIElocmUgYWt0dWVsbGVuIEZpbmFuemRhdGVuIGVpbgogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImJsb2NrIHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1xYW5uYS1ncmF5LTcwMCBtYi0yIj4KICAgICAgICAgICAgICAgICAgICAgIEphaHJlc3Vtc2F0eiAoRVVSKSAqCiAgICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgICAgICAgICAgICAgIG5hbWU9InJldmVudWUiCiAgICAgICAgICAgICAgICAgICAgICB2YWx1ZT17Zm9ybURhdGEucmV2ZW51ZX0KICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVJbnB1dENoYW5nZX0KICAgICAgICAgICAgICAgICAgICAgIHBsYWNlaG9sZGVyPSJ6LkIuIDUwMDAwMDAiCiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBweC00IHB5LTMgYm9yZGVyIGJvcmRlci1xYW5uYS1ncmF5LTIwMCByb3VuZGVkLXhsIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTIgZm9jdXM6cmluZy1xYW5uYS1nb2xkIGZvY3VzOmJvcmRlci10cmFuc3BhcmVudCIKICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXFhbm5hLWdyYXktNTAwIG10LTEiPgogICAgICAgICAgICAgICAgICAgICAgVW1zYXR6IGRlcyBsZXR6dGVuIEdlc2NoYWVmdHNqYWhyZXMKICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICAgICAgICA8bGFiZWwgY2xhc3NOYW1lPSJibG9jayB0ZXh0LXNtIGZvbnQtbWVkaXVtIHRleHQtcWFubmEtZ3JheS03MDAgbWItMiI+CiAgICAgICAgICAgICAgICAgICAgICBFQklUIChFVVIpICoKICAgICAgICAgICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgICAgICAgICAgICAgICAgbmFtZT0iZWJpdCIKICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtmb3JtRGF0YS5lYml0fQogICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZUlucHV0Q2hhbmdlfQogICAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9InouQi4gNTAwMDAwIgogICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgcHgtNCBweS0zIGJvcmRlciBib3JkZXItcWFubmEtZ3JheS0yMDAgcm91bmRlZC14bCBmb2N1czpvdXRsaW5lLW5vbmUgZm9jdXM6cmluZy0yIGZvY3VzOnJpbmctcWFubmEtZ29sZCBmb2N1czpib3JkZXItdHJhbnNwYXJlbnQiCiAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1xYW5uYS1ncmF5LTUwMCBtdC0xIj4KICAgICAgICAgICAgICAgICAgICAgIEVyZ2VibmlzIHZvciBaaW5zZW4gdW5kIFN0ZXVlcm4KICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKX0KCiAgICAgICAgICAgICAgey8qIFN0ZXAgMjogSW5kdXN0cnkgJiBTaXplICovfQogICAgICAgICAgICAgIHtzdGVwID09PSAyICYmICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTYiPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWItOCI+CiAgICAgICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtcWFubmEtbmF2eSBtYi0yIj4KICAgICAgICAgICAgICAgICAgICAgIEJyYW5jaGUgJiBHcm9lc3NlCiAgICAgICAgICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS02MDAiPgogICAgICAgICAgICAgICAgICAgICAgV2FlaGxlbiBTaWUgSWhyZSBCcmFuY2hlIHVuZCBnZWJlbiBTaWUgZGllCiAgICAgICAgICAgICAgICAgICAgICBVbnRlcm5laG1lbnNncm9lc3NlIGFuCiAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iYmxvY2sgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTIiPgogICAgICAgICAgICAgICAgICAgICAgQnJhbmNoZSAqCiAgICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgICAgICA8c2VsZWN0CiAgICAgICAgICAgICAgICAgICAgICBuYW1lPSJpbmR1c3RyeSIKICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtmb3JtRGF0YS5pbmR1c3RyeX0KICAgICAgICAgICAgICAgICAgICAgIG9uQ2hhbmdlPXtoYW5kbGVJbnB1dENoYW5nZX0KICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHB4LTQgcHktMyBib3JkZXIgYm9yZGVyLXFhbm5hLWdyYXktMjAwIHJvdW5kZWQteGwgZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOnJpbmctMiBmb2N1czpyaW5nLXFhbm5hLWdvbGQgZm9jdXM6Ym9yZGVyLXRyYW5zcGFyZW50IGJnLXdoaXRlIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9IiI+Qml0dGUgd2FlaGxlbi4uLjwvb3B0aW9uPgogICAgICAgICAgICAgICAgICAgICAge2luZHVzdHJpZXMubWFwKChpbmR1c3RyeSkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgICA8b3B0aW9uIGtleT17aW5kdXN0cnkudmFsdWV9IHZhbHVlPXtpbmR1c3RyeS52YWx1ZX0+CiAgICAgICAgICAgICAgICAgICAgICAgICAge2luZHVzdHJ5LmxhYmVsfQogICAgICAgICAgICAgICAgICAgICAgICA8L29wdGlvbj4KICAgICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICAgIDwvc2VsZWN0PgogICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgPGxhYmVsIGNsYXNzTmFtZT0iYmxvY2sgdGV4dC1zbSBmb250LW1lZGl1bSB0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTIiPgogICAgICAgICAgICAgICAgICAgICAgQW56YWhsIE1pdGFyYmVpdGVyCiAgICAgICAgICAgICAgICAgICAgPC9sYWJlbD4KICAgICAgICAgICAgICAgICAgICA8aW5wdXQKICAgICAgICAgICAgICAgICAgICAgIHR5cGU9Im51bWJlciIKICAgICAgICAgICAgICAgICAgICAgIG5hbWU9ImVtcGxveWVlcyIKICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtmb3JtRGF0YS5lbXBsb3llZXN9CiAgICAgICAgICAgICAgICAgICAgICBvbkNoYW5nZT17aGFuZGxlSW5wdXRDaGFuZ2V9CiAgICAgICAgICAgICAgICAgICAgICBwbGFjZWhvbGRlcj0iei5CLiA1MCIKICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIHB4LTQgcHktMyBib3JkZXIgYm9yZGVyLXFhbm5hLWdyYXktMjAwIHJvdW5kZWQteGwgZm9jdXM6b3V0bGluZS1ub25lIGZvY3VzOnJpbmctMiBmb2N1czpyaW5nLXFhbm5hLWdvbGQgZm9jdXM6Ym9yZGVyLXRyYW5zcGFyZW50IgogICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKX0KCiAgICAgICAgICAgICAgey8qIFN0ZXAgMzogR3Jvd3RoICovfQogICAgICAgICAgICAgIHtzdGVwID09PSAzICYmICgKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTYiPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWItOCI+CiAgICAgICAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtcWFubmEtbmF2eSBtYi0yIj4KICAgICAgICAgICAgICAgICAgICAgIFdhY2hzdHVtCiAgICAgICAgICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS02MDAiPgogICAgICAgICAgICAgICAgICAgICAgV2llIGhhdCBzaWNoIElociBVbnRlcm5laG1lbiBlbnR3aWNrZWx0PwogICAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICAgIDxsYWJlbCBjbGFzc05hbWU9ImJsb2NrIHRleHQtc20gZm9udC1tZWRpdW0gdGV4dC1xYW5uYS1ncmF5LTcwMCBtYi0yIj4KICAgICAgICAgICAgICAgICAgICAgIFVtc2F0endhY2hzdHVtIGRlciBsZXR6dGVuIDMgSmFocmUgKCUgcC5hLikKICAgICAgICAgICAgICAgICAgICA8L2xhYmVsPgogICAgICAgICAgICAgICAgICAgIDxpbnB1dAogICAgICAgICAgICAgICAgICAgICAgdHlwZT0ibnVtYmVyIgogICAgICAgICAgICAgICAgICAgICAgbmFtZT0iZ3Jvd3RoUmF0ZSIKICAgICAgICAgICAgICAgICAgICAgIHZhbHVlPXtmb3JtRGF0YS5ncm93dGhSYXRlfQogICAgICAgICAgICAgICAgICAgICAgb25DaGFuZ2U9e2hhbmRsZUlucHV0Q2hhbmdlfQogICAgICAgICAgICAgICAgICAgICAgcGxhY2Vob2xkZXI9InouQi4gMTAiCiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBweC00IHB5LTMgYm9yZGVyIGJvcmRlci1xYW5uYS1ncmF5LTIwMCByb3VuZGVkLXhsIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTIgZm9jdXM6cmluZy1xYW5uYS1nb2xkIGZvY3VzOmJvcmRlci10cmFuc3BhcmVudCIKICAgICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14cyB0ZXh0LXFhbm5hLWdyYXktNTAwIG10LTEiPgogICAgICAgICAgICAgICAgICAgICAgRHVyY2hzY2huaXR0bGljaGVzIGphZWhybGljaGVzIFdhY2hzdHVtCiAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1xYW5uYS1nb2xkLzEwIHJvdW5kZWQteGwgcC00IG10LTYiPgogICAgICAgICAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9ImZvbnQtc2VtaWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG1iLTIiPgogICAgICAgICAgICAgICAgICAgICAgWnVzYW1tZW5mYXNzdW5nIElocmVyIEVpbmdhYmVuOgogICAgICAgICAgICAgICAgICAgIDwvaDQ+CiAgICAgICAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXFhbm5hLWdyYXktNjAwIHNwYWNlLXktMSI+CiAgICAgICAgICAgICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICAgICAgICAgIFVtc2F0ejp7IiAifQogICAgICAgICAgICAgICAgICAgICAgICB7Zm9ybWF0Q3VycmVuY3kocGFyc2VGbG9hdChmb3JtRGF0YS5yZXZlbnVlKSB8fCAwKX0KICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgICA8bGk+CiAgICAgICAgICAgICAgICAgICAgICAgIEVCSVQ6IHtmb3JtYXRDdXJyZW5jeShwYXJzZUZsb2F0KGZvcm1EYXRhLmViaXQpIHx8IDApfQogICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICAgIDxsaT4KICAgICAgICAgICAgICAgICAgICAgICAgQnJhbmNoZTp7IiAifQogICAgICAgICAgICAgICAgICAgICAgICB7aW5kdXN0cmllcy5maW5kKChpKSA9PiBpLnZhbHVlID09PSBmb3JtRGF0YS5pbmR1c3RyeSkKICAgICAgICAgICAgICAgICAgICAgICAgICA/LmxhYmVsIHx8ICItIn0KICAgICAgICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgICAgICAgICA8bGk+TWl0YXJiZWl0ZXI6IHtmb3JtRGF0YS5lbXBsb3llZXMgfHwgIi0ifTwvbGk+CiAgICAgICAgICAgICAgICAgICAgICA8bGk+V2FjaHN0dW06IHtmb3JtRGF0YS5ncm93dGhSYXRlIHx8ICIwIn0lIHAuYS48L2xpPgogICAgICAgICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgKX0KCiAgICAgICAgICAgICAgey8qIE5hdmlnYXRpb24gQnV0dG9ucyAqL30KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBqdXN0aWZ5LWJldHdlZW4gbXQtOCI+CiAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldFN0ZXAoc3RlcCAtIDEpfQogICAgICAgICAgICAgICAgICBkaXNhYmxlZD17c3RlcCA9PT0gMX0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPXtzdGVwID09PSAxID8gImludmlzaWJsZSIgOiAiIn0KICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgWnVydWVjawogICAgICAgICAgICAgICAgPC9CdXR0b24+CgogICAgICAgICAgICAgICAge3N0ZXAgPCAzID8gKAogICAgICAgICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgICAgICAgdmFyaWFudD0icHJpbWFyeSIKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRTdGVwKHN0ZXAgKyAxKX0KICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17IWNhblByb2NlZWQoKX0KICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIFdlaXRlcgogICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICkgOiAoCiAgICAgICAgICAgICAgICAgIDxCdXR0b24KICAgICAgICAgICAgICAgICAgICB2YXJpYW50PSJnb2xkIgogICAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9e2hhbmRsZUNhbGN1bGF0ZX0KICAgICAgICAgICAgICAgICAgICBkaXNhYmxlZD17IWNhblByb2NlZWQoKX0KICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIEJld2VydHVuZyBiZXJlY2huZW4KICAgICAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgICApfQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L0NhcmQ+CiAgICAgICAgICApIDogKAogICAgICAgICAgICAvKiBSZXN1bHRzIFNlY3Rpb24gKi8KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktNiI+CiAgICAgICAgICAgICAgPENhcmQgdmFyaWFudD0iZGVmYXVsdCIgcGFkZGluZz0ibGciIGNsYXNzTmFtZT0idGV4dC1jZW50ZXIiPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im1iLTYiPgogICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1ibG9jayBweC00IHB5LTIgYmctcWFubmEtZ29sZC8yMCB0ZXh0LXFhbm5hLWdvbGQgdGV4dC1zbSBmb250LXNlbWlib2xkIHJvdW5kZWQtZnVsbCBtYi00Ij4KICAgICAgICAgICAgICAgICAgICBCRVdFUlRVTkdTRVJHRUJOSVMKICAgICAgICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG1iLTIiPgogICAgICAgICAgICAgICAgICAgIEdlc2NoYWV0enRlciBVbnRlcm5laG1lbnN3ZXJ0CiAgICAgICAgICAgICAgICAgIDwvaDI+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTYwMCI+CiAgICAgICAgICAgICAgICAgICAgQmFzaWVyZW5kIGF1ZiBkZXIge3Jlc3VsdD8ubWV0aG9kfS1NZXRob2RlCiAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1xYW5uYS1uYXZ5IHJvdW5kZWQtMnhsIHAtOCBtYi02Ij4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktMzAwIG1iLTIiPldlcnRzcGFubmU8L3A+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LTR4bCBtZDp0ZXh0LTV4bCBmb250LWJvbGQgdGV4dC1xYW5uYS1nb2xkIG1iLTIiPgogICAgICAgICAgICAgICAgICAgIHtmb3JtYXRDdXJyZW5jeShyZXN1bHQ/Lm1pblZhbHVlIHx8IDApfSAteyIgIn0KICAgICAgICAgICAgICAgICAgICB7Zm9ybWF0Q3VycmVuY3kocmVzdWx0Py5tYXhWYWx1ZSB8fCAwKX0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1ncmF5LTMwMCI+CiAgICAgICAgICAgICAgICAgICAgTWl0dGxlcmVyIFdlcnQ6IHtmb3JtYXRDdXJyZW5jeShyZXN1bHQ/LmF2Z1ZhbHVlIHx8IDApfQogICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBnYXAtNCBtYi02Ij4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXFhbm5hLWdyYXktNTAgcm91bmRlZC14bCBwLTQiPgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXFhbm5hLWdyYXktNjAwIj4KICAgICAgICAgICAgICAgICAgICAgIFZlcndlbmRldGVyIE11bHRpcGxpa2F0b3IKICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1xYW5uYS1uYXZ5Ij4KICAgICAgICAgICAgICAgICAgICAgIHtyZXN1bHQ/Lm11bHRpcGxlLm1pbi50b0ZpeGVkKDEpfXggLXsiICJ9CiAgICAgICAgICAgICAgICAgICAgICB7cmVzdWx0Py5tdWx0aXBsZS5tYXgudG9GaXhlZCgxKX14CiAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXFhbm5hLWdyYXktNTAgcm91bmRlZC14bCBwLTQiPgogICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXFhbm5hLWdyYXktNjAwIj5CYXNpczwvcD4KICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LXFhbm5hLW5hdnkiPgogICAgICAgICAgICAgICAgICAgICAge2Zvcm1hdEN1cnJlbmN5KHBhcnNlRmxvYXQoZm9ybURhdGEuZWJpdCkpfSBFQklUCiAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJiZy1xYW5uYS1nb2xkLzEwIHJvdW5kZWQteGwgcC00IHRleHQtbGVmdCBtYi02Ij4KICAgICAgICAgICAgICAgICAgPGg0IGNsYXNzTmFtZT0iZm9udC1zZW1pYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbWItMiI+CiAgICAgICAgICAgICAgICAgICAgV2ljaHRpZ2VyIEhpbndlaXM6CiAgICAgICAgICAgICAgICAgIDwvaDQ+CiAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXFhbm5hLWdyYXktNjAwIj4KICAgICAgICAgICAgICAgICAgICBEaWVzZSBCZXJlY2hudW5nIGlzdCBlaW5lIGVyc3RlIE9yaWVudGllcnVuZyB1bmQgZXJzZXR6dAogICAgICAgICAgICAgICAgICAgIGtlaW5lIHByb2Zlc3Npb25lbGxlIFVudGVybmVobWVuc2Jld2VydHVuZy4gRGVyIHRhdHNhZWNobGljaGUKICAgICAgICAgICAgICAgICAgICBXZXJ0IGhhZW5ndCB2b24gdmllbGVuIHdlaXRlcmVuIEZha3RvcmVuIGFiIChNYXJrdHVtZmVsZCwKICAgICAgICAgICAgICAgICAgICBLYWV1ZmVyaW50ZXJlc3NlLCBWZXJoYW5kbHVuZ3NnZXNjaGljaywgTmFjaGZvbGdlcmVnZWx1bmcsIGV0Yy4pLgogICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBzbTpmbGV4LXJvdyBnYXAtNCBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ29sZCIgc2l6ZT0ibGciPgogICAgICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9Ii9rb250YWt0Ij5EZXRhaWxsaWVydGUgQmV3ZXJ0dW5nIGFuZnJhZ2VuPC9MaW5rPgogICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBzaXplPSJsZyIgb25DbGljaz17aGFuZGxlUmVzZXR9PgogICAgICAgICAgICAgICAgICAgIE5ldWUgQmVyZWNobnVuZwogICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvQ2FyZD4KCiAgICAgICAgICAgICAgey8qIFdoYXQncyBOZXh0ICovfQogICAgICAgICAgICAgIDxDYXJkIHZhcmlhbnQ9ImRlZmF1bHQiIHBhZGRpbmc9ImxnIj4KICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteGwgZm9udC1ib2xkIHRleHQtcWFubmEtbmF2eSBtYi00Ij4KICAgICAgICAgICAgICAgICAgV2llIGdlaHQgZXMgd2VpdGVyPwogICAgICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTQiPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtNCI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctOCBoLTggYmctcWFubmEtZ29sZCB0ZXh0LXdoaXRlIHJvdW5kZWQtZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBmbGV4LXNocmluay0wIGZvbnQtc2VtaWJvbGQiPgogICAgICAgICAgICAgICAgICAgICAgMQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtcWFubmEtbmF2eSI+CiAgICAgICAgICAgICAgICAgICAgICAgIEtvc3Rlbmxvc2VzIEVyc3RnZXNwcmFlY2gKICAgICAgICAgICAgICAgICAgICAgIDwvaDQ+CiAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1xYW5uYS1ncmF5LTYwMCI+CiAgICAgICAgICAgICAgICAgICAgICAgIEJlc3ByZWNoZW4gU2llIElocmUgTmFjaGZvbGdlc2l0dWF0aW9uIG1pdCB1bnNlcmVuIEV4cGVydGVuIC0KICAgICAgICAgICAgICAgICAgICAgICAgdW52ZXJiaW5kbGljaCB1bmQgdmVydHJhdWxpY2guCiAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtNCI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctOCBoLTggYmctcWFubmEtZ29sZCB0ZXh0LXdoaXRlIHJvdW5kZWQtZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBmbGV4LXNocmluay0wIGZvbnQtc2VtaWJvbGQiPgogICAgICAgICAgICAgICAgICAgICAgMgogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtcWFubmEtbmF2eSI+CiAgICAgICAgICAgICAgICAgICAgICAgIFByb2Zlc3Npb25lbGxlIEJld2VydHVuZwogICAgICAgICAgICAgICAgICAgICAgPC9oND4KICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXFhbm5hLWdyYXktNjAwIj4KICAgICAgICAgICAgICAgICAgICAgICAgV2lyIGVyc3RlbGxlbiBlaW5lIGZ1bmRpZXJ0ZSBCZXdlcnR1bmcgbWl0IG1laHJlcmVuCiAgICAgICAgICAgICAgICAgICAgICAgIE1ldGhvZGVuIHVuZCBNYXJrdGFuYWx5c2UuCiAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBpdGVtcy1zdGFydCBnYXAtNCI+CiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctOCBoLTggYmctcWFubmEtZ29sZCB0ZXh0LXdoaXRlIHJvdW5kZWQtZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBmbGV4LXNocmluay0wIGZvbnQtc2VtaWJvbGQiPgogICAgICAgICAgICAgICAgICAgICAgMwogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtcWFubmEtbmF2eSI+CiAgICAgICAgICAgICAgICAgICAgICAgIE5hY2hmb2xnZXN0cmF0ZWdpZSBlbnR3aWNrZWxuCiAgICAgICAgICAgICAgICAgICAgICA8L2g0PgogICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtcWFubmEtZ3JheS02MDAiPgogICAgICAgICAgICAgICAgICAgICAgICBHZW1laW5zYW0gZW50d2lja2VsbiB3aXIgZGllIG9wdGltYWxlIFN0cmF0ZWdpZSBmdWVyIElocmUKICAgICAgICAgICAgICAgICAgICAgICAgVW50ZXJuZWhtZW5zbmFjaGZvbGdlIC0gb2IgVmVya2F1ZiwgTUJPIG9kZXIgRmFtaWxpZW5uYWNoZm9sZ2UuCiAgICAgICAgICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9DYXJkPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICl9CgogICAgICAgICAgey8qIERpc2NsYWltZXIgKi99CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgdGV4dC1xYW5uYS1ncmF5LTUwMCB0ZXh0LWNlbnRlciBtdC02Ij4KICAgICAgICAgICAgKiBQZmxpY2h0ZmVsZGVyLiBBbGxlIEFuZ2FiZW4gd2VyZGVuIHZlcnRyYXVsaWNoIGJlaGFuZGVsdCB1bmQgbmljaHQKICAgICAgICAgICAgZ2VzcGVpY2hlcnQuCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIDxGb290ZXIgLz4KICAgIDwvbWFpbj4KICApOwp9Cg==
+"use client";
+
+import { useState } from "react";
+import { Header, Footer } from "@/components/layout";
+import { Card, Button } from "@/components/ui";
+import Link from "next/link";
+
+interface ValuationResult {
+  minValue: number;
+  maxValue: number;
+  avgValue: number;
+  multiple: { min: number; max: number };
+  method: string;
+}
+
+const industries = [
+  { value: "industrie", label: "Industrie & Handwerk", multiple: [4.5, 7] },
+  { value: "handel", label: "Handel & Einzelhandel", multiple: [3.5, 5.5] },
+  { value: "dienstleistungen", label: "Dienstleistungen", multiple: [4, 7] },
+  { value: "gesundheitswesen", label: "Gesundheitswesen", multiple: [5, 8] },
+  { value: "gastronomie", label: "Gastronomie & Hotel", multiple: [3, 5] },
+  { value: "technologie", label: "Technologie & Software", multiple: [6, 12] },
+  { value: "bau", label: "Immobilien & Bau", multiple: [4, 6.5] },
+  { value: "logistik", label: "Logistik & Transport", multiple: [4, 6] },
+  { value: "sonstige", label: "Sonstige", multiple: [4, 6] },
+];
+
+function calculateValuation(
+  revenue: number,
+  ebit: number,
+  industry: string,
+  employees: number,
+  growthRate: number
+): ValuationResult {
+  const industryData = industries.find((i) => i.value === industry);
+  const baseMultiple = industryData?.multiple || [4, 6];
+
+  // Adjust multiple based on growth rate
+  let growthAdjustment = 0;
+  if (growthRate > 10) growthAdjustment = 0.5;
+  if (growthRate > 20) growthAdjustment = 1;
+  if (growthRate < 0) growthAdjustment = -0.5;
+
+  // Adjust for company size
+  let sizeAdjustment = 0;
+  if (revenue > 10000000) sizeAdjustment = 0.3;
+  if (revenue > 50000000) sizeAdjustment = 0.5;
+  if (revenue < 2000000) sizeAdjustment = -0.3;
+
+  // Adjust for profitability
+  const profitMargin = (ebit / revenue) * 100;
+  let profitAdjustment = 0;
+  if (profitMargin > 15) profitAdjustment = 0.5;
+  if (profitMargin > 25) profitAdjustment = 1;
+  if (profitMargin < 5) profitAdjustment = -0.5;
+
+  const adjustedMultiple = {
+    min: Math.max(2, baseMultiple[0] + growthAdjustment + sizeAdjustment + profitAdjustment),
+    max: Math.max(3, baseMultiple[1] + growthAdjustment + sizeAdjustment + profitAdjustment),
+  };
+
+  const minValue = ebit * adjustedMultiple.min;
+  const maxValue = ebit * adjustedMultiple.max;
+  const avgValue = (minValue + maxValue) / 2;
+
+  return {
+    minValue,
+    maxValue,
+    avgValue,
+    multiple: adjustedMultiple,
+    method: "EBIT-Multiplikator",
+  };
+}
+
+function formatCurrency(value: number): string {
+  if (value >= 1000000) {
+    return `${(value / 1000000).toFixed(1)} Mio. EUR`;
+  }
+  return `${(value / 1000).toFixed(0)} Tsd. EUR`;
+}
+
+export default function BewertungsrechnerPage() {
+  const [step, setStep] = useState(1);
+  const [formData, setFormData] = useState({
+    revenue: "",
+    ebit: "",
+    industry: "",
+    employees: "",
+    growthRate: "",
+  });
+  const [result, setResult] = useState<ValuationResult | null>(null);
+  const [showResult, setShowResult] = useState(false);
+
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>
+  ) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleCalculate = () => {
+    const revenue = parseFloat(formData.revenue);
+    const ebit = parseFloat(formData.ebit);
+    const employees = parseInt(formData.employees);
+    const growthRate = parseFloat(formData.growthRate);
+
+    if (revenue && ebit && formData.industry) {
+      const valuation = calculateValuation(
+        revenue,
+        ebit,
+        formData.industry,
+        employees || 0,
+        growthRate || 0
+      );
+      setResult(valuation);
+      setShowResult(true);
+    }
+  };
+
+  const handleReset = () => {
+    setFormData({
+      revenue: "",
+      ebit: "",
+      industry: "",
+      employees: "",
+      growthRate: "",
+    });
+    setResult(null);
+    setShowResult(false);
+    setStep(1);
+  };
+
+  const canProceed = () => {
+    if (step === 1) return formData.revenue && formData.ebit;
+    if (step === 2) return formData.industry;
+    return true;
+  };
+
+  return (
+    <main>
+      <Header />
+
+      {/* Hero Section */}
+      <section className="pt-32 pb-8 bg-gradient-to-b from-qanna-navy to-qanna-navy-dark">
+        <div className="container-qanna text-center">
+          <span className="inline-block px-4 py-2 bg-qanna-gold/20 text-qanna-gold text-sm font-semibold rounded-full mb-4">
+            BEWERTUNGSRECHNER
+          </span>
+          <h1 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Was ist Ihr Unternehmen wert?
+          </h1>
+          <p className="text-lg text-gray-300 max-w-2xl mx-auto">
+            Erhalten Sie eine erste Einschaetzung zum Wert Ihres Unternehmens.
+            Basierend auf bewaehrten Bewertungsmethoden und aktuellen Marktdaten.
+          </p>
+        </div>
+      </section>
+
+      {/* Calculator Section */}
+      <section className="section-padding bg-qanna-gray-50">
+        <div className="container-qanna max-w-3xl">
+          {!showResult ? (
+            <Card variant="default" padding="lg">
+              {/* Progress Steps */}
+              <div className="flex items-center justify-between mb-8">
+                {[1, 2, 3].map((s) => (
+                  <div key={s} className="flex items-center">
+                    <div
+                      className={`w-10 h-10 rounded-full flex items-center justify-center font-semibold ${
+                        s <= step
+                          ? "bg-qanna-gold text-white"
+                          : "bg-qanna-gray-200 text-qanna-gray-500"
+                      }`}
+                    >
+                      {s}
+                    </div>
+                    {s < 3 && (
+                      <div
+                        className={`w-24 h-1 mx-2 ${
+                          s < step ? "bg-qanna-gold" : "bg-qanna-gray-200"
+                        }`}
+                      />
+                    )}
+                  </div>
+                ))}
+              </div>
+
+              {/* Step 1: Financial Data */}
+              {step === 1 && (
+                <div className="space-y-6">
+                  <div className="text-center mb-8">
+                    <h2 className="text-2xl font-bold text-qanna-navy mb-2">
+                      Finanzkennzahlen
+                    </h2>
+                    <p className="text-qanna-gray-600">
+                      Geben Sie Ihre aktuellen Finanzdaten ein
+                    </p>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-qanna-gray-700 mb-2">
+                      Jahresumsatz (EUR) *
+                    </label>
+                    <input
+                      type="number"
+                      name="revenue"
+                      value={formData.revenue}
+                      onChange={handleInputChange}
+                      placeholder="z.B. 5000000"
+                      className="w-full px-4 py-3 border border-qanna-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-qanna-gold focus:border-transparent"
+                    />
+                    <p className="text-xs text-qanna-gray-500 mt-1">
+                      Umsatz des letzten Geschaeftsjahres
+                    </p>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-qanna-gray-700 mb-2">
+                      EBIT (EUR) *
+                    </label>
+                    <input
+                      type="number"
+                      name="ebit"
+                      value={formData.ebit}
+                      onChange={handleInputChange}
+                      placeholder="z.B. 500000"
+                      className="w-full px-4 py-3 border border-qanna-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-qanna-gold focus:border-transparent"
+                    />
+                    <p className="text-xs text-qanna-gray-500 mt-1">
+                      Ergebnis vor Zinsen und Steuern
+                    </p>
+                  </div>
+                </div>
+              )}
+
+              {/* Step 2: Industry & Size */}
+              {step === 2 && (
+                <div className="space-y-6">
+                  <div className="text-center mb-8">
+                    <h2 className="text-2xl font-bold text-qanna-navy mb-2">
+                      Branche & Groesse
+                    </h2>
+                    <p className="text-qanna-gray-600">
+                      Waehlen Sie Ihre Branche und geben Sie die
+                      Unternehmensgroesse an
+                    </p>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-qanna-gray-700 mb-2">
+                      Branche *
+                    </label>
+                    <select
+                      name="industry"
+                      value={formData.industry}
+                      onChange={handleInputChange}
+                      className="w-full px-4 py-3 border border-qanna-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-qanna-gold focus:border-transparent bg-white"
+                    >
+                      <option value="">Bitte waehlen...</option>
+                      {industries.map((industry) => (
+                        <option key={industry.value} value={industry.value}>
+                          {industry.label}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-qanna-gray-700 mb-2">
+                      Anzahl Mitarbeiter
+                    </label>
+                    <input
+                      type="number"
+                      name="employees"
+                      value={formData.employees}
+                      onChange={handleInputChange}
+                      placeholder="z.B. 50"
+                      className="w-full px-4 py-3 border border-qanna-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-qanna-gold focus:border-transparent"
+                    />
+                  </div>
+                </div>
+              )}
+
+              {/* Step 3: Growth */}
+              {step === 3 && (
+                <div className="space-y-6">
+                  <div className="text-center mb-8">
+                    <h2 className="text-2xl font-bold text-qanna-navy mb-2">
+                      Wachstum
+                    </h2>
+                    <p className="text-qanna-gray-600">
+                      Wie hat sich Ihr Unternehmen entwickelt?
+                    </p>
+                  </div>
+
+                  <div>
+                    <label className="block text-sm font-medium text-qanna-gray-700 mb-2">
+                      Umsatzwachstum der letzten 3 Jahre (% p.a.)
+                    </label>
+                    <input
+                      type="number"
+                      name="growthRate"
+                      value={formData.growthRate}
+                      onChange={handleInputChange}
+                      placeholder="z.B. 10"
+                      className="w-full px-4 py-3 border border-qanna-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-qanna-gold focus:border-transparent"
+                    />
+                    <p className="text-xs text-qanna-gray-500 mt-1">
+                      Durchschnittliches jaehrliches Wachstum
+                    </p>
+                  </div>
+
+                  <div className="bg-qanna-gold/10 rounded-xl p-4 mt-6">
+                    <h4 className="font-semibold text-qanna-navy mb-2">
+                      Zusammenfassung Ihrer Eingaben:
+                    </h4>
+                    <ul className="text-sm text-qanna-gray-600 space-y-1">
+                      <li>
+                        Umsatz:{" "}
+                        {formatCurrency(parseFloat(formData.revenue) || 0)}
+                      </li>
+                      <li>
+                        EBIT: {formatCurrency(parseFloat(formData.ebit) || 0)}
+                      </li>
+                      <li>
+                        Branche:{" "}
+                        {industries.find((i) => i.value === formData.industry)
+                          ?.label || "-"}
+                      </li>
+                      <li>Mitarbeiter: {formData.employees || "-"}</li>
+                      <li>Wachstum: {formData.growthRate || "0"}% p.a.</li>
+                    </ul>
+                  </div>
+                </div>
+              )}
+
+              {/* Navigation Buttons */}
+              <div className="flex justify-between mt-8">
+                <Button
+                  variant="outline"
+                  onClick={() => setStep(step - 1)}
+                  disabled={step === 1}
+                  className={step === 1 ? "invisible" : ""}
+                >
+                  Zurueck
+                </Button>
+
+                {step < 3 ? (
+                  <Button
+                    variant="primary"
+                    onClick={() => setStep(step + 1)}
+                    disabled={!canProceed()}
+                  >
+                    Weiter
+                  </Button>
+                ) : (
+                  <Button
+                    variant="gold"
+                    onClick={handleCalculate}
+                    disabled={!canProceed()}
+                  >
+                    Bewertung berechnen
+                  </Button>
+                )}
+              </div>
+            </Card>
+          ) : (
+            /* Results Section */
+            <div className="space-y-6">
+              <Card variant="default" padding="lg" className="text-center">
+                <div className="mb-6">
+                  <span className="inline-block px-4 py-2 bg-qanna-gold/20 text-qanna-gold text-sm font-semibold rounded-full mb-4">
+                    BEWERTUNGSERGEBNIS
+                  </span>
+                  <h2 className="text-2xl font-bold text-qanna-navy mb-2">
+                    Geschaetzter Unternehmenswert
+                  </h2>
+                  <p className="text-qanna-gray-600">
+                    Basierend auf der {result?.method}-Methode
+                  </p>
+                </div>
+
+                <div className="bg-qanna-navy rounded-2xl p-8 mb-6">
+                  <p className="text-gray-300 mb-2">Wertspanne</p>
+                  <div className="text-4xl md:text-5xl font-bold text-qanna-gold mb-2">
+                    {formatCurrency(result?.minValue || 0)} -{" "}
+                    {formatCurrency(result?.maxValue || 0)}
+                  </div>
+                  <p className="text-gray-300">
+                    Mittlerer Wert: {formatCurrency(result?.avgValue || 0)}
+                  </p>
+                </div>
+
+                <div className="grid grid-cols-2 gap-4 mb-6">
+                  <div className="bg-qanna-gray-50 rounded-xl p-4">
+                    <p className="text-sm text-qanna-gray-600">
+                      Verwendeter Multiplikator
+                    </p>
+                    <p className="text-2xl font-bold text-qanna-navy">
+                      {result?.multiple.min.toFixed(1)}x -{" "}
+                      {result?.multiple.max.toFixed(1)}x
+                    </p>
+                  </div>
+                  <div className="bg-qanna-gray-50 rounded-xl p-4">
+                    <p className="text-sm text-qanna-gray-600">Basis</p>
+                    <p className="text-2xl font-bold text-qanna-navy">
+                      {formatCurrency(parseFloat(formData.ebit))} EBIT
+                    </p>
+                  </div>
+                </div>
+
+                <div className="bg-qanna-gold/10 rounded-xl p-4 text-left mb-6">
+                  <h4 className="font-semibold text-qanna-navy mb-2">
+                    Wichtiger Hinweis:
+                  </h4>
+                  <p className="text-sm text-qanna-gray-600">
+                    Diese Berechnung ist eine erste Orientierung und ersetzt
+                    keine professionelle Unternehmensbewertung. Der tatsaechliche
+                    Wert haengt von vielen weiteren Faktoren ab (Marktumfeld,
+                    Kaeuferinteresse, Verhandlungsgeschick, Nachfolgeregelung, etc.).
+                  </p>
+                </div>
+
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                  <Button variant="gold" size="lg">
+                    <Link href="/kontakt">Detaillierte Bewertung anfragen</Link>
+                  </Button>
+                  <Button variant="outline" size="lg" onClick={handleReset}>
+                    Neue Berechnung
+                  </Button>
+                </div>
+              </Card>
+
+              {/* What's Next */}
+              <Card variant="default" padding="lg">
+                <h3 className="text-xl font-bold text-qanna-navy mb-4">
+                  Wie geht es weiter?
+                </h3>
+                <div className="space-y-4">
+                  <div className="flex items-start gap-4">
+                    <div className="w-8 h-8 bg-qanna-gold text-white rounded-full flex items-center justify-center flex-shrink-0 font-semibold">
+                      1
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-qanna-navy">
+                        Kostenloses Erstgespraech
+                      </h4>
+                      <p className="text-sm text-qanna-gray-600">
+                        Besprechen Sie Ihre Nachfolgesituation mit unseren Experten -
+                        unverbindlich und vertraulich.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="w-8 h-8 bg-qanna-gold text-white rounded-full flex items-center justify-center flex-shrink-0 font-semibold">
+                      2
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-qanna-navy">
+                        Professionelle Bewertung
+                      </h4>
+                      <p className="text-sm text-qanna-gray-600">
+                        Wir erstellen eine fundierte Bewertung mit mehreren
+                        Methoden und Marktanalyse.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-start gap-4">
+                    <div className="w-8 h-8 bg-qanna-gold text-white rounded-full flex items-center justify-center flex-shrink-0 font-semibold">
+                      3
+                    </div>
+                    <div>
+                      <h4 className="font-semibold text-qanna-navy">
+                        Nachfolgestrategie entwickeln
+                      </h4>
+                      <p className="text-sm text-qanna-gray-600">
+                        Gemeinsam entwickeln wir die optimale Strategie fuer Ihre
+                        Unternehmensnachfolge - ob Verkauf, MBO oder Familiennachfolge.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </Card>
+            </div>
+          )}
+
+          {/* Disclaimer */}
+          <p className="text-xs text-qanna-gray-500 text-center mt-6">
+            * Pflichtfelder. Alle Angaben werden vertraulich behandelt und nicht
+            gespeichert.
+          </p>
+        </div>
+      </section>
+
+      <Footer />
+    </main>
+  );
+}

@@ -1,1 +1,219 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IExpbmsgZnJvbSAibmV4dC9saW5rIjsKaW1wb3J0IHsgTG9nb0Z1bGwgfSBmcm9tICJAL2NvbXBvbmVudHMvdWkiOwoKY29uc3QgZm9vdGVyTGlua3MgPSB7CiAgc2VydmljZXM6IFsKICAgIHsgdGl0bGU6ICJVbnRlcm5laG1lbnNiZXdlcnR1bmciLCBocmVmOiAiL2xlaXN0dW5nZW4vdW50ZXJuZWhtZW5zYmV3ZXJ0dW5nIiB9LAogICAgeyB0aXRsZTogIk5hY2hmb2xnZXJzdWNoZSIsIGhyZWY6ICIvbGVpc3R1bmdlbi9uYWNoZm9sZ2Vyc3VjaGUiIH0sCiAgICB7IHRpdGxlOiAiRHVlIERpbGlnZW5jZSIsIGhyZWY6ICIvbGVpc3R1bmdlbi9kdWUtZGlsaWdlbmNlIiB9LAogICAgeyB0aXRsZTogIlZlcnRyYWdzdmVyaGFuZGx1bmciLCBocmVmOiAiL2xlaXN0dW5nZW4vdmVydHJhZ3N2ZXJoYW5kbHVuZyIgfSwKICAgIHsgdGl0bGU6ICJQb3N0LU1lcmdlciBJbnRlZ3JhdGlvbiIsIGhyZWY6ICIvbGVpc3R1bmdlbi9wb3N0LW1lcmdlci1pbnRlZ3JhdGlvbiIgfSwKICBdLAogIGluZHVzdHJpZXM6IFsKICAgIHsgdGl0bGU6ICJJbmR1c3RyaWUgJiBIYW5kd2VyayIsIGhyZWY6ICIvYnJhbmNoZW4vaW5kdXN0cmllIiB9LAogICAgeyB0aXRsZTogIkhhbmRlbCAmIEVpbnplbGhhbmRlbCIsIGhyZWY6ICIvYnJhbmNoZW4vaGFuZGVsIiB9LAogICAgeyB0aXRsZTogIkRpZW5zdGxlaXN0dW5nZW4iLCBocmVmOiAiL2JyYW5jaGVuL2RpZW5zdGxlaXN0dW5nZW4iIH0sCiAgICB7IHRpdGxlOiAiR2VzdW5kaGVpdHN3ZXNlbiIsIGhyZWY6ICIvYnJhbmNoZW4vZ2VzdW5kaGVpdHN3ZXNlbiIgfSwKICAgIHsgdGl0bGU6ICJBbGxlIEJyYW5jaGVuIiwgaHJlZjogIi9icmFuY2hlbiIgfSwKICBdLAogIGFib3V0OiBbCiAgICB7IHRpdGxlOiAiVW5zZXIgVGVhbSIsIGhyZWY6ICIvdWViZXItdW5zL3RlYW0iIH0sCiAgICB7IHRpdGxlOiAiVWViZXIgdW5zIiwgaHJlZjogIi91ZWJlci11bnMiIH0sCiAgICB7IHRpdGxlOiAiSW5zaWdodHMiLCBocmVmOiAiL2luc2lnaHRzIiB9LAogICAgeyB0aXRsZTogIktJLUxvZXN1bmdlbiIsIGhyZWY6ICIva2ktbG9lc3VuZ2VuIiB9LAogIF0sCiAgbGVnYWw6IFsKICAgIHsgdGl0bGU6ICJJbXByZXNzdW0iLCBocmVmOiAiL2ltcHJlc3N1bSIgfSwKICAgIHsgdGl0bGU6ICJEYXRlbnNjaHV0eiIsIGhyZWY6ICIvZGF0ZW5zY2h1dHoiIH0sCiAgICB7IHRpdGxlOiAiQ29va2llcyIsIGhyZWY6ICIvY29va2llcyIgfSwKICBdLAp9OwoKZXhwb3J0IGZ1bmN0aW9uIEZvb3RlcigpIHsKICBjb25zdCBjdXJyZW50WWVhciA9IG5ldyBEYXRlKCkuZ2V0RnVsbFllYXIoKTsKCiAgcmV0dXJuICgKICAgIDxmb290ZXIgY2xhc3NOYW1lPSJiZy1xYW5uYS1uYXZ5LWRhcmsgdGV4dC13aGl0ZSI+CiAgICAgIHsvKiBNYWluIEZvb3RlciAqL30KICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lci1xYW5uYSBweS0xNiI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTUgZ2FwLTggbGc6Z2FwLTEyIj4KICAgICAgICAgIHsvKiBDb21wYW55IEluZm8gKi99CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGc6Y29sLXNwYW4tMSI+CiAgICAgICAgICAgIDxMaW5rIGhyZWY9Ii8iIGNsYXNzTmFtZT0iaW5saW5lLWJsb2NrIG1iLTYiPgogICAgICAgICAgICAgIDxMb2dvRnVsbCB2YXJpYW50PSJsaWdodCIgc2l6ZT0iZGVmYXVsdCIgLz4KICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtd2hpdGUgdGV4dC1zbSBtYi00Ij4KICAgICAgICAgICAgICBJaHIgUGFydG5lciBmdWVyIGVyZm9sZ3JlaWNoZSBVbnRlcm5laG1lbnNuYWNoZm9sZ2UgdW5kCiAgICAgICAgICAgICAgTSZBLVRyYW5zYWt0aW9uZW4uIFZvbiBkZXIgQmV3ZXJ0dW5nIGJpcyB6dW0gQWJzY2hsdXNzLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTIgdGV4dC1zbSB0ZXh0LXdoaXRlIj4KICAgICAgICAgICAgICA8cD5RYW5uYSBHbWJIPC9wPgogICAgICAgICAgICAgIDxwPlN1dHRuZXJzdHIuIDEwPC9wPgogICAgICAgICAgICAgIDxwPjMzNzkwIEhhbGxlL1dlc3RmYWxlbjwvcD4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIHsvKiBTb2NpYWwgTGlua3MgKi99CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJmbGV4IGdhcC00IG10LTYiPgogICAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgICBocmVmPSJodHRwczovL2xpbmtlZGluLmNvbSIKICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlIGhvdmVyOnRleHQtcWFubmEtZ29sZCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy01IGgtNSIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPgogICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTkgMGgtMTRjLTIuNzYxIDAtNSAyLjIzOS01IDV2MTRjMCAyLjc2MSAyLjIzOSA1IDUgNWgxNGMyLjc2MiAwIDUtMi4yMzkgNS01di0xNGMwLTIuNzYxLTIuMjM4LTUtNS01em0tMTEgMTloLTN2LTExaDN2MTF6bS0xLjUtMTIuMjY4Yy0uOTY2IDAtMS43NS0uNzktMS43NS0xLjc2NHMuNzg0LTEuNzY0IDEuNzUtMS43NjQgMS43NS43OSAxLjc1IDEuNzY0LS43ODMgMS43NjQtMS43NSAxLjc2NHptMTMuNSAxMi4yNjhoLTN2LTUuNjA0YzAtMy4zNjgtNC0zLjExMy00IDB2NS42MDRoLTN2LTExaDN2MS43NjVjMS4zOTYtMi41ODYgNy0yLjc3NyA3IDIuNDc2djYuNzU5eiIgLz4KICAgICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgICA8YQogICAgICAgICAgICAgICAgaHJlZj0iaHR0cHM6Ly94aW5nLmNvbSIKICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlIGhvdmVyOnRleHQtcWFubmEtZ29sZCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8c3ZnIGNsYXNzTmFtZT0idy01IGgtNSIgZmlsbD0iY3VycmVudENvbG9yIiB2aWV3Qm94PSIwIDAgMjQgMjQiPgogICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTguMTg4IDBjLS41MTcgMC0uNzQxLjMyNS0uOTI3LjY2IDAgMC03LjQ1NSAxMy4yMjQtNy43MDIgMTMuNjU3LjAxNS4wMjQgNC45MTkgOS4wMjMgNC45MTkgOS4wMjMuMTcuMzA4LjQzNi42Ni45NjcuNjZoMy40NTRjLjIxMSAwIC4zNzUtLjA3OC40NjMtLjIyLjA4OS0uMTUxLjA4OS0uMzQ2LS4wMDktLjUzNmwtNC44NzktOC45MTZjLS4wMDQtLjAwNi0uMDA0LS4wMTYgMC0uMDIybDcuNjM2LTEzLjU0NGMuMDkzLS4xODguMDkzLS4zODMuMDA0LS41MzUtLjA4OS0uMTQyLS4yNTMtLjIyLS40NjQtLjIyaC0zLjQ1NHptLTEyLjE4OCA1LjA5OWMtLjIxMiAwLS4zNzcuMDc5LS40NjQuMjIxLS4wODguMTQzLS4wODguMzM4LjAwNi41MzVsMi4wNjMgMy42NzRjLjAwMy4wMDYuMDAzLjAxNiAwIC4wMjFsLTMuMjUxIDUuNzM5Yy0uMDk2LjE5MS0uMDk2LjM4Ny0uMDA2LjUzNS4wODguMTQzLjI1Mi4yMjEuNDYzLjIyMWgzLjQ1NGMuNTMxIDAgLjc1Ni0uMzUxLjkyMy0uNjU4bDMuMzE3LTUuODYzYy0uMDE1LS4wMjMtMi4xMzYtMy44MDEtMi4xMzYtMy44MDEtLjE2Ny0uMzA3LS4zOTQtLjYyNC0uOTIzLS42MjRoLTMuNDQ2eiIgLz4KICAgICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICB7LyogU2VydmljZXMgKi99CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIG1iLTQgdGV4dC1xYW5uYS1nb2xkIj4KICAgICAgICAgICAgICBMZWlzdHVuZ2VuCiAgICAgICAgICAgIDwvaDQ+CiAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgICAgICAge2Zvb3RlckxpbmtzLnNlcnZpY2VzLm1hcCgobGluaykgPT4gKAogICAgICAgICAgICAgICAgPGxpIGtleT17bGluay5ocmVmfT4KICAgICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAgICBocmVmPXtsaW5rLmhyZWZ9CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlIGhvdmVyOnRleHQtcWFubmEtZ29sZCB0cmFuc2l0aW9uLWNvbG9ycyB0ZXh0LXNtIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAge2xpbmsudGl0bGV9CiAgICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICAgIDwvbGk+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICB7LyogSW5kdXN0cmllcyAqL30KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9InRleHQtc20gZm9udC1zZW1pYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgbWItNCB0ZXh0LXFhbm5hLWdvbGQiPgogICAgICAgICAgICAgIEJyYW5jaGVuCiAgICAgICAgICAgIDwvaDQ+CiAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9InNwYWNlLXktMiI+CiAgICAgICAgICAgICAge2Zvb3RlckxpbmtzLmluZHVzdHJpZXMubWFwKChsaW5rKSA9PiAoCiAgICAgICAgICAgICAgICA8bGkga2V5PXtsaW5rLmhyZWZ9PgogICAgICAgICAgICAgICAgICA8TGluawogICAgICAgICAgICAgICAgICAgIGhyZWY9e2xpbmsuaHJlZn0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtd2hpdGUgaG92ZXI6dGV4dC1xYW5uYS1nb2xkIHRyYW5zaXRpb24tY29sb3JzIHRleHQtc20iCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICB7bGluay50aXRsZX0KICAgICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC91bD4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIHsvKiBBYm91dCAqL30KICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9InRleHQtc20gZm9udC1zZW1pYm9sZCB1cHBlcmNhc2UgdHJhY2tpbmctd2lkZXIgbWItNCB0ZXh0LXFhbm5hLWdvbGQiPgogICAgICAgICAgICAgIFVlYmVyIHVucwogICAgICAgICAgICA8L2g0PgogICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJzcGFjZS15LTIiPgogICAgICAgICAgICAgIHtmb290ZXJMaW5rcy5hYm91dC5tYXAoKGxpbmspID0+ICgKICAgICAgICAgICAgICAgIDxsaSBrZXk9e2xpbmsuaHJlZn0+CiAgICAgICAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAgICAgICAgaHJlZj17bGluay5ocmVmfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC13aGl0ZSBob3Zlcjp0ZXh0LXFhbm5hLWdvbGQgdHJhbnNpdGlvbi1jb2xvcnMgdGV4dC1zbSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHtsaW5rLnRpdGxlfQogICAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgICA8L2xpPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L3VsPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgey8qIENvbnRhY3QgKi99CiAgICAgICAgICA8ZGl2PgogICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdXBwZXJjYXNlIHRyYWNraW5nLXdpZGVyIG1iLTQgdGV4dC1xYW5uYS1nb2xkIj4KICAgICAgICAgICAgICBLb250YWt0CiAgICAgICAgICAgIDwvaDQ+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJzcGFjZS15LTMgdGV4dC1zbSI+CiAgICAgICAgICAgICAgPGEKICAgICAgICAgICAgICAgIGhyZWY9InRlbDorNDkxNTI1MzU5NDkwMiIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC13aGl0ZSBob3Zlcjp0ZXh0LXFhbm5hLWdvbGQgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPHN2ZwogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctNCBoLTQiCiAgICAgICAgICAgICAgICAgIGZpbGw9Im5vbmUiCiAgICAgICAgICAgICAgICAgIHZpZXdCb3g9IjAgMCAyNCAyNCIKICAgICAgICAgICAgICAgICAgc3Ryb2tlPSJjdXJyZW50Q29sb3IiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD0icm91bmQiCiAgICAgICAgICAgICAgICAgICAgc3Ryb2tlTGluZWpvaW49InJvdW5kIgogICAgICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoPXsyfQogICAgICAgICAgICAgICAgICAgIGQ9Ik0zIDVhMiAyIDAgMDEyLTJoMy4yOGExIDEgMCAwMS45NDguNjg0bDEuNDk4IDQuNDkzYTEgMSAwIDAxLS41MDIgMS4yMWwtMi4yNTcgMS4xM2ExMS4wNDIgMTEuMDQyIDAgMDA1LjUxNiA1LjUxNmwxLjEzLTIuMjU3YTEgMSAwIDAxMS4yMS0uNTAybDQuNDkzIDEuNDk4YTEgMSAwIDAxLjY4NC45NDlWMTlhMiAyIDAgMDEtMiAyaC0xQzkuNzE2IDIxIDMgMTQuMjg0IDMgNlY1eiIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgIDwvc3ZnPgogICAgICAgICAgICAgICAgMDE1MjUgMzU5NDkwMgogICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgICA8YQogICAgICAgICAgICAgICAgaHJlZj0ibWFpbHRvOmluZm9AcWFubmEtaG9sZGluZy5kZSIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTIgdGV4dC13aGl0ZSBob3Zlcjp0ZXh0LXFhbm5hLWdvbGQgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPHN2ZwogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctNCBoLTQiCiAgICAgICAgICAgICAgICAgIGZpbGw9Im5vbmUiCiAgICAgICAgICAgICAgICAgIHZpZXdCb3g9IjAgMCAyNCAyNCIKICAgICAgICAgICAgICAgICAgc3Ryb2tlPSJjdXJyZW50Q29sb3IiCiAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD0icm91bmQiCiAgICAgICAgICAgICAgICAgICAgc3Ryb2tlTGluZWpvaW49InJvdW5kIgogICAgICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoPXsyfQogICAgICAgICAgICAgICAgICAgIGQ9Ik0zIDhsNy44OSA1LjI2YTIgMiAwIDAwMi4yMiAwTDIxIDhNNSAxOWgxNGEyIDIgMCAwMDItMlY3YTIgMiAwIDAwLTItMkg1YTIgMiAwIDAwLTIgMnYxMGEyIDIgMCAwMDIgMnoiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgIGluZm9AcWFubmEtaG9sZGluZy5kZQogICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtd2hpdGUgdGV4dC14cyBtdC00Ij4KICAgICAgICAgICAgICAgIE1vIC0gRnI6IDk6MDAgLSAxODowMCBVaHIKICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIGhyZWY9Ii9rb250YWt0IgogICAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWJsb2NrIG10LTQgcHgtNCBweS0yIGJnLXFhbm5hLWdvbGQgdGV4dC13aGl0ZSB0ZXh0LXNtIGZvbnQtbWVkaXVtIHJvdW5kZWQtbWQgaG92ZXI6YmctcWFubmEtZ29sZC1kYXJrIHRyYW5zaXRpb24tY29sb3JzIgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgS29udGFrdCBhdWZuZWhtZW4KICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgoKICAgICAgey8qIEJvdHRvbSBCYXIgKi99CiAgICAgIDxkaXYgY2xhc3NOYW1lPSJib3JkZXItdCBib3JkZXItd2hpdGUvMTAiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXItcWFubmEgcHktNiI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBtZDpmbGV4LXJvdyBqdXN0aWZ5LWJldHdlZW4gaXRlbXMtY2VudGVyIGdhcC00Ij4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXdoaXRlIHRleHQtc20iPgogICAgICAgICAgICAgIHtjdXJyZW50WWVhcn0gUWFubmEgR21iSC4gQWxsZSBSZWNodGUgdm9yYmVoYWx0ZW4uCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZ2FwLTYiPgogICAgICAgICAgICAgIHtmb290ZXJMaW5rcy5sZWdhbC5tYXAoKGxpbmspID0+ICgKICAgICAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAgICAgIGtleT17bGluay5ocmVmfQogICAgICAgICAgICAgICAgICBocmVmPXtsaW5rLmhyZWZ9CiAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC13aGl0ZSBob3Zlcjp0ZXh0LXFhbm5hLWdvbGQgdHJhbnNpdGlvbi1jb2xvcnMgdGV4dC1zbSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAge2xpbmsudGl0bGV9CiAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvZGl2PgogICAgPC9mb290ZXI+CiAgKTsKfQo=
+"use client";
+
+import Link from "next/link";
+import { LogoFull } from "@/components/ui";
+
+const footerLinks = {
+  services: [
+    { title: "Unternehmensbewertung", href: "/leistungen/unternehmensbewertung" },
+    { title: "Nachfolgersuche", href: "/leistungen/nachfolgersuche" },
+    { title: "Due Diligence", href: "/leistungen/due-diligence" },
+    { title: "Vertragsverhandlung", href: "/leistungen/vertragsverhandlung" },
+    { title: "Post-Merger Integration", href: "/leistungen/post-merger-integration" },
+  ],
+  industries: [
+    { title: "Industrie & Handwerk", href: "/branchen/industrie" },
+    { title: "Handel & Einzelhandel", href: "/branchen/handel" },
+    { title: "Dienstleistungen", href: "/branchen/dienstleistungen" },
+    { title: "Gesundheitswesen", href: "/branchen/gesundheitswesen" },
+    { title: "Alle Branchen", href: "/branchen" },
+  ],
+  about: [
+    { title: "Unser Team", href: "/ueber-uns/team" },
+    { title: "Ueber uns", href: "/ueber-uns" },
+    { title: "Insights", href: "/insights" },
+    { title: "KI-Loesungen", href: "/ki-loesungen" },
+  ],
+  legal: [
+    { title: "Impressum", href: "/impressum" },
+    { title: "Datenschutz", href: "/datenschutz" },
+    { title: "Cookies", href: "/cookies" },
+  ],
+};
+
+export function Footer() {
+  const currentYear = new Date().getFullYear();
+
+  return (
+    <footer className="bg-qanna-navy-dark text-white">
+      {/* Main Footer */}
+      <div className="container-qanna py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
+          {/* Company Info */}
+          <div className="lg:col-span-1">
+            <Link href="/" className="inline-block mb-6">
+              <LogoFull variant="light" size="default" />
+            </Link>
+            <p className="text-white text-sm mb-4">
+              Ihr Partner fuer erfolgreiche Unternehmensnachfolge und
+              M&A-Transaktionen. Von der Bewertung bis zum Abschluss.
+            </p>
+            <div className="space-y-2 text-sm text-white">
+              <p>Qanna GmbH</p>
+              <p>Suttnerstr. 10</p>
+              <p>33790 Halle/Westfalen</p>
+            </div>
+            {/* Social Links */}
+            <div className="flex gap-4 mt-6">
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-qanna-gold transition-colors"
+              >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                </svg>
+              </a>
+              <a
+                href="https://xing.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-qanna-gold transition-colors"
+              >
+                <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M18.188 0c-.517 0-.741.325-.927.66 0 0-7.455 13.224-7.702 13.657.015.024 4.919 9.023 4.919 9.023.17.308.436.66.967.66h3.454c.211 0 .375-.078.463-.22.089-.151.089-.346-.009-.536l-4.879-8.916c-.004-.006-.004-.016 0-.022l7.636-13.544c.093-.188.093-.383.004-.535-.089-.142-.253-.22-.464-.22h-3.454zm-12.188 5.099c-.212 0-.377.079-.464.221-.088.143-.088.338.006.535l2.063 3.674c.003.006.003.016 0 .021l-3.251 5.739c-.096.191-.096.387-.006.535.088.143.252.221.463.221h3.454c.531 0 .756-.351.923-.658l3.317-5.863c-.015-.023-2.136-3.801-2.136-3.801-.167-.307-.394-.624-.923-.624h-3.446z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+
+          {/* Services */}
+          <div>
+            <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-qanna-gold">
+              Leistungen
+            </h4>
+            <ul className="space-y-2">
+              {footerLinks.services.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-white hover:text-qanna-gold transition-colors text-sm"
+                  >
+                    {link.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Industries */}
+          <div>
+            <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-qanna-gold">
+              Branchen
+            </h4>
+            <ul className="space-y-2">
+              {footerLinks.industries.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-white hover:text-qanna-gold transition-colors text-sm"
+                  >
+                    {link.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* About */}
+          <div>
+            <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-qanna-gold">
+              Ueber uns
+            </h4>
+            <ul className="space-y-2">
+              {footerLinks.about.map((link) => (
+                <li key={link.href}>
+                  <Link
+                    href={link.href}
+                    className="text-white hover:text-qanna-gold transition-colors text-sm"
+                  >
+                    {link.title}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Contact */}
+          <div>
+            <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-qanna-gold">
+              Kontakt
+            </h4>
+            <div className="space-y-3 text-sm">
+              <a
+                href="tel:+4915253594902"
+                className="flex items-center gap-2 text-white hover:text-qanna-gold transition-colors"
+              >
+                <svg
+                  className="w-4 h-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                  />
+                </svg>
+                01525 3594902
+              </a>
+              <a
+                href="mailto:info@qanna-holding.de"
+                className="flex items-center gap-2 text-white hover:text-qanna-gold transition-colors"
+              >
+                <svg
+                  className="w-4 h-4"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                  />
+                </svg>
+                info@qanna-holding.de
+              </a>
+              <p className="text-white text-xs mt-4">
+                Mo - Fr: 9:00 - 18:00 Uhr
+              </p>
+            </div>
+            <Link
+              href="/kontakt"
+              className="inline-block mt-4 px-4 py-2 bg-qanna-gold text-white text-sm font-medium rounded-md hover:bg-qanna-gold-dark transition-colors"
+            >
+              Kontakt aufnehmen
+            </Link>
+          </div>
+        </div>
+      </div>
+
+      {/* Bottom Bar */}
+      <div className="border-t border-white/10">
+        <div className="container-qanna py-6">
+          <div className="flex flex-col md:flex-row justify-between items-center gap-4">
+            <p className="text-white text-sm">
+              {currentYear} Qanna GmbH. Alle Rechte vorbehalten.
+            </p>
+            <div className="flex gap-6">
+              {footerLinks.legal.map((link) => (
+                <Link
+                  key={link.href}
+                  href={link.href}
+                  className="text-white hover:text-qanna-gold transition-colors text-sm"
+                >
+                  {link.title}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}

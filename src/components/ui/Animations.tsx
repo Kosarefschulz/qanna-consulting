@@ -1,1 +1,315 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlUmVmLCB1c2VFZmZlY3QsIHVzZVN0YXRlIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgeyBtb3Rpb24sIHVzZUluVmlldywgdXNlQW5pbWF0aW9uLCBWYXJpYW50cyB9IGZyb20gImZyYW1lci1tb3Rpb24iOwoKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQovLyBGQURFIElOIE9OIFNDUk9MTAovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CmludGVyZmFjZSBGYWRlSW5Qcm9wcyB7CiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTsKICBjbGFzc05hbWU/OiBzdHJpbmc7CiAgZGlyZWN0aW9uPzogInVwIiB8ICJkb3duIiB8ICJsZWZ0IiB8ICJyaWdodCIgfCAibm9uZSI7CiAgZGVsYXk/OiBudW1iZXI7CiAgZHVyYXRpb24/OiBudW1iZXI7CiAgb25jZT86IGJvb2xlYW47Cn0KCmV4cG9ydCBmdW5jdGlvbiBGYWRlSW4oewogIGNoaWxkcmVuLAogIGNsYXNzTmFtZSA9ICIiLAogIGRpcmVjdGlvbiA9ICJ1cCIsCiAgZGVsYXkgPSAwLAogIGR1cmF0aW9uID0gMC41LAogIG9uY2UgPSB0cnVlLAp9OiBGYWRlSW5Qcm9wcykgewogIGNvbnN0IHJlZiA9IHVzZVJlZihudWxsKTsKICBjb25zdCBpc0luVmlldyA9IHVzZUluVmlldyhyZWYsIHsgb25jZSwgbWFyZ2luOiAiLTEwMHB4IiB9KTsKCiAgY29uc3QgZGlyZWN0aW9ucyA9IHsKICAgIHVwOiB7IHk6IDQwLCB4OiAwIH0sCiAgICBkb3duOiB7IHk6IC00MCwgeDogMCB9LAogICAgbGVmdDogeyB4OiA0MCwgeTogMCB9LAogICAgcmlnaHQ6IHsgeDogLTQwLCB5OiAwIH0sCiAgICBub25lOiB7IHg6IDAsIHk6IDAgfSwKICB9OwoKICByZXR1cm4gKAogICAgPG1vdGlvbi5kaXYKICAgICAgcmVmPXtyZWZ9CiAgICAgIGluaXRpYWw9e3sKICAgICAgICBvcGFjaXR5OiAwLAogICAgICAgIC4uLmRpcmVjdGlvbnNbZGlyZWN0aW9uXSwKICAgICAgfX0KICAgICAgYW5pbWF0ZT17ewogICAgICAgIG9wYWNpdHk6IGlzSW5WaWV3ID8gMSA6IDAsCiAgICAgICAgeDogaXNJblZpZXcgPyAwIDogZGlyZWN0aW9uc1tkaXJlY3Rpb25dLngsCiAgICAgICAgeTogaXNJblZpZXcgPyAwIDogZGlyZWN0aW9uc1tkaXJlY3Rpb25dLnksCiAgICAgIH19CiAgICAgIHRyYW5zaXRpb249e3sKICAgICAgICBkdXJhdGlvbiwKICAgICAgICBkZWxheSwKICAgICAgICBlYXNlOiBbMC4yNSwgMC40LCAwLjI1LCAxXSwKICAgICAgfX0KICAgICAgY2xhc3NOYW1lPXtjbGFzc05hbWV9CiAgICA+CiAgICAgIHtjaGlsZHJlbn0KICAgIDwvbW90aW9uLmRpdj4KICApOwp9CgovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIFNUQUdHRVIgQ09OVEFJTkVSICYgQ0hJTERSRU4KLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQppbnRlcmZhY2UgU3RhZ2dlckNvbnRhaW5lclByb3BzIHsKICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlOwogIGNsYXNzTmFtZT86IHN0cmluZzsKICBzdGFnZ2VyRGVsYXk/OiBudW1iZXI7CiAgb25jZT86IGJvb2xlYW47Cn0KCmV4cG9ydCBmdW5jdGlvbiBTdGFnZ2VyQ29udGFpbmVyKHsKICBjaGlsZHJlbiwKICBjbGFzc05hbWUgPSAiIiwKICBzdGFnZ2VyRGVsYXkgPSAwLjEsCiAgb25jZSA9IHRydWUsCn06IFN0YWdnZXJDb250YWluZXJQcm9wcykgewogIGNvbnN0IHJlZiA9IHVzZVJlZihudWxsKTsKICBjb25zdCBpc0luVmlldyA9IHVzZUluVmlldyhyZWYsIHsgb25jZSwgbWFyZ2luOiAiLTUwcHgiIH0pOwoKICBjb25zdCBjb250YWluZXJWYXJpYW50czogVmFyaWFudHMgPSB7CiAgICBoaWRkZW46IHsgb3BhY2l0eTogMCB9LAogICAgdmlzaWJsZTogewogICAgICBvcGFjaXR5OiAxLAogICAgICB0cmFuc2l0aW9uOiB7CiAgICAgICAgc3RhZ2dlckNoaWxkcmVuOiBzdGFnZ2VyRGVsYXksCiAgICAgICAgZGVsYXlDaGlsZHJlbjogMC4xLAogICAgICB9LAogICAgfSwKICB9OwoKICByZXR1cm4gKAogICAgPG1vdGlvbi5kaXYKICAgICAgcmVmPXtyZWZ9CiAgICAgIHZhcmlhbnRzPXtjb250YWluZXJWYXJpYW50c30KICAgICAgaW5pdGlhbD0iaGlkZGVuIgogICAgICBhbmltYXRlPXtpc0luVmlldyA/ICJ2aXNpYmxlIiA6ICJoaWRkZW4ifQogICAgICBjbGFzc05hbWU9e2NsYXNzTmFtZX0KICAgID4KICAgICAge2NoaWxkcmVufQogICAgPC9tb3Rpb24uZGl2PgogICk7Cn0KCmludGVyZmFjZSBTdGFnZ2VySXRlbVByb3BzIHsKICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlOwogIGNsYXNzTmFtZT86IHN0cmluZzsKfQoKZXhwb3J0IGZ1bmN0aW9uIFN0YWdnZXJJdGVtKHsgY2hpbGRyZW4sIGNsYXNzTmFtZSA9ICIiIH06IFN0YWdnZXJJdGVtUHJvcHMpIHsKICBjb25zdCBpdGVtVmFyaWFudHM6IFZhcmlhbnRzID0gewogICAgaGlkZGVuOiB7IG9wYWNpdHk6IDAsIHk6IDMwIH0sCiAgICB2aXNpYmxlOiB7CiAgICAgIG9wYWNpdHk6IDEsCiAgICAgIHk6IDAsCiAgICAgIHRyYW5zaXRpb246IHsKICAgICAgICBkdXJhdGlvbjogMC41LAogICAgICAgIGVhc2U6IFswLjI1LCAwLjQsIDAuMjUsIDFdLAogICAgICB9LAogICAgfSwKICB9OwoKICByZXR1cm4gKAogICAgPG1vdGlvbi5kaXYgdmFyaWFudHM9e2l0ZW1WYXJpYW50c30gY2xhc3NOYW1lPXtjbGFzc05hbWV9PgogICAgICB7Y2hpbGRyZW59CiAgICA8L21vdGlvbi5kaXY+CiAgKTsKfQoKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQovLyBDT1VOVEVSIEFOSU1BVElPTgovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CmludGVyZmFjZSBDb3VudGVyUHJvcHMgewogIGZyb20/OiBudW1iZXI7CiAgdG86IG51bWJlcjsKICBkdXJhdGlvbj86IG51bWJlcjsKICBzdWZmaXg/OiBzdHJpbmc7CiAgcHJlZml4Pzogc3RyaW5nOwogIGNsYXNzTmFtZT86IHN0cmluZzsKfQoKZXhwb3J0IGZ1bmN0aW9uIENvdW50ZXIoewogIGZyb20gPSAwLAogIHRvLAogIGR1cmF0aW9uID0gMiwKICBzdWZmaXggPSAiIiwKICBwcmVmaXggPSAiIiwKICBjbGFzc05hbWUgPSAiIiwKfTogQ291bnRlclByb3BzKSB7CiAgY29uc3QgW2NvdW50LCBzZXRDb3VudF0gPSB1c2VTdGF0ZShmcm9tKTsKICBjb25zdCByZWYgPSB1c2VSZWYobnVsbCk7CiAgY29uc3QgaXNJblZpZXcgPSB1c2VJblZpZXcocmVmLCB7IG9uY2U6IHRydWUsIG1hcmdpbjogIi0xMDBweCIgfSk7CiAgY29uc3QgaGFzQW5pbWF0ZWQgPSB1c2VSZWYoZmFsc2UpOwoKICB1c2VFZmZlY3QoKCkgPT4gewogICAgaWYgKGlzSW5WaWV3ICYmICFoYXNBbmltYXRlZC5jdXJyZW50KSB7CiAgICAgIGhhc0FuaW1hdGVkLmN1cnJlbnQgPSB0cnVlOwogICAgICBjb25zdCBzdGFydFRpbWUgPSBEYXRlLm5vdygpOwogICAgICBjb25zdCBlbmRUaW1lID0gc3RhcnRUaW1lICsgZHVyYXRpb24gKiAxMDAwOwoKICAgICAgY29uc3QgYW5pbWF0ZSA9ICgpID0+IHsKICAgICAgICBjb25zdCBub3cgPSBEYXRlLm5vdygpOwogICAgICAgIGNvbnN0IHByb2dyZXNzID0gTWF0aC5taW4oKG5vdyAtIHN0YXJ0VGltZSkgLyAoZHVyYXRpb24gKiAxMDAwKSwgMSk7CgogICAgICAgIC8vIEVhc2luZyBmdW5jdGlvbiAoZWFzZS1vdXQpCiAgICAgICAgY29uc3QgZWFzZU91dCA9IDEgLSBNYXRoLnBvdygxIC0gcHJvZ3Jlc3MsIDMpOwogICAgICAgIGNvbnN0IGN1cnJlbnRDb3VudCA9IE1hdGguZmxvb3IoZnJvbSArICh0byAtIGZyb20pICogZWFzZU91dCk7CgogICAgICAgIHNldENvdW50KGN1cnJlbnRDb3VudCk7CgogICAgICAgIGlmIChub3cgPCBlbmRUaW1lKSB7CiAgICAgICAgICByZXF1ZXN0QW5pbWF0aW9uRnJhbWUoYW5pbWF0ZSk7CiAgICAgICAgfSBlbHNlIHsKICAgICAgICAgIHNldENvdW50KHRvKTsKICAgICAgICB9CiAgICAgIH07CgogICAgICByZXF1ZXN0QW5pbWF0aW9uRnJhbWUoYW5pbWF0ZSk7CiAgICB9CiAgfSwgW2lzSW5WaWV3LCBmcm9tLCB0bywgZHVyYXRpb25dKTsKCiAgcmV0dXJuICgKICAgIDxzcGFuIHJlZj17cmVmfSBjbGFzc05hbWU9e2NsYXNzTmFtZX0+CiAgICAgIHtwcmVmaXh9e2NvdW50fXtzdWZmaXh9CiAgICA8L3NwYW4+CiAgKTsKfQoKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQovLyBURVhUIFJFVkVBTCBBTklNQVRJT04KLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQppbnRlcmZhY2UgVGV4dFJldmVhbFByb3BzIHsKICBjaGlsZHJlbjogc3RyaW5nOwogIGNsYXNzTmFtZT86IHN0cmluZzsKICBkZWxheT86IG51bWJlcjsKfQoKZXhwb3J0IGZ1bmN0aW9uIFRleHRSZXZlYWwoeyBjaGlsZHJlbiwgY2xhc3NOYW1lID0gIiIsIGRlbGF5ID0gMCB9OiBUZXh0UmV2ZWFsUHJvcHMpIHsKICBjb25zdCByZWYgPSB1c2VSZWYobnVsbCk7CiAgY29uc3QgaXNJblZpZXcgPSB1c2VJblZpZXcocmVmLCB7IG9uY2U6IHRydWUsIG1hcmdpbjogIi0xMDBweCIgfSk7CgogIGNvbnN0IHdvcmRzID0gY2hpbGRyZW4uc3BsaXQoIiAiKTsKCiAgcmV0dXJuICgKICAgIDxtb3Rpb24uc3BhbiByZWY9e3JlZn0gY2xhc3NOYW1lPXtgaW5saW5lICR7Y2xhc3NOYW1lfWB9PgogICAgICB7d29yZHMubWFwKCh3b3JkLCBpKSA9PiAoCiAgICAgICAgPG1vdGlvbi5zcGFuCiAgICAgICAgICBrZXk9e2l9CiAgICAgICAgICBjbGFzc05hbWU9ImlubGluZS1ibG9jayBtci1bMC4yNWVtXSBvdmVyZmxvdy1oaWRkZW4iCiAgICAgICAgPgogICAgICAgICAgPG1vdGlvbi5zcGFuCiAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWJsb2NrIgogICAgICAgICAgICBpbml0aWFsPXt7IHk6ICIxMDAlIiB9fQogICAgICAgICAgICBhbmltYXRlPXt7IHk6IGlzSW5WaWV3ID8gMCA6ICIxMDAlIiB9fQogICAgICAgICAgICB0cmFuc2l0aW9uPXt7CiAgICAgICAgICAgICAgZHVyYXRpb246IDAuNSwKICAgICAgICAgICAgICBkZWxheTogZGVsYXkgKyBpICogMC4wNSwKICAgICAgICAgICAgICBlYXNlOiBbMC4yNSwgMC40LCAwLjI1LCAxXSwKICAgICAgICAgICAgfX0KICAgICAgICAgID4KICAgICAgICAgICAge3dvcmR9CiAgICAgICAgICA8L21vdGlvbi5zcGFuPgogICAgICAgIDwvbW90aW9uLnNwYW4+CiAgICAgICkpfQogICAgPC9tb3Rpb24uc3Bhbj4KICApOwp9CgovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIFNDQUxFIE9OIEhPVkVSCi8vID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0KaW50ZXJmYWNlIFNjYWxlT25Ib3ZlclByb3BzIHsKICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlOwogIGNsYXNzTmFtZT86IHN0cmluZzsKICBzY2FsZT86IG51bWJlcjsKfQoKZXhwb3J0IGZ1bmN0aW9uIFNjYWxlT25Ib3Zlcih7IGNoaWxkcmVuLCBjbGFzc05hbWUgPSAiIiwgc2NhbGUgPSAxLjA1IH06IFNjYWxlT25Ib3ZlclByb3BzKSB7CiAgcmV0dXJuICgKICAgIDxtb3Rpb24uZGl2CiAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfQogICAgICB3aGlsZUhvdmVyPXt7IHNjYWxlIH19CiAgICAgIHdoaWxlVGFwPXt7IHNjYWxlOiAwLjk4IH19CiAgICAgIHRyYW5zaXRpb249e3sgdHlwZTogInNwcmluZyIsIHN0aWZmbmVzczogNDAwLCBkYW1waW5nOiAxNyB9fQogICAgPgogICAgICB7Y2hpbGRyZW59CiAgICA8L21vdGlvbi5kaXY+CiAgKTsKfQoKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQovLyBQQVJBTExBWCBTQ1JPTEwKLy8gPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQppbnRlcmZhY2UgUGFyYWxsYXhQcm9wcyB7CiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTsKICBjbGFzc05hbWU/OiBzdHJpbmc7CiAgc3BlZWQ/OiBudW1iZXI7Cn0KCmV4cG9ydCBmdW5jdGlvbiBQYXJhbGxheCh7IGNoaWxkcmVuLCBjbGFzc05hbWUgPSAiIiwgc3BlZWQgPSAwLjUgfTogUGFyYWxsYXhQcm9wcykgewogIGNvbnN0IHJlZiA9IHVzZVJlZjxIVE1MRGl2RWxlbWVudD4obnVsbCk7CiAgY29uc3QgW29mZnNldFksIHNldE9mZnNldFldID0gdXNlU3RhdGUoMCk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBoYW5kbGVTY3JvbGwgPSAoKSA9PiB7CiAgICAgIGlmIChyZWYuY3VycmVudCkgewogICAgICAgIGNvbnN0IHJlY3QgPSByZWYuY3VycmVudC5nZXRCb3VuZGluZ0NsaWVudFJlY3QoKTsKICAgICAgICBjb25zdCBzY3JvbGxlZCA9IHdpbmRvdy5pbm5lckhlaWdodCAtIHJlY3QudG9wOwogICAgICAgIHNldE9mZnNldFkoc2Nyb2xsZWQgKiBzcGVlZCAqIDAuMSk7CiAgICAgIH0KICAgIH07CgogICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoInNjcm9sbCIsIGhhbmRsZVNjcm9sbCwgeyBwYXNzaXZlOiB0cnVlIH0pOwogICAgcmV0dXJuICgpID0+IHdpbmRvdy5yZW1vdmVFdmVudExpc3RlbmVyKCJzY3JvbGwiLCBoYW5kbGVTY3JvbGwpOwogIH0sIFtzcGVlZF0pOwoKICByZXR1cm4gKAogICAgPG1vdGlvbi5kaXYKICAgICAgcmVmPXtyZWZ9CiAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfQogICAgICBzdHlsZT17eyB5OiBvZmZzZXRZIH19CiAgICA+CiAgICAgIHtjaGlsZHJlbn0KICAgIDwvbW90aW9uLmRpdj4KICApOwp9CgovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09Ci8vIFNMSURFIElOIEZST00gU0lERQovLyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CmludGVyZmFjZSBTbGlkZUluUHJvcHMgewogIGNoaWxkcmVuOiBSZWFjdC5SZWFjdE5vZGU7CiAgY2xhc3NOYW1lPzogc3RyaW5nOwogIGZyb20/OiAibGVmdCIgfCAicmlnaHQiOwogIGRlbGF5PzogbnVtYmVyOwp9CgpleHBvcnQgZnVuY3Rpb24gU2xpZGVJbih7IGNoaWxkcmVuLCBjbGFzc05hbWUgPSAiIiwgZnJvbSA9ICJsZWZ0IiwgZGVsYXkgPSAwIH06IFNsaWRlSW5Qcm9wcykgewogIGNvbnN0IHJlZiA9IHVzZVJlZihudWxsKTsKICBjb25zdCBpc0luVmlldyA9IHVzZUluVmlldyhyZWYsIHsgb25jZTogdHJ1ZSwgbWFyZ2luOiAiLTEwMHB4IiB9KTsKCiAgcmV0dXJuICgKICAgIDxtb3Rpb24uZGl2CiAgICAgIHJlZj17cmVmfQogICAgICBpbml0aWFsPXt7IG9wYWNpdHk6IDAsIHg6IGZyb20gPT09ICJsZWZ0IiA/IC0xMDAgOiAxMDAgfX0KICAgICAgYW5pbWF0ZT17ewogICAgICAgIG9wYWNpdHk6IGlzSW5WaWV3ID8gMSA6IDAsCiAgICAgICAgeDogaXNJblZpZXcgPyAwIDogKGZyb20gPT09ICJsZWZ0IiA/IC0xMDAgOiAxMDApCiAgICAgIH19CiAgICAgIHRyYW5zaXRpb249e3sgZHVyYXRpb246IDAuNywgZGVsYXksIGVhc2U6IFswLjI1LCAwLjQsIDAuMjUsIDFdIH19CiAgICAgIGNsYXNzTmFtZT17Y2xhc3NOYW1lfQogICAgPgogICAgICB7Y2hpbGRyZW59CiAgICA8L21vdGlvbi5kaXY+CiAgKTsKfQo=
+"use client";
+
+import { useRef, useEffect, useState } from "react";
+import { motion, useInView, useAnimation, Variants } from "framer-motion";
+
+// ===========================================
+// FADE IN ON SCROLL
+// ===========================================
+interface FadeInProps {
+  children: React.ReactNode;
+  className?: string;
+  direction?: "up" | "down" | "left" | "right" | "none";
+  delay?: number;
+  duration?: number;
+  once?: boolean;
+}
+
+export function FadeIn({
+  children,
+  className = "",
+  direction = "up",
+  delay = 0,
+  duration = 0.5,
+  once = true,
+}: FadeInProps) {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once, margin: "-100px" });
+
+  const directions = {
+    up: { y: 40, x: 0 },
+    down: { y: -40, x: 0 },
+    left: { x: 40, y: 0 },
+    right: { x: -40, y: 0 },
+    none: { x: 0, y: 0 },
+  };
+
+  return (
+    <motion.div
+      ref={ref}
+      initial={{
+        opacity: 0,
+        ...directions[direction],
+      }}
+      animate={{
+        opacity: isInView ? 1 : 0,
+        x: isInView ? 0 : directions[direction].x,
+        y: isInView ? 0 : directions[direction].y,
+      }}
+      transition={{
+        duration,
+        delay,
+        ease: [0.25, 0.4, 0.25, 1],
+      }}
+      className={className}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+// ===========================================
+// STAGGER CONTAINER & CHILDREN
+// ===========================================
+interface StaggerContainerProps {
+  children: React.ReactNode;
+  className?: string;
+  staggerDelay?: number;
+  once?: boolean;
+}
+
+export function StaggerContainer({
+  children,
+  className = "",
+  staggerDelay = 0.1,
+  once = true,
+}: StaggerContainerProps) {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once, margin: "-50px" });
+
+  const containerVariants: Variants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: staggerDelay,
+        delayChildren: 0.1,
+      },
+    },
+  };
+
+  return (
+    <motion.div
+      ref={ref}
+      variants={containerVariants}
+      initial="hidden"
+      animate={isInView ? "visible" : "hidden"}
+      className={className}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+interface StaggerItemProps {
+  children: React.ReactNode;
+  className?: string;
+}
+
+export function StaggerItem({ children, className = "" }: StaggerItemProps) {
+  const itemVariants: Variants = {
+    hidden: { opacity: 0, y: 30 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.5,
+        ease: [0.25, 0.4, 0.25, 1],
+      },
+    },
+  };
+
+  return (
+    <motion.div variants={itemVariants} className={className}>
+      {children}
+    </motion.div>
+  );
+}
+
+// ===========================================
+// COUNTER ANIMATION
+// ===========================================
+interface CounterProps {
+  from?: number;
+  to: number;
+  duration?: number;
+  suffix?: string;
+  prefix?: string;
+  className?: string;
+}
+
+export function Counter({
+  from = 0,
+  to,
+  duration = 2,
+  suffix = "",
+  prefix = "",
+  className = "",
+}: CounterProps) {
+  const [count, setCount] = useState(from);
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
+  const hasAnimated = useRef(false);
+
+  useEffect(() => {
+    if (isInView && !hasAnimated.current) {
+      hasAnimated.current = true;
+      const startTime = Date.now();
+      const endTime = startTime + duration * 1000;
+
+      const animate = () => {
+        const now = Date.now();
+        const progress = Math.min((now - startTime) / (duration * 1000), 1);
+
+        // Easing function (ease-out)
+        const easeOut = 1 - Math.pow(1 - progress, 3);
+        const currentCount = Math.floor(from + (to - from) * easeOut);
+
+        setCount(currentCount);
+
+        if (now < endTime) {
+          requestAnimationFrame(animate);
+        } else {
+          setCount(to);
+        }
+      };
+
+      requestAnimationFrame(animate);
+    }
+  }, [isInView, from, to, duration]);
+
+  return (
+    <span ref={ref} className={className}>
+      {prefix}{count}{suffix}
+    </span>
+  );
+}
+
+// ===========================================
+// TEXT REVEAL ANIMATION
+// ===========================================
+interface TextRevealProps {
+  children: string;
+  className?: string;
+  delay?: number;
+}
+
+export function TextReveal({ children, className = "", delay = 0 }: TextRevealProps) {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
+
+  const words = children.split(" ");
+
+  return (
+    <motion.span ref={ref} className={`inline ${className}`}>
+      {words.map((word, i) => (
+        <motion.span
+          key={i}
+          className="inline-block mr-[0.25em] overflow-hidden"
+        >
+          <motion.span
+            className="inline-block"
+            initial={{ y: "100%" }}
+            animate={{ y: isInView ? 0 : "100%" }}
+            transition={{
+              duration: 0.5,
+              delay: delay + i * 0.05,
+              ease: [0.25, 0.4, 0.25, 1],
+            }}
+          >
+            {word}
+          </motion.span>
+        </motion.span>
+      ))}
+    </motion.span>
+  );
+}
+
+// ===========================================
+// SCALE ON HOVER
+// ===========================================
+interface ScaleOnHoverProps {
+  children: React.ReactNode;
+  className?: string;
+  scale?: number;
+}
+
+export function ScaleOnHover({ children, className = "", scale = 1.05 }: ScaleOnHoverProps) {
+  return (
+    <motion.div
+      className={className}
+      whileHover={{ scale }}
+      whileTap={{ scale: 0.98 }}
+      transition={{ type: "spring", stiffness: 400, damping: 17 }}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+// ===========================================
+// PARALLAX SCROLL
+// ===========================================
+interface ParallaxProps {
+  children: React.ReactNode;
+  className?: string;
+  speed?: number;
+}
+
+export function Parallax({ children, className = "", speed = 0.5 }: ParallaxProps) {
+  const ref = useRef<HTMLDivElement>(null);
+  const [offsetY, setOffsetY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (ref.current) {
+        const rect = ref.current.getBoundingClientRect();
+        const scrolled = window.innerHeight - rect.top;
+        setOffsetY(scrolled * speed * 0.1);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [speed]);
+
+  return (
+    <motion.div
+      ref={ref}
+      className={className}
+      style={{ y: offsetY }}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+// ===========================================
+// SLIDE IN FROM SIDE
+// ===========================================
+interface SlideInProps {
+  children: React.ReactNode;
+  className?: string;
+  from?: "left" | "right";
+  delay?: number;
+}
+
+export function SlideIn({ children, className = "", from = "left", delay = 0 }: SlideInProps) {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: "-100px" });
+
+  return (
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, x: from === "left" ? -100 : 100 }}
+      animate={{
+        opacity: isInView ? 1 : 0,
+        x: isInView ? 0 : (from === "left" ? -100 : 100)
+      }}
+      transition={{ duration: 0.7, delay, ease: [0.25, 0.4, 0.25, 1] }}
+      className={className}
+    >
+      {children}
+    </motion.div>
+  );
+}

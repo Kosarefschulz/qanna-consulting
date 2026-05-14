@@ -1,1 +1,206 @@
-aW1wb3J0IHsgSGVhZGVyLCBGb290ZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvbGF5b3V0IjsKaW1wb3J0IHsgSGVybyB9IGZyb20gIkAvY29tcG9uZW50cy9zZWN0aW9ucyI7CmltcG9ydCB7IENhcmQsIEJ1dHRvbiB9IGZyb20gIkAvY29tcG9uZW50cy91aSI7CmltcG9ydCB7IEljb24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkvSWNvbiI7CmltcG9ydCBMaW5rIGZyb20gIm5leHQvbGluayI7Cgpjb25zdCBsZWFkZXJzaGlwID0gWwogIHsKICAgIG5hbWU6ICJTZXJnZWogU2NodWx6IiwKICAgIHJvbGU6ICJQcm96ZXNzLSB1bmQgS0ktRXhwZXJ0ZSIsCiAgICBpbWFnZTogIi90ZWFtL3Nlcmdlai1zY2h1bHouanBnIiwKICAgIGJpbzogIkV4cGVydGUgZnVlciBQcm96ZXNzb3B0aW1pZXJ1bmcgdW5kIEtJLWdlc3R1ZXR6dGUgTG9lc3VuZ2VuLiBFbnR3aWNrZWx0IGlubm92YXRpdmUgQW5zYWV0emUgZnVlciBlZmZpemllbnRlIE5hY2hmb2xnZWJlcmF0dW5nLiIsCiAgICBleHBlcnRpc2U6IFsiUHJvemVzc29wdGltaWVydW5nIiwgIktJLUludGVncmF0aW9uIiwgIkRpZ2l0YWxpc2llcnVuZyJdLAogICAgbGlua2VkaW46ICIjIiwKICB9LAogIHsKICAgIG5hbWU6ICJBbmRyZWFzIFN1ZGVybWFubiIsCiAgICByb2xlOiAiRmluYW56LSB1bmQgTmFjaGZvbGdlLUV4cGVydGUiLAogICAgaW1hZ2U6ICIvdGVhbS9hbmRyZWFzLXN1ZGVybWFubi5qcGciLAogICAgYmlvOiAiU3BlemlhbGlzdCBmdWVyIEZpbmFuemllcnVuZ3NiZXJhdHVuZyB1bmQgVW50ZXJuZWhtZW5zbmFjaGZvbGdlLiBCZWdsZWl0ZXQgTWFuZGFudGVuIGRpc2tyZXQgdW5kIGtvbXBldGVudCBkdXJjaCBkZW4gTSZBLVByb3plc3MuIiwKICAgIGV4cGVydGlzZTogWyJGaW5hbnppZXJ1bmdzYmVyYXR1bmciLCAiTmFjaGZvbGdlcGxhbnVuZyIsICJNJkEgQWR2aXNvcnkiXSwKICAgIGxpbmtlZGluOiAiIyIsCiAgfSwKXTsKCmNvbnN0IGN1bHR1cmUgPSBbCiAgewogICAgaWNvbjogInNoaWVsZCIsCiAgICB0aXRsZTogIkFic29sdXRlIERpc2tyZXRpb24iLAogICAgZGVzY3JpcHRpb246CiAgICAgICJWZXJ0cmF1bGljaGtlaXQgaXN0IGRpZSBCYXNpcyB1bnNlcmVyIEFyYmVpdC4gSWhyZSBzZW5zaWJsZW4gSW5mb3JtYXRpb25lbiBzaW5kIGJlaSB1bnMgc2ljaGVyLiIsCiAgfSwKICB7CiAgICBpY29uOiAidXNlcnMiLAogICAgdGl0bGU6ICJQZXJzb2VubGljaGUgQmV0cmV1dW5nIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiSmVkZSBOYWNoZm9sZ2UgaXN0IGVpbnppZ2FydGlnLiBXaXIgYmVnbGVpdGVuIFNpZSBwZXJzb2VubGljaCBkdXJjaCBkZW4gZ2VzYW10ZW4gUHJvemVzcy4iLAogIH0sCiAgewogICAgaWNvbjogImxpZ2h0YnVsYiIsCiAgICB0aXRsZTogIklubm92YXRpb24iLAogICAgZGVzY3JpcHRpb246CiAgICAgICJXaXIgbnV0emVuIG1vZGVybnN0ZSBLSS1UZWNobm9sb2dpZW4gZnVlciBwcmFlemlzZSBCZXdlcnR1bmdlbiB1bmQgZWZmaXppZW50ZXMgTWF0Y2hpbmcuIiwKICB9LAogIHsKICAgIGljb246ICJ0YXJnZXQiLAogICAgdGl0bGU6ICJFcmdlYm5pc29yaWVudGllcnVuZyIsCiAgICBkZXNjcmlwdGlvbjoKICAgICAgIldpciBtZXNzZW4gdW5zZXJlbiBFcmZvbGcgYW0gRXJmb2xnIElocmVyIE5hY2hmb2xnZS4gS2xhcmUgWmllbGUsIG1lc3NiYXJlIEVyZ2Vibmlzc2UuIiwKICB9LApdOwoKZXhwb3J0IGNvbnN0IG1ldGFkYXRhID0gewogIHRpdGxlOiAiVW5zZXIgVGVhbSB8IFFBTk5BIFVudGVybmVobWVuc25hY2hmb2xnZSIsCiAgZGVzY3JpcHRpb246CiAgICAiTGVybmVuIFNpZSBkYXMgVGVhbSB2b24gUUFOTkEgVW50ZXJuZWhtZW5zbmFjaGZvbGdlIGtlbm5lbiAtIGVyZmFocmVuZSBNJkEtQmVyYXRlciBmdWVyIElocmUgZXJmb2xncmVpY2hlIE5hY2hmb2xnZS4iLAp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gVGVhbVBhZ2UoKSB7CiAgcmV0dXJuICgKICAgIDxtYWluPgogICAgICA8SGVhZGVyIC8+CgogICAgICA8SGVybwogICAgICAgIGJhZGdlPSJVTlNFUiBURUFNIgogICAgICAgIHRpdGxlPSJJaHJlIEFuc3ByZWNocGFydG5lciIKICAgICAgICBzdWJ0aXRsZT0iRXJmYWhyZW5lIE0mQS1CZXJhdGVyIG1pdCBwZXJzb2VubGljaGVtIEVuZ2FnZW1lbnQgZnVlciBJaHJlIGVyZm9sZ3JlaWNoZSBOYWNoZm9sZ2UuIgogICAgICAgIHByaW1hcnlDVEE9e3sgdGV4dDogIktvbnRha3QgYXVmbmVobWVuIiwgaHJlZjogIi9rb250YWt0IiB9fQogICAgICAgIHNlY29uZGFyeUNUQT17eyB0ZXh0OiAiVW5zZXJlIExlaXN0dW5nZW4iLCBocmVmOiAiL2xlaXN0dW5nZW4iIH19CiAgICAgICAgYmFja2dyb3VuZEltYWdlPSJodHRwczovL2ltYWdlcy51bnNwbGFzaC5jb20vcGhvdG8tMTUyMjA3MTgyMDA4MS0wMDlmMDEyOWM3MWM/YXV0bz1mb3JtYXQmZml0PWNyb3Amdz0yMDAwJnE9ODAiCiAgICAgIC8+CgogICAgICB7LyogTGVhZGVyc2hpcCBTZWN0aW9uICovfQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InNlY3Rpb24tcGFkZGluZyBiZy13aGl0ZSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lci1xYW5uYSI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWItMTYiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1ibG9jayBweC00IHB5LTIgYmctcWFubmEtZ29sZC8yMCB0ZXh0LXFhbm5hLWdvbGQgdGV4dC1zbSBmb250LXNlbWlib2xkIHJvdW5kZWQtZnVsbCBtYi00Ij4KICAgICAgICAgICAgICBMRUFERVJTSElQCiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0zeGwgbWQ6dGV4dC00eGwgZm9udC1ib2xkIHRleHQtcWFubmEtbmF2eSBtYi00Ij4KICAgICAgICAgICAgICBVbnNlcmUgUGFydG5lcgogICAgICAgICAgICA8L2gyPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbGcgdGV4dC1xYW5uYS1ncmF5LTYwMCBtYXgtdy0yeGwgbXgtYXV0byI+CiAgICAgICAgICAgICAgRXJmYWhyZW5lIEJlcmF0ZXIgbWl0IG5hY2hnZXdpZXNlbmVyIEVyZm9sZ3NiaWxhbnogaW4KICAgICAgICAgICAgICBNJkEtVHJhbnNha3Rpb25lbiB1bmQgVW50ZXJuZWhtZW5zbmFjaGZvbGdlLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBtZDpncmlkLWNvbHMtMiBnYXAtOCBtYXgtdy00eGwgbXgtYXV0byI+CiAgICAgICAgICAgIHtsZWFkZXJzaGlwLm1hcCgocGVyc29uKSA9PiAoCiAgICAgICAgICAgICAgPENhcmQKICAgICAgICAgICAgICAgIGtleT17cGVyc29uLm5hbWV9CiAgICAgICAgICAgICAgICB2YXJpYW50PSJkZWZhdWx0IgogICAgICAgICAgICAgICAgcGFkZGluZz0ibm9uZSIKICAgICAgICAgICAgICAgIGhvdmVyCiAgICAgICAgICAgICAgICBjbGFzc05hbWU9Im92ZXJmbG93LWhpZGRlbiBncm91cCIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icmVsYXRpdmUgaC04MCBvdmVyZmxvdy1oaWRkZW4iPgogICAgICAgICAgICAgICAgICB7LyogZXNsaW50LWRpc2FibGUtbmV4dC1saW5lIEBuZXh0L25leHQvbm8taW1nLWVsZW1lbnQgKi99CiAgICAgICAgICAgICAgICAgIDxpbWcKICAgICAgICAgICAgICAgICAgICBzcmM9e3BlcnNvbi5pbWFnZX0KICAgICAgICAgICAgICAgICAgICBhbHQ9e3BlcnNvbi5uYW1lfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idy1mdWxsIGgtZnVsbCBvYmplY3QtY292ZXIgdHJhbnNpdGlvbi10cmFuc2Zvcm0gZHVyYXRpb24tNTAwIGdyb3VwLWhvdmVyOnNjYWxlLTExMCIKICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGluc2V0LTAgYmctZ3JhZGllbnQtdG8tdCBmcm9tLXFhbm5hLW5hdnkgdmlhLXFhbm5hLW5hdnkvNTAgdG8tdHJhbnNwYXJlbnQgb3BhY2l0eS04MCIgLz4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGJvdHRvbS0wIGxlZnQtMCByaWdodC0wIHAtNiI+CiAgICAgICAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtd2hpdGUiPgogICAgICAgICAgICAgICAgICAgICAge3BlcnNvbi5uYW1lfQogICAgICAgICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdvbGQiPntwZXJzb24ucm9sZX08L3A+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icC02Ij4KICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNjAwIG1iLTQiPntwZXJzb24uYmlvfTwvcD4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImZsZXggZmxleC13cmFwIGdhcC0yIG1iLTQiPgogICAgICAgICAgICAgICAgICAgIHtwZXJzb24uZXhwZXJ0aXNlLm1hcCgoc2tpbGwpID0+ICgKICAgICAgICAgICAgICAgICAgICAgIDxzcGFuCiAgICAgICAgICAgICAgICAgICAgICAgIGtleT17c2tpbGx9CiAgICAgICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtMyBweS0xIGJnLXFhbm5hLWdyYXktMTAwIHRleHQtcWFubmEtZ3JheS03MDAgdGV4dC1zbSByb3VuZGVkLWZ1bGwiCiAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIHtza2lsbH0KICAgICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDxhCiAgICAgICAgICAgICAgICAgICAgaHJlZj17cGVyc29uLmxpbmtlZGlufQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIHRleHQtcWFubmEtbmF2eSBob3Zlcjp0ZXh0LXFhbm5hLWdvbGQgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICA8c3ZnCiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctNSBoLTUgbXItMiIKICAgICAgICAgICAgICAgICAgICAgIGZpbGw9ImN1cnJlbnRDb2xvciIKICAgICAgICAgICAgICAgICAgICAgIHZpZXdCb3g9IjAgMCAyNCAyNCIKICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICA8cGF0aCBkPSJNMTkgMGgtMTRjLTIuNzYxIDAtNSAyLjIzOS01IDV2MTRjMCAyLjc2MSAyLjIzOSA1IDUgNWgxNGMyLjc2MiAwIDUtMi4yMzkgNS01di0xNGMwLTIuNzYxLTIuMjM4LTUtNS01em0tMTEgMTloLTN2LTExaDN2MTF6bS0xLjUtMTIuMjY4Yy0uOTY2IDAtMS43NS0uNzktMS43NS0xLjc2NHMuNzg0LTEuNzY0IDEuNzUtMS43NjQgMS43NS43OSAxLjc1IDEuNzY0LS43ODMgMS43NjQtMS43NSAxLjc2NHptMTMuNSAxMi4yNjhoLTN2LTUuNjA0YzAtMy4zNjgtNC0zLjExMy00IDB2NS42MDRoLTN2LTExaDN2MS43NjVjMS4zOTYtMi41ODYgNy0yLjc3NyA3IDIuNDc2djYuNzU5eiIgLz4KICAgICAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgICAgICBMaW5rZWRJbiBQcm9maWwKICAgICAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPC9DYXJkPgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgoKICAgICAgey8qIEN1bHR1cmUgU2VjdGlvbiAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJzZWN0aW9uLXBhZGRpbmcgYmctcWFubmEtbmF2eSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lci1xYW5uYSI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWItMTYiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1ibG9jayBweC00IHB5LTIgYmctcWFubmEtZ29sZC8yMCB0ZXh0LXFhbm5hLWdvbGQgdGV4dC1zbSBmb250LXNlbWlib2xkIHJvdW5kZWQtZnVsbCBtYi00Ij4KICAgICAgICAgICAgICBVTlNFUkUgV0VSVEUKICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBtZDp0ZXh0LTR4bCBmb250LWJvbGQgdGV4dC13aGl0ZSBtYi00Ij4KICAgICAgICAgICAgICBXYXMgdW5zIGF1c21hY2h0CiAgICAgICAgICAgIDwvaDI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14bCB0ZXh0LWdyYXktMzAwIG1heC13LTJ4bCBteC1hdXRvIj4KICAgICAgICAgICAgICBVbnNlcmUgR3J1bmRwcmluemlwaWVuIGZ1ZXIgZWluZSBlcmZvbGdyZWljaGUgTmFjaGZvbGdlYmVyYXR1bmcuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIG1kOmdyaWQtY29scy0yIGxnOmdyaWQtY29scy00IGdhcC04Ij4KICAgICAgICAgICAge2N1bHR1cmUubWFwKChpdGVtKSA9PiAoCiAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAga2V5PXtpdGVtLnRpdGxlfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBwLTYgcm91bmRlZC14bCBiZy13aGl0ZS81IGJhY2tkcm9wLWJsdXItc20iCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMTYgaC0xNiBiZy1xYW5uYS1nb2xkIHJvdW5kZWQtZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBteC1hdXRvIG1iLTQiPgogICAgICAgICAgICAgICAgICA8SWNvbiBuYW1lPXtpdGVtLmljb259IGNsYXNzTmFtZT0idy04IGgtOCB0ZXh0LXdoaXRlIiAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC13aGl0ZSBtYi0yIj4KICAgICAgICAgICAgICAgICAge2l0ZW0udGl0bGV9CiAgICAgICAgICAgICAgICA8L2g0PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktMzAwIHRleHQtc20iPntpdGVtLmRlc2NyaXB0aW9ufTwvcD4KICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgey8qIENUQSAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJzZWN0aW9uLXBhZGRpbmcgYmctd2hpdGUiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXItcWFubmEiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXFhbm5hLWdyYXktNTAgcm91bmRlZC0yeGwgcC04IG1kOnAtMTIgdGV4dC1jZW50ZXIiPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBtZDp0ZXh0LTR4bCBmb250LWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG1iLTQiPgogICAgICAgICAgICAgIEJlcmVpdCBmdWVyIElocmUgTmFjaGZvbGdlPwogICAgICAgICAgICA8L2gyPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbGcgdGV4dC1xYW5uYS1ncmF5LTYwMCBtYi04IG1heC13LTJ4bCBteC1hdXRvIj4KICAgICAgICAgICAgICBWZXJlaW5iYXJlbiBTaWUgZWluIHVudmVyYmluZGxpY2hlcyBFcnN0Z2VzcHJhZWNoIHVuZCBsZXJuZW4gU2llCiAgICAgICAgICAgICAgdW5zIHBlcnNvZW5saWNoIGtlbm5lbi4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBzbTpmbGV4LXJvdyBnYXAtNCBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJwcmltYXJ5IiBzaXplPSJsZyI+CiAgICAgICAgICAgICAgICA8TGluayBocmVmPSIva29udGFrdCI+S29udGFrdCBhdWZuZWhtZW48L0xpbms+CiAgICAgICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJvdXRsaW5lIiBzaXplPSJsZyI+CiAgICAgICAgICAgICAgICA8TGluayBocmVmPSIvdWViZXItdW5zIj5NZWhyIHVlYmVyIFFBTk5BPC9MaW5rPgogICAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICA8Rm9vdGVyIC8+CiAgICA8L21haW4+CiAgKTsKfQo=
+import { Header, Footer } from "@/components/layout";
+import { Hero } from "@/components/sections";
+import { Card, Button } from "@/components/ui";
+import { Icon } from "@/components/ui/Icon";
+import Link from "next/link";
+
+const leadership = [
+  {
+    name: "Sergej Schulz",
+    role: "Prozess- und KI-Experte",
+    image: "/team/sergej-schulz.jpg",
+    bio: "Experte fuer Prozessoptimierung und KI-gestuetzte Loesungen. Entwickelt innovative Ansaetze fuer effiziente Nachfolgeberatung.",
+    expertise: ["Prozessoptimierung", "KI-Integration", "Digitalisierung"],
+    linkedin: "#",
+  },
+  {
+    name: "Andreas Sudermann",
+    role: "Finanz- und Nachfolge-Experte",
+    image: "/team/andreas-sudermann.jpg",
+    bio: "Spezialist fuer Finanzierungsberatung und Unternehmensnachfolge. Begleitet Mandanten diskret und kompetent durch den M&A-Prozess.",
+    expertise: ["Finanzierungsberatung", "Nachfolgeplanung", "M&A Advisory"],
+    linkedin: "#",
+  },
+];
+
+const culture = [
+  {
+    icon: "shield",
+    title: "Absolute Diskretion",
+    description:
+      "Vertraulichkeit ist die Basis unserer Arbeit. Ihre sensiblen Informationen sind bei uns sicher.",
+  },
+  {
+    icon: "users",
+    title: "Persoenliche Betreuung",
+    description:
+      "Jede Nachfolge ist einzigartig. Wir begleiten Sie persoenlich durch den gesamten Prozess.",
+  },
+  {
+    icon: "lightbulb",
+    title: "Innovation",
+    description:
+      "Wir nutzen modernste KI-Technologien fuer praezise Bewertungen und effizientes Matching.",
+  },
+  {
+    icon: "target",
+    title: "Ergebnisorientierung",
+    description:
+      "Wir messen unseren Erfolg am Erfolg Ihrer Nachfolge. Klare Ziele, messbare Ergebnisse.",
+  },
+];
+
+export const metadata = {
+  title: "Unser Team | QANNA Unternehmensnachfolge",
+  description:
+    "Lernen Sie das Team von QANNA Unternehmensnachfolge kennen - erfahrene M&A-Berater fuer Ihre erfolgreiche Nachfolge.",
+};
+
+export default function TeamPage() {
+  return (
+    <main>
+      <Header />
+
+      <Hero
+        badge="UNSER TEAM"
+        title="Ihre Ansprechpartner"
+        subtitle="Erfahrene M&A-Berater mit persoenlichem Engagement fuer Ihre erfolgreiche Nachfolge."
+        primaryCTA={{ text: "Kontakt aufnehmen", href: "/kontakt" }}
+        secondaryCTA={{ text: "Unsere Leistungen", href: "/leistungen" }}
+        backgroundImage="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=2000&q=80"
+      />
+
+      {/* Leadership Section */}
+      <section className="section-padding bg-white">
+        <div className="container-qanna">
+          <div className="text-center mb-16">
+            <span className="inline-block px-4 py-2 bg-qanna-gold/20 text-qanna-gold text-sm font-semibold rounded-full mb-4">
+              LEADERSHIP
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-qanna-navy mb-4">
+              Unsere Partner
+            </h2>
+            <p className="text-lg text-qanna-gray-600 max-w-2xl mx-auto">
+              Erfahrene Berater mit nachgewiesener Erfolgsbilanz in
+              M&A-Transaktionen und Unternehmensnachfolge.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            {leadership.map((person) => (
+              <Card
+                key={person.name}
+                variant="default"
+                padding="none"
+                hover
+                className="overflow-hidden group"
+              >
+                <div className="relative h-80 overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={person.image}
+                    alt={person.name}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-qanna-navy via-qanna-navy/50 to-transparent opacity-80" />
+                  <div className="absolute bottom-0 left-0 right-0 p-6">
+                    <h3 className="text-2xl font-bold text-white">
+                      {person.name}
+                    </h3>
+                    <p className="text-qanna-gold">{person.role}</p>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <p className="text-qanna-gray-600 mb-4">{person.bio}</p>
+                  <div className="flex flex-wrap gap-2 mb-4">
+                    {person.expertise.map((skill) => (
+                      <span
+                        key={skill}
+                        className="px-3 py-1 bg-qanna-gray-100 text-qanna-gray-700 text-sm rounded-full"
+                      >
+                        {skill}
+                      </span>
+                    ))}
+                  </div>
+                  <a
+                    href={person.linkedin}
+                    className="inline-flex items-center text-qanna-navy hover:text-qanna-gold transition-colors"
+                  >
+                    <svg
+                      className="w-5 h-5 mr-2"
+                      fill="currentColor"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                    </svg>
+                    LinkedIn Profil
+                  </a>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+
+      {/* Culture Section */}
+      <section className="section-padding bg-qanna-navy">
+        <div className="container-qanna">
+          <div className="text-center mb-16">
+            <span className="inline-block px-4 py-2 bg-qanna-gold/20 text-qanna-gold text-sm font-semibold rounded-full mb-4">
+              UNSERE WERTE
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              Was uns ausmacht
+            </h2>
+            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+              Unsere Grundprinzipien fuer eine erfolgreiche Nachfolgeberatung.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {culture.map((item) => (
+              <div
+                key={item.title}
+                className="text-center p-6 rounded-xl bg-white/5 backdrop-blur-sm"
+              >
+                <div className="w-16 h-16 bg-qanna-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name={item.icon} className="w-8 h-8 text-white" />
+                </div>
+                <h4 className="text-xl font-semibold text-white mb-2">
+                  {item.title}
+                </h4>
+                <p className="text-gray-300 text-sm">{item.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA */}
+      <section className="section-padding bg-white">
+        <div className="container-qanna">
+          <div className="bg-qanna-gray-50 rounded-2xl p-8 md:p-12 text-center">
+            <h2 className="text-3xl md:text-4xl font-bold text-qanna-navy mb-4">
+              Bereit fuer Ihre Nachfolge?
+            </h2>
+            <p className="text-lg text-qanna-gray-600 mb-8 max-w-2xl mx-auto">
+              Vereinbaren Sie ein unverbindliches Erstgespraech und lernen Sie
+              uns persoenlich kennen.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Button variant="primary" size="lg">
+                <Link href="/kontakt">Kontakt aufnehmen</Link>
+              </Button>
+              <Button variant="outline" size="lg">
+                <Link href="/ueber-uns">Mehr ueber QANNA</Link>
+              </Button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </main>
+  );
+}

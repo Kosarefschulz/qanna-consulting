@@ -1,1 +1,148 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgZm9yd2FyZFJlZiwgdHlwZSBIVE1MQXR0cmlidXRlcyB9IGZyb20gInJlYWN0IjsKCmludGVyZmFjZSBDYXJkUHJvcHMgZXh0ZW5kcyBIVE1MQXR0cmlidXRlczxIVE1MRGl2RWxlbWVudD4gewogIHZhcmlhbnQ/OiAiZGVmYXVsdCIgfCAiZWxldmF0ZWQiIHwgIm91dGxpbmVkIiB8ICJuYXZ5IiB8ICJncmF5IjsKICBob3Zlcj86IGJvb2xlYW47CiAgcGFkZGluZz86ICJub25lIiB8ICJzbSIgfCAibWQiIHwgImxnIiB8ICJ4bCI7Cn0KCmNvbnN0IHZhcmlhbnRTdHlsZXMgPSB7CiAgZGVmYXVsdDogImJnLXdoaXRlIGJvcmRlciBib3JkZXItcWFubmEtZ3JheS0yMDAiLAogIGVsZXZhdGVkOiAiYmctd2hpdGUgc2hhZG93LWxnIiwKICBvdXRsaW5lZDogImJnLXRyYW5zcGFyZW50IGJvcmRlci0yIGJvcmRlci1xYW5uYS1uYXZ5IiwKICBuYXZ5OiAiYmctcWFubmEtbmF2eSB0ZXh0LXdoaXRlIiwKICBncmF5OiAiYmctcWFubmEtZ3JheS0xMDAiLAp9OwoKY29uc3QgcGFkZGluZ1N0eWxlcyA9IHsKICBub25lOiAiIiwKICBzbTogInAtNCIsCiAgbWQ6ICJwLTYiLAogIGxnOiAicC04IiwKICB4bDogInAtMTAiLAp9OwoKY29uc3QgQ2FyZCA9IGZvcndhcmRSZWY8SFRNTERpdkVsZW1lbnQsIENhcmRQcm9wcz4oCiAgKAogICAgewogICAgICBjbGFzc05hbWUgPSAiIiwKICAgICAgdmFyaWFudCA9ICJkZWZhdWx0IiwKICAgICAgaG92ZXIgPSBmYWxzZSwKICAgICAgcGFkZGluZyA9ICJtZCIsCiAgICAgIGNoaWxkcmVuLAogICAgICAuLi5wcm9wcwogICAgfSwKICAgIHJlZgogICkgPT4gewogICAgcmV0dXJuICgKICAgICAgPGRpdgogICAgICAgIHJlZj17cmVmfQogICAgICAgIGNsYXNzTmFtZT17YAogICAgICAgICAgcm91bmRlZC14bAogICAgICAgICAgdHJhbnNpdGlvbi1hbGwgZHVyYXRpb24tMzAwIGVhc2UtaW4tb3V0CiAgICAgICAgICAke3ZhcmlhbnRTdHlsZXNbdmFyaWFudF19CiAgICAgICAgICAke3BhZGRpbmdTdHlsZXNbcGFkZGluZ119CiAgICAgICAgICAke2hvdmVyID8gImhvdmVyOnNoYWRvdy14bCBob3ZlcjotdHJhbnNsYXRlLXktMSBjdXJzb3ItcG9pbnRlciIgOiAiIn0KICAgICAgICAgICR7Y2xhc3NOYW1lfQogICAgICAgIGB9CiAgICAgICAgey4uLnByb3BzfQogICAgICA+CiAgICAgICAge2NoaWxkcmVufQogICAgICA8L2Rpdj4KICAgICk7CiAgfQopOwoKQ2FyZC5kaXNwbGF5TmFtZSA9ICJDYXJkIjsKCmludGVyZmFjZSBDYXJkSGVhZGVyUHJvcHMgZXh0ZW5kcyBIVE1MQXR0cmlidXRlczxIVE1MRGl2RWxlbWVudD4ge30KCmNvbnN0IENhcmRIZWFkZXIgPSBmb3J3YXJkUmVmPEhUTUxEaXZFbGVtZW50LCBDYXJkSGVhZGVyUHJvcHM+KAogICh7IGNsYXNzTmFtZSA9ICIiLCBjaGlsZHJlbiwgLi4ucHJvcHMgfSwgcmVmKSA9PiB7CiAgICByZXR1cm4gKAogICAgICA8ZGl2IHJlZj17cmVmfSBjbGFzc05hbWU9e2BtYi00ICR7Y2xhc3NOYW1lfWB9IHsuLi5wcm9wc30+CiAgICAgICAge2NoaWxkcmVufQogICAgICA8L2Rpdj4KICAgICk7CiAgfQopOwoKQ2FyZEhlYWRlci5kaXNwbGF5TmFtZSA9ICJDYXJkSGVhZGVyIjsKCmludGVyZmFjZSBDYXJkVGl0bGVQcm9wcyBleHRlbmRzIEhUTUxBdHRyaWJ1dGVzPEhUTUxIZWFkaW5nRWxlbWVudD4gewogIGFzPzogImgxIiB8ICJoMiIgfCAiaDMiIHwgImg0IiB8ICJoNSIgfCAiaDYiOwp9Cgpjb25zdCBDYXJkVGl0bGUgPSBmb3J3YXJkUmVmPEhUTUxIZWFkaW5nRWxlbWVudCwgQ2FyZFRpdGxlUHJvcHM+KAogICh7IGNsYXNzTmFtZSA9ICIiLCBhczogQ29tcG9uZW50ID0gImgzIiwgY2hpbGRyZW4sIC4uLnByb3BzIH0sIHJlZikgPT4gewogICAgcmV0dXJuICgKICAgICAgPENvbXBvbmVudAogICAgICAgIHJlZj17cmVmfQogICAgICAgIGNsYXNzTmFtZT17YHRleHQtbGcgbWQ6dGV4dC14bCBmb250LWJvbGQgdGV4dC1xYW5uYS1uYXZ5IGJyZWFrLXdvcmRzIGh5cGhlbnMtYXV0byAke2NsYXNzTmFtZX1gfQogICAgICAgIHsuLi5wcm9wc30KICAgICAgPgogICAgICAgIHtjaGlsZHJlbn0KICAgICAgPC9Db21wb25lbnQ+CiAgICApOwogIH0KKTsKCkNhcmRUaXRsZS5kaXNwbGF5TmFtZSA9ICJDYXJkVGl0bGUiOwoKaW50ZXJmYWNlIENhcmREZXNjcmlwdGlvblByb3BzIGV4dGVuZHMgSFRNTEF0dHJpYnV0ZXM8SFRNTFBhcmFncmFwaEVsZW1lbnQ+IHt9Cgpjb25zdCBDYXJkRGVzY3JpcHRpb24gPSBmb3J3YXJkUmVmPEhUTUxQYXJhZ3JhcGhFbGVtZW50LCBDYXJkRGVzY3JpcHRpb25Qcm9wcz4oCiAgKHsgY2xhc3NOYW1lID0gIiIsIGNoaWxkcmVuLCAuLi5wcm9wcyB9LCByZWYpID0+IHsKICAgIHJldHVybiAoCiAgICAgIDxwCiAgICAgICAgcmVmPXtyZWZ9CiAgICAgICAgY2xhc3NOYW1lPXtgdGV4dC1xYW5uYS1ncmF5LTUwMCBsZWFkaW5nLXJlbGF4ZWQgJHtjbGFzc05hbWV9YH0KICAgICAgICB7Li4ucHJvcHN9CiAgICAgID4KICAgICAgICB7Y2hpbGRyZW59CiAgICAgIDwvcD4KICAgICk7CiAgfQopOwoKQ2FyZERlc2NyaXB0aW9uLmRpc3BsYXlOYW1lID0gIkNhcmREZXNjcmlwdGlvbiI7CgppbnRlcmZhY2UgQ2FyZENvbnRlbnRQcm9wcyBleHRlbmRzIEhUTUxBdHRyaWJ1dGVzPEhUTUxEaXZFbGVtZW50PiB7fQoKY29uc3QgQ2FyZENvbnRlbnQgPSBmb3J3YXJkUmVmPEhUTUxEaXZFbGVtZW50LCBDYXJkQ29udGVudFByb3BzPigKICAoeyBjbGFzc05hbWUgPSAiIiwgY2hpbGRyZW4sIC4uLnByb3BzIH0sIHJlZikgPT4gewogICAgcmV0dXJuICgKICAgICAgPGRpdiByZWY9e3JlZn0gY2xhc3NOYW1lPXtjbGFzc05hbWV9IHsuLi5wcm9wc30+CiAgICAgICAge2NoaWxkcmVufQogICAgICA8L2Rpdj4KICAgICk7CiAgfQopOwoKQ2FyZENvbnRlbnQuZGlzcGxheU5hbWUgPSAiQ2FyZENvbnRlbnQiOwoKaW50ZXJmYWNlIENhcmRGb290ZXJQcm9wcyBleHRlbmRzIEhUTUxBdHRyaWJ1dGVzPEhUTUxEaXZFbGVtZW50PiB7fQoKY29uc3QgQ2FyZEZvb3RlciA9IGZvcndhcmRSZWY8SFRNTERpdkVsZW1lbnQsIENhcmRGb290ZXJQcm9wcz4oCiAgKHsgY2xhc3NOYW1lID0gIiIsIGNoaWxkcmVuLCAuLi5wcm9wcyB9LCByZWYpID0+IHsKICAgIHJldHVybiAoCiAgICAgIDxkaXYgcmVmPXtyZWZ9IGNsYXNzTmFtZT17YG10LTQgcHQtNCBib3JkZXItdCBib3JkZXItcWFubmEtZ3JheS0yMDAgJHtjbGFzc05hbWV9YH0gey4uLnByb3BzfT4KICAgICAgICB7Y2hpbGRyZW59CiAgICAgIDwvZGl2PgogICAgKTsKICB9Cik7CgpDYXJkRm9vdGVyLmRpc3BsYXlOYW1lID0gIkNhcmRGb290ZXIiOwoKZXhwb3J0IHsKICBDYXJkLAogIENhcmRIZWFkZXIsCiAgQ2FyZFRpdGxlLAogIENhcmREZXNjcmlwdGlvbiwKICBDYXJkQ29udGVudCwKICBDYXJkRm9vdGVyLAp9OwpleHBvcnQgdHlwZSB7IENhcmRQcm9wcyB9Owo=
+"use client";
+
+import { forwardRef, type HTMLAttributes } from "react";
+
+interface CardProps extends HTMLAttributes<HTMLDivElement> {
+  variant?: "default" | "elevated" | "outlined" | "navy" | "gray";
+  hover?: boolean;
+  padding?: "none" | "sm" | "md" | "lg" | "xl";
+}
+
+const variantStyles = {
+  default: "bg-white border border-qanna-gray-200",
+  elevated: "bg-white shadow-lg",
+  outlined: "bg-transparent border-2 border-qanna-navy",
+  navy: "bg-qanna-navy text-white",
+  gray: "bg-qanna-gray-100",
+};
+
+const paddingStyles = {
+  none: "",
+  sm: "p-4",
+  md: "p-6",
+  lg: "p-8",
+  xl: "p-10",
+};
+
+const Card = forwardRef<HTMLDivElement, CardProps>(
+  (
+    {
+      className = "",
+      variant = "default",
+      hover = false,
+      padding = "md",
+      children,
+      ...props
+    },
+    ref
+  ) => {
+    return (
+      <div
+        ref={ref}
+        className={`
+          rounded-xl
+          transition-all duration-300 ease-in-out
+          ${variantStyles[variant]}
+          ${paddingStyles[padding]}
+          ${hover ? "hover:shadow-xl hover:-translate-y-1 cursor-pointer" : ""}
+          ${className}
+        `}
+        {...props}
+      >
+        {children}
+      </div>
+    );
+  }
+);
+
+Card.displayName = "Card";
+
+interface CardHeaderProps extends HTMLAttributes<HTMLDivElement> {}
+
+const CardHeader = forwardRef<HTMLDivElement, CardHeaderProps>(
+  ({ className = "", children, ...props }, ref) => {
+    return (
+      <div ref={ref} className={`mb-4 ${className}`} {...props}>
+        {children}
+      </div>
+    );
+  }
+);
+
+CardHeader.displayName = "CardHeader";
+
+interface CardTitleProps extends HTMLAttributes<HTMLHeadingElement> {
+  as?: "h1" | "h2" | "h3" | "h4" | "h5" | "h6";
+}
+
+const CardTitle = forwardRef<HTMLHeadingElement, CardTitleProps>(
+  ({ className = "", as: Component = "h3", children, ...props }, ref) => {
+    return (
+      <Component
+        ref={ref}
+        className={`text-lg md:text-xl font-bold text-qanna-navy break-words hyphens-auto ${className}`}
+        {...props}
+      >
+        {children}
+      </Component>
+    );
+  }
+);
+
+CardTitle.displayName = "CardTitle";
+
+interface CardDescriptionProps extends HTMLAttributes<HTMLParagraphElement> {}
+
+const CardDescription = forwardRef<HTMLParagraphElement, CardDescriptionProps>(
+  ({ className = "", children, ...props }, ref) => {
+    return (
+      <p
+        ref={ref}
+        className={`text-qanna-gray-500 leading-relaxed ${className}`}
+        {...props}
+      >
+        {children}
+      </p>
+    );
+  }
+);
+
+CardDescription.displayName = "CardDescription";
+
+interface CardContentProps extends HTMLAttributes<HTMLDivElement> {}
+
+const CardContent = forwardRef<HTMLDivElement, CardContentProps>(
+  ({ className = "", children, ...props }, ref) => {
+    return (
+      <div ref={ref} className={className} {...props}>
+        {children}
+      </div>
+    );
+  }
+);
+
+CardContent.displayName = "CardContent";
+
+interface CardFooterProps extends HTMLAttributes<HTMLDivElement> {}
+
+const CardFooter = forwardRef<HTMLDivElement, CardFooterProps>(
+  ({ className = "", children, ...props }, ref) => {
+    return (
+      <div ref={ref} className={`mt-4 pt-4 border-t border-qanna-gray-200 ${className}`} {...props}>
+        {children}
+      </div>
+    );
+  }
+);
+
+CardFooter.displayName = "CardFooter";
+
+export {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+  CardFooter,
+};
+export type { CardProps };

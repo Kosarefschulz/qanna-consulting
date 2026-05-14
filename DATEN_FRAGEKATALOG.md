@@ -1,1 +1,574 @@
-IyBRQU5OQSBDb25zdWx0aW5nIC0gRnJhZ2VrYXRhbG9nIGbDvHIgV2Vic2l0ZS1JbmhhbHRlCgoqKkRhdHVtOioqIEphbnVhciAyMDI2CioqWndlY2s6KiogU2FtbWx1bmcgYWxsZXIgZWNodGVuIERhdGVuLCBUZXh0ZSB1bmQgTWVkaWVuIGbDvHIgZGllIFdlYnNpdGUKCi0tLQoKIyMgSU5IQUxUU1ZFUlpFSUNITklTCgoxLiBbVW50ZXJuZWhtZW5zZGF0ZW5dKCMxLXVudGVybmVobWVuc2RhdGVuKQoyLiBbVGVhbSAmIFBlcnNvbmVuXSgjMi10ZWFtLS1wZXJzb25lbikKMy4gW0xlaXN0dW5nZW4gJiBTZXJ2aWNlc10oIzMtbGVpc3R1bmdlbi0tc2VydmljZXMpCjQuIFtTdGF0aXN0aWtlbiAmIFphaGxlbl0oIzQtc3RhdGlzdGlrZW4tLXphaGxlbikKNS4gW1JlZmVyZW56ZW4gJiBUZXN0aW1vbmlhbHNdKCM1LXJlZmVyZW56ZW4tLXRlc3RpbW9uaWFscykKNi4gW0Nhc2UgU3R1ZGllcyAvIEVyZm9sZ3NnZXNjaGljaHRlbl0oIzYtY2FzZS1zdHVkaWVzLS1lcmZvbGdzZ2VzY2hpY2h0ZW4pCjcuIFtCcmFuY2hlbi1FeHBlcnRpc2VdKCM3LWJyYW5jaGVuLWV4cGVydGlzZSkKOC4gW0tJLUzDtnN1bmdlbl0oIzgta2ktbMO2c3VuZ2VuKQo5LiBbTWVkaWVuICYgQmlsZGVyXSgjOS1tZWRpZW4tLWJpbGRlcikKMTAuIFtLb250YWt0ICYgUmVjaHRsaWNoZXNdKCMxMC1rb250YWt0LS1yZWNodGxpY2hlcykKMTEuIFtTRU8gJiBNYXJrZXRpbmddKCMxMS1zZW8tLW1hcmtldGluZykKCi0tLQoKIyMgMS4gVU5URVJORUhNRU5TREFURU4KCiMjIyAxLjEgR3J1bmRkYXRlbgp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBPZmZpemllbGxlciBGaXJtZW5uYW1lIHwgfAp8IFJlY2h0c2Zvcm0gKEdtYkgsIFVHLCBldGMuKSB8IHwKfCBHcsO8bmR1bmdzamFociB8IHwKfCBIYW5kZWxzcmVnaXN0ZXItTnVtbWVyIHwgfAp8IFVTdC1JZE5yLiB8IHwKfCBHZXNjaMOkZnRzZsO8aHJlciAoTmFtZS9uKSB8IHwKCiMjIyAxLjIgS29udGFrdGRhdGVuCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IEhhdXB0YWRyZXNzZSAoU3RyYcOfZSwgUExaLCBPcnQpIHwgfAp8IFRlbGVmb25udW1tZXIgKFplbnRyYWxlKSB8IHwKfCBFLU1haWwgKGFsbGdlbWVpbikgfCB8CnwgRS1NYWlsIChBbmZyYWdlbi9Lb250YWt0KSB8IHwKfCBMaW5rZWRJbiBVbnRlcm5laG1lbnNzZWl0ZSB8IHwKfCBYaW5nIFVudGVybmVobWVuc3NlaXRlIHwgfAp8IFdlaXRlcmUgU29jaWFsIE1lZGlhIHwgfAoKIyMjIDEuMyBNaXNzaW9uICYgVmlzaW9uCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IE1pc3Npb24gU3RhdGVtZW50ICgxLTIgU8OkdHplOiBXYXJ1bSBnaWJ0IGVzIFFBTk5BPykgfCB8CnwgVmlzaW9uIChXbyBzZWh0IGlociBldWNoIGluIDUtMTAgSmFocmVuPykgfCB8CnwgS2VybndlcnRlICgzLTUgV2VydGUsIGRpZSBRQU5OQSBhdXNtYWNoZW4pIHwgfAp8IFdhcyB1bnRlcnNjaGVpZGV0IFFBTk5BIHZvbiBhbmRlcmVuIEJlcmF0dW5nZW4/IChVU1ApIHwgfAp8IFNsb2dhbi9UYWdsaW5lIChmYWxscyB2b3JoYW5kZW4pIHwgfAoKIyMjIDEuNCBHZXNjaGljaHRlCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IFdpZSBpc3QgUUFOTkEgZW50c3RhbmRlbj8gKEdyw7xuZHVuZ3NnZXNjaGljaHRlKSB8IHwKfCBXaWNodGlnZSBNZWlsZW5zdGVpbmUgc2VpdCBHcsO8bmR1bmcgfCB8CnwgVXJzcHLDvG5nbGljaGUgTW90aXZhdGlvbiBkZXIgR3LDvG5kZXIgfCB8CgotLS0KCiMjIDIuIFRFQU0gJiBQRVJTT05FTgoKIyMjIDIuMSBHcsO8bmRlciAvIEdlc2Now6RmdHNmw7xocnVuZwoKKipQZXJzb24gMToqKgp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBWb2xsc3TDpG5kaWdlciBOYW1lIHwgfAp8IFBvc2l0aW9uL1RpdGVsIHwgfAp8IEt1cnplIEJpbyAoMy01IFPDpHR6ZSkgfCB8CnwgQXVzYmlsZHVuZy9TdHVkaXVtIHwgfAp8IEJlcnVmbGljaGVyIFdlcmRlZ2FuZyAod2ljaHRpZ3N0ZSBTdGF0aW9uZW4pIHwgfAp8IFNwZXppYWxpc2llcnVuZy9FeHBlcnRpc2UgfCB8CnwgSmFocmUgQmVydWZzZXJmYWhydW5nIHwgfAp8IExpbmtlZEluIFByb2ZpbCBVUkwgfCB8CnwgRS1NYWlsIChkaXJla3QpIHwgfAp8IFBlcnPDtm5saWNoZXMgWml0YXQvTW90dG8gfCB8CnwgKipCSUxEIEJFTsOWVElHVDoqKiBQcm9mZXNzaW9uZWxsZXMgUG9ydHJhaXQgKG1pbi4gODAweDgwMHB4KSB8IFsgXSBWb3JoYW5kZW4gfAoKKipQZXJzb24gMjoqKgp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBWb2xsc3TDpG5kaWdlciBOYW1lIHwgfAp8IFBvc2l0aW9uL1RpdGVsIHwgfAp8IEt1cnplIEJpbyAoMy01IFPDpHR6ZSkgfCB8CnwgQXVzYmlsZHVuZy9TdHVkaXVtIHwgfAp8IEJlcnVmbGljaGVyIFdlcmRlZ2FuZyAod2ljaHRpZ3N0ZSBTdGF0aW9uZW4pIHwgfAp8IFNwZXppYWxpc2llcnVuZy9FeHBlcnRpc2UgfCB8CnwgSmFocmUgQmVydWZzZXJmYWhydW5nIHwgfAp8IExpbmtlZEluIFByb2ZpbCBVUkwgfCB8CnwgRS1NYWlsIChkaXJla3QpIHwgfAp8IFBlcnPDtm5saWNoZXMgWml0YXQvTW90dG8gfCB8CnwgKipCSUxEIEJFTsOWVElHVDoqKiBQcm9mZXNzaW9uZWxsZXMgUG9ydHJhaXQgKG1pbi4gODAweDgwMHB4KSB8IFsgXSBWb3JoYW5kZW4gfAoKKipQZXJzb24gMzoqKiAoZmFsbHMgdm9yaGFuZGVuKQp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBWb2xsc3TDpG5kaWdlciBOYW1lIHwgfAp8IFBvc2l0aW9uL1RpdGVsIHwgfAp8IEt1cnplIEJpbyAoMy01IFPDpHR6ZSkgfCB8CnwgQXVzYmlsZHVuZy9TdHVkaXVtIHwgfAp8IEJlcnVmbGljaGVyIFdlcmRlZ2FuZyAod2ljaHRpZ3N0ZSBTdGF0aW9uZW4pIHwgfAp8IFNwZXppYWxpc2llcnVuZy9FeHBlcnRpc2UgfCB8CnwgSmFocmUgQmVydWZzZXJmYWhydW5nIHwgfAp8IExpbmtlZEluIFByb2ZpbCBVUkwgfCB8CnwgRS1NYWlsIChkaXJla3QpIHwgfAp8IFBlcnPDtm5saWNoZXMgWml0YXQvTW90dG8gfCB8CnwgKipCSUxEIEJFTsOWVElHVDoqKiBQcm9mZXNzaW9uZWxsZXMgUG9ydHJhaXQgKG1pbi4gODAweDgwMHB4KSB8IFsgXSBWb3JoYW5kZW4gfAoKIyMjIDIuMiBXZWl0ZXJlIFRlYW1taXRnbGllZGVyIChmYWxscyB2b3JoYW5kZW4pCipGw7xyIGplZGVzIHdlaXRlcmUgVGVhbW1pdGdsaWVkIGRpZSBnbGVpY2hlbiBGcmFnZW4gd2llIG9iZW4gYXVzZsO8bGxlbioKCiMjIyAyLjMgTmV0endlcmsgJiBQYXJ0bmVyCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IEdpYnQgZXMgZmVzdGUgS29vcGVyYXRpb25zcGFydG5lcj8gfCB8CnwgTmFtZW4gZGVyIFBhcnRuZXItVW50ZXJuZWhtZW4gfCB8CnwgQXJ0IGRlciBadXNhbW1lbmFyYmVpdCB8IHwKfCBEw7xyZmVuIFBhcnRuZXIgYXVmIGRlciBXZWJzaXRlIGdlbmFubnQgd2VyZGVuPyB8IHwKCi0tLQoKIyMgMy4gTEVJU1RVTkdFTiAmIFNFUlZJQ0VTCgojIyMgMy4xIFVudGVybmVobWVuc25hY2hmb2xnZQp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBEZXRhaWxsaWVydGUgQmVzY2hyZWlidW5nIGRlciBMZWlzdHVuZyB8IHwKfCBUeXBpc2NoZXIgQWJsYXVmL1Byb3plc3MgfCB8CnwgRGF1ZXIgZWluZXMgdHlwaXNjaGVuIFByb2pla3RzIHwgfAp8IFByZWlzbW9kZWxsIChTdHVuZGVuc2F0eiwgUGF1c2NoYWwsIEVyZm9sZ3NiYXNpZXJ0PykgfCB8CnwgUHJlaXNzcGFubmUgKG9wdGlvbmFsLCBmw7xyIE9yaWVudGllcnVuZykgfCB8CnwgWmllbGdydXBwZSBkaWVzZXIgTGVpc3R1bmcgfCB8CnwgSMOkdWZpZ3N0ZSBQcm9ibGVtZSwgZGllIGlociBsw7ZzdCB8IHwKfCBCZXNvbmRlcmUgTWV0aG9kZW4vVG9vbHMgZGllIGlociBudXR6dCB8IHwKCiMjIyAzLjIgUmVzdHJ1a3R1cmllcnVuZwp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBEZXRhaWxsaWVydGUgQmVzY2hyZWlidW5nIGRlciBMZWlzdHVuZyB8IHwKfCBUeXBpc2NoZXIgQWJsYXVmL1Byb3plc3MgfCB8CnwgRGF1ZXIgZWluZXMgdHlwaXNjaGVuIFByb2pla3RzIHwgfAp8IFByZWlzbW9kZWxsIHwgfAp8IFppZWxncnVwcGUgZGllc2VyIExlaXN0dW5nIHwgfAp8IEjDpHVmaWdzdGUgUHJvYmxlbWUsIGRpZSBpaHIgbMO2c3QgfCB8CnwgQmVzb25kZXJlIE1ldGhvZGVuL1Rvb2xzIGRpZSBpaHIgbnV0enQgfCB8CgojIyMgMy4zIEZpbmFuemllcnVuZ3NiZXJhdHVuZwp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBEZXRhaWxsaWVydGUgQmVzY2hyZWlidW5nIGRlciBMZWlzdHVuZyB8IHwKfCBBcnRlbiB2b24gRmluYW56aWVydW5nZW4gKEtyZWRpdCwgTWV6emFuaW5lLCBldGMuKSB8IHwKfCBUeXBpc2NoZXIgQWJsYXVmL1Byb3plc3MgfCB8CnwgRGF1ZXIgZWluZXMgdHlwaXNjaGVuIFByb2pla3RzIHwgfAp8IFByZWlzbW9kZWxsIHwgfAp8IFppZWxncnVwcGUgZGllc2VyIExlaXN0dW5nIHwgfAp8IEJhbmtlbmtvbnRha3RlL05ldHp3ZXJrIHZvcmhhbmRlbj8gfCB8CgojIyMgMy40IEVmZml6aWVuem9wdGltaWVydW5nCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IERldGFpbGxpZXJ0ZSBCZXNjaHJlaWJ1bmcgZGVyIExlaXN0dW5nIHwgfAp8IFR5cGlzY2hlciBBYmxhdWYvUHJvemVzcyB8IHwKfCBXZWxjaGUgQmVyZWljaGUgb3B0aW1pZXJ0IGlocj8gKFByb3plc3NlLCBLb3N0ZW4sIGV0Yy4pIHwgfAp8IERhdWVyIGVpbmVzIHR5cGlzY2hlbiBQcm9qZWt0cyB8IHwKfCBQcmVpc21vZGVsbCB8IHwKfCBUb29scy9Tb2Z0d2FyZSBkaWUgaWhyIGVpbnNldHp0IHwgfAoKIyMjIDMuNSBLSS1CZXJhdHVuZwp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBEZXRhaWxsaWVydGUgQmVzY2hyZWlidW5nIGRlciBMZWlzdHVuZyB8IHwKfCBXZWxjaGUgS0ktQW53ZW5kdW5nZW4gYmlldGV0IGlociBhbj8gfCB8CnwgRWlnZW5lIEtJLVRvb2xzIGVudHdpY2tlbHQ/IHwgfAp8IFR5cGlzY2hlciBBYmxhdWYvUHJvemVzcyB8IHwKfCBEYXVlciBlaW5lcyB0eXBpc2NoZW4gUHJvamVrdHMgfCB8CnwgUHJlaXNtb2RlbGwgfCB8CnwgVGVjaG5vbG9naWUtUGFydG5lciAoT3BlbkFJLCBldGMuKT8gfCB8CgojIyMgMy42IFdlaXRlcmUgTGVpc3R1bmdlbgp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBHaWJ0IGVzIHdlaXRlcmUgTGVpc3R1bmdlbiwgZGllIG5pY2h0IGF1ZmdlZsO8aHJ0IHNpbmQ/IHwgfAp8IEJlc2NocmVpYnVuZyBkaWVzZXIgTGVpc3R1bmdlbiB8IHwKCi0tLQoKIyMgNC4gU1RBVElTVElLRU4gJiBaQUhMRU4KCiMjIyA0LjEgVW50ZXJuZWhtZW5za2VubnphaGxlbgp8IEZyYWdlIHwgQW50d29ydCB8IERhcmYgYXVmIFdlYnNpdGU/IHwKfC0tLS0tLS18LS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tLS18CnwgQW56YWhsIGFiZ2VzY2hsb3NzZW5lciBQcm9qZWt0ZSAoZ2VzYW10KSB8IHwgWyBdIEphIFsgXSBOZWluIHwKfCBBbnphaGwgUHJvamVrdGUgcHJvIEphaHIgKER1cmNoc2Nobml0dCkgfCB8IFsgXSBKYSBbIF0gTmVpbiB8CnwgQW56YWhsIGJldHJldXRlciBLdW5kZW4gKGdlc2FtdCkgfCB8IFsgXSBKYSBbIF0gTmVpbiB8CnwgSmFocmUgRXJmYWhydW5nIChUZWFtIGdlc2FtdCkgfCB8IFsgXSBKYSBbIF0gTmVpbiB8CnwgRXJmb2xnc3F1b3RlIGJlaSBOYWNoZm9sZ2UtUHJvamVrdGVuIHwgfCBbIF0gSmEgWyBdIE5laW4gfAp8IER1cmNoc2Nobml0dGxpY2hlIFByb2pla3RkYXVlciB8IHwgWyBdIEphIFsgXSBOZWluIHwKfCBLdW5kZW56dWZyaWVkZW5oZWl0IChmYWxscyBnZW1lc3NlbikgfCB8IFsgXSBKYSBbIF0gTmVpbiB8CnwgV2VpdGVyZW1wZmVobHVuZ3NyYXRlIHwgfCBbIF0gSmEgWyBdIE5laW4gfAoKIyMjIDQuMiBCcmFuY2hlbi1TdGF0aXN0aWtlbgp8IEZyYWdlIHwgQW50d29ydCB8IERhcmYgYXVmIFdlYnNpdGU/IHwKfC0tLS0tLS18LS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tLS18CnwgSW4gd2llIHZpZWxlbiBCcmFuY2hlbiBha3Rpdj8gfCB8IFsgXSBKYSBbIF0gTmVpbiB8CnwgVG9wIDMgQnJhbmNoZW4gbmFjaCBQcm9qZWt0emFobCB8IHwgWyBdIEphIFsgXSBOZWluIHwKfCBSZWdpb25hbGUgVmVydGVpbHVuZyAoREFDSCwgbnVyIERFLCBldGMuKSB8IHwgWyBdIEphIFsgXSBOZWluIHwKCiMjIyA0LjMgRmluYW56aWVsbGUgS2VubnphaGxlbiAobnVyIGZhbGxzIGdld8O8bnNjaHQpCnwgRnJhZ2UgfCBBbnR3b3J0IHwgRGFyZiBhdWYgV2Vic2l0ZT8gfAp8LS0tLS0tLXwtLS0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLS0tLXwKfCBUcmFuc2FrdGlvbnN2b2x1bWVuIGJldHJldXQgKGdlc2FtdCkgfCB8IFsgXSBKYSBbIF0gTmVpbiB8CnwgRHVyY2hzY2huaXR0bGljaGVzIFByb2pla3R2b2x1bWVuIHwgfCBbIF0gSmEgWyBdIE5laW4gfAp8IEdyw7bDn3RlcyBFaW56ZWxwcm9qZWt0IHwgfCBbIF0gSmEgWyBdIE5laW4gfAoKIyMjIDQuNCBLSS1zcGV6aWZpc2NoZSBaYWhsZW4KfCBGcmFnZSB8IEFudHdvcnQgfCBEYXJmIGF1ZiBXZWJzaXRlPyB8CnwtLS0tLS0tfC0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tLS0tfAp8IFplaXRlcnNwYXJuaXMgZHVyY2ggS0ktVG9vbHMgKGluICUpIHwgfCBbIF0gSmEgWyBdIE5laW4gfAp8IEFuemFobCBLSS1nZXN0w7x0enRlciBBbmFseXNlbiB8IHwgWyBdIEphIFsgXSBOZWluIHwKfCBHZW5hdWlna2VpdCBkZXIgS0ktQmV3ZXJ0dW5nZW4gfCB8IFsgXSBKYSBbIF0gTmVpbiB8CgotLS0KCiMjIDUuIFJFRkVSRU5aRU4gJiBURVNUSU1PTklBTFMKCiMjIyA1LjEgS3VuZGVuc3RpbW1lbgoKKipUZXN0aW1vbmlhbCAxOioqCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IE5hbWUgZGVzIEt1bmRlbiB8IHwKfCBQb3NpdGlvbi9UaXRlbCB8IHwKfCBVbnRlcm5laG1lbiB8IHwKfCBCcmFuY2hlIHwgfAp8IFppdGF0L1Rlc3RpbW9uaWFsICgyLTQgU8OkdHplKSB8IHwKfCBXZWxjaGUgTGVpc3R1bmcgd3VyZGUgZXJicmFjaHQ/IHwgfAp8IFNjaHJpZnRsaWNoZSBGcmVpZ2FiZSB2b3JoYW5kZW4/IHwgWyBdIEphIFsgXSBOZWluIHwKfCAqKkJJTEQgQkVOw5ZUSUdUOioqIFBvcnRyYWl0IGRlcyBLdW5kZW4gKG9wdGlvbmFsKSB8IFsgXSBWb3JoYW5kZW4gWyBdIE5pY2h0IGdld8O8bnNjaHQgfAoKKipUZXN0aW1vbmlhbCAyOioqCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IE5hbWUgZGVzIEt1bmRlbiB8IHwKfCBQb3NpdGlvbi9UaXRlbCB8IHwKfCBVbnRlcm5laG1lbiB8IHwKfCBCcmFuY2hlIHwgfAp8IFppdGF0L1Rlc3RpbW9uaWFsICgyLTQgU8OkdHplKSB8IHwKfCBXZWxjaGUgTGVpc3R1bmcgd3VyZGUgZXJicmFjaHQ/IHwgfAp8IFNjaHJpZnRsaWNoZSBGcmVpZ2FiZSB2b3JoYW5kZW4/IHwgWyBdIEphIFsgXSBOZWluIHwKfCAqKkJJTEQgQkVOw5ZUSUdUOioqIFBvcnRyYWl0IGRlcyBLdW5kZW4gKG9wdGlvbmFsKSB8IFsgXSBWb3JoYW5kZW4gWyBdIE5pY2h0IGdld8O8bnNjaHQgfAoKKipUZXN0aW1vbmlhbCAzOioqCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IE5hbWUgZGVzIEt1bmRlbiB8IHwKfCBQb3NpdGlvbi9UaXRlbCB8IHwKfCBVbnRlcm5laG1lbiB8IHwKfCBCcmFuY2hlIHwgfAp8IFppdGF0L1Rlc3RpbW9uaWFsICgyLTQgU8OkdHplKSB8IHwKfCBXZWxjaGUgTGVpc3R1bmcgd3VyZGUgZXJicmFjaHQ/IHwgfAp8IFNjaHJpZnRsaWNoZSBGcmVpZ2FiZSB2b3JoYW5kZW4/IHwgWyBdIEphIFsgXSBOZWluIHwKfCAqKkJJTEQgQkVOw5ZUSUdUOioqIFBvcnRyYWl0IGRlcyBLdW5kZW4gKG9wdGlvbmFsKSB8IFsgXSBWb3JoYW5kZW4gWyBdIE5pY2h0IGdld8O8bnNjaHQgfAoKKldlaXRlcmUgVGVzdGltb25pYWxzIG5hY2ggZ2xlaWNoZW0gU2NoZW1hIGhpbnp1ZsO8Z2VuKgoKIyMjIDUuMiBLdW5kZW5sb2dvcwp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBXZWxjaGUgS3VuZGVubG9nb3MgZMO8cmZlbiBnZXplaWd0IHdlcmRlbj8gfCB8CnwgU2NocmlmdGxpY2hlIEZyZWlnYWJlIGbDvHIgTG9nby1OdXR6dW5nPyB8IHwKfCAqKkJJTERFUiBCRU7DllRJR1Q6KiogS3VuZGVubG9nb3MgKFBORywgdHJhbnNwYXJlbnQsIG1pbi4gMjAwcHggYnJlaXQpIHwgfAoKLS0tCgojIyA2LiBDQVNFIFNUVURJRVMgLyBFUkZPTEdTR0VTQ0hJQ0hURU4KCiMjIyBDYXNlIFN0dWR5IDE6CnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IFByb2pla3R0aXRlbCB8IHwKfCBLdW5kZSAoYW5vbnltaXNpZXJ0IGZhbGxzIG7DtnRpZykgfCB8CnwgQnJhbmNoZSB8IHwKfCBBdXNnYW5nc3NpdHVhdGlvbiAvIFByb2JsZW0gfCB8CnwgRXVlciBMw7ZzdW5nc2Fuc2F0eiB8IHwKfCBEdXJjaGdlZsO8aHJ0ZSBNYcOfbmFobWVuIHwgfAp8IEVyZ2VibmlzIC8gRXJmb2xnIChtaXQgWmFobGVuIHdlbm4gbcO2Z2xpY2gpIHwgfAp8IFByb2pla3RkYXVlciB8IHwKfCBFaW5nZXNldHp0ZSBMZWlzdHVuZ2VuIHwgfAp8IEJlc29uZGVyaGVpdGVuIGRlcyBQcm9qZWt0cyB8IHwKfCBEYXJmIHZlcsO2ZmZlbnRsaWNodCB3ZXJkZW4/IHwgWyBdIEphIFsgXSBBbm9ueW1pc2llcnQgWyBdIE5laW4gfAp8ICoqQklMREVSIEJFTsOWVElHVDoqKiBQcm9qZWt0YmlsZGVyIChmYWxscyB2b3JoYW5kZW4pIHwgWyBdIFZvcmhhbmRlbiB8CgojIyMgQ2FzZSBTdHVkeSAyOgp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBQcm9qZWt0dGl0ZWwgfCB8CnwgS3VuZGUgKGFub255bWlzaWVydCBmYWxscyBuw7Z0aWcpIHwgfAp8IEJyYW5jaGUgfCB8CnwgQXVzZ2FuZ3NzaXR1YXRpb24gLyBQcm9ibGVtIHwgfAp8IEV1ZXIgTMO2c3VuZ3NhbnNhdHogfCB8CnwgRHVyY2hnZWbDvGhydGUgTWHDn25haG1lbiB8IHwKfCBFcmdlYm5pcyAvIEVyZm9sZyAobWl0IFphaGxlbiB3ZW5uIG3DtmdsaWNoKSB8IHwKfCBQcm9qZWt0ZGF1ZXIgfCB8CnwgRWluZ2VzZXR6dGUgTGVpc3R1bmdlbiB8IHwKfCBCZXNvbmRlcmhlaXRlbiBkZXMgUHJvamVrdHMgfCB8CnwgRGFyZiB2ZXLDtmZmZW50bGljaHQgd2VyZGVuPyB8IFsgXSBKYSBbIF0gQW5vbnltaXNpZXJ0IFsgXSBOZWluIHwKfCAqKkJJTERFUiBCRU7DllRJR1Q6KiogUHJvamVrdGJpbGRlciAoZmFsbHMgdm9yaGFuZGVuKSB8IFsgXSBWb3JoYW5kZW4gfAoKIyMjIENhc2UgU3R1ZHkgMzoKfCBGcmFnZSB8IEFudHdvcnQgfAp8LS0tLS0tLXwtLS0tLS0tLS18CnwgUHJvamVrdHRpdGVsIHwgfAp8IEt1bmRlIChhbm9ueW1pc2llcnQgZmFsbHMgbsO2dGlnKSB8IHwKfCBCcmFuY2hlIHwgfAp8IEF1c2dhbmdzc2l0dWF0aW9uIC8gUHJvYmxlbSB8IHwKfCBFdWVyIEzDtnN1bmdzYW5zYXR6IHwgfAp8IER1cmNoZ2Vmw7xocnRlIE1hw59uYWhtZW4gfCB8CnwgRXJnZWJuaXMgLyBFcmZvbGcgKG1pdCBaYWhsZW4gd2VubiBtw7ZnbGljaCkgfCB8CnwgUHJvamVrdGRhdWVyIHwgfAp8IEVpbmdlc2V0enRlIExlaXN0dW5nZW4gfCB8CnwgQmVzb25kZXJoZWl0ZW4gZGVzIFByb2pla3RzIHwgfAp8IERhcmYgdmVyw7ZmZmVudGxpY2h0IHdlcmRlbj8gfCBbIF0gSmEgWyBdIEFub255bWlzaWVydCBbIF0gTmVpbiB8CnwgKipCSUxERVIgQkVOw5ZUSUdUOioqIFByb2pla3RiaWxkZXIgKGZhbGxzIHZvcmhhbmRlbikgfCBbIF0gVm9yaGFuZGVuIHwKCi0tLQoKIyMgNy4gQlJBTkNIRU4tRVhQRVJUSVNFCgojIyMgNy4xIEJyYW5jaGVuc3BlemlmaXNjaGUgRXJmYWhydW5nCipCaXR0ZSBmw7xyIGplZGUgQnJhbmNoZSBhdXNmw7xsbGVuLCBpbiBkZXIgaWhyIGFrdGl2IHNlaWQqCgoqKkluZHVzdHJpZS9Qcm9kdWt0aW9uOioqCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IEFuemFobCBQcm9qZWt0ZSBpbiBkaWVzZXIgQnJhbmNoZSB8IHwKfCBUeXBpc2NoZSBIZXJhdXNmb3JkZXJ1bmdlbiB8IHwKfCBCZXNvbmRlcmUgRXhwZXJ0aXNlIHwgfAp8IFJlZmVyZW56cHJvamVrdCAoa3VyeikgfCB8CgoqKkhhbmRlbDoqKgp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBBbnphaGwgUHJvamVrdGUgaW4gZGllc2VyIEJyYW5jaGUgfCB8CnwgVHlwaXNjaGUgSGVyYXVzZm9yZGVydW5nZW4gfCB8CnwgQmVzb25kZXJlIEV4cGVydGlzZSB8IHwKfCBSZWZlcmVuenByb2pla3QgKGt1cnopIHwgfAoKKipUZWNobm9sb2dpZToqKgp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBBbnphaGwgUHJvamVrdGUgaW4gZGllc2VyIEJyYW5jaGUgfCB8CnwgVHlwaXNjaGUgSGVyYXVzZm9yZGVydW5nZW4gfCB8CnwgQmVzb25kZXJlIEV4cGVydGlzZSB8IHwKfCBSZWZlcmVuenByb2pla3QgKGt1cnopIHwgfAoKKipHZXN1bmRoZWl0c3dlc2VuOioqCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IEFuemFobCBQcm9qZWt0ZSBpbiBkaWVzZXIgQnJhbmNoZSB8IHwKfCBUeXBpc2NoZSBIZXJhdXNmb3JkZXJ1bmdlbiB8IHwKfCBCZXNvbmRlcmUgRXhwZXJ0aXNlIHwgfAp8IFJlZmVyZW56cHJvamVrdCAoa3VyeikgfCB8CgoqKkltbW9iaWxpZW46KioKfCBGcmFnZSB8IEFudHdvcnQgfAp8LS0tLS0tLXwtLS0tLS0tLS18CnwgQW56YWhsIFByb2pla3RlIGluIGRpZXNlciBCcmFuY2hlIHwgfAp8IFR5cGlzY2hlIEhlcmF1c2ZvcmRlcnVuZ2VuIHwgfAp8IEJlc29uZGVyZSBFeHBlcnRpc2UgfCB8CnwgUmVmZXJlbnpwcm9qZWt0IChrdXJ6KSB8IHwKCioqRW5lcmdpZToqKgp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBBbnphaGwgUHJvamVrdGUgaW4gZGllc2VyIEJyYW5jaGUgfCB8CnwgVHlwaXNjaGUgSGVyYXVzZm9yZGVydW5nZW4gfCB8CnwgQmVzb25kZXJlIEV4cGVydGlzZSB8IHwKfCBSZWZlcmVuenByb2pla3QgKGt1cnopIHwgfAoKKipGaW5hbnpkaWVuc3RsZWlzdHVuZ2VuOioqCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IEFuemFobCBQcm9qZWt0ZSBpbiBkaWVzZXIgQnJhbmNoZSB8IHwKfCBUeXBpc2NoZSBIZXJhdXNmb3JkZXJ1bmdlbiB8IHwKfCBCZXNvbmRlcmUgRXhwZXJ0aXNlIHwgfAp8IFJlZmVyZW56cHJvamVrdCAoa3VyeikgfCB8CgoqKkxvZ2lzdGlrOioqCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IEFuemFobCBQcm9qZWt0ZSBpbiBkaWVzZXIgQnJhbmNoZSB8IHwKfCBUeXBpc2NoZSBIZXJhdXNmb3JkZXJ1bmdlbiB8IHwKfCBCZXNvbmRlcmUgRXhwZXJ0aXNlIHwgfAp8IFJlZmVyZW56cHJvamVrdCAoa3VyeikgfCB8CgoqKldlaXRlcmUgQnJhbmNoZW46KioKfCBCcmFuY2hlIHwgQW56YWhsIFByb2pla3RlIHwgQmVzb25kZXJoZWl0ZW4gfAp8LS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLS0tLS18CnwgfCB8IHwKfCB8IHwgfAp8IHwgfCB8CgotLS0KCiMjIDguIEtJLUzDllNVTkdFTgoKIyMjIDguMSBLSS1Ub29scyAmIEZlYXR1cmVzCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IFdlbGNoZSBlaWdlbmVuIEtJLVRvb2xzIGhhYnQgaWhyIGVudHdpY2tlbHQ/IHwgfAp8IEJlc2NocmVpYnVuZyBkZXMgQmV3ZXJ0dW5nc3JlY2huZXJzIHwgfAp8IFdpZSBmdW5rdGlvbmllcnQgZGllIEtJLUFuYWx5c2U/IHwgfAp8IFdlbGNoZSBEYXRlbiB3ZXJkZW4gYW5hbHlzaWVydD8gfCB8CnwgR2VuYXVpZ2tlaXQvWnV2ZXJsw6Rzc2lna2VpdCBkZXIgS0kgfCB8CnwgRGF0ZW5zY2h1dHo6IFdvIHdlcmRlbiBEYXRlbiB2ZXJhcmJlaXRldD8gfCB8CnwgR2lidCBlcyBlaW5lIERlbW8tVmVyc2lvbj8gfCB8CgojIyMgOC4yIFRlY2huaXNjaGUgRGV0YWlscyAoZsO8ciBUZWNoLVNlaXRlKQp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBWZXJ3ZW5kZXRlIEtJLVRlY2hub2xvZ2llbiB8IHwKfCBFaWdlbmUgTW9kZWxsZSBvZGVyIEFQSXM/IHwgfAp8IFNpY2hlcmhlaXRzbWHDn25haG1lbiB8IHwKfCBEU0dWTy1Lb25mb3JtaXTDpHQgfCB8CgotLS0KCiMjIDkuIE1FRElFTiAmIEJJTERFUgoKIyMjIDkuMSBCZW7DtnRpZ3RlIEJpbGRlciAtIENIRUNLTElTVEUKCioqUGZsaWNodCAoSG9jaHByaW9yaXTDpHQpOioqCi0gWyBdIExvZ28gaW4gdmVyc2NoaWVkZW5lbiBGb3JtYXRlbiAoUE5HIHRyYW5zcGFyZW50LCBTVkcpCi0gWyBdIExvZ28tVmFyaWFudGVuIChkdW5rZWwsIGhlbGwsIG51ciBJY29uKQotIFsgXSBUZWFtLVBvcnRyYWl0cyAoYWxsZSBUZWFtbWl0Z2xpZWRlciwgcHJvZmVzc2lvbmVsbCwgZWluaGVpdGxpY2hlciBTdGlsKQotIFsgXSBGYXZpY29uIChJY29uIGbDvHIgQnJvd3Nlci1UYWIsIDUxMng1MTJweCkKCioqRW1wZm9obGVuIChNaXR0bGVyZSBQcmlvcml0w6R0KToqKgotIFsgXSBCw7xyby0vQXJiZWl0c3VtZ2VidW5nIEZvdG9zCi0gWyBdIFRlYW0tR3J1cHBlbmZvdG8KLSBbIF0gIkJlaGluZCB0aGUgU2NlbmVzIiBBcmJlaXRzZm90b3MKLSBbIF0gRm90b3Mgdm9uIFdvcmtzaG9wcy9NZWV0aW5ncyAoZmFsbHMgdm9yaGFuZGVuKQoKKipPcHRpb25hbCAoTmllZHJpZ2UgUHJpb3JpdMOkdCk6KioKLSBbIF0gS3VuZGVubG9nb3MgKG1pdCBGcmVpZ2FiZSkKLSBbIF0gUHJvamVrdGJpbGRlcgotIFsgXSBFdmVudC1Gb3RvcwotIFsgXSBaZXJ0aWZpa2F0ZS9BdXN6ZWljaG51bmdlbgoKIyMjIDkuMiBCaWxkLVNwZXppZmlrYXRpb25lbgp8IEJpbGR0eXAgfCBGb3JtYXQgfCBNaW5kZXN0Z3LDtsOfZSB8IEFubWVya3VuZ2VuIHwKfC0tLS0tLS0tLXwtLS0tLS0tLXwtLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tfAp8IExvZ28gfCBQTkcvU1ZHIHwgMTAwMHB4IGJyZWl0IHwgVHJhbnNwYXJlbnQgfAp8IFBvcnRyYWl0cyB8IEpQRy9QTkcgfCA4MDB4ODAwcHggfCBRdWFkcmF0aXNjaCwgZWluaGVpdGxpY2hlciBIaW50ZXJncnVuZCB8CnwgSGVyby1CaWxkZXIgfCBKUEcgfCAxOTIweDEwODBweCB8IFF1ZXJmb3JtYXQgfAp8IFRodW1ibmFpbHMgfCBKUEcvUE5HIHwgNDAweDQwMHB4IHwgRsO8ciBWb3JzY2hhdWVuIHwKCiMjIyA5LjMgVmlkZW8tTWF0ZXJpYWwKfCBGcmFnZSB8IEFudHdvcnQgfAp8LS0tLS0tLXwtLS0tLS0tLS18CnwgR2lidCBlcyBVbnRlcm5laG1lbnN2aWRlb3M/IHwgfAp8IEdpYnQgZXMgRXJrbMOkcnZpZGVvcyB6dSBMZWlzdHVuZ2VuPyB8IHwKfCBUZXN0aW1vbmlhbC1WaWRlb3Mgdm9yaGFuZGVuPyB8IHwKfCBZb3VUdWJlL1ZpbWVvIEthbmFsPyB8IHwKCi0tLQoKIyMgMTAuIEtPTlRBS1QgJiBSRUNIVExJQ0hFUwoKIyMjIDEwLjEgSW1wcmVzc3VtIChQZmxpY2h0YW5nYWJlbikKfCBGcmFnZSB8IEFudHdvcnQgfAp8LS0tLS0tLXwtLS0tLS0tLS18CnwgVm9sbHN0w6RuZGlnZXIgRmlybWVubmFtZSB8IHwKfCBSZWNodHNmb3JtIHwgfAp8IFZlcnRyZXR1bmdzYmVyZWNodGlndGUgUGVyc29uKGVuKSB8IHwKfCBBbnNjaHJpZnQgfCB8CnwgVGVsZWZvbiB8IHwKfCBFLU1haWwgfCB8CnwgSGFuZGVsc3JlZ2lzdGVyICsgTnVtbWVyIHwgfAp8IFJlZ2lzdGVyZ2VyaWNodCB8IHwKfCBVU3QtSWROci4gfCB8CnwgQmVydWZzYmV6ZWljaG51bmcgKGZhbGxzIHJlbGV2YW50KSB8IHwKfCBadXN0w6RuZGlnZSBBdWZzaWNodHNiZWjDtnJkZSAoZmFsbHMgcmVsZXZhbnQpIHwgfAp8IEJlcnVmc3JlY2h0bGljaGUgUmVnZWx1bmdlbiAoZmFsbHMgcmVsZXZhbnQpIHwgfAoKIyMjIDEwLjIgRGF0ZW5zY2h1dHoKfCBGcmFnZSB8IEFudHdvcnQgfAp8LS0tLS0tLXwtLS0tLS0tLS18CnwgRGF0ZW5zY2h1dHpiZWF1ZnRyYWd0ZXIgKE5hbWUsIEtvbnRha3QpIHwgfAp8IEhvc3RpbmctQW5iaWV0ZXIgKGbDvHIgRGF0ZW5zY2h1dHplcmtsw6RydW5nKSB8IHwKfCBFaW5nZXNldHp0ZSBBbmFseXNlLVRvb2xzIChHb29nbGUgQW5hbHl0aWNzLCBldGMuKSB8IHwKfCBOZXdzbGV0dGVyLVRvb2wgKGZhbGxzIHZvcmhhbmRlbikgfCB8CnwgS29udGFrdGZvcm11bGFyLVZlcmFyYmVpdHVuZyB8IHwKfCBDUk0tU3lzdGVtIChmYWxscyB2b3JoYW5kZW4pIHwgfAoKIyMjIDEwLjMgS29udGFrdG3DtmdsaWNoa2VpdGVuCnwgS2FuYWwgfCBBZHJlc3NlL051bW1lciB8IEVycmVpY2hiYXJrZWl0IHwKfC0tLS0tLS18LS0tLS0tLS0tLS0tLS0tLXwtLS0tLS0tLS0tLS0tLS0tfAp8IFRlbGVmb24gfCB8IHwKfCBFLU1haWwgYWxsZ2VtZWluIHwgfCB8CnwgRS1NYWlsIEFuZnJhZ2VuIHwgfCB8CnwgVGVybWluYnVjaHVuZyAoQ2FsZW5kbHkgby7DpC4pIHwgfCB8CnwgV2hhdHNBcHAgQnVzaW5lc3MgfCB8IHwKfCBMaW5rZWRJbiB8IHwgfAoKLS0tCgojIyAxMS4gU0VPICYgTUFSS0VUSU5HCgojIyMgMTEuMSBLZXl3b3JkcyAmIFBvc2l0aW9uaWVydW5nCnwgRnJhZ2UgfCBBbnR3b3J0IHwKfC0tLS0tLS18LS0tLS0tLS0tfAp8IEbDvHIgd2VsY2hlIFN1Y2hiZWdyaWZmZSB3b2xsdCBpaHIgZ2VmdW5kZW4gd2VyZGVuPyB8IHwKfCBSZWdpb25hbGUgRm9rdXNzaWVydW5nIChTdMOkZHRlLCBSZWdpb25lbikgfCB8CnwgSGF1cHR6aWVsZ3J1cHBlICh3ZXIgc3VjaHQgbmFjaCBldWNoPykgfCB8CnwgV2V0dGJld2VyYmVyICh3ZXIgc2luZCBldXJlIEhhdXB0a29ua3VycmVudGVuPykgfCB8CgojIyMgMTEuMiBDb250ZW50ICYgQmxvZwp8IEZyYWdlIHwgQW50d29ydCB8CnwtLS0tLS0tfC0tLS0tLS0tLXwKfCBHaWJ0IGVzIGJlc3RlaGVuZGUgQmxvZy1BcnRpa2VsL0luc2lnaHRzPyB8IHwKfCBUaGVtZW4gZsO8ciB6dWvDvG5mdGlnZSBBcnRpa2VsIHwgfAp8IFdlciBzY2hyZWlidCBkaWUgSW5oYWx0ZT8gfCB8CnwgVmVyw7ZmZmVudGxpY2h1bmdzZnJlcXVlbnogZ2VwbGFudD8gfCB8CgojIyMgMTEuMyBTb2NpYWwgTWVkaWEKfCBQbGF0dGZvcm0gfCBQcm9maWwtVVJMIHwgQWt0aXY/IHwKfC0tLS0tLS0tLS0tfC0tLS0tLS0tLS0tLXwtLS0tLS0tLXwKfCBMaW5rZWRJbiAoRmlybWEpIHwgfCBbIF0gSmEgWyBdIE5laW4gfAp8IExpbmtlZEluIChQZXJzw7ZubGljaCkgfCB8IFsgXSBKYSBbIF0gTmVpbiB8CnwgWGluZyB8IHwgWyBdIEphIFsgXSBOZWluIHwKfCBUd2l0dGVyL1ggfCB8IFsgXSBKYSBbIF0gTmVpbiB8CnwgSW5zdGFncmFtIHwgfCBbIF0gSmEgWyBdIE5laW4gfAp8IEZhY2Vib29rIHwgfCBbIF0gSmEgWyBdIE5laW4gfAp8IFlvdVR1YmUgfCB8IFsgXSBKYSBbIF0gTmVpbiB8CgotLS0KCiMjIFpVU0FNTUVORkFTU1VORzogQkVOw5ZUSUdURSBEQVRFSUVOCgojIyMgUGZsaWNodC1EYXRlaWVuOgoxLiBbIF0gKipMb2dvLVBha2V0KiogKFBORywgU1ZHLCB2ZXJzY2hpZWRlbmUgVmFyaWFudGVuKQoyLiBbIF0gKipUZWFtLVBvcnRyYWl0cyoqIChhbGxlIFBlcnNvbmVuLCBlaW5oZWl0bGljaGVyIFN0aWwpCjMuIFsgXSAqKkZhdmljb24qKiAoNTEyeDUxMnB4IFBORykKCiMjIyBFbXBmb2hsZW5lIERhdGVpZW46CjQuIFsgXSAqKkt1bmRlbmxvZ29zKiogKG1pdCBzY2hyaWZ0bGljaGVyIEZyZWlnYWJlKQo1LiBbIF0gKipCw7xyby0vVGVhbS1Gb3RvcyoqCjYuIFsgXSAqKlByb2pla3RiaWxkZXIqKiAoZsO8ciBDYXNlIFN0dWRpZXMpCgojIyMgRG9rdW1lbnRlOgo3LiBbIF0gKipTY2hyaWZ0bGljaGUgRnJlaWdhYmVuKiogZsO8ciBUZXN0aW1vbmlhbHMKOC4gWyBdICoqU2NocmlmdGxpY2hlIEZyZWlnYWJlbioqIGbDvHIgS3VuZGVubG9nb3MKOS4gWyBdICoqWmVydGlmaWthdGUvQXVzemVpY2hudW5nZW4qKiAoZmFsbHMgdm9yaGFuZGVuKQoKLS0tCgojIyBOw4RDSFNURSBTQ0hSSVRURQoKMS4gRGllc2VuIEZyYWdla2F0YWxvZyBhdXNmw7xsbGVuCjIuIEFsbGUgQmlsZGVyL01lZGllbiBzYW1tZWxuCjMuIEF1c2dlZsO8bGx0ZW4gS2F0YWxvZyArIERhdGVpZW4gYW4gbWljaCBzZW5kZW4KNC4gSWNoIHBhc3NlIGRpZSBnZXNhbXRlIFdlYnNpdGUgZW50c3ByZWNoZW5kIGFuCgotLS0KCioqQmVpIEZyYWdlbiB6dSBlaW56ZWxuZW4gUHVua3RlbiBlaW5mYWNoIG5hY2hmcmFnZW4hKioKCipFcnN0ZWxsdCBmw7xyIFFBTk5BIENvbnN1bHRpbmcgLSBKYW51YXIgMjAyNioK
+# QANNA Consulting - Fragekatalog für Website-Inhalte
+
+**Datum:** Januar 2026
+**Zweck:** Sammlung aller echten Daten, Texte und Medien für die Website
+
+---
+
+## INHALTSVERZEICHNIS
+
+1. [Unternehmensdaten](#1-unternehmensdaten)
+2. [Team & Personen](#2-team--personen)
+3. [Leistungen & Services](#3-leistungen--services)
+4. [Statistiken & Zahlen](#4-statistiken--zahlen)
+5. [Referenzen & Testimonials](#5-referenzen--testimonials)
+6. [Case Studies / Erfolgsgeschichten](#6-case-studies--erfolgsgeschichten)
+7. [Branchen-Expertise](#7-branchen-expertise)
+8. [KI-Lösungen](#8-ki-lösungen)
+9. [Medien & Bilder](#9-medien--bilder)
+10. [Kontakt & Rechtliches](#10-kontakt--rechtliches)
+11. [SEO & Marketing](#11-seo--marketing)
+
+---
+
+## 1. UNTERNEHMENSDATEN
+
+### 1.1 Grunddaten
+| Frage | Antwort |
+|-------|---------|
+| Offizieller Firmenname | |
+| Rechtsform (GmbH, UG, etc.) | |
+| Gründungsjahr | |
+| Handelsregister-Nummer | |
+| USt-IdNr. | |
+| Geschäftsführer (Name/n) | |
+
+### 1.2 Kontaktdaten
+| Frage | Antwort |
+|-------|---------|
+| Hauptadresse (Straße, PLZ, Ort) | |
+| Telefonnummer (Zentrale) | |
+| E-Mail (allgemein) | |
+| E-Mail (Anfragen/Kontakt) | |
+| LinkedIn Unternehmensseite | |
+| Xing Unternehmensseite | |
+| Weitere Social Media | |
+
+### 1.3 Mission & Vision
+| Frage | Antwort |
+|-------|---------|
+| Mission Statement (1-2 Sätze: Warum gibt es QANNA?) | |
+| Vision (Wo seht ihr euch in 5-10 Jahren?) | |
+| Kernwerte (3-5 Werte, die QANNA ausmachen) | |
+| Was unterscheidet QANNA von anderen Beratungen? (USP) | |
+| Slogan/Tagline (falls vorhanden) | |
+
+### 1.4 Geschichte
+| Frage | Antwort |
+|-------|---------|
+| Wie ist QANNA entstanden? (Gründungsgeschichte) | |
+| Wichtige Meilensteine seit Gründung | |
+| Ursprüngliche Motivation der Gründer | |
+
+---
+
+## 2. TEAM & PERSONEN
+
+### 2.1 Gründer / Geschäftsführung
+
+**Person 1:**
+| Frage | Antwort |
+|-------|---------|
+| Vollständiger Name | |
+| Position/Titel | |
+| Kurze Bio (3-5 Sätze) | |
+| Ausbildung/Studium | |
+| Beruflicher Werdegang (wichtigste Stationen) | |
+| Spezialisierung/Expertise | |
+| Jahre Berufserfahrung | |
+| LinkedIn Profil URL | |
+| E-Mail (direkt) | |
+| Persönliches Zitat/Motto | |
+| **BILD BENÖTIGT:** Professionelles Portrait (min. 800x800px) | [ ] Vorhanden |
+
+**Person 2:**
+| Frage | Antwort |
+|-------|---------|
+| Vollständiger Name | |
+| Position/Titel | |
+| Kurze Bio (3-5 Sätze) | |
+| Ausbildung/Studium | |
+| Beruflicher Werdegang (wichtigste Stationen) | |
+| Spezialisierung/Expertise | |
+| Jahre Berufserfahrung | |
+| LinkedIn Profil URL | |
+| E-Mail (direkt) | |
+| Persönliches Zitat/Motto | |
+| **BILD BENÖTIGT:** Professionelles Portrait (min. 800x800px) | [ ] Vorhanden |
+
+**Person 3:** (falls vorhanden)
+| Frage | Antwort |
+|-------|---------|
+| Vollständiger Name | |
+| Position/Titel | |
+| Kurze Bio (3-5 Sätze) | |
+| Ausbildung/Studium | |
+| Beruflicher Werdegang (wichtigste Stationen) | |
+| Spezialisierung/Expertise | |
+| Jahre Berufserfahrung | |
+| LinkedIn Profil URL | |
+| E-Mail (direkt) | |
+| Persönliches Zitat/Motto | |
+| **BILD BENÖTIGT:** Professionelles Portrait (min. 800x800px) | [ ] Vorhanden |
+
+### 2.2 Weitere Teammitglieder (falls vorhanden)
+*Für jedes weitere Teammitglied die gleichen Fragen wie oben ausfüllen*
+
+### 2.3 Netzwerk & Partner
+| Frage | Antwort |
+|-------|---------|
+| Gibt es feste Kooperationspartner? | |
+| Namen der Partner-Unternehmen | |
+| Art der Zusammenarbeit | |
+| Dürfen Partner auf der Website genannt werden? | |
+
+---
+
+## 3. LEISTUNGEN & SERVICES
+
+### 3.1 Unternehmensnachfolge
+| Frage | Antwort |
+|-------|---------|
+| Detaillierte Beschreibung der Leistung | |
+| Typischer Ablauf/Prozess | |
+| Dauer eines typischen Projekts | |
+| Preismodell (Stundensatz, Pauschal, Erfolgsbasiert?) | |
+| Preisspanne (optional, für Orientierung) | |
+| Zielgruppe dieser Leistung | |
+| Häufigste Probleme, die ihr löst | |
+| Besondere Methoden/Tools die ihr nutzt | |
+
+### 3.2 Restrukturierung
+| Frage | Antwort |
+|-------|---------|
+| Detaillierte Beschreibung der Leistung | |
+| Typischer Ablauf/Prozess | |
+| Dauer eines typischen Projekts | |
+| Preismodell | |
+| Zielgruppe dieser Leistung | |
+| Häufigste Probleme, die ihr löst | |
+| Besondere Methoden/Tools die ihr nutzt | |
+
+### 3.3 Finanzierungsberatung
+| Frage | Antwort |
+|-------|---------|
+| Detaillierte Beschreibung der Leistung | |
+| Arten von Finanzierungen (Kredit, Mezzanine, etc.) | |
+| Typischer Ablauf/Prozess | |
+| Dauer eines typischen Projekts | |
+| Preismodell | |
+| Zielgruppe dieser Leistung | |
+| Bankenkontakte/Netzwerk vorhanden? | |
+
+### 3.4 Effizienzoptimierung
+| Frage | Antwort |
+|-------|---------|
+| Detaillierte Beschreibung der Leistung | |
+| Typischer Ablauf/Prozess | |
+| Welche Bereiche optimiert ihr? (Prozesse, Kosten, etc.) | |
+| Dauer eines typischen Projekts | |
+| Preismodell | |
+| Tools/Software die ihr einsetzt | |
+
+### 3.5 KI-Beratung
+| Frage | Antwort |
+|-------|---------|
+| Detaillierte Beschreibung der Leistung | |
+| Welche KI-Anwendungen bietet ihr an? | |
+| Eigene KI-Tools entwickelt? | |
+| Typischer Ablauf/Prozess | |
+| Dauer eines typischen Projekts | |
+| Preismodell | |
+| Technologie-Partner (OpenAI, etc.)? | |
+
+### 3.6 Weitere Leistungen
+| Frage | Antwort |
+|-------|---------|
+| Gibt es weitere Leistungen, die nicht aufgeführt sind? | |
+| Beschreibung dieser Leistungen | |
+
+---
+
+## 4. STATISTIKEN & ZAHLEN
+
+### 4.1 Unternehmenskennzahlen
+| Frage | Antwort | Darf auf Website? |
+|-------|---------|-------------------|
+| Anzahl abgeschlossener Projekte (gesamt) | | [ ] Ja [ ] Nein |
+| Anzahl Projekte pro Jahr (Durchschnitt) | | [ ] Ja [ ] Nein |
+| Anzahl betreuter Kunden (gesamt) | | [ ] Ja [ ] Nein |
+| Jahre Erfahrung (Team gesamt) | | [ ] Ja [ ] Nein |
+| Erfolgsquote bei Nachfolge-Projekten | | [ ] Ja [ ] Nein |
+| Durchschnittliche Projektdauer | | [ ] Ja [ ] Nein |
+| Kundenzufriedenheit (falls gemessen) | | [ ] Ja [ ] Nein |
+| Weiterempfehlungsrate | | [ ] Ja [ ] Nein |
+
+### 4.2 Branchen-Statistiken
+| Frage | Antwort | Darf auf Website? |
+|-------|---------|-------------------|
+| In wie vielen Branchen aktiv? | | [ ] Ja [ ] Nein |
+| Top 3 Branchen nach Projektzahl | | [ ] Ja [ ] Nein |
+| Regionale Verteilung (DACH, nur DE, etc.) | | [ ] Ja [ ] Nein |
+
+### 4.3 Finanzielle Kennzahlen (nur falls gewünscht)
+| Frage | Antwort | Darf auf Website? |
+|-------|---------|-------------------|
+| Transaktionsvolumen betreut (gesamt) | | [ ] Ja [ ] Nein |
+| Durchschnittliches Projektvolumen | | [ ] Ja [ ] Nein |
+| Größtes Einzelprojekt | | [ ] Ja [ ] Nein |
+
+### 4.4 KI-spezifische Zahlen
+| Frage | Antwort | Darf auf Website? |
+|-------|---------|-------------------|
+| Zeitersparnis durch KI-Tools (in %) | | [ ] Ja [ ] Nein |
+| Anzahl KI-gestützter Analysen | | [ ] Ja [ ] Nein |
+| Genauigkeit der KI-Bewertungen | | [ ] Ja [ ] Nein |
+
+---
+
+## 5. REFERENZEN & TESTIMONIALS
+
+### 5.1 Kundenstimmen
+
+**Testimonial 1:**
+| Frage | Antwort |
+|-------|---------|
+| Name des Kunden | |
+| Position/Titel | |
+| Unternehmen | |
+| Branche | |
+| Zitat/Testimonial (2-4 Sätze) | |
+| Welche Leistung wurde erbracht? | |
+| Schriftliche Freigabe vorhanden? | [ ] Ja [ ] Nein |
+| **BILD BENÖTIGT:** Portrait des Kunden (optional) | [ ] Vorhanden [ ] Nicht gewünscht |
+
+**Testimonial 2:**
+| Frage | Antwort |
+|-------|---------|
+| Name des Kunden | |
+| Position/Titel | |
+| Unternehmen | |
+| Branche | |
+| Zitat/Testimonial (2-4 Sätze) | |
+| Welche Leistung wurde erbracht? | |
+| Schriftliche Freigabe vorhanden? | [ ] Ja [ ] Nein |
+| **BILD BENÖTIGT:** Portrait des Kunden (optional) | [ ] Vorhanden [ ] Nicht gewünscht |
+
+**Testimonial 3:**
+| Frage | Antwort |
+|-------|---------|
+| Name des Kunden | |
+| Position/Titel | |
+| Unternehmen | |
+| Branche | |
+| Zitat/Testimonial (2-4 Sätze) | |
+| Welche Leistung wurde erbracht? | |
+| Schriftliche Freigabe vorhanden? | [ ] Ja [ ] Nein |
+| **BILD BENÖTIGT:** Portrait des Kunden (optional) | [ ] Vorhanden [ ] Nicht gewünscht |
+
+*Weitere Testimonials nach gleichem Schema hinzufügen*
+
+### 5.2 Kundenlogos
+| Frage | Antwort |
+|-------|---------|
+| Welche Kundenlogos dürfen gezeigt werden? | |
+| Schriftliche Freigabe für Logo-Nutzung? | |
+| **BILDER BENÖTIGT:** Kundenlogos (PNG, transparent, min. 200px breit) | |
+
+---
+
+## 6. CASE STUDIES / ERFOLGSGESCHICHTEN
+
+### Case Study 1:
+| Frage | Antwort |
+|-------|---------|
+| Projekttitel | |
+| Kunde (anonymisiert falls nötig) | |
+| Branche | |
+| Ausgangssituation / Problem | |
+| Euer Lösungsansatz | |
+| Durchgeführte Maßnahmen | |
+| Ergebnis / Erfolg (mit Zahlen wenn möglich) | |
+| Projektdauer | |
+| Eingesetzte Leistungen | |
+| Besonderheiten des Projekts | |
+| Darf veröffentlicht werden? | [ ] Ja [ ] Anonymisiert [ ] Nein |
+| **BILDER BENÖTIGT:** Projektbilder (falls vorhanden) | [ ] Vorhanden |
+
+### Case Study 2:
+| Frage | Antwort |
+|-------|---------|
+| Projekttitel | |
+| Kunde (anonymisiert falls nötig) | |
+| Branche | |
+| Ausgangssituation / Problem | |
+| Euer Lösungsansatz | |
+| Durchgeführte Maßnahmen | |
+| Ergebnis / Erfolg (mit Zahlen wenn möglich) | |
+| Projektdauer | |
+| Eingesetzte Leistungen | |
+| Besonderheiten des Projekts | |
+| Darf veröffentlicht werden? | [ ] Ja [ ] Anonymisiert [ ] Nein |
+| **BILDER BENÖTIGT:** Projektbilder (falls vorhanden) | [ ] Vorhanden |
+
+### Case Study 3:
+| Frage | Antwort |
+|-------|---------|
+| Projekttitel | |
+| Kunde (anonymisiert falls nötig) | |
+| Branche | |
+| Ausgangssituation / Problem | |
+| Euer Lösungsansatz | |
+| Durchgeführte Maßnahmen | |
+| Ergebnis / Erfolg (mit Zahlen wenn möglich) | |
+| Projektdauer | |
+| Eingesetzte Leistungen | |
+| Besonderheiten des Projekts | |
+| Darf veröffentlicht werden? | [ ] Ja [ ] Anonymisiert [ ] Nein |
+| **BILDER BENÖTIGT:** Projektbilder (falls vorhanden) | [ ] Vorhanden |
+
+---
+
+## 7. BRANCHEN-EXPERTISE
+
+### 7.1 Branchenspezifische Erfahrung
+*Bitte für jede Branche ausfüllen, in der ihr aktiv seid*
+
+**Industrie/Produktion:**
+| Frage | Antwort |
+|-------|---------|
+| Anzahl Projekte in dieser Branche | |
+| Typische Herausforderungen | |
+| Besondere Expertise | |
+| Referenzprojekt (kurz) | |
+
+**Handel:**
+| Frage | Antwort |
+|-------|---------|
+| Anzahl Projekte in dieser Branche | |
+| Typische Herausforderungen | |
+| Besondere Expertise | |
+| Referenzprojekt (kurz) | |
+
+**Technologie:**
+| Frage | Antwort |
+|-------|---------|
+| Anzahl Projekte in dieser Branche | |
+| Typische Herausforderungen | |
+| Besondere Expertise | |
+| Referenzprojekt (kurz) | |
+
+**Gesundheitswesen:**
+| Frage | Antwort |
+|-------|---------|
+| Anzahl Projekte in dieser Branche | |
+| Typische Herausforderungen | |
+| Besondere Expertise | |
+| Referenzprojekt (kurz) | |
+
+**Immobilien:**
+| Frage | Antwort |
+|-------|---------|
+| Anzahl Projekte in dieser Branche | |
+| Typische Herausforderungen | |
+| Besondere Expertise | |
+| Referenzprojekt (kurz) | |
+
+**Energie:**
+| Frage | Antwort |
+|-------|---------|
+| Anzahl Projekte in dieser Branche | |
+| Typische Herausforderungen | |
+| Besondere Expertise | |
+| Referenzprojekt (kurz) | |
+
+**Finanzdienstleistungen:**
+| Frage | Antwort |
+|-------|---------|
+| Anzahl Projekte in dieser Branche | |
+| Typische Herausforderungen | |
+| Besondere Expertise | |
+| Referenzprojekt (kurz) | |
+
+**Logistik:**
+| Frage | Antwort |
+|-------|---------|
+| Anzahl Projekte in dieser Branche | |
+| Typische Herausforderungen | |
+| Besondere Expertise | |
+| Referenzprojekt (kurz) | |
+
+**Weitere Branchen:**
+| Branche | Anzahl Projekte | Besonderheiten |
+|---------|-----------------|----------------|
+| | | |
+| | | |
+| | | |
+
+---
+
+## 8. KI-LÖSUNGEN
+
+### 8.1 KI-Tools & Features
+| Frage | Antwort |
+|-------|---------|
+| Welche eigenen KI-Tools habt ihr entwickelt? | |
+| Beschreibung des Bewertungsrechners | |
+| Wie funktioniert die KI-Analyse? | |
+| Welche Daten werden analysiert? | |
+| Genauigkeit/Zuverlässigkeit der KI | |
+| Datenschutz: Wo werden Daten verarbeitet? | |
+| Gibt es eine Demo-Version? | |
+
+### 8.2 Technische Details (für Tech-Seite)
+| Frage | Antwort |
+|-------|---------|
+| Verwendete KI-Technologien | |
+| Eigene Modelle oder APIs? | |
+| Sicherheitsmaßnahmen | |
+| DSGVO-Konformität | |
+
+---
+
+## 9. MEDIEN & BILDER
+
+### 9.1 Benötigte Bilder - CHECKLISTE
+
+**Pflicht (Hochpriorität):**
+- [ ] Logo in verschiedenen Formaten (PNG transparent, SVG)
+- [ ] Logo-Varianten (dunkel, hell, nur Icon)
+- [ ] Team-Portraits (alle Teammitglieder, professionell, einheitlicher Stil)
+- [ ] Favicon (Icon für Browser-Tab, 512x512px)
+
+**Empfohlen (Mittlere Priorität):**
+- [ ] Büro-/Arbeitsumgebung Fotos
+- [ ] Team-Gruppenfoto
+- [ ] "Behind the Scenes" Arbeitsfotos
+- [ ] Fotos von Workshops/Meetings (falls vorhanden)
+
+**Optional (Niedrige Priorität):**
+- [ ] Kundenlogos (mit Freigabe)
+- [ ] Projektbilder
+- [ ] Event-Fotos
+- [ ] Zertifikate/Auszeichnungen
+
+### 9.2 Bild-Spezifikationen
+| Bildtyp | Format | Mindestgröße | Anmerkungen |
+|---------|--------|--------------|-------------|
+| Logo | PNG/SVG | 1000px breit | Transparent |
+| Portraits | JPG/PNG | 800x800px | Quadratisch, einheitlicher Hintergrund |
+| Hero-Bilder | JPG | 1920x1080px | Querformat |
+| Thumbnails | JPG/PNG | 400x400px | Für Vorschauen |
+
+### 9.3 Video-Material
+| Frage | Antwort |
+|-------|---------|
+| Gibt es Unternehmensvideos? | |
+| Gibt es Erklärvideos zu Leistungen? | |
+| Testimonial-Videos vorhanden? | |
+| YouTube/Vimeo Kanal? | |
+
+---
+
+## 10. KONTAKT & RECHTLICHES
+
+### 10.1 Impressum (Pflichtangaben)
+| Frage | Antwort |
+|-------|---------|
+| Vollständiger Firmenname | |
+| Rechtsform | |
+| Vertretungsberechtigte Person(en) | |
+| Anschrift | |
+| Telefon | |
+| E-Mail | |
+| Handelsregister + Nummer | |
+| Registergericht | |
+| USt-IdNr. | |
+| Berufsbezeichnung (falls relevant) | |
+| Zuständige Aufsichtsbehörde (falls relevant) | |
+| Berufsrechtliche Regelungen (falls relevant) | |
+
+### 10.2 Datenschutz
+| Frage | Antwort |
+|-------|---------|
+| Datenschutzbeauftragter (Name, Kontakt) | |
+| Hosting-Anbieter (für Datenschutzerklärung) | |
+| Eingesetzte Analyse-Tools (Google Analytics, etc.) | |
+| Newsletter-Tool (falls vorhanden) | |
+| Kontaktformular-Verarbeitung | |
+| CRM-System (falls vorhanden) | |
+
+### 10.3 Kontaktmöglichkeiten
+| Kanal | Adresse/Nummer | Erreichbarkeit |
+|-------|----------------|----------------|
+| Telefon | | |
+| E-Mail allgemein | | |
+| E-Mail Anfragen | | |
+| Terminbuchung (Calendly o.ä.) | | |
+| WhatsApp Business | | |
+| LinkedIn | | |
+
+---
+
+## 11. SEO & MARKETING
+
+### 11.1 Keywords & Positionierung
+| Frage | Antwort |
+|-------|---------|
+| Für welche Suchbegriffe wollt ihr gefunden werden? | |
+| Regionale Fokussierung (Städte, Regionen) | |
+| Hauptzielgruppe (wer sucht nach euch?) | |
+| Wettbewerber (wer sind eure Hauptkonkurrenten?) | |
+
+### 11.2 Content & Blog
+| Frage | Antwort |
+|-------|---------|
+| Gibt es bestehende Blog-Artikel/Insights? | |
+| Themen für zukünftige Artikel | |
+| Wer schreibt die Inhalte? | |
+| Veröffentlichungsfrequenz geplant? | |
+
+### 11.3 Social Media
+| Plattform | Profil-URL | Aktiv? |
+|-----------|------------|--------|
+| LinkedIn (Firma) | | [ ] Ja [ ] Nein |
+| LinkedIn (Persönlich) | | [ ] Ja [ ] Nein |
+| Xing | | [ ] Ja [ ] Nein |
+| Twitter/X | | [ ] Ja [ ] Nein |
+| Instagram | | [ ] Ja [ ] Nein |
+| Facebook | | [ ] Ja [ ] Nein |
+| YouTube | | [ ] Ja [ ] Nein |
+
+---
+
+## ZUSAMMENFASSUNG: BENÖTIGTE DATEIEN
+
+### Pflicht-Dateien:
+1. [ ] **Logo-Paket** (PNG, SVG, verschiedene Varianten)
+2. [ ] **Team-Portraits** (alle Personen, einheitlicher Stil)
+3. [ ] **Favicon** (512x512px PNG)
+
+### Empfohlene Dateien:
+4. [ ] **Kundenlogos** (mit schriftlicher Freigabe)
+5. [ ] **Büro-/Team-Fotos**
+6. [ ] **Projektbilder** (für Case Studies)
+
+### Dokumente:
+7. [ ] **Schriftliche Freigaben** für Testimonials
+8. [ ] **Schriftliche Freigaben** für Kundenlogos
+9. [ ] **Zertifikate/Auszeichnungen** (falls vorhanden)
+
+---
+
+## NÄCHSTE SCHRITTE
+
+1. Diesen Fragekatalog ausfüllen
+2. Alle Bilder/Medien sammeln
+3. Ausgefüllten Katalog + Dateien an mich senden
+4. Ich passe die gesamte Website entsprechend an
+
+---
+
+**Bei Fragen zu einzelnen Punkten einfach nachfragen!**
+
+*Erstellt für QANNA Consulting - Januar 2026*

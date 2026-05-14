@@ -1,1 +1,66 @@
-aW1wb3J0IHR5cGUgeyBNZXRhZGF0YSB9IGZyb20gIm5leHQiOwppbXBvcnQgeyBJbnRlciwgUGxheWZhaXJfRGlzcGxheSB9IGZyb20gIm5leHQvZm9udC9nb29nbGUiOwppbXBvcnQgIi4vZ2xvYmFscy5jc3MiOwoKY29uc3QgaW50ZXIgPSBJbnRlcih7CiAgc3Vic2V0czogWyJsYXRpbiJdLAogIGRpc3BsYXk6ICJzd2FwIiwKICB2YXJpYWJsZTogIi0tZm9udC1pbnRlciIsCn0pOwoKY29uc3QgcGxheWZhaXIgPSBQbGF5ZmFpcl9EaXNwbGF5KHsKICBzdWJzZXRzOiBbImxhdGluIl0sCiAgZGlzcGxheTogInN3YXAiLAogIHZhcmlhYmxlOiAiLS1mb250LXBsYXlmYWlyIiwKICB3ZWlnaHQ6IFsiNDAwIiwgIjUwMCIsICI2MDAiLCAiNzAwIiwgIjgwMCIsICI5MDAiXSwKfSk7CgpleHBvcnQgY29uc3QgbWV0YWRhdGE6IE1ldGFkYXRhID0gewogIHRpdGxlOiB7CiAgICBkZWZhdWx0OiAiUUFOTkEgVW50ZXJuZWhtZW5zbmFjaGZvbGdlIHwgTSZBLUJlcmF0dW5nIiwKICAgIHRlbXBsYXRlOiAiJXMgfCBRQU5OQSBVbnRlcm5laG1lbnNuYWNoZm9sZ2UiLAogIH0sCiAgZGVzY3JpcHRpb246CiAgICAiUUFOTkEgVW50ZXJuZWhtZW5zbmFjaGZvbGdlIC0gSWhyIFBhcnRuZXIgZnVlciBlcmZvbGdyZWljaGUgVW50ZXJuZWhtZW5zbmFjaGZvbGdlIHVuZCBNJkEtVHJhbnNha3Rpb25lbi4gVm9uIGRlciBCZXdlcnR1bmcgYmlzIHp1bSBBYnNjaGx1c3MuIiwKICBrZXl3b3JkczogWwogICAgIlVudGVybmVobWVuc25hY2hmb2xnZSIsCiAgICAiTSZBLUJlcmF0dW5nIiwKICAgICJVbnRlcm5laG1lbnNiZXdlcnR1bmciLAogICAgIkthZXVmZXJzdWNoZSIsCiAgICAiRHVlIERpbGlnZW5jZSIsCiAgICAiVmVydHJhZ3N2ZXJoYW5kbHVuZyIsCiAgICAiUG9zdC1NZXJnZXIgSW50ZWdyYXRpb24iLAogIF0sCiAgYXV0aG9yczogW3sgbmFtZTogIlFBTk5BIFVudGVybmVobWVuc25hY2hmb2xnZSIgfV0sCiAgY3JlYXRvcjogIlFBTk5BIFVudGVybmVobWVuc25hY2hmb2xnZSIsCiAgb3BlbkdyYXBoOiB7CiAgICB0eXBlOiAid2Vic2l0ZSIsCiAgICBsb2NhbGU6ICJkZV9ERSIsCiAgICB1cmw6ICJodHRwczovL3Fhbm5hLW5hY2hmb2xnZS5kZSIsCiAgICBzaXRlTmFtZTogIlFBTk5BIFVudGVybmVobWVuc25hY2hmb2xnZSIsCiAgICB0aXRsZTogIlFBTk5BIFVudGVybmVobWVuc25hY2hmb2xnZSB8IE0mQS1CZXJhdHVuZyIsCiAgICBkZXNjcmlwdGlvbjoKICAgICAgIklociBQYXJ0bmVyIGZ1ZXIgZXJmb2xncmVpY2hlIFVudGVybmVobWVuc25hY2hmb2xnZSB1bmQgTSZBLVRyYW5zYWt0aW9uZW4uIiwKICB9LAogIHR3aXR0ZXI6IHsKICAgIGNhcmQ6ICJzdW1tYXJ5X2xhcmdlX2ltYWdlIiwKICAgIHRpdGxlOiAiUUFOTkEgVW50ZXJuZWhtZW5zbmFjaGZvbGdlIiwKICAgIGRlc2NyaXB0aW9uOiAiVW50ZXJuZWhtZW5zbmFjaGZvbGdlICYgTSZBLUJlcmF0dW5nIiwKICB9LAogIHJvYm90czogewogICAgaW5kZXg6IHRydWUsCiAgICBmb2xsb3c6IHRydWUsCiAgfSwKfTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoewogIGNoaWxkcmVuLAp9OiBSZWFkb25seTx7CiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZTsKfT4pIHsKICByZXR1cm4gKAogICAgPGh0bWwgbGFuZz0iZGUiIGNsYXNzTmFtZT17YCR7aW50ZXIudmFyaWFibGV9ICR7cGxheWZhaXIudmFyaWFibGV9YH0+CiAgICAgIDxib2R5IGNsYXNzTmFtZT0iZm9udC1zYW5zIGFudGlhbGlhc2VkIj57Y2hpbGRyZW59PC9ib2R5PgogICAgPC9odG1sPgogICk7Cn0K
+import type { Metadata } from "next";
+import { Inter, Playfair_Display } from "next/font/google";
+import "./globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-playfair",
+  weight: ["400", "500", "600", "700", "800", "900"],
+});
+
+export const metadata: Metadata = {
+  title: {
+    default: "QANNA Unternehmensnachfolge | M&A-Beratung",
+    template: "%s | QANNA Unternehmensnachfolge",
+  },
+  description:
+    "QANNA Unternehmensnachfolge - Ihr Partner fuer erfolgreiche Unternehmensnachfolge und M&A-Transaktionen. Von der Bewertung bis zum Abschluss.",
+  keywords: [
+    "Unternehmensnachfolge",
+    "M&A-Beratung",
+    "Unternehmensbewertung",
+    "Kaeufersuche",
+    "Due Diligence",
+    "Vertragsverhandlung",
+    "Post-Merger Integration",
+  ],
+  authors: [{ name: "QANNA Unternehmensnachfolge" }],
+  creator: "QANNA Unternehmensnachfolge",
+  openGraph: {
+    type: "website",
+    locale: "de_DE",
+    url: "https://qanna-nachfolge.de",
+    siteName: "QANNA Unternehmensnachfolge",
+    title: "QANNA Unternehmensnachfolge | M&A-Beratung",
+    description:
+      "Ihr Partner fuer erfolgreiche Unternehmensnachfolge und M&A-Transaktionen.",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "QANNA Unternehmensnachfolge",
+    description: "Unternehmensnachfolge & M&A-Beratung",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="de" className={`${inter.variable} ${playfair.variable}`}>
+      <body className="font-sans antialiased">{children}</body>
+    </html>
+  );
+}

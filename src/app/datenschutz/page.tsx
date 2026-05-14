@@ -1,1 +1,298 @@
-aW1wb3J0IHsgSGVhZGVyLCBGb290ZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvbGF5b3V0IjsKCmV4cG9ydCBjb25zdCBtZXRhZGF0YSA9IHsKICB0aXRsZTogIkRhdGVuc2NodXR6ZXJrbMOkcnVuZyB8IFFBTk5BIENvbnN1bHRpbmciLAogIGRlc2NyaXB0aW9uOgogICAgIkRhdGVuc2NodXR6ZXJrbMOkcnVuZyB2b24gUUFOTkEgQ29uc3VsdGluZyAtIEluZm9ybWF0aW9uZW4genVyIFZlcmFyYmVpdHVuZyBwZXJzb25lbmJlem9nZW5lciBEYXRlbi4iLAp9OwoKZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gRGF0ZW5zY2h1dHpQYWdlKCkgewogIHJldHVybiAoCiAgICA8bWFpbj4KICAgICAgPEhlYWRlciAvPgoKICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJwdC0zMiBwYi0xNiBiZy1xYW5uYS1uYXZ5Ij4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyLXFhbm5hIj4KICAgICAgICAgIDxoMSBjbGFzc05hbWU9InRleHQtNHhsIG1kOnRleHQtNXhsIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIG1iLTQiPgogICAgICAgICAgICBEYXRlbnNjaHV0emVya2zDpHJ1bmcKICAgICAgICAgIDwvaDE+CiAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteGwgdGV4dC1ncmF5LTMwMCI+CiAgICAgICAgICAgIEluZm9ybWF0aW9uZW4genVyIFZlcmFyYmVpdHVuZyBJaHJlciBwZXJzb25lbmJlem9nZW5lbiBEYXRlbgogICAgICAgICAgPC9wPgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InNlY3Rpb24tcGFkZGluZyBiZy13aGl0ZSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lci1xYW5uYSBtYXgtdy00eGwiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InByb3NlIHByb3NlLWxnIG1heC13LW5vbmUiPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG1iLTQiPgogICAgICAgICAgICAgIDEuIERhdGVuc2NodXR6IGF1ZiBlaW5lbiBCbGljawogICAgICAgICAgICA8L2gyPgogICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG1iLTMiPgogICAgICAgICAgICAgIEFsbGdlbWVpbmUgSGlud2Vpc2UKICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIERpZSBmb2xnZW5kZW4gSGlud2Vpc2UgZ2ViZW4gZWluZW4gZWluZmFjaGVuIMOcYmVyYmxpY2sgZGFyw7xiZXIsCiAgICAgICAgICAgICAgd2FzIG1pdCBJaHJlbiBwZXJzb25lbmJlem9nZW5lbiBEYXRlbiBwYXNzaWVydCwgd2VubiBTaWUgZGllc2UKICAgICAgICAgICAgICBXZWJzaXRlIGJlc3VjaGVuLiBQZXJzb25lbmJlem9nZW5lIERhdGVuIHNpbmQgYWxsZSBEYXRlbiwgbWl0CiAgICAgICAgICAgICAgZGVuZW4gU2llIHBlcnPDtm5saWNoIGlkZW50aWZpemllcnQgd2VyZGVuIGvDtm5uZW4uIEF1c2bDvGhybGljaGUKICAgICAgICAgICAgICBJbmZvcm1hdGlvbmVuIHp1bSBUaGVtYSBEYXRlbnNjaHV0eiBlbnRuZWhtZW4gU2llIHVuc2VyZXIgdW50ZXIKICAgICAgICAgICAgICBkaWVzZW0gVGV4dCBhdWZnZWbDvGhydGVuIERhdGVuc2NodXR6ZXJrbMOkcnVuZy4KICAgICAgICAgICAgPC9wPgoKICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC14bCBmb250LXNlbWlib2xkIHRleHQtcWFubmEtbmF2eSBtYi0zIj4KICAgICAgICAgICAgICBEYXRlbmVyZmFzc3VuZyBhdWYgZGllc2VyIFdlYnNpdGUKICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTQiPgogICAgICAgICAgICAgIDxzdHJvbmc+CiAgICAgICAgICAgICAgICBXZXIgaXN0IHZlcmFudHdvcnRsaWNoIGbDvHIgZGllIERhdGVuZXJmYXNzdW5nIGF1ZiBkaWVzZXIKICAgICAgICAgICAgICAgIFdlYnNpdGU/CiAgICAgICAgICAgICAgPC9zdHJvbmc+CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIERpZSBEYXRlbnZlcmFyYmVpdHVuZyBhdWYgZGllc2VyIFdlYnNpdGUgZXJmb2xndCBkdXJjaCBkZW4KICAgICAgICAgICAgICBXZWJzaXRlYmV0cmVpYmVyLiBEZXNzZW4gS29udGFrdGRhdGVuIGvDtm5uZW4gU2llIGRlbSBJbXByZXNzdW0KICAgICAgICAgICAgICBkaWVzZXIgV2Vic2l0ZSBlbnRuZWhtZW4uCiAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi00Ij4KICAgICAgICAgICAgICA8c3Ryb25nPldpZSBlcmZhc3NlbiB3aXIgSWhyZSBEYXRlbj88L3N0cm9uZz4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS03MDAgbWItNiI+CiAgICAgICAgICAgICAgSWhyZSBEYXRlbiB3ZXJkZW4genVtIGVpbmVuIGRhZHVyY2ggZXJob2JlbiwgZGFzcyBTaWUgdW5zIGRpZXNlCiAgICAgICAgICAgICAgbWl0dGVpbGVuLiBIaWVyYmVpIGthbm4gZXMgc2ljaCB6LiBCLiB1bSBEYXRlbiBoYW5kZWxuLCBkaWUgU2llIGluCiAgICAgICAgICAgICAgZWluIEtvbnRha3Rmb3JtdWxhciBlaW5nZWJlbi4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS03MDAgbWItNiI+CiAgICAgICAgICAgICAgQW5kZXJlIERhdGVuIHdlcmRlbiBhdXRvbWF0aXNjaCBvZGVyIG5hY2ggSWhyZXIgRWlud2lsbGlndW5nIGJlaW0KICAgICAgICAgICAgICBCZXN1Y2ggZGVyIFdlYnNpdGUgZHVyY2ggdW5zZXJlIElULVN5c3RlbWUgZXJmYXNzdC4gRGFzIHNpbmQgdm9yCiAgICAgICAgICAgICAgYWxsZW0gdGVjaG5pc2NoZSBEYXRlbiAoei4gQi4gSW50ZXJuZXRicm93c2VyLCBCZXRyaWVic3N5c3RlbSBvZGVyCiAgICAgICAgICAgICAgVWhyemVpdCBkZXMgU2VpdGVuYXVmcnVmcykuIERpZSBFcmZhc3N1bmcgZGllc2VyIERhdGVuIGVyZm9sZ3QKICAgICAgICAgICAgICBhdXRvbWF0aXNjaCwgc29iYWxkIFNpZSBkaWVzZSBXZWJzaXRlIGJldHJldGVuLgogICAgICAgICAgICA8L3A+CgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS03MDAgbWItNCI+CiAgICAgICAgICAgICAgPHN0cm9uZz5Xb2bDvHIgbnV0emVuIHdpciBJaHJlIERhdGVuPzwvc3Ryb25nPgogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi02Ij4KICAgICAgICAgICAgICBFaW4gVGVpbCBkZXIgRGF0ZW4gd2lyZCBlcmhvYmVuLCB1bSBlaW5lIGZlaGxlcmZyZWllCiAgICAgICAgICAgICAgQmVyZWl0c3RlbGx1bmcgZGVyIFdlYnNpdGUgenUgZ2V3w6RocmxlaXN0ZW4uIEFuZGVyZSBEYXRlbiBrw7ZubmVuCiAgICAgICAgICAgICAgenVyIEFuYWx5c2UgSWhyZXMgTnV0emVydmVyaGFsdGVucyB2ZXJ3ZW5kZXQgd2VyZGVuLgogICAgICAgICAgICA8L3A+CgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG10LTEyIG1iLTQiPgogICAgICAgICAgICAgIDIuIEhvc3RpbmcKICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIFdpciBob3N0ZW4gZGllIEluaGFsdGUgdW5zZXJlciBXZWJzaXRlIGJlaSBWZXJjZWwgSW5jLiBBbmJpZXRlcgogICAgICAgICAgICAgIGlzdCBkaWUgVmVyY2VsIEluYy4sIDM0MCBTIExlbW9uIEF2ZSAjNDEzMywgV2FsbnV0LCBDQSA5MTc4OSwgVVNBLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi02Ij4KICAgICAgICAgICAgICBEZXRhaWxzIGVudG5laG1lbiBTaWUgZGVyIERhdGVuc2NodXR6ZXJrbMOkcnVuZyB2b24gVmVyY2VsOnsiICJ9CiAgICAgICAgICAgICAgPGEKICAgICAgICAgICAgICAgIGhyZWY9Imh0dHBzOi8vdmVyY2VsLmNvbS9sZWdhbC9wcml2YWN5LXBvbGljeSIKICAgICAgICAgICAgICAgIHRhcmdldD0iX2JsYW5rIgogICAgICAgICAgICAgICAgcmVsPSJub29wZW5lciBub3JlZmVycmVyIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdvbGQgaG92ZXI6dW5kZXJsaW5lIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIGh0dHBzOi8vdmVyY2VsLmNvbS9sZWdhbC9wcml2YWN5LXBvbGljeQogICAgICAgICAgICAgIDwvYT4KICAgICAgICAgICAgPC9wPgoKICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtcWFubmEtbmF2eSBtdC0xMiBtYi00Ij4KICAgICAgICAgICAgICAzLiBBbGxnZW1laW5lIEhpbndlaXNlIHVuZCBQZmxpY2h0aW5mb3JtYXRpb25lbgogICAgICAgICAgICA8L2gyPgogICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG1iLTMiPgogICAgICAgICAgICAgIERhdGVuc2NodXR6CiAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi02Ij4KICAgICAgICAgICAgICBEaWUgQmV0cmVpYmVyIGRpZXNlciBTZWl0ZW4gbmVobWVuIGRlbiBTY2h1dHogSWhyZXIgcGVyc8O2bmxpY2hlbgogICAgICAgICAgICAgIERhdGVuIHNlaHIgZXJuc3QuIFdpciBiZWhhbmRlbG4gSWhyZSBwZXJzb25lbmJlem9nZW5lbiBEYXRlbgogICAgICAgICAgICAgIHZlcnRyYXVsaWNoIHVuZCBlbnRzcHJlY2hlbmQgZGVuIGdlc2V0emxpY2hlbgogICAgICAgICAgICAgIERhdGVuc2NodXR6dm9yc2NocmlmdGVuIHNvd2llIGRpZXNlciBEYXRlbnNjaHV0emVya2zDpHJ1bmcuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIFdlbm4gU2llIGRpZXNlIFdlYnNpdGUgYmVudXR6ZW4sIHdlcmRlbiB2ZXJzY2hpZWRlbmUKICAgICAgICAgICAgICBwZXJzb25lbmJlem9nZW5lIERhdGVuIGVyaG9iZW4uIFBlcnNvbmVuYmV6b2dlbmUgRGF0ZW4gc2luZCBEYXRlbiwKICAgICAgICAgICAgICBtaXQgZGVuZW4gU2llIHBlcnPDtm5saWNoIGlkZW50aWZpemllcnQgd2VyZGVuIGvDtm5uZW4uIERpZQogICAgICAgICAgICAgIHZvcmxpZWdlbmRlIERhdGVuc2NodXR6ZXJrbMOkcnVuZyBlcmzDpHV0ZXJ0LCB3ZWxjaGUgRGF0ZW4gd2lyCiAgICAgICAgICAgICAgZXJoZWJlbiB1bmQgd29mw7xyIHdpciBzaWUgbnV0emVuLiBTaWUgZXJsw6R1dGVydCBhdWNoLCB3aWUgdW5kIHp1CiAgICAgICAgICAgICAgd2VsY2hlbSBad2VjayBkYXMgZ2VzY2hpZWh0LgogICAgICAgICAgICA8L3A+CgogICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG1iLTMiPgogICAgICAgICAgICAgIEhpbndlaXMgenVyIHZlcmFudHdvcnRsaWNoZW4gU3RlbGxlCiAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi02Ij4KICAgICAgICAgICAgICBEaWUgdmVyYW50d29ydGxpY2hlIFN0ZWxsZSBmw7xyIGRpZSBEYXRlbnZlcmFyYmVpdHVuZyBhdWYgZGllc2VyCiAgICAgICAgICAgICAgV2Vic2l0ZSBpc3Q6CiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIFFBTk5BIENvbnN1bHRpbmcgR21iSAogICAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICAgIE11c3RlcnN0cmHDn2UgMTIzCiAgICAgICAgICAgICAgPGJyIC8+CiAgICAgICAgICAgICAgODAzMzMgTcO8bmNoZW4KICAgICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgICBUZWxlZm9uOiArNDkgKDApIDg5IDEyMyA0NTYgNzgKICAgICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgICBFLU1haWw6IGRhdGVuc2NodXR6QHFhbm5hLWNvbnN1bHRpbmcuZGUKICAgICAgICAgICAgPC9wPgoKICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC14bCBmb250LXNlbWlib2xkIHRleHQtcWFubmEtbmF2eSBtYi0zIj4KICAgICAgICAgICAgICBTcGVpY2hlcmRhdWVyCiAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi02Ij4KICAgICAgICAgICAgICBTb3dlaXQgaW5uZXJoYWxiIGRpZXNlciBEYXRlbnNjaHV0emVya2zDpHJ1bmcga2VpbmUgc3BlemllbGxlcmUKICAgICAgICAgICAgICBTcGVpY2hlcmRhdWVyIGdlbmFubnQgd3VyZGUsIHZlcmJsZWliZW4gSWhyZSBwZXJzb25lbmJlem9nZW5lbgogICAgICAgICAgICAgIERhdGVuIGJlaSB1bnMsIGJpcyBkZXIgWndlY2sgZsO8ciBkaWUgRGF0ZW52ZXJhcmJlaXR1bmcgZW50ZsOkbGx0LgogICAgICAgICAgICAgIFdlbm4gU2llIGVpbiBiZXJlY2h0aWd0ZXMgTMO2c2NoZXJzdWNoZW4gZ2VsdGVuZCBtYWNoZW4gb2RlciBlaW5lCiAgICAgICAgICAgICAgRWlud2lsbGlndW5nIHp1ciBEYXRlbnZlcmFyYmVpdHVuZyB3aWRlcnJ1ZmVuLCB3ZXJkZW4gSWhyZSBEYXRlbgogICAgICAgICAgICAgIGdlbMO2c2NodCwgc29mZXJuIHdpciBrZWluZSBhbmRlcmVuIHJlY2h0bGljaCB6dWzDpHNzaWdlbiBHcsO8bmRlIGbDvHIKICAgICAgICAgICAgICBkaWUgU3BlaWNoZXJ1bmcgSWhyZXIgcGVyc29uZW5iZXpvZ2VuZW4gRGF0ZW4gaGFiZW47IGluIGVpbmVtCiAgICAgICAgICAgICAgc29sY2hlbiBGYWxsIGVyZm9sZ3QgZGllIEzDtnNjaHVuZyBuYWNoIEZvcnRmYWxsIGRpZXNlciBHcsO8bmRlLgogICAgICAgICAgICA8L3A+CgogICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG1iLTMiPgogICAgICAgICAgICAgIFdpZGVycnVmIElocmVyIEVpbndpbGxpZ3VuZyB6dXIgRGF0ZW52ZXJhcmJlaXR1bmcKICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIFZpZWxlIERhdGVudmVyYXJiZWl0dW5nc3ZvcmfDpG5nZSBzaW5kIG51ciBtaXQgSWhyZXIgYXVzZHLDvGNrbGljaGVuCiAgICAgICAgICAgICAgRWlud2lsbGlndW5nIG3DtmdsaWNoLiBTaWUga8O2bm5lbiBlaW5lIGJlcmVpdHMgZXJ0ZWlsdGUKICAgICAgICAgICAgICBFaW53aWxsaWd1bmcgamVkZXJ6ZWl0IHdpZGVycnVmZW4uIERpZSBSZWNodG3DpMOfaWdrZWl0IGRlciBiaXMgenVtCiAgICAgICAgICAgICAgV2lkZXJydWYgZXJmb2xndGVuIERhdGVudmVyYXJiZWl0dW5nIGJsZWlidCB2b20gV2lkZXJydWYKICAgICAgICAgICAgICB1bmJlcsO8aHJ0LgogICAgICAgICAgICA8L3A+CgogICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG1iLTMiPgogICAgICAgICAgICAgIEJlc2Nod2VyZGVyZWNodCBiZWkgZGVyIHp1c3TDpG5kaWdlbiBBdWZzaWNodHNiZWjDtnJkZQogICAgICAgICAgICA8L2gzPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS03MDAgbWItNiI+CiAgICAgICAgICAgICAgSW0gRmFsbGUgdm9uIFZlcnN0w7bDn2VuIGdlZ2VuIGRpZSBEU0dWTyBzdGVodCBkZW4gQmV0cm9mZmVuZW4gZWluCiAgICAgICAgICAgICAgQmVzY2h3ZXJkZXJlY2h0IGJlaSBlaW5lciBBdWZzaWNodHNiZWjDtnJkZSB6dS4gRGFzIEJlc2Nod2VyZGVyZWNodAogICAgICAgICAgICAgIGJlc3RlaHQgdW5iZXNjaGFkZXQgYW5kZXJ3ZWl0aWdlciB2ZXJ3YWx0dW5nc3JlY2h0bGljaGVyIG9kZXIKICAgICAgICAgICAgICBnZXJpY2h0bGljaGVyIFJlY2h0c2JlaGVsZmUuCiAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteGwgZm9udC1zZW1pYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbWItMyI+CiAgICAgICAgICAgICAgUmVjaHQgYXVmIERhdGVuw7xiZXJ0cmFnYmFya2VpdAogICAgICAgICAgICA8L2gzPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS03MDAgbWItNiI+CiAgICAgICAgICAgICAgU2llIGhhYmVuIGRhcyBSZWNodCwgRGF0ZW4sIGRpZSB3aXIgYXVmIEdydW5kbGFnZSBJaHJlcgogICAgICAgICAgICAgIEVpbndpbGxpZ3VuZyBvZGVyIGluIEVyZsO8bGx1bmcgZWluZXMgVmVydHJhZ3MgYXV0b21hdGlzaWVydAogICAgICAgICAgICAgIHZlcmFyYmVpdGVuLCBhbiBzaWNoIG9kZXIgYW4gZWluZW4gRHJpdHRlbiBpbiBlaW5lbSBnw6RuZ2lnZW4sCiAgICAgICAgICAgICAgbWFzY2hpbmVubGVzYmFyZW4gRm9ybWF0IGF1c2jDpG5kaWdlbiB6dSBsYXNzZW4uIFNvZmVybiBTaWUgZGllCiAgICAgICAgICAgICAgZGlyZWt0ZSDDnGJlcnRyYWd1bmcgZGVyIERhdGVuIGFuIGVpbmVuIGFuZGVyZW4gVmVyYW50d29ydGxpY2hlbgogICAgICAgICAgICAgIHZlcmxhbmdlbiwgZXJmb2xndCBkaWVzIG51ciwgc293ZWl0IGVzIHRlY2huaXNjaCBtYWNoYmFyIGlzdC4KICAgICAgICAgICAgPC9wPgoKICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC14bCBmb250LXNlbWlib2xkIHRleHQtcWFubmEtbmF2eSBtYi0zIj4KICAgICAgICAgICAgICBBdXNrdW5mdCwgTMO2c2NodW5nIHVuZCBCZXJpY2h0aWd1bmcKICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIFNpZSBoYWJlbiBpbSBSYWhtZW4gZGVyIGdlbHRlbmRlbiBnZXNldHpsaWNoZW4gQmVzdGltbXVuZ2VuCiAgICAgICAgICAgICAgamVkZXJ6ZWl0IGRhcyBSZWNodCBhdWYgdW5lbnRnZWx0bGljaGUgQXVza3VuZnQgw7xiZXIgSWhyZQogICAgICAgICAgICAgIGdlc3BlaWNoZXJ0ZW4gcGVyc29uZW5iZXpvZ2VuZW4gRGF0ZW4sIGRlcmVuIEhlcmt1bmZ0IHVuZAogICAgICAgICAgICAgIEVtcGbDpG5nZXIgdW5kIGRlbiBad2VjayBkZXIgRGF0ZW52ZXJhcmJlaXR1bmcgdW5kIGdnZi4gZWluIFJlY2h0CiAgICAgICAgICAgICAgYXVmIEJlcmljaHRpZ3VuZyBvZGVyIEzDtnNjaHVuZyBkaWVzZXIgRGF0ZW4uIEhpZXJ6dSBzb3dpZSB6dQogICAgICAgICAgICAgIHdlaXRlcmVuIEZyYWdlbiB6dW0gVGhlbWEgcGVyc29uZW5iZXpvZ2VuZSBEYXRlbiBrw7ZubmVuIFNpZSBzaWNoCiAgICAgICAgICAgICAgamVkZXJ6ZWl0IGFuIHVucyB3ZW5kZW4uCiAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbXQtMTIgbWItNCI+CiAgICAgICAgICAgICAgNC4gRGF0ZW5lcmZhc3N1bmcgYXVmIGRpZXNlciBXZWJzaXRlCiAgICAgICAgICAgIDwvaDI+CiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteGwgZm9udC1zZW1pYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbWItMyI+CiAgICAgICAgICAgICAgU2VydmVyLUxvZy1EYXRlaWVuCiAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi02Ij4KICAgICAgICAgICAgICBEZXIgUHJvdmlkZXIgZGVyIFNlaXRlbiBlcmhlYnQgdW5kIHNwZWljaGVydCBhdXRvbWF0aXNjaAogICAgICAgICAgICAgIEluZm9ybWF0aW9uZW4gaW4gc28gZ2VuYW5udGVuIFNlcnZlci1Mb2ctRGF0ZWllbiwgZGllIElociBCcm93c2VyCiAgICAgICAgICAgICAgYXV0b21hdGlzY2ggYW4gdW5zIMO8YmVybWl0dGVsdC4gRGllcyBzaW5kOgogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDx1bCBjbGFzc05hbWU9Imxpc3QtZGlzYyBsaXN0LWluc2lkZSB0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYgc3BhY2UteS0yIj4KICAgICAgICAgICAgICA8bGk+QnJvd3NlcnR5cCB1bmQgQnJvd3NlcnZlcnNpb248L2xpPgogICAgICAgICAgICAgIDxsaT52ZXJ3ZW5kZXRlcyBCZXRyaWVic3N5c3RlbTwvbGk+CiAgICAgICAgICAgICAgPGxpPlJlZmVycmVyIFVSTDwvbGk+CiAgICAgICAgICAgICAgPGxpPkhvc3RuYW1lIGRlcyB6dWdyZWlmZW5kZW4gUmVjaG5lcnM8L2xpPgogICAgICAgICAgICAgIDxsaT5VaHJ6ZWl0IGRlciBTZXJ2ZXJhbmZyYWdlPC9saT4KICAgICAgICAgICAgICA8bGk+SVAtQWRyZXNzZTwvbGk+CiAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi02Ij4KICAgICAgICAgICAgICBFaW5lIFp1c2FtbWVuZsO8aHJ1bmcgZGllc2VyIERhdGVuIG1pdCBhbmRlcmVuIERhdGVucXVlbGxlbiB3aXJkCiAgICAgICAgICAgICAgbmljaHQgdm9yZ2Vub21tZW4uCiAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteGwgZm9udC1zZW1pYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbWItMyI+CiAgICAgICAgICAgICAgS29udGFrdGZvcm11bGFyCiAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi02Ij4KICAgICAgICAgICAgICBXZW5uIFNpZSB1bnMgcGVyIEtvbnRha3Rmb3JtdWxhciBBbmZyYWdlbiB6dWtvbW1lbiBsYXNzZW4sIHdlcmRlbgogICAgICAgICAgICAgIElocmUgQW5nYWJlbiBhdXMgZGVtIEFuZnJhZ2Vmb3JtdWxhciBpbmtsdXNpdmUgZGVyIHZvbiBJaG5lbiBkb3J0CiAgICAgICAgICAgICAgYW5nZWdlYmVuZW4gS29udGFrdGRhdGVuIHp3ZWNrcyBCZWFyYmVpdHVuZyBkZXIgQW5mcmFnZSB1bmQgZsO8cgogICAgICAgICAgICAgIGRlbiBGYWxsIHZvbiBBbnNjaGx1c3NmcmFnZW4gYmVpIHVucyBnZXNwZWljaGVydC4gRGllc2UgRGF0ZW4KICAgICAgICAgICAgICBnZWJlbiB3aXIgbmljaHQgb2huZSBJaHJlIEVpbndpbGxpZ3VuZyB3ZWl0ZXIuCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIERpZSBWZXJhcmJlaXR1bmcgZGllc2VyIERhdGVuIGVyZm9sZ3QgYXVmIEdydW5kbGFnZSB2b24gQXJ0LiA2CiAgICAgICAgICAgICAgQWJzLiAxIGxpdC4gYiBEU0dWTywgc29mZXJuIElocmUgQW5mcmFnZSBtaXQgZGVyIEVyZsO8bGx1bmcgZWluZXMKICAgICAgICAgICAgICBWZXJ0cmFncyB6dXNhbW1lbmjDpG5ndCBvZGVyIHp1ciBEdXJjaGbDvGhydW5nIHZvcnZlcnRyYWdsaWNoZXIKICAgICAgICAgICAgICBNYcOfbmFobWVuIGVyZm9yZGVybGljaCBpc3QuIEluIGFsbGVuIMO8YnJpZ2VuIEbDpGxsZW4gYmVydWh0IGRpZQogICAgICAgICAgICAgIFZlcmFyYmVpdHVuZyBhdWYgdW5zZXJlbSBiZXJlY2h0aWd0ZW4gSW50ZXJlc3NlIGFuIGRlciBlZmZla3RpdmVuCiAgICAgICAgICAgICAgQmVhcmJlaXR1bmcgZGVyIGFuIHVucyBnZXJpY2h0ZXRlbiBBbmZyYWdlbiAoQXJ0LiA2IEFicy4gMSBsaXQuIGYKICAgICAgICAgICAgICBEU0dWTykgb2RlciBhdWYgSWhyZXIgRWlud2lsbGlndW5nIChBcnQuIDYgQWJzLiAxIGxpdC4gYSBEU0dWTykuCiAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbXQtMTIgbWItNCI+CiAgICAgICAgICAgICAgNS4gUGx1Z2lucyB1bmQgVG9vbHMKICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC14bCBmb250LXNlbWlib2xkIHRleHQtcWFubmEtbmF2eSBtYi0zIj4KICAgICAgICAgICAgICBHb29nbGUgRm9udHMgKGxva2FsZXMgSG9zdGluZykKICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIERpZXNlIFNlaXRlIG51dHp0IHp1ciBlaW5oZWl0bGljaGVuIERhcnN0ZWxsdW5nIHZvbiBTY2hyaWZ0YXJ0ZW4KICAgICAgICAgICAgICBzbyBnZW5hbm50ZSBHb29nbGUgRm9udHMsIGRpZSB2b24gR29vZ2xlIGJlcmVpdGdlc3RlbGx0IHdlcmRlbi4KICAgICAgICAgICAgICBEaWUgR29vZ2xlIEZvbnRzIHNpbmQgbG9rYWwgaW5zdGFsbGllcnQuIEVpbmUgVmVyYmluZHVuZyB6dQogICAgICAgICAgICAgIFNlcnZlcm4gdm9uIEdvb2dsZSBmaW5kZXQgZGFiZWkgbmljaHQgc3RhdHQuCiAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbXQtMTIgbWItNCI+CiAgICAgICAgICAgICAgNi4gS0ktZ2VzdMO8dHp0ZSBUb29scwogICAgICAgICAgICA8L2gyPgogICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG1iLTMiPgogICAgICAgICAgICAgIEtJLUJlcmF0dW5nc2Fzc2lzdGVudAogICAgICAgICAgICA8L2gzPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS03MDAgbWItNiI+CiAgICAgICAgICAgICAgQXVmIHVuc2VyZXIgV2Vic2l0ZSBiaWV0ZW4gd2lyIGVpbmVuIEtJLWdlc3TDvHR6dGVuCiAgICAgICAgICAgICAgQmVyYXR1bmdzYXNzaXN0ZW50ZW4gYW4uIFdlbm4gU2llIGRpZXNlbiBudXR6ZW4sIHdlcmRlbiBJaHJlCiAgICAgICAgICAgICAgRWluZ2FiZW4gdmVyYXJiZWl0ZXQsIHVtIElobmVuIHBhc3NlbmRlIEFudHdvcnRlbiB6dSBsaWVmZXJuLiBEaWUKICAgICAgICAgICAgICBWZXJhcmJlaXR1bmcgZXJmb2xndCBhdWYgR3J1bmRsYWdlIHZvbiBBcnQuIDYgQWJzLiAxIGxpdC4gYSBEU0dWTwogICAgICAgICAgICAgIChFaW53aWxsaWd1bmcpLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi02Ij4KICAgICAgICAgICAgICBEaWUgRGF0ZW4gd2VyZGVuIG5pY2h0IGRhdWVyaGFmdCBnZXNwZWljaGVydCB1bmQgbmljaHQgZsO8ciBhbmRlcmUKICAgICAgICAgICAgICBad2Vja2UgdmVyd2VuZGV0LiBFaW5lIFdlaXRlcmdhYmUgYW4gRHJpdHRlIGVyZm9sZ3QgbmljaHQuCiAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteGwgZm9udC1zZW1pYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbWItMyI+CiAgICAgICAgICAgICAgVW50ZXJuZWhtZW5zYmV3ZXJ0dW5nc3JlY2huZXIKICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIFVuc2VyIEJld2VydHVuZ3NyZWNobmVyIHZlcmFyYmVpdGV0IGRpZSB2b24gSWhuZW4gZWluZ2VnZWJlbmVuCiAgICAgICAgICAgICAgRmluYW56a2VubnphaGxlbiwgdW0gZWluZSBpbmRpa2F0aXZlIFVudGVybmVobWVuc2Jld2VydHVuZyB6dQogICAgICAgICAgICAgIGVyc3RlbGxlbi4gRGllIFZlcmFyYmVpdHVuZyBlcmZvbGd0IGxva2FsIGluIElocmVtIEJyb3dzZXIuIEVzCiAgICAgICAgICAgICAgd2VyZGVuIGtlaW5lIERhdGVuIGFuIHVuc2VyZSBTZXJ2ZXIgw7xiZXJ0cmFnZW4uCiAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTUwMCBtdC0xMiB0ZXh0LXNtIj4KICAgICAgICAgICAgICBTdGFuZDogSmFudWFyIDIwMjQKICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIDxGb290ZXIgLz4KICAgIDwvbWFpbj4KICApOwp9Cg==
+import { Header, Footer } from "@/components/layout";
+
+export const metadata = {
+  title: "Datenschutzerklärung | QANNA Consulting",
+  description:
+    "Datenschutzerklärung von QANNA Consulting - Informationen zur Verarbeitung personenbezogener Daten.",
+};
+
+export default function DatenschutzPage() {
+  return (
+    <main>
+      <Header />
+
+      <section className="pt-32 pb-16 bg-qanna-navy">
+        <div className="container-qanna">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            Datenschutzerklärung
+          </h1>
+          <p className="text-xl text-gray-300">
+            Informationen zur Verarbeitung Ihrer personenbezogenen Daten
+          </p>
+        </div>
+      </section>
+
+      <section className="section-padding bg-white">
+        <div className="container-qanna max-w-4xl">
+          <div className="prose prose-lg max-w-none">
+            <h2 className="text-2xl font-bold text-qanna-navy mb-4">
+              1. Datenschutz auf einen Blick
+            </h2>
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Allgemeine Hinweise
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Die folgenden Hinweise geben einen einfachen Überblick darüber,
+              was mit Ihren personenbezogenen Daten passiert, wenn Sie diese
+              Website besuchen. Personenbezogene Daten sind alle Daten, mit
+              denen Sie persönlich identifiziert werden können. Ausführliche
+              Informationen zum Thema Datenschutz entnehmen Sie unserer unter
+              diesem Text aufgeführten Datenschutzerklärung.
+            </p>
+
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Datenerfassung auf dieser Website
+            </h3>
+            <p className="text-qanna-gray-700 mb-4">
+              <strong>
+                Wer ist verantwortlich für die Datenerfassung auf dieser
+                Website?
+              </strong>
+            </p>
+            <p className="text-qanna-gray-700 mb-6">
+              Die Datenverarbeitung auf dieser Website erfolgt durch den
+              Websitebetreiber. Dessen Kontaktdaten können Sie dem Impressum
+              dieser Website entnehmen.
+            </p>
+
+            <p className="text-qanna-gray-700 mb-4">
+              <strong>Wie erfassen wir Ihre Daten?</strong>
+            </p>
+            <p className="text-qanna-gray-700 mb-6">
+              Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese
+              mitteilen. Hierbei kann es sich z. B. um Daten handeln, die Sie in
+              ein Kontaktformular eingeben.
+            </p>
+            <p className="text-qanna-gray-700 mb-6">
+              Andere Daten werden automatisch oder nach Ihrer Einwilligung beim
+              Besuch der Website durch unsere IT-Systeme erfasst. Das sind vor
+              allem technische Daten (z. B. Internetbrowser, Betriebssystem oder
+              Uhrzeit des Seitenaufrufs). Die Erfassung dieser Daten erfolgt
+              automatisch, sobald Sie diese Website betreten.
+            </p>
+
+            <p className="text-qanna-gray-700 mb-4">
+              <strong>Wofür nutzen wir Ihre Daten?</strong>
+            </p>
+            <p className="text-qanna-gray-700 mb-6">
+              Ein Teil der Daten wird erhoben, um eine fehlerfreie
+              Bereitstellung der Website zu gewährleisten. Andere Daten können
+              zur Analyse Ihres Nutzerverhaltens verwendet werden.
+            </p>
+
+            <h2 className="text-2xl font-bold text-qanna-navy mt-12 mb-4">
+              2. Hosting
+            </h2>
+            <p className="text-qanna-gray-700 mb-6">
+              Wir hosten die Inhalte unserer Website bei Vercel Inc. Anbieter
+              ist die Vercel Inc., 340 S Lemon Ave #4133, Walnut, CA 91789, USA.
+            </p>
+            <p className="text-qanna-gray-700 mb-6">
+              Details entnehmen Sie der Datenschutzerklärung von Vercel:{" "}
+              <a
+                href="https://vercel.com/legal/privacy-policy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-qanna-gold hover:underline"
+              >
+                https://vercel.com/legal/privacy-policy
+              </a>
+            </p>
+
+            <h2 className="text-2xl font-bold text-qanna-navy mt-12 mb-4">
+              3. Allgemeine Hinweise und Pflichtinformationen
+            </h2>
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Datenschutz
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Die Betreiber dieser Seiten nehmen den Schutz Ihrer persönlichen
+              Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten
+              vertraulich und entsprechend den gesetzlichen
+              Datenschutzvorschriften sowie dieser Datenschutzerklärung.
+            </p>
+            <p className="text-qanna-gray-700 mb-6">
+              Wenn Sie diese Website benutzen, werden verschiedene
+              personenbezogene Daten erhoben. Personenbezogene Daten sind Daten,
+              mit denen Sie persönlich identifiziert werden können. Die
+              vorliegende Datenschutzerklärung erläutert, welche Daten wir
+              erheben und wofür wir sie nutzen. Sie erläutert auch, wie und zu
+              welchem Zweck das geschieht.
+            </p>
+
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Hinweis zur verantwortlichen Stelle
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Die verantwortliche Stelle für die Datenverarbeitung auf dieser
+              Website ist:
+            </p>
+            <p className="text-qanna-gray-700 mb-6">
+              QANNA Consulting GmbH
+              <br />
+              Musterstraße 123
+              <br />
+              80333 München
+              <br />
+              <br />
+              Telefon: +49 (0) 89 123 456 78
+              <br />
+              E-Mail: datenschutz@qanna-consulting.de
+            </p>
+
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Speicherdauer
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Soweit innerhalb dieser Datenschutzerklärung keine speziellere
+              Speicherdauer genannt wurde, verbleiben Ihre personenbezogenen
+              Daten bei uns, bis der Zweck für die Datenverarbeitung entfällt.
+              Wenn Sie ein berechtigtes Löschersuchen geltend machen oder eine
+              Einwilligung zur Datenverarbeitung widerrufen, werden Ihre Daten
+              gelöscht, sofern wir keine anderen rechtlich zulässigen Gründe für
+              die Speicherung Ihrer personenbezogenen Daten haben; in einem
+              solchen Fall erfolgt die Löschung nach Fortfall dieser Gründe.
+            </p>
+
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Widerruf Ihrer Einwilligung zur Datenverarbeitung
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Viele Datenverarbeitungsvorgänge sind nur mit Ihrer ausdrücklichen
+              Einwilligung möglich. Sie können eine bereits erteilte
+              Einwilligung jederzeit widerrufen. Die Rechtmäßigkeit der bis zum
+              Widerruf erfolgten Datenverarbeitung bleibt vom Widerruf
+              unberührt.
+            </p>
+
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Beschwerderecht bei der zuständigen Aufsichtsbehörde
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Im Falle von Verstößen gegen die DSGVO steht den Betroffenen ein
+              Beschwerderecht bei einer Aufsichtsbehörde zu. Das Beschwerderecht
+              besteht unbeschadet anderweitiger verwaltungsrechtlicher oder
+              gerichtlicher Rechtsbehelfe.
+            </p>
+
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Recht auf Datenübertragbarkeit
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Sie haben das Recht, Daten, die wir auf Grundlage Ihrer
+              Einwilligung oder in Erfüllung eines Vertrags automatisiert
+              verarbeiten, an sich oder an einen Dritten in einem gängigen,
+              maschinenlesbaren Format aushändigen zu lassen. Sofern Sie die
+              direkte Übertragung der Daten an einen anderen Verantwortlichen
+              verlangen, erfolgt dies nur, soweit es technisch machbar ist.
+            </p>
+
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Auskunft, Löschung und Berichtigung
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Sie haben im Rahmen der geltenden gesetzlichen Bestimmungen
+              jederzeit das Recht auf unentgeltliche Auskunft über Ihre
+              gespeicherten personenbezogenen Daten, deren Herkunft und
+              Empfänger und den Zweck der Datenverarbeitung und ggf. ein Recht
+              auf Berichtigung oder Löschung dieser Daten. Hierzu sowie zu
+              weiteren Fragen zum Thema personenbezogene Daten können Sie sich
+              jederzeit an uns wenden.
+            </p>
+
+            <h2 className="text-2xl font-bold text-qanna-navy mt-12 mb-4">
+              4. Datenerfassung auf dieser Website
+            </h2>
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Server-Log-Dateien
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Der Provider der Seiten erhebt und speichert automatisch
+              Informationen in so genannten Server-Log-Dateien, die Ihr Browser
+              automatisch an uns übermittelt. Dies sind:
+            </p>
+            <ul className="list-disc list-inside text-qanna-gray-700 mb-6 space-y-2">
+              <li>Browsertyp und Browserversion</li>
+              <li>verwendetes Betriebssystem</li>
+              <li>Referrer URL</li>
+              <li>Hostname des zugreifenden Rechners</li>
+              <li>Uhrzeit der Serveranfrage</li>
+              <li>IP-Adresse</li>
+            </ul>
+            <p className="text-qanna-gray-700 mb-6">
+              Eine Zusammenführung dieser Daten mit anderen Datenquellen wird
+              nicht vorgenommen.
+            </p>
+
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Kontaktformular
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden
+              Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort
+              angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für
+              den Fall von Anschlussfragen bei uns gespeichert. Diese Daten
+              geben wir nicht ohne Ihre Einwilligung weiter.
+            </p>
+            <p className="text-qanna-gray-700 mb-6">
+              Die Verarbeitung dieser Daten erfolgt auf Grundlage von Art. 6
+              Abs. 1 lit. b DSGVO, sofern Ihre Anfrage mit der Erfüllung eines
+              Vertrags zusammenhängt oder zur Durchführung vorvertraglicher
+              Maßnahmen erforderlich ist. In allen übrigen Fällen beruht die
+              Verarbeitung auf unserem berechtigten Interesse an der effektiven
+              Bearbeitung der an uns gerichteten Anfragen (Art. 6 Abs. 1 lit. f
+              DSGVO) oder auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).
+            </p>
+
+            <h2 className="text-2xl font-bold text-qanna-navy mt-12 mb-4">
+              5. Plugins und Tools
+            </h2>
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Google Fonts (lokales Hosting)
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten
+              so genannte Google Fonts, die von Google bereitgestellt werden.
+              Die Google Fonts sind lokal installiert. Eine Verbindung zu
+              Servern von Google findet dabei nicht statt.
+            </p>
+
+            <h2 className="text-2xl font-bold text-qanna-navy mt-12 mb-4">
+              6. KI-gestützte Tools
+            </h2>
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              KI-Beratungsassistent
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Auf unserer Website bieten wir einen KI-gestützten
+              Beratungsassistenten an. Wenn Sie diesen nutzen, werden Ihre
+              Eingaben verarbeitet, um Ihnen passende Antworten zu liefern. Die
+              Verarbeitung erfolgt auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO
+              (Einwilligung).
+            </p>
+            <p className="text-qanna-gray-700 mb-6">
+              Die Daten werden nicht dauerhaft gespeichert und nicht für andere
+              Zwecke verwendet. Eine Weitergabe an Dritte erfolgt nicht.
+            </p>
+
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Unternehmensbewertungsrechner
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Unser Bewertungsrechner verarbeitet die von Ihnen eingegebenen
+              Finanzkennzahlen, um eine indikative Unternehmensbewertung zu
+              erstellen. Die Verarbeitung erfolgt lokal in Ihrem Browser. Es
+              werden keine Daten an unsere Server übertragen.
+            </p>
+
+            <p className="text-qanna-gray-500 mt-12 text-sm">
+              Stand: Januar 2024
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </main>
+  );
+}

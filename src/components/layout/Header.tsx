@@ -1,1 +1,422 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgdXNlU3RhdGUsIHVzZUVmZmVjdCwgdXNlUmVmIH0gZnJvbSAicmVhY3QiOwppbXBvcnQgTGluayBmcm9tICJuZXh0L2xpbmsiOwppbXBvcnQgeyBCdXR0b24sIExvZ28gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkiOwoKLy8gTmF2aWdhdGlvbiBEYXRhIC0gTmFjaGZvbGdlLWZva3Vzc2llcnQKY29uc3Qgc2VydmljZXMgPSBbCiAgewogICAgdGl0bGU6ICJVbnRlcm5laG1lbnNiZXdlcnR1bmciLAogICAgaHJlZjogIi9sZWlzdHVuZ2VuL3VudGVybmVobWVuc2Jld2VydHVuZyIsCiAgICBkZXNjcmlwdGlvbjogIkZ1bmRpZXJ0ZSBCZXdlcnR1bmcgbmFjaCBhbmVya2FubnRlbiBNZXRob2RlbiIsCiAgfSwKICB7CiAgICB0aXRsZTogIkthZXVmZXItL05hY2hmb2xnZXJzdWNoZSIsCiAgICBocmVmOiAiL2xlaXN0dW5nZW4vbmFjaGZvbGdlcnN1Y2hlIiwKICAgIGRlc2NyaXB0aW9uOiAiU3lzdGVtYXRpc2NoZSBJZGVudGlmaWthdGlvbiBnZWVpZ25ldGVyIEthZXVmZXIiLAogIH0sCiAgewogICAgdGl0bGU6ICJEdWUgRGlsaWdlbmNlIiwKICAgIGhyZWY6ICIvbGVpc3R1bmdlbi9kdWUtZGlsaWdlbmNlIiwKICAgIGRlc2NyaXB0aW9uOiAiUHJvZmVzc2lvbmVsbGUgUHJ1ZWZ1bmdzcHJvemVzc2UiLAogIH0sCiAgewogICAgdGl0bGU6ICJWZXJ0cmFnc3ZlcmhhbmRsdW5nIiwKICAgIGhyZWY6ICIvbGVpc3R1bmdlbi92ZXJ0cmFnc3ZlcmhhbmRsdW5nIiwKICAgIGRlc2NyaXB0aW9uOiAiRXJmYWhyZW5lIFZlcmhhbmRsdW5nc2Z1ZWhydW5nIiwKICB9LAogIHsKICAgIHRpdGxlOiAiUG9zdC1NZXJnZXIgSW50ZWdyYXRpb24iLAogICAgaHJlZjogIi9sZWlzdHVuZ2VuL3Bvc3QtbWVyZ2VyLWludGVncmF0aW9uIiwKICAgIGRlc2NyaXB0aW9uOiAiRXJmb2xncmVpY2hlIFVlYmVyZ2FiZSB1bmQgSW50ZWdyYXRpb24iLAogIH0sCl07Cgpjb25zdCBpbmR1c3RyaWVzID0gWwogIHsgdGl0bGU6ICJJbmR1c3RyaWUgJiBIYW5kd2VyayIsIGhyZWY6ICIvYnJhbmNoZW4vaW5kdXN0cmllIiB9LAogIHsgdGl0bGU6ICJIYW5kZWwgJiBFaW56ZWxoYW5kZWwiLCBocmVmOiAiL2JyYW5jaGVuL2hhbmRlbCIgfSwKICB7IHRpdGxlOiAiRGllbnN0bGVpc3R1bmdlbiIsIGhyZWY6ICIvYnJhbmNoZW4vZGllbnN0bGVpc3R1bmdlbiIgfSwKICB7IHRpdGxlOiAiR2VzdW5kaGVpdHN3ZXNlbiIsIGhyZWY6ICIvYnJhbmNoZW4vZ2VzdW5kaGVpdHN3ZXNlbiIgfSwKICB7IHRpdGxlOiAiR2FzdHJvbm9taWUgJiBIb3RlbCIsIGhyZWY6ICIvYnJhbmNoZW4vZ2FzdHJvbm9taWUiIH0sCl07Cgpjb25zdCBhYm91dExpbmtzID0gWwogIHsgdGl0bGU6ICJVbnNlciBUZWFtIiwgaHJlZjogIi91ZWJlci11bnMvdGVhbSIgfSwKICB7IHRpdGxlOiAiVWViZXIgdW5zIiwgaHJlZjogIi91ZWJlci11bnMiIH0sCl07CgovLyBEcm9wZG93biBDb21wb25lbnQgd2l0aCBwcm9wZXIgaG92ZXIgaGFuZGxpbmcKZnVuY3Rpb24gTmF2RHJvcGRvd24oewogIGxhYmVsLAogIGlzU2Nyb2xsZWQsCiAgY2hpbGRyZW4sCiAgd2lkdGggPSAidy1bNTAwcHhdIiwKICBhbGlnbiA9ICJsZWZ0IiwKfTogewogIGxhYmVsOiBzdHJpbmc7CiAgaXNTY3JvbGxlZDogYm9vbGVhbjsKICBjaGlsZHJlbjogUmVhY3QuUmVhY3ROb2RlOwogIHdpZHRoPzogc3RyaW5nOwogIGFsaWduPzogImxlZnQiIHwgInJpZ2h0IjsKfSkgewogIGNvbnN0IFtpc09wZW4sIHNldElzT3Blbl0gPSB1c2VTdGF0ZShmYWxzZSk7CiAgY29uc3QgdGltZW91dFJlZiA9IHVzZVJlZjxOb2RlSlMuVGltZW91dCB8IG51bGw+KG51bGwpOwoKICBjb25zdCBoYW5kbGVFbnRlciA9ICgpID0+IHsKICAgIGlmICh0aW1lb3V0UmVmLmN1cnJlbnQpIHsKICAgICAgY2xlYXJUaW1lb3V0KHRpbWVvdXRSZWYuY3VycmVudCk7CiAgICAgIHRpbWVvdXRSZWYuY3VycmVudCA9IG51bGw7CiAgICB9CiAgICBzZXRJc09wZW4odHJ1ZSk7CiAgfTsKCiAgY29uc3QgaGFuZGxlTGVhdmUgPSAoKSA9PiB7CiAgICB0aW1lb3V0UmVmLmN1cnJlbnQgPSBzZXRUaW1lb3V0KCgpID0+IHsKICAgICAgc2V0SXNPcGVuKGZhbHNlKTsKICAgIH0sIDIwMCk7CiAgfTsKCiAgcmV0dXJuICgKICAgIDxkaXYKICAgICAgY2xhc3NOYW1lPSJyZWxhdGl2ZSIKICAgICAgb25Nb3VzZUVudGVyPXtoYW5kbGVFbnRlcn0KICAgICAgb25Nb3VzZUxlYXZlPXtoYW5kbGVMZWF2ZX0KICAgID4KICAgICAgPGJ1dHRvbgogICAgICAgIGNsYXNzTmFtZT17YAogICAgICAgICAgcHgtNCBweS0yIHRleHQtc20gZm9udC1tZWRpdW0gcm91bmRlZC1tZAogICAgICAgICAgdHJhbnNpdGlvbi1jb2xvcnMgZHVyYXRpb24tMjAwCiAgICAgICAgICAke2lzU2Nyb2xsZWQgPyAidGV4dC1xYW5uYS1uYXZ5IGhvdmVyOmJnLXFhbm5hLWdyYXktMTAwIiA6ICJ0ZXh0LXdoaXRlIGhvdmVyOmJnLXdoaXRlLzEwIn0KICAgICAgICBgfQogICAgICAgIG9uQ2xpY2s9eygpID0+IHNldElzT3BlbighaXNPcGVuKX0KICAgICAgPgogICAgICAgIHtsYWJlbH0KICAgICAgICA8c3ZnCiAgICAgICAgICBjbGFzc05hbWU9e2BpbmxpbmUtYmxvY2sgbWwtMSB3LTQgaC00IHRyYW5zaXRpb24tdHJhbnNmb3JtIGR1cmF0aW9uLTIwMCAke2lzT3BlbiA/ICJyb3RhdGUtMTgwIiA6ICIifWB9CiAgICAgICAgICBmaWxsPSJub25lIgogICAgICAgICAgdmlld0JveD0iMCAwIDI0IDI0IgogICAgICAgICAgc3Ryb2tlPSJjdXJyZW50Q29sb3IiCiAgICAgICAgPgogICAgICAgICAgPHBhdGgKICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD0icm91bmQiCiAgICAgICAgICAgIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIKICAgICAgICAgICAgc3Ryb2tlV2lkdGg9ezJ9CiAgICAgICAgICAgIGQ9Ik0xOSA5bC03IDctNy03IgogICAgICAgICAgLz4KICAgICAgICA8L3N2Zz4KICAgICAgPC9idXR0b24+CgogICAgICB7LyogSW52aXNpYmxlIGJyaWRnZSB0byBjb25uZWN0IGJ1dHRvbiBhbmQgZHJvcGRvd24gKi99CiAgICAgIHtpc09wZW4gJiYgKAogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSB0b3AtZnVsbCBsZWZ0LTAgcmlnaHQtMCBoLTMiIC8+CiAgICAgICl9CgogICAgICB7LyogRHJvcGRvd24gTWVudSAqL30KICAgICAgPGRpdgogICAgICAgIGNsYXNzTmFtZT17YAogICAgICAgICAgYWJzb2x1dGUgdG9wLWZ1bGwgJHthbGlnbiA9PT0gInJpZ2h0IiA/ICJyaWdodC0wIiA6ICJsZWZ0LTAifSBwdC0zICR7d2lkdGh9CiAgICAgICAgICB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0yMDAgb3JpZ2luLXRvcAogICAgICAgICAgJHtpc09wZW4gPyAib3BhY2l0eS0xMDAgdmlzaWJsZSBzY2FsZS0xMDAiIDogIm9wYWNpdHktMCBpbnZpc2libGUgc2NhbGUtOTUifQogICAgICAgIGB9CiAgICAgICAgc3R5bGU9e3sgcG9pbnRlckV2ZW50czogaXNPcGVuID8gImF1dG8iIDogIm5vbmUiIH19CiAgICAgID4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYmctd2hpdGUgcm91bmRlZC14bCBzaGFkb3ctMnhsIGJvcmRlciBib3JkZXItcWFubmEtZ3JheS0yMDAgcC02Ij4KICAgICAgICAgIHtjaGlsZHJlbn0KICAgICAgICA8L2Rpdj4KICAgICAgPC9kaXY+CiAgICA8L2Rpdj4KICApOwp9CgpleHBvcnQgZnVuY3Rpb24gSGVhZGVyKCkgewogIGNvbnN0IFtpc1Njcm9sbGVkLCBzZXRJc1Njcm9sbGVkXSA9IHVzZVN0YXRlKGZhbHNlKTsKICBjb25zdCBbaXNNb2JpbGVNZW51T3Blbiwgc2V0SXNNb2JpbGVNZW51T3Blbl0gPSB1c2VTdGF0ZShmYWxzZSk7CgogIHVzZUVmZmVjdCgoKSA9PiB7CiAgICBjb25zdCBoYW5kbGVTY3JvbGwgPSAoKSA9PiB7CiAgICAgIHNldElzU2Nyb2xsZWQod2luZG93LnNjcm9sbFkgPiAyMCk7CiAgICB9OwogICAgd2luZG93LmFkZEV2ZW50TGlzdGVuZXIoInNjcm9sbCIsIGhhbmRsZVNjcm9sbCk7CiAgICByZXR1cm4gKCkgPT4gd2luZG93LnJlbW92ZUV2ZW50TGlzdGVuZXIoInNjcm9sbCIsIGhhbmRsZVNjcm9sbCk7CiAgfSwgW10pOwoKICByZXR1cm4gKAogICAgPGhlYWRlcgogICAgICBjbGFzc05hbWU9e2AKICAgICAgICBmaXhlZCB0b3AtMCBsZWZ0LTAgcmlnaHQtMCB6LTUwCiAgICAgICAgdHJhbnNpdGlvbi1hbGwgZHVyYXRpb24tMzAwCiAgICAgICAgJHsKICAgICAgICAgIGlzU2Nyb2xsZWQKICAgICAgICAgICAgPyAiYmctd2hpdGUvOTUgYmFja2Ryb3AtYmx1ci1tZCBzaGFkb3ctbWQgcHktMiIKICAgICAgICAgICAgOiAiYmctdHJhbnNwYXJlbnQgcHktNCIKICAgICAgICB9CiAgICAgIGB9CiAgICA+CiAgICAgIDxuYXYgY2xhc3NOYW1lPSJjb250YWluZXItcWFubmEiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWJldHdlZW4iPgogICAgICAgICAgey8qIExlZnQgTmF2aWdhdGlvbiAqL30KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJoaWRkZW4gbGc6ZmxleCBpdGVtcy1jZW50ZXIgZ2FwLTEiPgogICAgICAgICAgICB7LyogTGVpc3R1bmdlbiBEcm9wZG93biAqL30KICAgICAgICAgICAgPE5hdkRyb3Bkb3duIGxhYmVsPSJMRUlTVFVOR0VOIiBpc1Njcm9sbGVkPXtpc1Njcm9sbGVkfSB3aWR0aD0idy1bNjAwcHhdIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBnYXAtNCI+CiAgICAgICAgICAgICAgICA8ZGl2PgogICAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1xYW5uYS1ncmF5LTQwMCB1cHBlcmNhc2UgbWItNCI+CiAgICAgICAgICAgICAgICAgICAgTmFjaGZvbGdlLUxlaXN0dW5nZW4KICAgICAgICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMyI+CiAgICAgICAgICAgICAgICAgICAge3NlcnZpY2VzLm1hcCgoc2VydmljZSkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAgICAgICAga2V5PXtzZXJ2aWNlLmhyZWZ9CiAgICAgICAgICAgICAgICAgICAgICAgIGhyZWY9e3NlcnZpY2UuaHJlZn0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJibG9jayBncm91cCBwLTIgLW0tMiByb3VuZGVkLWxnIGhvdmVyOmJnLXFhbm5hLWdyYXktNTAgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1uYXZ5IGZvbnQtbWVkaXVtIGdyb3VwLWhvdmVyOnRleHQtcWFubmEtZ29sZCBncm91cC1ob3Zlcjp1bmRlcmxpbmUgdHJhbnNpdGlvbi1jb2xvcnMiPgogICAgICAgICAgICAgICAgICAgICAgICAgIHtzZXJ2aWNlLnRpdGxlfQogICAgICAgICAgICAgICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXFhbm5hLWdyYXktNTAwIj4KICAgICAgICAgICAgICAgICAgICAgICAgICB7c2VydmljZS5kZXNjcmlwdGlvbn0KICAgICAgICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXFhbm5hLWdyYXktNTAgcm91bmRlZC1sZyBwLTQiPgogICAgICAgICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSJmb250LXNlbWlib2xkIHRleHQtcWFubmEtbmF2eSBtYi0yIj4KICAgICAgICAgICAgICAgICAgICBVbnRlcm5laG1lbnN3ZXJ0IGJlcmVjaG5lbgogICAgICAgICAgICAgICAgICA8L2g0PgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1xYW5uYS1ncmF5LTUwMCBtYi0zIj4KICAgICAgICAgICAgICAgICAgICBFcnN0ZSBFaW5zY2hhZXR6dW5nIElocmVzIFVudGVybmVobWVuc3dlcnRlcyBpbiB3ZW5pZ2VuIE1pbnV0ZW4uCiAgICAgICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAgICBocmVmPSIva2ktbG9lc3VuZ2VuL2Jld2VydHVuZ3NyZWNobmVyIgogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1zbSB0ZXh0LXFhbm5hLWdvbGQgZm9udC1tZWRpdW0gaG92ZXI6dW5kZXJsaW5lIgogICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgWnVtIEJld2VydHVuZ3NyZWNobmVyCiAgICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L05hdkRyb3Bkb3duPgoKICAgICAgICAgICAgey8qIEJyYW5jaGVuIERyb3Bkb3duICovfQogICAgICAgICAgICA8TmF2RHJvcGRvd24gbGFiZWw9IkJSQU5DSEVOIiBpc1Njcm9sbGVkPXtpc1Njcm9sbGVkfSB3aWR0aD0idy1bNDAwcHhdIj4KICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXNtIGZvbnQtc2VtaWJvbGQgdGV4dC1xYW5uYS1ncmF5LTQwMCB1cHBlcmNhc2UgbWItNCI+CiAgICAgICAgICAgICAgICBCcmFuY2hlbgogICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgZ2FwLTEiPgogICAgICAgICAgICAgICAge2luZHVzdHJpZXMubWFwKChpbmR1c3RyeSkgPT4gKAogICAgICAgICAgICAgICAgICA8TGluawogICAgICAgICAgICAgICAgICAgIGtleT17aW5kdXN0cnkuaHJlZn0KICAgICAgICAgICAgICAgICAgICBocmVmPXtpbmR1c3RyeS5ocmVmfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0icHgtMyBweS0yIHRleHQtcWFubmEtbmF2eSBob3ZlcjpiZy1xYW5uYS1ncmF5LTUwIGhvdmVyOnRleHQtcWFubmEtZ29sZCBob3Zlcjp1bmRlcmxpbmUgcm91bmRlZC1tZCB0cmFuc2l0aW9uLWNvbG9ycyIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHtpbmR1c3RyeS50aXRsZX0KICAgICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9Im10LTQgcHQtNCBib3JkZXItdCBib3JkZXItcWFubmEtZ3JheS0yMDAiPgogICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAgaHJlZj0iL2JyYW5jaGVuIgogICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtc20gdGV4dC1xYW5uYS1nb2xkIGZvbnQtbWVkaXVtIGhvdmVyOnVuZGVybGluZSIKICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgQWxsZSBCcmFuY2hlbiBhbnNlaGVuCiAgICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgIDwvTmF2RHJvcGRvd24+CgogICAgICAgICAgICB7LyogSW5zaWdodHMgTGluayAqL30KICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICBocmVmPSIvaW5zaWdodHMiCiAgICAgICAgICAgICAgY2xhc3NOYW1lPXtgCiAgICAgICAgICAgICAgICBweC00IHB5LTIgdGV4dC1zbSBmb250LW1lZGl1bSByb3VuZGVkLW1kCiAgICAgICAgICAgICAgICB0cmFuc2l0aW9uLWNvbG9ycyBkdXJhdGlvbi0yMDAKICAgICAgICAgICAgICAgICR7aXNTY3JvbGxlZCA/ICJ0ZXh0LXFhbm5hLW5hdnkgaG92ZXI6YmctcWFubmEtZ3JheS0xMDAiIDogInRleHQtd2hpdGUgaG92ZXI6Ymctd2hpdGUvMTAifQogICAgICAgICAgICAgIGB9CiAgICAgICAgICAgID4KICAgICAgICAgICAgICBJTlNJR0hUUwogICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICB7LyogTG9nbyBDZW50ZXIgLSBRIGlzIGFsd2F5cyBjZW50ZXJlZCwgQU5OQSBhbmltYXRlcyBhd2F5ICovfQogICAgICAgICAgPExpbmsKICAgICAgICAgICAgaHJlZj0iLyIKICAgICAgICAgICAgY2xhc3NOYW1lPSJhYnNvbHV0ZSBsZWZ0LTEvMiAtdHJhbnNsYXRlLXgtWzI4cHhdIG1kOi10cmFuc2xhdGUteC1bMzBweF0gZmxleCBpdGVtcy1jZW50ZXIiCiAgICAgICAgICA+CiAgICAgICAgICAgIDxMb2dvIGlzU2Nyb2xsZWQ9e2lzU2Nyb2xsZWR9IGlzTGlnaHQ9eyFpc1Njcm9sbGVkfSAvPgogICAgICAgICAgPC9MaW5rPgoKICAgICAgICAgIHsvKiBSaWdodCBOYXZpZ2F0aW9uICovfQogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImhpZGRlbiBsZzpmbGV4IGl0ZW1zLWNlbnRlciBnYXAtMSI+CiAgICAgICAgICAgIHsvKiBVZWJlciB1bnMgRHJvcGRvd24gKi99CiAgICAgICAgICAgIDxOYXZEcm9wZG93biBsYWJlbD0iVUVCRVIgVU5TIiBpc1Njcm9sbGVkPXtpc1Njcm9sbGVkfSB3aWR0aD0idy1bMzUwcHhdIiBhbGlnbj0icmlnaHQiPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIGdhcC00Ij4KICAgICAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQtc20gZm9udC1zZW1pYm9sZCB0ZXh0LXFhbm5hLWdyYXktNDAwIHVwcGVyY2FzZSBtYi00Ij4KICAgICAgICAgICAgICAgICAgICBVZWJlciB1bnMKICAgICAgICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InNwYWNlLXktMSI+CiAgICAgICAgICAgICAgICAgICAge2Fib3V0TGlua3MubWFwKChsaW5rKSA9PiAoCiAgICAgICAgICAgICAgICAgICAgICA8TGluawogICAgICAgICAgICAgICAgICAgICAgICBrZXk9e2xpbmsuaHJlZn0KICAgICAgICAgICAgICAgICAgICAgICAgaHJlZj17bGluay5ocmVmfQogICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9ImJsb2NrIHB4LTMgcHktMiB0ZXh0LXFhbm5hLW5hdnkgaG92ZXI6YmctcWFubmEtZ3JheS01MCBob3Zlcjp0ZXh0LXFhbm5hLWdvbGQgaG92ZXI6dW5kZXJsaW5lIHJvdW5kZWQtbWQgdHJhbnNpdGlvbi1jb2xvcnMiCiAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIHtsaW5rLnRpdGxlfQogICAgICAgICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImJnLXFhbm5hLWdyYXktNTAgcm91bmRlZC1sZyBwLTQiPgogICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtc20gdGV4dC1xYW5uYS1ncmF5LTYwMCBtYi0zIj4KICAgICAgICAgICAgICAgICAgICBMZXJuZW4gU2llIGRpZSBFeHBlcnRlbiBoaW50ZXIgUUFOTkEgVW50ZXJuZWhtZW5zbmFjaGZvbGdlIGtlbm5lbi4KICAgICAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgICAgICA8TGluawogICAgICAgICAgICAgICAgICAgIGhyZWY9Ii91ZWJlci11bnMvdGVhbSIKICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InRleHQtc20gdGV4dC1xYW5uYS1nb2xkIGZvbnQtbWVkaXVtIGhvdmVyOnVuZGVybGluZSIKICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIFRlYW0ga2VubmVubGVybmVuCiAgICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8L05hdkRyb3Bkb3duPgoKICAgICAgICAgICAgey8qIEtJLUxvZXN1bmdlbiBMaW5rICovfQogICAgICAgICAgICA8TGluawogICAgICAgICAgICAgIGhyZWY9Ii9raS1sb2VzdW5nZW4iCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJweC00IHB5LTIgdGV4dC1zbSBmb250LW1lZGl1bSByb3VuZGVkLW1kIHRyYW5zaXRpb24tY29sb3JzIGR1cmF0aW9uLTIwMCBob3ZlcjpvcGFjaXR5LTgwIgogICAgICAgICAgICAgIHN0eWxlPXt7IGNvbG9yOiAidmFyKC0tcWFubmEtZ29sZCkiIH19CiAgICAgICAgICAgID4KICAgICAgICAgICAgICBLSS1MT0VTVU5HRU4KICAgICAgICAgICAgPC9MaW5rPgoKICAgICAgICAgICAgey8qIEtvbnRha3QgQnV0dG9uICovfQogICAgICAgICAgICA8QnV0dG9uCiAgICAgICAgICAgICAgdmFyaWFudD17aXNTY3JvbGxlZCA/ICJwcmltYXJ5IiA6ICJvdXRsaW5lIn0KICAgICAgICAgICAgICBzaXplPSJzbSIKICAgICAgICAgICAgICBjbGFzc05hbWU9eyFpc1Njcm9sbGVkID8gImJvcmRlci13aGl0ZSB0ZXh0LXdoaXRlIGhvdmVyOmJnLXFhbm5hLWdvbGQgaG92ZXI6Ym9yZGVyLXFhbm5hLWdvbGQgaG92ZXI6dGV4dC13aGl0ZSIgOiAiIn0KICAgICAgICAgICAgPgogICAgICAgICAgICAgIDxMaW5rIGhyZWY9Ii9rb250YWt0Ij5LT05UQUtUPC9MaW5rPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgIHsvKiBNb2JpbGUgTWVudSBCdXR0b24gKi99CiAgICAgICAgICA8YnV0dG9uCiAgICAgICAgICAgIGNsYXNzTmFtZT0ibGc6aGlkZGVuIHAtMiIKICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0SXNNb2JpbGVNZW51T3BlbighaXNNb2JpbGVNZW51T3Blbil9CiAgICAgICAgICA+CiAgICAgICAgICAgIDxzdmcKICAgICAgICAgICAgICBjbGFzc05hbWU9e2B3LTYgaC02ICR7aXNTY3JvbGxlZCA/ICJ0ZXh0LXFhbm5hLW5hdnkiIDogInRleHQtd2hpdGUifWB9CiAgICAgICAgICAgICAgZmlsbD0ibm9uZSIKICAgICAgICAgICAgICB2aWV3Qm94PSIwIDAgMjQgMjQiCiAgICAgICAgICAgICAgc3Ryb2tlPSJjdXJyZW50Q29sb3IiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICB7aXNNb2JpbGVNZW51T3BlbiA/ICgKICAgICAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgICAgIHN0cm9rZUxpbmVjYXA9InJvdW5kIgogICAgICAgICAgICAgICAgICBzdHJva2VMaW5lam9pbj0icm91bmQiCiAgICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoPXsyfQogICAgICAgICAgICAgICAgICBkPSJNNiAxOEwxOCA2TTYgNmwxMiAxMiIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgKSA6ICgKICAgICAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgICAgIHN0cm9rZUxpbmVjYXA9InJvdW5kIgogICAgICAgICAgICAgICAgICBzdHJva2VMaW5lam9pbj0icm91bmQiCiAgICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoPXsyfQogICAgICAgICAgICAgICAgICBkPSJNNCA2aDE2TTQgMTJoMTZNNCAxOGgxNiIKICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgKX0KICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICA8L2J1dHRvbj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9uYXY+CgogICAgICB7LyogTW9iaWxlIE1lbnUgKi99CiAgICAgIHtpc01vYmlsZU1lbnVPcGVuICYmICgKICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ibGc6aGlkZGVuIGJnLXdoaXRlIGJvcmRlci10IGJvcmRlci1xYW5uYS1ncmF5LTIwMCBzaGFkb3ctbGciPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lci1xYW5uYSBweS00IHNwYWNlLXktNCI+CiAgICAgICAgICAgIHsvKiBTZXJ2aWNlcyAqL30KICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgZm9udC1zZW1pYm9sZCB0ZXh0LXFhbm5hLWdyYXktNDAwIHVwcGVyY2FzZSBtYi0yIj4KICAgICAgICAgICAgICAgIExlaXN0dW5nZW4KICAgICAgICAgICAgICA8L3A+CiAgICAgICAgICAgICAge3NlcnZpY2VzLm1hcCgoc2VydmljZSkgPT4gKAogICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAga2V5PXtzZXJ2aWNlLmhyZWZ9CiAgICAgICAgICAgICAgICAgIGhyZWY9e3NlcnZpY2UuaHJlZn0KICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJibG9jayBweS0yIHRleHQtcWFubmEtbmF2eSBob3Zlcjp0ZXh0LXFhbm5hLWdvbGQiCiAgICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldElzTW9iaWxlTWVudU9wZW4oZmFsc2UpfQogICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICB7c2VydmljZS50aXRsZX0KICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgPC9kaXY+CgogICAgICAgICAgICA8aHIgY2xhc3NOYW1lPSJib3JkZXItcWFubmEtZ3JheS0yMDAiIC8+CgogICAgICAgICAgICB7LyogSW5kdXN0cmllcyAqL30KICAgICAgICAgICAgPGRpdj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQteHMgZm9udC1zZW1pYm9sZCB0ZXh0LXFhbm5hLWdyYXktNDAwIHVwcGVyY2FzZSBtYi0yIj4KICAgICAgICAgICAgICAgIEJyYW5jaGVuCiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0xIGdhcC0yIj4KICAgICAgICAgICAgICAgIHtpbmR1c3RyaWVzLm1hcCgoaW5kdXN0cnkpID0+ICgKICAgICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAgICBrZXk9e2luZHVzdHJ5LmhyZWZ9CiAgICAgICAgICAgICAgICAgICAgaHJlZj17aW5kdXN0cnkuaHJlZn0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InB5LTIgdGV4dC1xYW5uYS1uYXZ5IGhvdmVyOnRleHQtcWFubmEtZ29sZCIKICAgICAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRJc01vYmlsZU1lbnVPcGVuKGZhbHNlKX0KICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgIHtpbmR1c3RyeS50aXRsZX0KICAgICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgICAgKSl9CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgIGhyZWY9Ii9icmFuY2hlbiIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYmxvY2sgbXQtMiB0ZXh0LXNtIHRleHQtcWFubmEtZ29sZCIKICAgICAgICAgICAgICAgIG9uQ2xpY2s9eygpID0+IHNldElzTW9iaWxlTWVudU9wZW4oZmFsc2UpfQogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIEFsbGUgQnJhbmNoZW4KICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGhyIGNsYXNzTmFtZT0iYm9yZGVyLXFhbm5hLWdyYXktMjAwIiAvPgoKICAgICAgICAgICAgey8qIE90aGVyIExpbmtzICovfQogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0ic3BhY2UteS0yIj4KICAgICAgICAgICAgICA8TGluawogICAgICAgICAgICAgICAgaHJlZj0iL2luc2lnaHRzIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJibG9jayBweS0yIHRleHQtcWFubmEtbmF2eSBob3Zlcjp0ZXh0LXFhbm5hLWdvbGQiCiAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRJc01vYmlsZU1lbnVPcGVuKGZhbHNlKX0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICBJbnNpZ2h0cwogICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICA8TGluawogICAgICAgICAgICAgICAgaHJlZj0iL2tpLWxvZXN1bmdlbiIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iYmxvY2sgcHktMiB0ZXh0LXFhbm5hLW5hdnkgaG92ZXI6dGV4dC1xYW5uYS1nb2xkIgogICAgICAgICAgICAgICAgb25DbGljaz17KCkgPT4gc2V0SXNNb2JpbGVNZW51T3BlbihmYWxzZSl9CiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgS0ktTG9lc3VuZ2VuCiAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgIDxMaW5rCiAgICAgICAgICAgICAgICBocmVmPSIvdWViZXItdW5zIgogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJibG9jayBweS0yIHRleHQtcWFubmEtbmF2eSBob3Zlcjp0ZXh0LXFhbm5hLWdvbGQiCiAgICAgICAgICAgICAgICBvbkNsaWNrPXsoKSA9PiBzZXRJc01vYmlsZU1lbnVPcGVuKGZhbHNlKX0KICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICBVZWJlciB1bnMKICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgIDwvZGl2PgoKICAgICAgICAgICAgPGhyIGNsYXNzTmFtZT0iYm9yZGVyLXFhbm5hLWdyYXktMjAwIiAvPgoKICAgICAgICAgICAgey8qIENUQSAqL30KICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJwcmltYXJ5IiBmdWxsV2lkdGg+CiAgICAgICAgICAgICAgPExpbmsgaHJlZj0iL2tvbnRha3QiIG9uQ2xpY2s9eygpID0+IHNldElzTW9iaWxlTWVudU9wZW4oZmFsc2UpfT4KICAgICAgICAgICAgICAgIEtvbnRha3QgYXVmbmVobWVuCiAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICApfQogICAgPC9oZWFkZXI+CiAgKTsKfQo=
+"use client";
+
+import { useState, useEffect, useRef } from "react";
+import Link from "next/link";
+import { Button, Logo } from "@/components/ui";
+
+// Navigation Data - Nachfolge-fokussiert
+const services = [
+  {
+    title: "Unternehmensbewertung",
+    href: "/leistungen/unternehmensbewertung",
+    description: "Fundierte Bewertung nach anerkannten Methoden",
+  },
+  {
+    title: "Kaeufer-/Nachfolgersuche",
+    href: "/leistungen/nachfolgersuche",
+    description: "Systematische Identifikation geeigneter Kaeufer",
+  },
+  {
+    title: "Due Diligence",
+    href: "/leistungen/due-diligence",
+    description: "Professionelle Pruefungsprozesse",
+  },
+  {
+    title: "Vertragsverhandlung",
+    href: "/leistungen/vertragsverhandlung",
+    description: "Erfahrene Verhandlungsfuehrung",
+  },
+  {
+    title: "Post-Merger Integration",
+    href: "/leistungen/post-merger-integration",
+    description: "Erfolgreiche Uebergabe und Integration",
+  },
+];
+
+const industries = [
+  { title: "Industrie & Handwerk", href: "/branchen/industrie" },
+  { title: "Handel & Einzelhandel", href: "/branchen/handel" },
+  { title: "Dienstleistungen", href: "/branchen/dienstleistungen" },
+  { title: "Gesundheitswesen", href: "/branchen/gesundheitswesen" },
+  { title: "Gastronomie & Hotel", href: "/branchen/gastronomie" },
+];
+
+const aboutLinks = [
+  { title: "Unser Team", href: "/ueber-uns/team" },
+  { title: "Ueber uns", href: "/ueber-uns" },
+];
+
+// Dropdown Component with proper hover handling
+function NavDropdown({
+  label,
+  isScrolled,
+  children,
+  width = "w-[500px]",
+  align = "left",
+}: {
+  label: string;
+  isScrolled: boolean;
+  children: React.ReactNode;
+  width?: string;
+  align?: "left" | "right";
+}) {
+  const [isOpen, setIsOpen] = useState(false);
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
+
+  const handleEnter = () => {
+    if (timeoutRef.current) {
+      clearTimeout(timeoutRef.current);
+      timeoutRef.current = null;
+    }
+    setIsOpen(true);
+  };
+
+  const handleLeave = () => {
+    timeoutRef.current = setTimeout(() => {
+      setIsOpen(false);
+    }, 200);
+  };
+
+  return (
+    <div
+      className="relative"
+      onMouseEnter={handleEnter}
+      onMouseLeave={handleLeave}
+    >
+      <button
+        className={`
+          px-4 py-2 text-sm font-medium rounded-md
+          transition-colors duration-200
+          ${isScrolled ? "text-qanna-navy hover:bg-qanna-gray-100" : "text-white hover:bg-white/10"}
+        `}
+        onClick={() => setIsOpen(!isOpen)}
+      >
+        {label}
+        <svg
+          className={`inline-block ml-1 w-4 h-4 transition-transform duration-200 ${isOpen ? "rotate-180" : ""}`}
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M19 9l-7 7-7-7"
+          />
+        </svg>
+      </button>
+
+      {/* Invisible bridge to connect button and dropdown */}
+      {isOpen && (
+        <div className="absolute top-full left-0 right-0 h-3" />
+      )}
+
+      {/* Dropdown Menu */}
+      <div
+        className={`
+          absolute top-full ${align === "right" ? "right-0" : "left-0"} pt-3 ${width}
+          transition-all duration-200 origin-top
+          ${isOpen ? "opacity-100 visible scale-100" : "opacity-0 invisible scale-95"}
+        `}
+        style={{ pointerEvents: isOpen ? "auto" : "none" }}
+      >
+        <div className="bg-white rounded-xl shadow-2xl border border-qanna-gray-200 p-6">
+          {children}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export function Header() {
+  const [isScrolled, setIsScrolled] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
+  return (
+    <header
+      className={`
+        fixed top-0 left-0 right-0 z-50
+        transition-all duration-300
+        ${
+          isScrolled
+            ? "bg-white/95 backdrop-blur-md shadow-md py-2"
+            : "bg-transparent py-4"
+        }
+      `}
+    >
+      <nav className="container-qanna">
+        <div className="relative flex items-center justify-between">
+          {/* Left Navigation */}
+          <div className="hidden lg:flex items-center gap-1">
+            {/* Leistungen Dropdown */}
+            <NavDropdown label="LEISTUNGEN" isScrolled={isScrolled} width="w-[600px]">
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <h3 className="text-sm font-semibold text-qanna-gray-400 uppercase mb-4">
+                    Nachfolge-Leistungen
+                  </h3>
+                  <div className="space-y-3">
+                    {services.map((service) => (
+                      <Link
+                        key={service.href}
+                        href={service.href}
+                        className="block group p-2 -m-2 rounded-lg hover:bg-qanna-gray-50 transition-colors"
+                      >
+                        <span className="text-qanna-navy font-medium group-hover:text-qanna-gold group-hover:underline transition-colors">
+                          {service.title}
+                        </span>
+                        <p className="text-sm text-qanna-gray-500">
+                          {service.description}
+                        </p>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+                <div className="bg-qanna-gray-50 rounded-lg p-4">
+                  <h4 className="font-semibold text-qanna-navy mb-2">
+                    Unternehmenswert berechnen
+                  </h4>
+                  <p className="text-sm text-qanna-gray-500 mb-3">
+                    Erste Einschaetzung Ihres Unternehmenswertes in wenigen Minuten.
+                  </p>
+                  <Link
+                    href="/ki-loesungen/bewertungsrechner"
+                    className="text-sm text-qanna-gold font-medium hover:underline"
+                  >
+                    Zum Bewertungsrechner
+                  </Link>
+                </div>
+              </div>
+            </NavDropdown>
+
+            {/* Branchen Dropdown */}
+            <NavDropdown label="BRANCHEN" isScrolled={isScrolled} width="w-[400px]">
+              <h3 className="text-sm font-semibold text-qanna-gray-400 uppercase mb-4">
+                Branchen
+              </h3>
+              <div className="grid grid-cols-1 gap-1">
+                {industries.map((industry) => (
+                  <Link
+                    key={industry.href}
+                    href={industry.href}
+                    className="px-3 py-2 text-qanna-navy hover:bg-qanna-gray-50 hover:text-qanna-gold hover:underline rounded-md transition-colors"
+                  >
+                    {industry.title}
+                  </Link>
+                ))}
+              </div>
+              <div className="mt-4 pt-4 border-t border-qanna-gray-200">
+                <Link
+                  href="/branchen"
+                  className="text-sm text-qanna-gold font-medium hover:underline"
+                >
+                  Alle Branchen ansehen
+                </Link>
+              </div>
+            </NavDropdown>
+
+            {/* Insights Link */}
+            <Link
+              href="/insights"
+              className={`
+                px-4 py-2 text-sm font-medium rounded-md
+                transition-colors duration-200
+                ${isScrolled ? "text-qanna-navy hover:bg-qanna-gray-100" : "text-white hover:bg-white/10"}
+              `}
+            >
+              INSIGHTS
+            </Link>
+          </div>
+
+          {/* Logo Center - Q is always centered, ANNA animates away */}
+          <Link
+            href="/"
+            className="absolute left-1/2 -translate-x-[28px] md:-translate-x-[30px] flex items-center"
+          >
+            <Logo isScrolled={isScrolled} isLight={!isScrolled} />
+          </Link>
+
+          {/* Right Navigation */}
+          <div className="hidden lg:flex items-center gap-1">
+            {/* Ueber uns Dropdown */}
+            <NavDropdown label="UEBER UNS" isScrolled={isScrolled} width="w-[350px]" align="right">
+              <div className="grid grid-cols-1 gap-4">
+                <div>
+                  <h3 className="text-sm font-semibold text-qanna-gray-400 uppercase mb-4">
+                    Ueber uns
+                  </h3>
+                  <div className="space-y-1">
+                    {aboutLinks.map((link) => (
+                      <Link
+                        key={link.href}
+                        href={link.href}
+                        className="block px-3 py-2 text-qanna-navy hover:bg-qanna-gray-50 hover:text-qanna-gold hover:underline rounded-md transition-colors"
+                      >
+                        {link.title}
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+                <div className="bg-qanna-gray-50 rounded-lg p-4">
+                  <p className="text-sm text-qanna-gray-600 mb-3">
+                    Lernen Sie die Experten hinter QANNA Unternehmensnachfolge kennen.
+                  </p>
+                  <Link
+                    href="/ueber-uns/team"
+                    className="text-sm text-qanna-gold font-medium hover:underline"
+                  >
+                    Team kennenlernen
+                  </Link>
+                </div>
+              </div>
+            </NavDropdown>
+
+            {/* KI-Loesungen Link */}
+            <Link
+              href="/ki-loesungen"
+              className="px-4 py-2 text-sm font-medium rounded-md transition-colors duration-200 hover:opacity-80"
+              style={{ color: "var(--qanna-gold)" }}
+            >
+              KI-LOESUNGEN
+            </Link>
+
+            {/* Kontakt Button */}
+            <Button
+              variant={isScrolled ? "primary" : "outline"}
+              size="sm"
+              className={!isScrolled ? "border-white text-white hover:bg-qanna-gold hover:border-qanna-gold hover:text-white" : ""}
+            >
+              <Link href="/kontakt">KONTAKT</Link>
+            </Button>
+          </div>
+
+          {/* Mobile Menu Button */}
+          <button
+            className="lg:hidden p-2"
+            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+          >
+            <svg
+              className={`w-6 h-6 ${isScrolled ? "text-qanna-navy" : "text-white"}`}
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              {isMobileMenuOpen ? (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              ) : (
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              )}
+            </svg>
+          </button>
+        </div>
+      </nav>
+
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div className="lg:hidden bg-white border-t border-qanna-gray-200 shadow-lg">
+          <div className="container-qanna py-4 space-y-4">
+            {/* Services */}
+            <div>
+              <p className="text-xs font-semibold text-qanna-gray-400 uppercase mb-2">
+                Leistungen
+              </p>
+              {services.map((service) => (
+                <Link
+                  key={service.href}
+                  href={service.href}
+                  className="block py-2 text-qanna-navy hover:text-qanna-gold"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {service.title}
+                </Link>
+              ))}
+            </div>
+
+            <hr className="border-qanna-gray-200" />
+
+            {/* Industries */}
+            <div>
+              <p className="text-xs font-semibold text-qanna-gray-400 uppercase mb-2">
+                Branchen
+              </p>
+              <div className="grid grid-cols-1 gap-2">
+                {industries.map((industry) => (
+                  <Link
+                    key={industry.href}
+                    href={industry.href}
+                    className="py-2 text-qanna-navy hover:text-qanna-gold"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    {industry.title}
+                  </Link>
+                ))}
+              </div>
+              <Link
+                href="/branchen"
+                className="block mt-2 text-sm text-qanna-gold"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Alle Branchen
+              </Link>
+            </div>
+
+            <hr className="border-qanna-gray-200" />
+
+            {/* Other Links */}
+            <div className="space-y-2">
+              <Link
+                href="/insights"
+                className="block py-2 text-qanna-navy hover:text-qanna-gold"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Insights
+              </Link>
+              <Link
+                href="/ki-loesungen"
+                className="block py-2 text-qanna-navy hover:text-qanna-gold"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                KI-Loesungen
+              </Link>
+              <Link
+                href="/ueber-uns"
+                className="block py-2 text-qanna-navy hover:text-qanna-gold"
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                Ueber uns
+              </Link>
+            </div>
+
+            <hr className="border-qanna-gray-200" />
+
+            {/* CTA */}
+            <Button variant="primary" fullWidth>
+              <Link href="/kontakt" onClick={() => setIsMobileMenuOpen(false)}>
+                Kontakt aufnehmen
+              </Link>
+            </Button>
+          </div>
+        </div>
+      )}
+    </header>
+  );
+}

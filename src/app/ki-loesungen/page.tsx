@@ -1,1 +1,324 @@
-aW1wb3J0IHsgSGVhZGVyLCBGb290ZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvbGF5b3V0IjsKaW1wb3J0IHsgSGVybyB9IGZyb20gIkAvY29tcG9uZW50cy9zZWN0aW9ucyI7CmltcG9ydCB7IENhcmQsIENhcmRUaXRsZSwgQ2FyZERlc2NyaXB0aW9uLCBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkiOwppbXBvcnQgeyBJY29uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL0ljb24iOwppbXBvcnQgTGluayBmcm9tICJuZXh0L2xpbmsiOwoKY29uc3Qga2lTZXJ2aWNlcyA9IFsKICB7CiAgICBzbHVnOiAiYmV3ZXJ0dW5nc3JlY2huZXIiLAogICAgdGl0bGU6ICJVbnRlcm5laG1lbnNiZXdlcnR1bmdzcmVjaG5lciIsCiAgICBkZXNjcmlwdGlvbjoKICAgICAgIkVyaGFsdGVuIFNpZSBlaW5lIGVyc3RlIEVpbnNjaGFldHp1bmcgenVtIFdlcnQgSWhyZXMgVW50ZXJuZWhtZW5zLiBCYXNpZXJlbmQgYXVmIGJld2FlaHJ0ZW4gQmV3ZXJ0dW5nc21ldGhvZGVuIHVuZCBha3R1ZWxsZW4gTWFya3RkYXRlbi4iLAogICAgaWNvbjogImNoYXJ0LWJhciIsCiAgICBmZWF0dXJlczogWwogICAgICAiU2NobmVsbGUgRXJzdGJld2VydHVuZyBpbiBNaW51dGVuIiwKICAgICAgIkJhc2llcnQgYXVmIEVCSVQtTXVsdGlwbGlrYXRvcmVuIiwKICAgICAgIkJyYW5jaGVuc3BlemlmaXNjaGUgQW5wYXNzdW5nZW4iLAogICAgICAiRGV0YWlsbGllcnRlIEVyZ2VibmlzYW5hbHlzZSIsCiAgICBdLAogICAgY3RhOiAiQmV3ZXJ0dW5nIHN0YXJ0ZW4iLAogICAgaW1hZ2U6CiAgICAgICJodHRwczovL2ltYWdlcy51bnNwbGFzaC5jb20vcGhvdG8tMTU1MTI4ODA0OS1iZWJkYTRlMzhmNzE/YXV0bz1mb3JtYXQmZml0PWNyb3Amdz04MDAmcT04MCIsCiAgfSwKICB7CiAgICBzbHVnOiAia2FldWZlci1tYXRjaGluZyIsCiAgICB0aXRsZTogIktJLWdlc3R1ZXR6dGVzIEthZXVmZXItTWF0Y2hpbmciLAogICAgZGVzY3JpcHRpb246CiAgICAgICJVbnNlciBBbGdvcml0aG11cyBhbmFseXNpZXJ0IHBvdGVuemllbGxlIEthZXVmZXIgdW5kIGZpbmRldCBkaWUgYmVzdGVuIE1hdGNoZXMgZnVlciBJaHIgVW50ZXJuZWhtZW4gLSBkaXNrcmV0IHVuZCBlZmZpemllbnQuIiwKICAgIGljb246ICJ1c2VycyIsCiAgICBmZWF0dXJlczogWwogICAgICAiQW5hbHlzZSB2b24gS2FldWZlci1Qcm9maWxlbiIsCiAgICAgICJTdHJhdGVnaXNjaGUgdW5kIGZpbmFuemllbGxlIFBhc3N1bmciLAogICAgICAiRGlza3JldGUgVm9yYXVzd2FobCIsCiAgICAgICJQcmlvcmlzaWVydGUgS2FldWZlci1TaG9ydGxpc3QiLAogICAgXSwKICAgIGN0YTogIk1laHIgZXJmYWhyZW4iLAogICAgaW1hZ2U6CiAgICAgICJodHRwczovL2ltYWdlcy51bnNwbGFzaC5jb20vcGhvdG8tMTYwMDg4MDI5MjIwMy03NTdiYjYyYjRiYWY/YXV0bz1mb3JtYXQmZml0PWNyb3Amdz04MDAmcT04MCIsCiAgfSwKICB7CiAgICBzbHVnOiAiZHVlLWRpbGlnZW5jZSIsCiAgICB0aXRsZTogIktJLWdlc3R1ZXR6dGUgRHVlIERpbGlnZW5jZSIsCiAgICBkZXNjcmlwdGlvbjoKICAgICAgIkF1dG9tYXRpc2llcnRlIERva3VtZW50ZW5hbmFseXNlIHVuZCBSaXNpa29iZXdlcnR1bmcgYmVzY2hsZXVuaWdlbiBkZW4gRHVlIERpbGlnZW5jZSBQcm96ZXNzIGVyaGVibGljaC4iLAogICAgaWNvbjogImRvY3VtZW50LXNlYXJjaCIsCiAgICBmZWF0dXJlczogWwogICAgICAiQXV0b21hdGlzY2hlIERva3VtZW50ZW5hbmFseXNlIiwKICAgICAgIlJpc2lrby1JZGVudGlmaWthdGlvbiIsCiAgICAgICJWZXJ0cmFnc2FuYWx5c2UgbWl0IEtJIiwKICAgICAgIlN0cnVrdHVyaWVydGUgRXJnZWJuaXNiZXJpY2h0ZSIsCiAgICBdLAogICAgY3RhOiAiTWVociBlcmZhaHJlbiIsCiAgICBpbWFnZToKICAgICAgImh0dHBzOi8vaW1hZ2VzLnVuc3BsYXNoLmNvbS9waG90by0xNDUwMTAxNDk5MTYzLWM4ODQ4YzY2Y2E4NT9hdXRvPWZvcm1hdCZmaXQ9Y3JvcCZ3PTgwMCZxPTgwIiwKICB9LApdOwoKY29uc3QgYmVuZWZpdHMgPSBbCiAgewogICAgaWNvbjogImxpZ2h0bmluZyIsCiAgICB0aXRsZTogIlNjaG5lbGxlcmUgUHJvemVzc2UiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJLSS1nZXN0dWV0enRlIEFuYWx5c2VuIGxpZWZlcm4gaW4gTWludXRlbiwgd2FzIGZydWVoZXIgVGFnZSBkYXVlcnRlLiIsCiAgfSwKICB7CiAgICBpY29uOiAidGFyZ2V0IiwKICAgIHRpdGxlOiAiSG9laGVyZSBQcmFlemlzaW9uIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiRGF0ZW5nZXN0dWV0enRlIEJld2VydHVuZ2VuIHJlZHV6aWVyZW4gUmlzaWtlbiB1bmQgdmVyYmVzc2VybiBFcmdlYm5pc3NlLiIsCiAgfSwKICB7CiAgICBpY29uOiAibGlnaHRidWxiIiwKICAgIHRpdGxlOiAiQmVzc2VyZSBNYXRjaGVzIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiQWxnb3JpdGhtZW4gZmluZGVuIEthZXVmZXItVmVya2FldWZlci1Lb21iaW5hdGlvbmVuLCBkaWUgc29uc3QgdmVyYm9yZ2VuIGJsaWViZW4uIiwKICB9LAogIHsKICAgIGljb246ICJzaGllbGQiLAogICAgdGl0bGU6ICJNYXhpbWFsZSBWZXJ0cmF1bGljaGtlaXQiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJBbGxlIERhdGVuIHdlcmRlbiBzaWNoZXIgdmVyYXJiZWl0ZXQgdW5kIG5pZW1hbHMgYW4gRHJpdHRlIHdlaXRlcmdlZ2ViZW4uIiwKICB9LApdOwoKY29uc3Qgc3RhdHMgPSBbCiAgeyB2YWx1ZTogIjYwJSIsIGxhYmVsOiAiU2NobmVsbGVyZSBEdWUgRGlsaWdlbmNlIiB9LAogIHsgdmFsdWU6ICI5NSUiLCBsYWJlbDogIk1hdGNoaW5nLVRyZWZmZXJxdW90ZSIgfSwKICB7IHZhbHVlOiAiMTAwJSIsIGxhYmVsOiAiRGlza3JldGlvbiBnYXJhbnRpZXJ0IiB9LAogIHsgdmFsdWU6ICIyNGgiLCBsYWJlbDogIlJlYWt0aW9uc3plaXQiIH0sCl07CgpleHBvcnQgY29uc3QgbWV0YWRhdGEgPSB7CiAgdGl0bGU6ICJLSS1Mb2VzdW5nZW4gfCBRQU5OQSBVbnRlcm5laG1lbnNuYWNoZm9sZ2UiLAogIGRlc2NyaXB0aW9uOgogICAgIktJLWdlc3R1ZXR6dGUgVG9vbHMgZnVlciBJaHJlIFVudGVybmVobWVuc25hY2hmb2xnZTogQmV3ZXJ0dW5nc3JlY2huZXIsIEthZXVmZXItTWF0Y2hpbmcgdW5kIGludGVsbGlnZW50ZSBEdWUgRGlsaWdlbmNlLiIsCn07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBLSUxvZXN1bmdlblBhZ2UoKSB7CiAgcmV0dXJuICgKICAgIDxtYWluPgogICAgICA8SGVhZGVyIC8+CgogICAgICA8SGVybwogICAgICAgIGJhZGdlPSJLSS1JTk5PVkFUSU9OIgogICAgICAgIHRpdGxlPSJLSS1UZWNobm9sb2dpZSBmdWVyIElocmUgTmFjaGZvbGdlIgogICAgICAgIHN1YnRpdGxlPSJXaXIga29tYmluaWVyZW4gTSZBLUVyZmFocnVuZyBtaXQgbW9kZXJuc3RlciBLSS1UZWNobm9sb2dpZS4gRXJsZWJlbiBTaWUsIHdpZSBpbnRlbGxpZ2VudGUgQWxnb3JpdGhtZW4gSWhyZSBVbnRlcm5laG1lbnNuYWNoZm9sZ2UgdW50ZXJzdHVldHplbi4iCiAgICAgICAgcHJpbWFyeUNUQT17eyB0ZXh0OiAiQmV3ZXJ0dW5nIHN0YXJ0ZW4iLCBocmVmOiAiL2tpLWxvZXN1bmdlbi9iZXdlcnR1bmdzcmVjaG5lciIgfX0KICAgICAgICBzZWNvbmRhcnlDVEE9e3sgdGV4dDogIktvbnRha3QgYXVmbmVobWVuIiwgaHJlZjogIi9rb250YWt0IiB9fQogICAgICAgIGJhY2tncm91bmRJbWFnZT0iaHR0cHM6Ly9pbWFnZXMudW5zcGxhc2guY29tL3Bob3RvLTE2MjA3MTI5NDM1NDMtYmNjNDY4OGU3NDg1P2F1dG89Zm9ybWF0JmZpdD1jcm9wJnc9MjAwMCZxPTgwIgogICAgICAvPgoKICAgICAgey8qIEtJIFNlcnZpY2VzIE92ZXJ2aWV3ICovfQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InNlY3Rpb24tcGFkZGluZyBiZy13aGl0ZSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lci1xYW5uYSI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWItMTYiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1ibG9jayBweC00IHB5LTIgYmctcWFubmEtZ29sZC8yMCB0ZXh0LXFhbm5hLWdvbGQgdGV4dC1zbSBmb250LXNlbWlib2xkIHJvdW5kZWQtZnVsbCBtYi00Ij4KICAgICAgICAgICAgICBVTlNFUkUgS0ktVE9PTFMKICAgICAgICAgICAgPC9zcGFuPgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBtZDp0ZXh0LTR4bCBmb250LWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG1iLTQiPgogICAgICAgICAgICAgIEludGVsbGlnZW50ZSBXZXJremV1Z2UgZnVlciBJaHJlIE5hY2hmb2xnZQogICAgICAgICAgICA8L2gyPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbGcgdGV4dC1xYW5uYS1ncmF5LTYwMCBtYXgtdy0yeGwgbXgtYXV0byI+CiAgICAgICAgICAgICAgTnV0emVuIFNpZSB1bnNlcmUgS0ktZ2VzdHVldHp0ZW4gVG9vbHMgZnVlciBmdW5kaWVydGUKICAgICAgICAgICAgICBFbnRzY2hlaWR1bmdzZ3J1bmRsYWdlbiBiZWkgSWhyZXIgVW50ZXJuZWhtZW5zbmFjaGZvbGdlLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBsZzpncmlkLWNvbHMtMyBnYXAtOCI+CiAgICAgICAgICAgIHtraVNlcnZpY2VzLm1hcCgoc2VydmljZSkgPT4gKAogICAgICAgICAgICAgIDxDYXJkCiAgICAgICAgICAgICAgICBrZXk9e3NlcnZpY2Uuc2x1Z30KICAgICAgICAgICAgICAgIHZhcmlhbnQ9ImRlZmF1bHQiCiAgICAgICAgICAgICAgICBob3ZlcgogICAgICAgICAgICAgICAgcGFkZGluZz0ibm9uZSIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ib3ZlcmZsb3ctaGlkZGVuIGdyb3VwIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBoLTQ4IG92ZXJmbG93LWhpZGRlbiI+CiAgICAgICAgICAgICAgICAgIHsvKiBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgQG5leHQvbmV4dC9uby1pbWctZWxlbWVudCAqL30KICAgICAgICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgICAgICAgIHNyYz17c2VydmljZS5pbWFnZX0KICAgICAgICAgICAgICAgICAgICBhbHQ9e3NlcnZpY2UudGl0bGV9CiAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LWZ1bGwgaC1mdWxsIG9iamVjdC1jb3ZlciB0cmFuc2l0aW9uLXRyYW5zZm9ybSBkdXJhdGlvbi01MDAgZ3JvdXAtaG92ZXI6c2NhbGUtMTEwIgogICAgICAgICAgICAgICAgICAvPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgaW5zZXQtMCBiZy1ncmFkaWVudC10by10IGZyb20tcWFubmEtbmF2eS84MCB0by10cmFuc3BhcmVudCIgLz4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImFic29sdXRlIGJvdHRvbS00IGxlZnQtNCI+CiAgICAgICAgICAgICAgICAgICAgPEljb24gbmFtZT17c2VydmljZS5pY29ufSBjbGFzc05hbWU9InctMTAgaC0xMCB0ZXh0LXdoaXRlIiAvPgogICAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InAtNiI+CiAgICAgICAgICAgICAgICAgIDxDYXJkVGl0bGUgY2xhc3NOYW1lPSJtYi0zIj57c2VydmljZS50aXRsZX08L0NhcmRUaXRsZT4KICAgICAgICAgICAgICAgICAgPENhcmREZXNjcmlwdGlvbiBjbGFzc05hbWU9Im1iLTQiPgogICAgICAgICAgICAgICAgICAgIHtzZXJ2aWNlLmRlc2NyaXB0aW9ufQogICAgICAgICAgICAgICAgICA8L0NhcmREZXNjcmlwdGlvbj4KICAgICAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT0ic3BhY2UteS0yIG1iLTYiPgogICAgICAgICAgICAgICAgICAgIHtzZXJ2aWNlLmZlYXR1cmVzLm1hcCgoZmVhdHVyZSkgPT4gKAogICAgICAgICAgICAgICAgICAgICAgPGxpCiAgICAgICAgICAgICAgICAgICAgICAgIGtleT17ZmVhdHVyZX0KICAgICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLWNlbnRlciB0ZXh0LXNtIHRleHQtcWFubmEtZ3JheS02MDAiCiAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgIDxzdmcKICAgICAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctNCBoLTQgbXItMiB0ZXh0LXFhbm5hLWdvbGQgZmxleC1zaHJpbmstMCIKICAgICAgICAgICAgICAgICAgICAgICAgICBmaWxsPSJjdXJyZW50Q29sb3IiCiAgICAgICAgICAgICAgICAgICAgICAgICAgdmlld0JveD0iMCAwIDIwIDIwIgogICAgICAgICAgICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICAgICAgICAgICAgPHBhdGgKICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZpbGxSdWxlPSJldmVub2RkIgogICAgICAgICAgICAgICAgICAgICAgICAgICAgZD0iTTE2LjcwNyA1LjI5M2ExIDEgMCAwMTAgMS40MTRsLTggOGExIDEgMCAwMS0xLjQxNCAwbC00LTRhMSAxIDAgMDExLjQxNC0xLjQxNEw4IDEyLjU4Nmw3LjI5My03LjI5M2ExIDEgMCAwMTEuNDE0IDB6IgogICAgICAgICAgICAgICAgICAgICAgICAgICAgY2xpcFJ1bGU9ImV2ZW5vZGQiCiAgICAgICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAgICAgICAgICAgIHtmZWF0dXJlfQogICAgICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICAgICApKX0KICAgICAgICAgICAgICAgICAgPC91bD4KICAgICAgICAgICAgICAgICAgPEJ1dHRvbiB2YXJpYW50PSJwcmltYXJ5IiBjbGFzc05hbWU9InctZnVsbCI+CiAgICAgICAgICAgICAgICAgICAgPExpbmsgaHJlZj17YC9raS1sb2VzdW5nZW4vJHtzZXJ2aWNlLnNsdWd9YH0+CiAgICAgICAgICAgICAgICAgICAgICB7c2VydmljZS5jdGF9CiAgICAgICAgICAgICAgICAgICAgPC9MaW5rPgogICAgICAgICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvQ2FyZD4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgey8qIEJlbmVmaXRzIFNlY3Rpb24gKi99CiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ic2VjdGlvbi1wYWRkaW5nIGJnLXFhbm5hLW5hdnkiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXItcWFubmEiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIG1iLTE2Ij4KICAgICAgICAgICAgPHNwYW4gY2xhc3NOYW1lPSJpbmxpbmUtYmxvY2sgcHgtNCBweS0yIGJnLXFhbm5hLWdvbGQvMjAgdGV4dC1xYW5uYS1nb2xkIHRleHQtc20gZm9udC1zZW1pYm9sZCByb3VuZGVkLWZ1bGwgbWItNCI+CiAgICAgICAgICAgICAgSUhSRSBWT1JURUlMRQogICAgICAgICAgICA8L3NwYW4+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtM3hsIG1kOnRleHQtNHhsIGZvbnQtYm9sZCB0ZXh0LXdoaXRlIG1iLTQiPgogICAgICAgICAgICAgIFdhcnVtIEtJLWdlc3R1ZXR6dGUgTmFjaGZvbGdlYmVyYXR1bmc/CiAgICAgICAgICAgIDwvaDI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14bCB0ZXh0LWdyYXktMzAwIG1heC13LTJ4bCBteC1hdXRvIj4KICAgICAgICAgICAgICBEaWUgS29tYmluYXRpb24gYXVzIE0mQS1FeHBlcnRpc2UgdW5kIGt1ZW5zdGxpY2hlcgogICAgICAgICAgICAgIEludGVsbGlnZW56IHNjaGFmZnQgZWluemlnYXJ0aWdlIE1laHJ3ZXJ0ZS4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTQgZ2FwLTgiPgogICAgICAgICAgICB7YmVuZWZpdHMubWFwKChiZW5lZml0KSA9PiAoCiAgICAgICAgICAgICAgPGRpdgogICAgICAgICAgICAgICAga2V5PXtiZW5lZml0LnRpdGxlfQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciBwLTYgcm91bmRlZC14bCBiZy13aGl0ZS81IGJhY2tkcm9wLWJsdXItc20iCiAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMTYgaC0xNiBiZy1xYW5uYS1nb2xkIHJvdW5kZWQtZnVsbCBmbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlciBteC1hdXRvIG1iLTQiPgogICAgICAgICAgICAgICAgICA8SWNvbiBuYW1lPXtiZW5lZml0Lmljb259IGNsYXNzTmFtZT0idy04IGgtOCB0ZXh0LXdoaXRlIiAvPgogICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8aDQgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC13aGl0ZSBtYi0yIj4KICAgICAgICAgICAgICAgICAge2JlbmVmaXQudGl0bGV9CiAgICAgICAgICAgICAgICA8L2g0PgogICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWdyYXktMzAwIj57YmVuZWZpdC5kZXNjcmlwdGlvbn08L3A+CiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICkpfQogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIHsvKiBTdGF0cyBTZWN0aW9uICovfQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InNlY3Rpb24tcGFkZGluZyBiZy1xYW5uYS1ncmF5LTUwIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyLXFhbm5hIj4KICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJncmlkIGdyaWQtY29scy0yIG1kOmdyaWQtY29scy00IGdhcC04Ij4KICAgICAgICAgICAge3N0YXRzLm1hcCgoc3RhdCkgPT4gKAogICAgICAgICAgICAgIDxkaXYga2V5PXtzdGF0LmxhYmVsfSBjbGFzc05hbWU9InRleHQtY2VudGVyIj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LTR4bCBtZDp0ZXh0LTV4bCBmb250LWJvbGQgdGV4dC1xYW5uYS1nb2xkIG1iLTIiPgogICAgICAgICAgICAgICAgICB7c3RhdC52YWx1ZX0KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS02MDAiPntzdGF0LmxhYmVsfTwvZGl2PgogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICApKX0KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICB7LyogSG93IEl0IFdvcmtzICovfQogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InNlY3Rpb24tcGFkZGluZyBiZy13aGl0ZSI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lci1xYW5uYSI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC1jZW50ZXIgbWItMTYiPgogICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9ImlubGluZS1ibG9jayBweC00IHB5LTIgYmctcWFubmEtbmF2eS8xMCB0ZXh0LXFhbm5hLW5hdnkgdGV4dC1zbSBmb250LXNlbWlib2xkIHJvdW5kZWQtZnVsbCBtYi00Ij4KICAgICAgICAgICAgICBTTyBGVU5LVElPTklFUlQmYXBvcztTCiAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0zeGwgbWQ6dGV4dC00eGwgZm9udC1ib2xkIHRleHQtcWFubmEtbmF2eSBtYi00Ij4KICAgICAgICAgICAgICBLSSB1bmQgTWVuc2NoIC0gZGFzIHBlcmZla3RlIFRlYW0KICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWxnIHRleHQtcWFubmEtZ3JheS02MDAgbWF4LXctMnhsIG14LWF1dG8iPgogICAgICAgICAgICAgIFVuc2VyZSBLSS1Ub29scyBlcnNldHplbiBrZWluZSBCZXJhdGVyIC0gc2llIG1hY2hlbiBzaWUgYmVzc2VyLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KCiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMSBtZDpncmlkLWNvbHMtMyBnYXAtOCI+CiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LWNlbnRlciI+CiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InctMjAgaC0yMCBiZy1xYW5uYS1nb2xkIHRleHQtd2hpdGUgcm91bmRlZC1mdWxsIGZsZXggaXRlbXMtY2VudGVyIGp1c3RpZnktY2VudGVyIG14LWF1dG8gbWItNiB0ZXh0LTN4bCBmb250LWJvbGQiPgogICAgICAgICAgICAgICAgMQogICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteGwgZm9udC1zZW1pYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbWItMyI+CiAgICAgICAgICAgICAgICBEYXRlbiBlaW5nZWJlbgogICAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNjAwIj4KICAgICAgICAgICAgICAgIFNpZSBnZWJlbiBJaHJlIFVudGVybmVobWVuc2RhdGVuIGVpbiAtIFVtc2F0eiwgRUJJVCwgQnJhbmNoZQogICAgICAgICAgICAgICAgdW5kIHdlaXRlcmUgcmVsZXZhbnRlIEluZm9ybWF0aW9uZW4uCiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0yMCBoLTIwIGJnLXFhbm5hLWdvbGQgdGV4dC13aGl0ZSByb3VuZGVkLWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgbXgtYXV0byBtYi02IHRleHQtM3hsIGZvbnQtYm9sZCI+CiAgICAgICAgICAgICAgICAyCiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC14bCBmb250LXNlbWlib2xkIHRleHQtcWFubmEtbmF2eSBtYi0zIj4KICAgICAgICAgICAgICAgIEtJIGFuYWx5c2llcnQKICAgICAgICAgICAgICA8L2gzPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTYwMCI+CiAgICAgICAgICAgICAgICBVbnNlcmUgQWxnb3JpdGhtZW4gdmVyYXJiZWl0ZW4gZGllIEluZm9ybWF0aW9uZW4gdW5kIGdlbmVyaWVyZW4KICAgICAgICAgICAgICAgIGVyc3RlIEJld2VydHVuZ2VuIHVuZCBLYWV1ZmVyLU1hdGNoZXMuCiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIj4KICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idy0yMCBoLTIwIGJnLXFhbm5hLWdvbGQgdGV4dC13aGl0ZSByb3VuZGVkLWZ1bGwgZmxleCBpdGVtcy1jZW50ZXIganVzdGlmeS1jZW50ZXIgbXgtYXV0byBtYi02IHRleHQtM3hsIGZvbnQtYm9sZCI+CiAgICAgICAgICAgICAgICAzCiAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgPGgzIGNsYXNzTmFtZT0idGV4dC14bCBmb250LXNlbWlib2xkIHRleHQtcWFubmEtbmF2eSBtYi0zIj4KICAgICAgICAgICAgICAgIEV4cGVydGVuIHZlcmZlaW5lcm4KICAgICAgICAgICAgICA8L2gzPgogICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTYwMCI+CiAgICAgICAgICAgICAgICBVbnNlcmUgTSZBLUJlcmF0ZXIgcHJ1ZWZlbiBkaWUgRXJnZWJuaXNzZSB1bmQgZXJnYWVuemVuIHNpZSBkdXJjaCBpaHJlCiAgICAgICAgICAgICAgICBFcmZhaHJ1bmcgdW5kIE1hcmt0a2VubnRuaXMuCiAgICAgICAgICAgICAgPC9wPgogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICB7LyogQ1RBIFNlY3Rpb24gKi99CiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ic2VjdGlvbi1wYWRkaW5nIGJnLXFhbm5hLW5hdnktZGFyayI+CiAgICAgICAgPGRpdiBjbGFzc05hbWU9ImNvbnRhaW5lci1xYW5uYSB0ZXh0LWNlbnRlciI+CiAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTN4bCBtZDp0ZXh0LTR4bCBmb250LWJvbGQgdGV4dC13aGl0ZSBtYi00Ij4KICAgICAgICAgICAgQmVyZWl0IGZ1ZXIgZWluZSBlcnN0ZSBFaW5zY2hhZXR6dW5nPwogICAgICAgICAgPC9oMj4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14bCB0ZXh0LWdyYXktMzAwIG1iLTggbWF4LXctMnhsIG14LWF1dG8iPgogICAgICAgICAgICBTdGFydGVuIFNpZSBqZXR6dCBtaXQgdW5zZXJlbSBCZXdlcnR1bmdzcmVjaG5lciB1bmQgZXJoYWx0ZW4gU2llCiAgICAgICAgICAgIGVpbmUgZXJzdGUgRWluc2NoYWV0enVuZyB6dW0gV2VydCBJaHJlcyBVbnRlcm5laG1lbnMuCiAgICAgICAgICA8L3A+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZmxleCBmbGV4LWNvbCBzbTpmbGV4LXJvdyBnYXAtNCBqdXN0aWZ5LWNlbnRlciI+CiAgICAgICAgICAgIDxCdXR0b24gdmFyaWFudD0iZ29sZCIgc2l6ZT0ibGciPgogICAgICAgICAgICAgIDxMaW5rIGhyZWY9Ii9raS1sb2VzdW5nZW4vYmV3ZXJ0dW5nc3JlY2huZXIiPkJld2VydHVuZyBzdGFydGVuPC9MaW5rPgogICAgICAgICAgICA8L0J1dHRvbj4KICAgICAgICAgICAgPEJ1dHRvbgogICAgICAgICAgICAgIHZhcmlhbnQ9Im91dGxpbmUiCiAgICAgICAgICAgICAgc2l6ZT0ibGciCiAgICAgICAgICAgICAgY2xhc3NOYW1lPSJib3JkZXItd2hpdGUgdGV4dC13aGl0ZSBob3ZlcjpiZy13aGl0ZSBob3Zlcjp0ZXh0LXFhbm5hLW5hdnkiCiAgICAgICAgICAgID4KICAgICAgICAgICAgICA8TGluayBocmVmPSIva29udGFrdCI+CiAgICAgICAgICAgICAgICBQZXJzb2VubGljaGUgQmVyYXR1bmcKICAgICAgICAgICAgICA8L0xpbms+CiAgICAgICAgICAgIDwvQnV0dG9uPgogICAgICAgICAgPC9kaXY+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIDxGb290ZXIgLz4KICAgIDwvbWFpbj4KICApOwp9Cg==
+import { Header, Footer } from "@/components/layout";
+import { Hero } from "@/components/sections";
+import { Card, CardTitle, CardDescription, Button } from "@/components/ui";
+import { Icon } from "@/components/ui/Icon";
+import Link from "next/link";
+
+const kiServices = [
+  {
+    slug: "bewertungsrechner",
+    title: "Unternehmensbewertungsrechner",
+    description:
+      "Erhalten Sie eine erste Einschaetzung zum Wert Ihres Unternehmens. Basierend auf bewaehrten Bewertungsmethoden und aktuellen Marktdaten.",
+    icon: "chart-bar",
+    features: [
+      "Schnelle Erstbewertung in Minuten",
+      "Basiert auf EBIT-Multiplikatoren",
+      "Branchenspezifische Anpassungen",
+      "Detaillierte Ergebnisanalyse",
+    ],
+    cta: "Bewertung starten",
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    slug: "kaeufer-matching",
+    title: "KI-gestuetztes Kaeufer-Matching",
+    description:
+      "Unser Algorithmus analysiert potenzielle Kaeufer und findet die besten Matches fuer Ihr Unternehmen - diskret und effizient.",
+    icon: "users",
+    features: [
+      "Analyse von Kaeufer-Profilen",
+      "Strategische und finanzielle Passung",
+      "Diskrete Vorauswahl",
+      "Priorisierte Kaeufer-Shortlist",
+    ],
+    cta: "Mehr erfahren",
+    image:
+      "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80",
+  },
+  {
+    slug: "due-diligence",
+    title: "KI-gestuetzte Due Diligence",
+    description:
+      "Automatisierte Dokumentenanalyse und Risikobewertung beschleunigen den Due Diligence Prozess erheblich.",
+    icon: "document-search",
+    features: [
+      "Automatische Dokumentenanalyse",
+      "Risiko-Identifikation",
+      "Vertragsanalyse mit KI",
+      "Strukturierte Ergebnisberichte",
+    ],
+    cta: "Mehr erfahren",
+    image:
+      "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?auto=format&fit=crop&w=800&q=80",
+  },
+];
+
+const benefits = [
+  {
+    icon: "lightning",
+    title: "Schnellere Prozesse",
+    description:
+      "KI-gestuetzte Analysen liefern in Minuten, was frueher Tage dauerte.",
+  },
+  {
+    icon: "target",
+    title: "Hoehere Praezision",
+    description:
+      "Datengestuetzte Bewertungen reduzieren Risiken und verbessern Ergebnisse.",
+  },
+  {
+    icon: "lightbulb",
+    title: "Bessere Matches",
+    description:
+      "Algorithmen finden Kaeufer-Verkaeufer-Kombinationen, die sonst verborgen blieben.",
+  },
+  {
+    icon: "shield",
+    title: "Maximale Vertraulichkeit",
+    description:
+      "Alle Daten werden sicher verarbeitet und niemals an Dritte weitergegeben.",
+  },
+];
+
+const stats = [
+  { value: "60%", label: "Schnellere Due Diligence" },
+  { value: "95%", label: "Matching-Trefferquote" },
+  { value: "100%", label: "Diskretion garantiert" },
+  { value: "24h", label: "Reaktionszeit" },
+];
+
+export const metadata = {
+  title: "KI-Loesungen | QANNA Unternehmensnachfolge",
+  description:
+    "KI-gestuetzte Tools fuer Ihre Unternehmensnachfolge: Bewertungsrechner, Kaeufer-Matching und intelligente Due Diligence.",
+};
+
+export default function KILoesungenPage() {
+  return (
+    <main>
+      <Header />
+
+      <Hero
+        badge="KI-INNOVATION"
+        title="KI-Technologie fuer Ihre Nachfolge"
+        subtitle="Wir kombinieren M&A-Erfahrung mit modernster KI-Technologie. Erleben Sie, wie intelligente Algorithmen Ihre Unternehmensnachfolge unterstuetzen."
+        primaryCTA={{ text: "Bewertung starten", href: "/ki-loesungen/bewertungsrechner" }}
+        secondaryCTA={{ text: "Kontakt aufnehmen", href: "/kontakt" }}
+        backgroundImage="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=2000&q=80"
+      />
+
+      {/* KI Services Overview */}
+      <section className="section-padding bg-white">
+        <div className="container-qanna">
+          <div className="text-center mb-16">
+            <span className="inline-block px-4 py-2 bg-qanna-gold/20 text-qanna-gold text-sm font-semibold rounded-full mb-4">
+              UNSERE KI-TOOLS
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-qanna-navy mb-4">
+              Intelligente Werkzeuge fuer Ihre Nachfolge
+            </h2>
+            <p className="text-lg text-qanna-gray-600 max-w-2xl mx-auto">
+              Nutzen Sie unsere KI-gestuetzten Tools fuer fundierte
+              Entscheidungsgrundlagen bei Ihrer Unternehmensnachfolge.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {kiServices.map((service) => (
+              <Card
+                key={service.slug}
+                variant="default"
+                hover
+                padding="none"
+                className="overflow-hidden group"
+              >
+                <div className="relative h-48 overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-qanna-navy/80 to-transparent" />
+                  <div className="absolute bottom-4 left-4">
+                    <Icon name={service.icon} className="w-10 h-10 text-white" />
+                  </div>
+                </div>
+                <div className="p-6">
+                  <CardTitle className="mb-3">{service.title}</CardTitle>
+                  <CardDescription className="mb-4">
+                    {service.description}
+                  </CardDescription>
+                  <ul className="space-y-2 mb-6">
+                    {service.features.map((feature) => (
+                      <li
+                        key={feature}
+                        className="flex items-center text-sm text-qanna-gray-600"
+                      >
+                        <svg
+                          className="w-4 h-4 mr-2 text-qanna-gold flex-shrink-0"
+                          fill="currentColor"
+                          viewBox="0 0 20 20"
+                        >
+                          <path
+                            fillRule="evenodd"
+                            d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                            clipRule="evenodd"
+                          />
+                        </svg>
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                  <Button variant="primary" className="w-full">
+                    <Link href={`/ki-loesungen/${service.slug}`}>
+                      {service.cta}
+                    </Link>
+                  </Button>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Benefits Section */}
+      <section className="section-padding bg-qanna-navy">
+        <div className="container-qanna">
+          <div className="text-center mb-16">
+            <span className="inline-block px-4 py-2 bg-qanna-gold/20 text-qanna-gold text-sm font-semibold rounded-full mb-4">
+              IHRE VORTEILE
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+              Warum KI-gestuetzte Nachfolgeberatung?
+            </h2>
+            <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+              Die Kombination aus M&A-Expertise und kuenstlicher
+              Intelligenz schafft einzigartige Mehrwerte.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            {benefits.map((benefit) => (
+              <div
+                key={benefit.title}
+                className="text-center p-6 rounded-xl bg-white/5 backdrop-blur-sm"
+              >
+                <div className="w-16 h-16 bg-qanna-gold rounded-full flex items-center justify-center mx-auto mb-4">
+                  <Icon name={benefit.icon} className="w-8 h-8 text-white" />
+                </div>
+                <h4 className="text-xl font-semibold text-white mb-2">
+                  {benefit.title}
+                </h4>
+                <p className="text-gray-300">{benefit.description}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Stats Section */}
+      <section className="section-padding bg-qanna-gray-50">
+        <div className="container-qanna">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+            {stats.map((stat) => (
+              <div key={stat.label} className="text-center">
+                <div className="text-4xl md:text-5xl font-bold text-qanna-gold mb-2">
+                  {stat.value}
+                </div>
+                <div className="text-qanna-gray-600">{stat.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* How It Works */}
+      <section className="section-padding bg-white">
+        <div className="container-qanna">
+          <div className="text-center mb-16">
+            <span className="inline-block px-4 py-2 bg-qanna-navy/10 text-qanna-navy text-sm font-semibold rounded-full mb-4">
+              SO FUNKTIONIERT&apos;S
+            </span>
+            <h2 className="text-3xl md:text-4xl font-bold text-qanna-navy mb-4">
+              KI und Mensch - das perfekte Team
+            </h2>
+            <p className="text-lg text-qanna-gray-600 max-w-2xl mx-auto">
+              Unsere KI-Tools ersetzen keine Berater - sie machen sie besser.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="w-20 h-20 bg-qanna-gold text-white rounded-full flex items-center justify-center mx-auto mb-6 text-3xl font-bold">
+                1
+              </div>
+              <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+                Daten eingeben
+              </h3>
+              <p className="text-qanna-gray-600">
+                Sie geben Ihre Unternehmensdaten ein - Umsatz, EBIT, Branche
+                und weitere relevante Informationen.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-20 h-20 bg-qanna-gold text-white rounded-full flex items-center justify-center mx-auto mb-6 text-3xl font-bold">
+                2
+              </div>
+              <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+                KI analysiert
+              </h3>
+              <p className="text-qanna-gray-600">
+                Unsere Algorithmen verarbeiten die Informationen und generieren
+                erste Bewertungen und Kaeufer-Matches.
+              </p>
+            </div>
+            <div className="text-center">
+              <div className="w-20 h-20 bg-qanna-gold text-white rounded-full flex items-center justify-center mx-auto mb-6 text-3xl font-bold">
+                3
+              </div>
+              <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+                Experten verfeinern
+              </h3>
+              <p className="text-qanna-gray-600">
+                Unsere M&A-Berater pruefen die Ergebnisse und ergaenzen sie durch ihre
+                Erfahrung und Marktkenntnis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="section-padding bg-qanna-navy-dark">
+        <div className="container-qanna text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Bereit fuer eine erste Einschaetzung?
+          </h2>
+          <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+            Starten Sie jetzt mit unserem Bewertungsrechner und erhalten Sie
+            eine erste Einschaetzung zum Wert Ihres Unternehmens.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button variant="gold" size="lg">
+              <Link href="/ki-loesungen/bewertungsrechner">Bewertung starten</Link>
+            </Button>
+            <Button
+              variant="outline"
+              size="lg"
+              className="border-white text-white hover:bg-white hover:text-qanna-navy"
+            >
+              <Link href="/kontakt">
+                Persoenliche Beratung
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </main>
+  );
+}

@@ -1,1 +1,109 @@
-InVzZSBjbGllbnQiOwoKaW1wb3J0IHsgZm9yd2FyZFJlZiwgdHlwZSBCdXR0b25IVE1MQXR0cmlidXRlcyB9IGZyb20gInJlYWN0IjsKCnR5cGUgQnV0dG9uVmFyaWFudCA9ICJwcmltYXJ5IiB8ICJzZWNvbmRhcnkiIHwgIm91dGxpbmUiIHwgImdob3N0IiB8ICJnb2xkIjsKdHlwZSBCdXR0b25TaXplID0gInNtIiB8ICJtZCIgfCAibGciIHwgInhsIjsKCmludGVyZmFjZSBCdXR0b25Qcm9wcyBleHRlbmRzIEJ1dHRvbkhUTUxBdHRyaWJ1dGVzPEhUTUxCdXR0b25FbGVtZW50PiB7CiAgdmFyaWFudD86IEJ1dHRvblZhcmlhbnQ7CiAgc2l6ZT86IEJ1dHRvblNpemU7CiAgaXNMb2FkaW5nPzogYm9vbGVhbjsKICBmdWxsV2lkdGg/OiBib29sZWFuOwogIGxlZnRJY29uPzogUmVhY3QuUmVhY3ROb2RlOwogIHJpZ2h0SWNvbj86IFJlYWN0LlJlYWN0Tm9kZTsKfQoKY29uc3QgdmFyaWFudFN0eWxlczogUmVjb3JkPEJ1dHRvblZhcmlhbnQsIHN0cmluZz4gPSB7CiAgcHJpbWFyeToKICAgICJiZy1xYW5uYS1uYXZ5IHRleHQtd2hpdGUgaG92ZXI6YmctcWFubmEtbmF2eS1saWdodCBmb2N1czpyaW5nLXFhbm5hLW5hdnkiLAogIHNlY29uZGFyeToKICAgICJiZy1xYW5uYS1ncmF5LTEwMCB0ZXh0LXFhbm5hLW5hdnkgaG92ZXI6YmctcWFubmEtZ3JheS0yMDAgZm9jdXM6cmluZy1xYW5uYS1ncmF5LTMwMCIsCiAgb3V0bGluZToKICAgICJib3JkZXItMiBib3JkZXItcWFubmEtbmF2eSB0ZXh0LXFhbm5hLW5hdnkgaG92ZXI6YmctcWFubmEtbmF2eSBob3Zlcjp0ZXh0LXdoaXRlIGZvY3VzOnJpbmctcWFubmEtbmF2eSIsCiAgZ2hvc3Q6CiAgICAidGV4dC1xYW5uYS1uYXZ5IGhvdmVyOmJnLXFhbm5hLWdyYXktMTAwIGZvY3VzOnJpbmctcWFubmEtZ3JheS0yMDAiLAogIGdvbGQ6CiAgICAiYmctcWFubmEtZ29sZCB0ZXh0LXdoaXRlIGhvdmVyOmJnLXFhbm5hLWdvbGQtZGFyayBmb2N1czpyaW5nLXFhbm5hLWdvbGQiLAp9OwoKY29uc3Qgc2l6ZVN0eWxlczogUmVjb3JkPEJ1dHRvblNpemUsIHN0cmluZz4gPSB7CiAgc206ICJweC00IHB5LTIgdGV4dC1zbSIsCiAgbWQ6ICJweC02IHB5LTIuNSB0ZXh0LWJhc2UiLAogIGxnOiAicHgtOCBweS0zIHRleHQtbGciLAogIHhsOiAicHgtMTAgcHktNCB0ZXh0LXhsIiwKfTsKCmNvbnN0IEJ1dHRvbiA9IGZvcndhcmRSZWY8SFRNTEJ1dHRvbkVsZW1lbnQsIEJ1dHRvblByb3BzPigKICAoCiAgICB7CiAgICAgIGNsYXNzTmFtZSA9ICIiLAogICAgICB2YXJpYW50ID0gInByaW1hcnkiLAogICAgICBzaXplID0gIm1kIiwKICAgICAgaXNMb2FkaW5nID0gZmFsc2UsCiAgICAgIGZ1bGxXaWR0aCA9IGZhbHNlLAogICAgICBsZWZ0SWNvbiwKICAgICAgcmlnaHRJY29uLAogICAgICBjaGlsZHJlbiwKICAgICAgZGlzYWJsZWQsCiAgICAgIC4uLnByb3BzCiAgICB9LAogICAgcmVmCiAgKSA9PiB7CiAgICByZXR1cm4gKAogICAgICA8YnV0dG9uCiAgICAgICAgcmVmPXtyZWZ9CiAgICAgICAgZGlzYWJsZWQ9e2Rpc2FibGVkIHx8IGlzTG9hZGluZ30KICAgICAgICBjbGFzc05hbWU9e2AKICAgICAgICAgIGlubGluZS1mbGV4IGl0ZW1zLWNlbnRlciBqdXN0aWZ5LWNlbnRlcgogICAgICAgICAgZm9udC1zZW1pYm9sZCByb3VuZGVkLW1kCiAgICAgICAgICB0cmFuc2l0aW9uLWFsbCBkdXJhdGlvbi0yMDAgZWFzZS1pbi1vdXQKICAgICAgICAgIGZvY3VzOm91dGxpbmUtbm9uZSBmb2N1czpyaW5nLTIgZm9jdXM6cmluZy1vZmZzZXQtMgogICAgICAgICAgZGlzYWJsZWQ6b3BhY2l0eS01MCBkaXNhYmxlZDpjdXJzb3Itbm90LWFsbG93ZWQKICAgICAgICAgICR7dmFyaWFudFN0eWxlc1t2YXJpYW50XX0KICAgICAgICAgICR7c2l6ZVN0eWxlc1tzaXplXX0KICAgICAgICAgICR7ZnVsbFdpZHRoID8gInctZnVsbCIgOiAiIn0KICAgICAgICAgICR7Y2xhc3NOYW1lfQogICAgICAgIGB9CiAgICAgICAgey4uLnByb3BzfQogICAgICA+CiAgICAgICAge2lzTG9hZGluZyA/ICgKICAgICAgICAgIDw+CiAgICAgICAgICAgIDxzdmcKICAgICAgICAgICAgICBjbGFzc05hbWU9ImFuaW1hdGUtc3BpbiAtbWwtMSBtci0yIGgtNCB3LTQiCiAgICAgICAgICAgICAgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIgogICAgICAgICAgICAgIGZpbGw9Im5vbmUiCiAgICAgICAgICAgICAgdmlld0JveD0iMCAwIDI0IDI0IgogICAgICAgICAgICA+CiAgICAgICAgICAgICAgPGNpcmNsZQogICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJvcGFjaXR5LTI1IgogICAgICAgICAgICAgICAgY3g9IjEyIgogICAgICAgICAgICAgICAgY3k9IjEyIgogICAgICAgICAgICAgICAgcj0iMTAiCiAgICAgICAgICAgICAgICBzdHJva2U9ImN1cnJlbnRDb2xvciIKICAgICAgICAgICAgICAgIHN0cm9rZVdpZHRoPSI0IgogICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgPHBhdGgKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ib3BhY2l0eS03NSIKICAgICAgICAgICAgICAgIGZpbGw9ImN1cnJlbnRDb2xvciIKICAgICAgICAgICAgICAgIGQ9Ik00IDEyYTggOCAwIDAxOC04VjBDNS4zNzMgMCAwIDUuMzczIDAgMTJoNHptMiA1LjI5MUE3Ljk2MiA3Ljk2MiAwIDAxNCAxMkgwYzAgMy4wNDIgMS4xMzUgNS44MjQgMyA3LjkzOGwzLTIuNjQ3eiIKICAgICAgICAgICAgICAvPgogICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgTGFkZW4uLi4KICAgICAgICAgIDwvPgogICAgICAgICkgOiAoCiAgICAgICAgICA8PgogICAgICAgICAgICB7bGVmdEljb24gJiYgPHNwYW4gY2xhc3NOYW1lPSJtci0yIj57bGVmdEljb259PC9zcGFuPn0KICAgICAgICAgICAge2NoaWxkcmVufQogICAgICAgICAgICB7cmlnaHRJY29uICYmIDxzcGFuIGNsYXNzTmFtZT0ibWwtMiI+e3JpZ2h0SWNvbn08L3NwYW4+fQogICAgICAgICAgPC8+CiAgICAgICAgKX0KICAgICAgPC9idXR0b24+CiAgICApOwogIH0KKTsKCkJ1dHRvbi5kaXNwbGF5TmFtZSA9ICJCdXR0b24iOwoKZXhwb3J0IHsgQnV0dG9uIH07CmV4cG9ydCB0eXBlIHsgQnV0dG9uUHJvcHMsIEJ1dHRvblZhcmlhbnQsIEJ1dHRvblNpemUgfTsK
+"use client";
+
+import { forwardRef, type ButtonHTMLAttributes } from "react";
+
+type ButtonVariant = "primary" | "secondary" | "outline" | "ghost" | "gold";
+type ButtonSize = "sm" | "md" | "lg" | "xl";
+
+interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+  variant?: ButtonVariant;
+  size?: ButtonSize;
+  isLoading?: boolean;
+  fullWidth?: boolean;
+  leftIcon?: React.ReactNode;
+  rightIcon?: React.ReactNode;
+}
+
+const variantStyles: Record<ButtonVariant, string> = {
+  primary:
+    "bg-qanna-navy text-white hover:bg-qanna-navy-light focus:ring-qanna-navy",
+  secondary:
+    "bg-qanna-gray-100 text-qanna-navy hover:bg-qanna-gray-200 focus:ring-qanna-gray-300",
+  outline:
+    "border-2 border-qanna-navy text-qanna-navy hover:bg-qanna-navy hover:text-white focus:ring-qanna-navy",
+  ghost:
+    "text-qanna-navy hover:bg-qanna-gray-100 focus:ring-qanna-gray-200",
+  gold:
+    "bg-qanna-gold text-white hover:bg-qanna-gold-dark focus:ring-qanna-gold",
+};
+
+const sizeStyles: Record<ButtonSize, string> = {
+  sm: "px-4 py-2 text-sm",
+  md: "px-6 py-2.5 text-base",
+  lg: "px-8 py-3 text-lg",
+  xl: "px-10 py-4 text-xl",
+};
+
+const Button = forwardRef<HTMLButtonElement, ButtonProps>(
+  (
+    {
+      className = "",
+      variant = "primary",
+      size = "md",
+      isLoading = false,
+      fullWidth = false,
+      leftIcon,
+      rightIcon,
+      children,
+      disabled,
+      ...props
+    },
+    ref
+  ) => {
+    return (
+      <button
+        ref={ref}
+        disabled={disabled || isLoading}
+        className={`
+          inline-flex items-center justify-center
+          font-semibold rounded-md
+          transition-all duration-200 ease-in-out
+          focus:outline-none focus:ring-2 focus:ring-offset-2
+          disabled:opacity-50 disabled:cursor-not-allowed
+          ${variantStyles[variant]}
+          ${sizeStyles[size]}
+          ${fullWidth ? "w-full" : ""}
+          ${className}
+        `}
+        {...props}
+      >
+        {isLoading ? (
+          <>
+            <svg
+              className="animate-spin -ml-1 mr-2 h-4 w-4"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <circle
+                className="opacity-25"
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                strokeWidth="4"
+              />
+              <path
+                className="opacity-75"
+                fill="currentColor"
+                d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"
+              />
+            </svg>
+            Laden...
+          </>
+        ) : (
+          <>
+            {leftIcon && <span className="mr-2">{leftIcon}</span>}
+            {children}
+            {rightIcon && <span className="ml-2">{rightIcon}</span>}
+          </>
+        )}
+      </button>
+    );
+  }
+);
+
+Button.displayName = "Button";
+
+export { Button };
+export type { ButtonProps, ButtonVariant, ButtonSize };

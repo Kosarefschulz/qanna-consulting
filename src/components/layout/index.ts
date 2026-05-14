@@ -1,1 +1,2 @@
-ZXhwb3J0IHsgSGVhZGVyIH0gZnJvbSAiLi9IZWFkZXIiOwpleHBvcnQgeyBGb290ZXIgfSBmcm9tICIuL0Zvb3RlciI7Cg==
+export { Header } from "./Header";
+export { Footer } from "./Footer";

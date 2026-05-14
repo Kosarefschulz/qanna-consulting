@@ -1,1 +1,225 @@
-aW1wb3J0IHsgSGVhZGVyLCBGb290ZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvbGF5b3V0IjsKaW1wb3J0IHsgSGVybyB9IGZyb20gIkAvY29tcG9uZW50cy9zZWN0aW9ucyI7CmltcG9ydCB7IENhcmQsIENhcmRUaXRsZSwgQ2FyZERlc2NyaXB0aW9uLCBCdXR0b24gfSBmcm9tICJAL2NvbXBvbmVudHMvdWkiOwppbXBvcnQgeyBJY29uIH0gZnJvbSAiQC9jb21wb25lbnRzL3VpL0ljb24iOwppbXBvcnQgTGluayBmcm9tICJuZXh0L2xpbmsiOwoKY29uc3QgaW5kdXN0cmllcyA9IFsKICB7CiAgICBzbHVnOiAiaW5kdXN0cmllIiwKICAgIHRpdGxlOiAiSW5kdXN0cmllICYgSGFuZHdlcmsiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJWb24gTWFzY2hpbmVuYmF1IGJpcyBIYW5kd2Vya3NiZXRyaWViIC0gd2lyIGJlZ2xlaXRlbiBwcm9kdXppZXJlbmRlIFVudGVybmVobWVuIGJlaSBkZXIgZXJmb2xncmVpY2hlbiBOYWNoZm9sZ2UuIiwKICAgIGljb246ICJmYWN0b3J5IiwKICAgIGltYWdlOgogICAgICAiaHR0cHM6Ly9pbWFnZXMudW5zcGxhc2guY29tL3Bob3RvLTE1ODEwOTEyMjY4MjUtYTZhMmE1YWVlMTU4P2F1dG89Zm9ybWF0JmZpdD1jcm9wJnc9ODAwJnE9ODAiLAogICAgc3RhdHM6ICJTcGV6aWFsaXNpZXJ0IiwKICB9LAogIHsKICAgIHNsdWc6ICJoYW5kZWwiLAogICAgdGl0bGU6ICJIYW5kZWwgJiBFaW56ZWxoYW5kZWwiLAogICAgZGVzY3JpcHRpb246CiAgICAgICJFaW56ZWxoYW5kZWwsIEdyb3NzaGFuZGVsIG9kZXIgRS1Db21tZXJjZSAtIHdpciBrZW5uZW4gZGllIGJlc29uZGVyZW4gSGVyYXVzZm9yZGVydW5nZW4gZGVyIEhhbmRlbHNicmFuY2hlLiIsCiAgICBpY29uOiAic2hvcHBpbmciLAogICAgaW1hZ2U6CiAgICAgICJodHRwczovL2ltYWdlcy51bnNwbGFzaC5jb20vcGhvdG8tMTQ0MTk4NjMwMDkxNy02NDY3NGJkNjAwZDg/YXV0bz1mb3JtYXQmZml0PWNyb3Amdz04MDAmcT04MCIsCiAgICBzdGF0czogIlNwZXppYWxpc2llcnQiLAogIH0sCiAgewogICAgc2x1ZzogImRpZW5zdGxlaXN0dW5nZW4iLAogICAgdGl0bGU6ICJEaWVuc3RsZWlzdHVuZ2VuIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiSVQtRGllbnN0bGVpc3RlciwgQmVyYXR1bmdlbiB1bmQgRW5naW5lZXJpbmctVW50ZXJuZWhtZW4gLSB3aXIgdmVyc3RlaGVuIHdpc3NlbnNpbnRlbnNpdmUgVW50ZXJuZWhtZW4uIiwKICAgIGljb246ICJicmllZmNhc2UiLAogICAgaW1hZ2U6CiAgICAgICJodHRwczovL2ltYWdlcy51bnNwbGFzaC5jb20vcGhvdG8tMTUwNzY3OTc5OTk4Ny1jNzM3Nzk1ODdjY2Y/YXV0bz1mb3JtYXQmZml0PWNyb3Amdz04MDAmcT04MCIsCiAgICBzdGF0czogIlNwZXppYWxpc2llcnQiLAogIH0sCiAgewogICAgc2x1ZzogImdlc3VuZGhlaXRzd2VzZW4iLAogICAgdGl0bGU6ICJHZXN1bmRoZWl0c3dlc2VuIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiQXJ6dHByYXhlbiwgUGZsZWdlZWlucmljaHR1bmdlbiB1bmQgTWVkaXppbnRlY2huaWsgLSByZWd1bGllcnRlIEJyYW5jaGVuIGVyZm9yZGVybiBzcGV6aWVsbGUgRXhwZXJ0aXNlLiIsCiAgICBpY29uOiAibWVkaWNhbCIsCiAgICBpbWFnZToKICAgICAgImh0dHBzOi8vaW1hZ2VzLnVuc3BsYXNoLmNvbS9waG90by0xNTM4MTA4MTQ5MzkzLWZiYmQ4MTg5NTkwNz9hdXRvPWZvcm1hdCZmaXQ9Y3JvcCZ3PTgwMCZxPTgwIiwKICAgIHN0YXRzOiAiU3BlemlhbGlzaWVydCIsCiAgfSwKICB7CiAgICBzbHVnOiAiZ2FzdHJvbm9taWUiLAogICAgdGl0bGU6ICJHYXN0cm9ub21pZSAmIEhvdGVsIiwKICAgIGRlc2NyaXB0aW9uOgogICAgICAiUmVzdGF1cmFudHMsIEhvdGVscyB1bmQgQ2F0ZXJpbmctVW50ZXJuZWhtZW4gLSB3aXIga2VubmVuIGRpZSBIb3NwaXRhbGl0eS1CcmFuY2hlIHVuZCBpaHJlIEludmVzdG9yZW4uIiwKICAgIGljb246ICJidWlsZGluZy1vZmZpY2UiLAogICAgaW1hZ2U6CiAgICAgICJodHRwczovL2ltYWdlcy51bnNwbGFzaC5jb20vcGhvdG8tMTUxNzI0ODEzNTQ2Ny00YzdlZGNhZDM0YzQ/YXV0bz1mb3JtYXQmZml0PWNyb3Amdz04MDAmcT04MCIsCiAgICBzdGF0czogIlNwZXppYWxpc2llcnQiLAogIH0sCl07CgpleHBvcnQgY29uc3QgbWV0YWRhdGEgPSB7CiAgdGl0bGU6ICJCcmFuY2hlbiB8IFFBTk5BIFVudGVybmVobWVuc25hY2hmb2xnZSIsCiAgZGVzY3JpcHRpb246CiAgICAiQnJhbmNoZW5leHBlcnRpc2UgZnVlciBJaHJlIFVudGVybmVobWVuc25hY2hmb2xnZTogSW5kdXN0cmllLCBIYW5kZWwsIERpZW5zdGxlaXN0dW5nZW4sIEdlc3VuZGhlaXRzd2VzZW4gdW5kIEdhc3Ryb25vbWllLiIsCn07CgpleHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBCcmFuY2hlblBhZ2UoKSB7CiAgcmV0dXJuICgKICAgIDxtYWluPgogICAgICA8SGVhZGVyIC8+CgogICAgICA8SGVybwogICAgICAgIGJhZGdlPSJCUkFOQ0hFTkVYUEVSVElTRSIKICAgICAgICB0aXRsZT0iTmFjaGZvbGdlIGluIElocmVyIEJyYW5jaGUiCiAgICAgICAgc3VidGl0bGU9IkplZGUgQnJhbmNoZSBoYXQgaWhyZSBCZXNvbmRlcmhlaXRlbi4gV2lyIGtlbm5lbiBkaWUgc3BlemlmaXNjaGVuIEhlcmF1c2ZvcmRlcnVuZ2VuIHVuZCBmaW5kZW4gZGllIHBhc3NlbmRlbiBLYWV1ZmVyLiIKICAgICAgICBwcmltYXJ5Q1RBPXt7IHRleHQ6ICJFcnN0Z2VzcHJhZWNoIHZlcmVpbmJhcmVuIiwgaHJlZjogIi9rb250YWt0IiB9fQogICAgICAgIGJhY2tncm91bmRJbWFnZT0iaHR0cHM6Ly9pbWFnZXMudW5zcGxhc2guY29tL3Bob3RvLTE1MDQ4Njg1ODQ4MTktZjhlOGI0YjZkN2UzP2F1dG89Zm9ybWF0JmZpdD1jcm9wJnc9MjAwMCZxPTgwIgogICAgICAvPgoKICAgICAgey8qIEluZHVzdHJpZXMgR3JpZCAqL30KICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPSJzZWN0aW9uLXBhZGRpbmcgYmctd2hpdGUiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXItcWFubmEiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIG1iLTE2Ij4KICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0zeGwgbWQ6dGV4dC00eGwgZm9udC1ib2xkIHRleHQtcWFubmEtbmF2eSBtYi00Ij4KICAgICAgICAgICAgICBVbnNlcmUgQnJhbmNoZW5zY2h3ZXJwdW5rdGUKICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LWxnIHRleHQtcWFubmEtZ3JheS01MDAgbWF4LXctMnhsIG14LWF1dG8iPgogICAgICAgICAgICAgIFNwZXppYWxpc2llcnQgYXVmIG1pdHRlbHN0YWVuZGlzY2hlIFVudGVybmVobWVuIGluIHZlcnNjaGllZGVuZW4gU2VrdG9yZW4KICAgICAgICAgICAgPC9wPgogICAgICAgICAgPC9kaXY+CgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgbWQ6Z3JpZC1jb2xzLTIgbGc6Z3JpZC1jb2xzLTMgZ2FwLTgiPgogICAgICAgICAgICB7aW5kdXN0cmllcy5tYXAoKGluZHVzdHJ5KSA9PiAoCiAgICAgICAgICAgICAgPENhcmQKICAgICAgICAgICAgICAgIGtleT17aW5kdXN0cnkuc2x1Z30KICAgICAgICAgICAgICAgIHZhcmlhbnQ9ImRlZmF1bHQiCiAgICAgICAgICAgICAgICBob3ZlcgogICAgICAgICAgICAgICAgcGFkZGluZz0ibm9uZSIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0ib3ZlcmZsb3ctaGlkZGVuIGdyb3VwIgogICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJyZWxhdGl2ZSBoLTQ4IG92ZXJmbG93LWhpZGRlbiI+CiAgICAgICAgICAgICAgICAgIHsvKiBlc2xpbnQtZGlzYWJsZS1uZXh0LWxpbmUgQG5leHQvbmV4dC9uby1pbWctZWxlbWVudCAqL30KICAgICAgICAgICAgICAgICAgPGltZwogICAgICAgICAgICAgICAgICAgIHNyYz17aW5kdXN0cnkuaW1hZ2V9CiAgICAgICAgICAgICAgICAgICAgYWx0PXtpbmR1c3RyeS50aXRsZX0KICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctZnVsbCBoLWZ1bGwgb2JqZWN0LWNvdmVyIHRyYW5zaXRpb24tdHJhbnNmb3JtIGR1cmF0aW9uLTUwMCBncm91cC1ob3ZlcjpzY2FsZS0xMTAiCiAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJhYnNvbHV0ZSBpbnNldC0wIGJnLWdyYWRpZW50LXRvLXQgZnJvbS1xYW5uYS1uYXZ5LzgwIHRvLXRyYW5zcGFyZW50IiAvPgogICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iYWJzb2x1dGUgYm90dG9tLTQgbGVmdC00IHJpZ2h0LTQgZmxleCBpdGVtcy1jZW50ZXIiPgogICAgICAgICAgICAgICAgICAgIDxJY29uIG5hbWU9e2luZHVzdHJ5Lmljb259IGNsYXNzTmFtZT0idy04IGgtOCB0ZXh0LXdoaXRlIiAvPgogICAgICAgICAgICAgICAgICAgIDxzcGFuIGNsYXNzTmFtZT0ibWwtMiB0ZXh0LXhzIGZvbnQtc2VtaWJvbGQgdGV4dC1xYW5uYS1nb2xkIGJnLXFhbm5hLW5hdnkvNTAgcHgtMiBweS0xIHJvdW5kZWQiPgogICAgICAgICAgICAgICAgICAgICAge2luZHVzdHJ5LnN0YXRzfQogICAgICAgICAgICAgICAgICAgIDwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJwLTYiPgogICAgICAgICAgICAgICAgICA8Q2FyZFRpdGxlIGNsYXNzTmFtZT0ibWItMyI+e2luZHVzdHJ5LnRpdGxlfTwvQ2FyZFRpdGxlPgogICAgICAgICAgICAgICAgICA8Q2FyZERlc2NyaXB0aW9uIGNsYXNzTmFtZT0ibWItNCI+CiAgICAgICAgICAgICAgICAgICAge2luZHVzdHJ5LmRlc2NyaXB0aW9ufQogICAgICAgICAgICAgICAgICA8L0NhcmREZXNjcmlwdGlvbj4KICAgICAgICAgICAgICAgICAgPExpbmsKICAgICAgICAgICAgICAgICAgICBocmVmPXtgL2JyYW5jaGVuLyR7aW5kdXN0cnkuc2x1Z31gfQogICAgICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0iaW5saW5lLWZsZXggaXRlbXMtY2VudGVyIHRleHQtcWFubmEtZ29sZCBmb250LW1lZGl1bSBob3Zlcjp1bmRlcmxpbmUiCiAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICBNZWhyIGVyZmFocmVuCiAgICAgICAgICAgICAgICAgICAgPHN2ZwogICAgICAgICAgICAgICAgICAgICAgY2xhc3NOYW1lPSJ3LTQgaC00IG1sLTEiCiAgICAgICAgICAgICAgICAgICAgICBmaWxsPSJub25lIgogICAgICAgICAgICAgICAgICAgICAgdmlld0JveD0iMCAwIDI0IDI0IgogICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlPSJjdXJyZW50Q29sb3IiCiAgICAgICAgICAgICAgICAgICAgPgogICAgICAgICAgICAgICAgICAgICAgPHBhdGgKICAgICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlTGluZWNhcD0icm91bmQiCiAgICAgICAgICAgICAgICAgICAgICAgIHN0cm9rZUxpbmVqb2luPSJyb3VuZCIKICAgICAgICAgICAgICAgICAgICAgICAgc3Ryb2tlV2lkdGg9ezJ9CiAgICAgICAgICAgICAgICAgICAgICAgIGQ9Ik05IDVsNyA3LTcgNyIKICAgICAgICAgICAgICAgICAgICAgIC8+CiAgICAgICAgICAgICAgICAgICAgPC9zdmc+CiAgICAgICAgICAgICAgICAgIDwvTGluaz4KICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgIDwvQ2FyZD4KICAgICAgICAgICAgKSl9CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgey8qIENyb3NzLUluZHVzdHJ5IEV4cGVyaWVuY2UgKi99CiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ic2VjdGlvbi1wYWRkaW5nIGJnLXFhbm5hLWdyYXktNTAiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXItcWFubmEiPgogICAgICAgICAgPGRpdiBjbGFzc05hbWU9ImdyaWQgZ3JpZC1jb2xzLTEgbGc6Z3JpZC1jb2xzLTIgZ2FwLTE2IGl0ZW1zLWNlbnRlciI+CiAgICAgICAgICAgIDxkaXY+CiAgICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0zeGwgbWQ6dGV4dC00eGwgZm9udC1ib2xkIHRleHQtcWFubmEtbmF2eSBtYi02Ij4KICAgICAgICAgICAgICAgIEJyYW5jaGVudWViZXJncmVpZmVuZGUgRXhwZXJ0aXNlCiAgICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtbGcgdGV4dC1xYW5uYS1ncmF5LTYwMCBtYi02IGxlYWRpbmctcmVsYXhlZCI+CiAgICAgICAgICAgICAgICBOZWJlbiB1bnNlcmVuIEJyYW5jaGVuc2Nod2VycHVua3RlbiBwcm9maXRpZXJlbiBTaWUgdm9uIHVuc2VyZXIKICAgICAgICAgICAgICAgIHVlYmVyZ3JlaWZlbmRlbiBFcmZhaHJ1bmcgaW4gZGVyIFVudGVybmVobWVuc25hY2hmb2xnZS4gV2lyIGtlbm5lbgogICAgICAgICAgICAgICAgZGllIHdpY2h0aWdzdGVuIEthZXVmZXJncnVwcGVuIHVuZCBJbnZlc3RvcmVuLgogICAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgICA8dWwgY2xhc3NOYW1lPSJzcGFjZS15LTQiPgogICAgICAgICAgICAgICAge1sKICAgICAgICAgICAgICAgICAgIlp1Z2FuZyB6dSBzdHJhdGVnaXNjaGVuIEludmVzdG9yZW4iLAogICAgICAgICAgICAgICAgICAiTmV0endlcmsgenUgUHJpdmF0ZSBFcXVpdHkgdW5kIEZhbWlseSBPZmZpY2VzIiwKICAgICAgICAgICAgICAgICAgIkVyZmFocnVuZyBtaXQgTWFuYWdlbWVudC1CdXlvdXRzIiwKICAgICAgICAgICAgICAgICAgIkludGVybmF0aW9uYWxlIEthZXVmZXItS29udGFrdGUiLAogICAgICAgICAgICAgICAgXS5tYXAoKGl0ZW0pID0+ICgKICAgICAgICAgICAgICAgICAgPGxpIGtleT17aXRlbX0gY2xhc3NOYW1lPSJmbGV4IGl0ZW1zLXN0YXJ0IGdhcC0zIj4KICAgICAgICAgICAgICAgICAgICA8c3ZnCiAgICAgICAgICAgICAgICAgICAgICBjbGFzc05hbWU9InctNiBoLTYgdGV4dC1xYW5uYS1nb2xkIGZsZXgtc2hyaW5rLTAgbXQtMC41IgogICAgICAgICAgICAgICAgICAgICAgZmlsbD0iY3VycmVudENvbG9yIgogICAgICAgICAgICAgICAgICAgICAgdmlld0JveD0iMCAwIDIwIDIwIgogICAgICAgICAgICAgICAgICAgID4KICAgICAgICAgICAgICAgICAgICAgIDxwYXRoCiAgICAgICAgICAgICAgICAgICAgICAgIGZpbGxSdWxlPSJldmVub2RkIgogICAgICAgICAgICAgICAgICAgICAgICBkPSJNMTYuNzA3IDUuMjkzYTEgMSAwIDAxMCAxLjQxNGwtOCA4YTEgMSAwIDAxLTEuNDE0IDBsLTQtNGExIDEgMCAwMTEuNDE0LTEuNDE0TDggMTIuNTg2bDcuMjkzLTcuMjkzYTEgMSAwIDAxMS40MTQgMHoiCiAgICAgICAgICAgICAgICAgICAgICAgIGNsaXBSdWxlPSJldmVub2RkIgogICAgICAgICAgICAgICAgICAgICAgLz4KICAgICAgICAgICAgICAgICAgICA8L3N2Zz4KICAgICAgICAgICAgICAgICAgICA8c3BhbiBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS03MDAiPntpdGVtfTwvc3Bhbj4KICAgICAgICAgICAgICAgICAgPC9saT4KICAgICAgICAgICAgICAgICkpfQogICAgICAgICAgICAgIDwvdWw+CiAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iZ3JpZCBncmlkLWNvbHMtMiBnYXAtNCI+CiAgICAgICAgICAgICAge1sKICAgICAgICAgICAgICAgIHsgdmFsdWU6ICIxMDAlIiwgbGFiZWw6ICJEaXNrcmV0aW9uIiB9LAogICAgICAgICAgICAgICAgeyB2YWx1ZTogIjUiLCBsYWJlbDogIkJyYW5jaGVuIiB9LAogICAgICAgICAgICAgICAgeyB2YWx1ZTogIjI0aCIsIGxhYmVsOiAiUmVha3Rpb25zemVpdCIgfSwKICAgICAgICAgICAgICAgIHsgdmFsdWU6ICJLSSIsIGxhYmVsOiAiR2VzdHVldHp0ZSBBbmFseXNlIiB9LAogICAgICAgICAgICAgIF0ubWFwKChzdGF0KSA9PiAoCiAgICAgICAgICAgICAgICA8Q2FyZCBrZXk9e3N0YXQubGFiZWx9IHZhcmlhbnQ9ImRlZmF1bHQiIHBhZGRpbmc9ImxnIj4KICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9InRleHQtY2VudGVyIj4KICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0idGV4dC0zeGwgZm9udC1ib2xkIHRleHQtcWFubmEtZ29sZCBtYi0yIj4KICAgICAgICAgICAgICAgICAgICAgIHtzdGF0LnZhbHVlfQogICAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPSJ0ZXh0LXNtIHRleHQtcWFubmEtZ3JheS02MDAiPgogICAgICAgICAgICAgICAgICAgICAge3N0YXQubGFiZWx9CiAgICAgICAgICAgICAgICAgICAgPC9kaXY+CiAgICAgICAgICAgICAgICAgIDwvZGl2PgogICAgICAgICAgICAgICAgPC9DYXJkPgogICAgICAgICAgICAgICkpfQogICAgICAgICAgICA8L2Rpdj4KICAgICAgICAgIDwvZGl2PgogICAgICAgIDwvZGl2PgogICAgICA8L3NlY3Rpb24+CgogICAgICB7LyogQ1RBIFNlY3Rpb24gKi99CiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ic2VjdGlvbi1wYWRkaW5nIGJnLXFhbm5hLW5hdnkiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXItcWFubmEgdGV4dC1jZW50ZXIiPgogICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0zeGwgbWQ6dGV4dC00eGwgZm9udC1ib2xkIHRleHQtd2hpdGUgbWItNCI+CiAgICAgICAgICAgIElocmUgQnJhbmNoZSBpc3QgbmljaHQgZGFiZWk/CiAgICAgICAgICA8L2gyPgogICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXhsIHRleHQtcWFubmEtZ3JheS0zMDAgbWItOCBtYXgtdy0yeGwgbXgtYXV0byI+CiAgICAgICAgICAgIEtlaW4gUHJvYmxlbS4gVW5zZXJlIE1ldGhvZGlrIGxhZXNzdCBzaWNoIGF1ZiB2aWVsZSBCcmFuY2hlbiB1ZWJlcnRyYWdlbi4KICAgICAgICAgICAgU3ByZWNoZW4gU2llIG1pdCB1bnMgdWViZXIgSWhyZSBOYWNoZm9sZ2UuCiAgICAgICAgICA8L3A+CiAgICAgICAgICA8QnV0dG9uIHZhcmlhbnQ9ImdvbGQiIHNpemU9ImxnIj4KICAgICAgICAgICAgPExpbmsgaHJlZj0iL2tvbnRha3QiPkpldHp0IEtvbnRha3QgYXVmbmVobWVuPC9MaW5rPgogICAgICAgICAgPC9CdXR0b24+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIDxGb290ZXIgLz4KICAgIDwvbWFpbj4KICApOwp9Cg==
+import { Header, Footer } from "@/components/layout";
+import { Hero } from "@/components/sections";
+import { Card, CardTitle, CardDescription, Button } from "@/components/ui";
+import { Icon } from "@/components/ui/Icon";
+import Link from "next/link";
+
+const industries = [
+  {
+    slug: "industrie",
+    title: "Industrie & Handwerk",
+    description:
+      "Von Maschinenbau bis Handwerksbetrieb - wir begleiten produzierende Unternehmen bei der erfolgreichen Nachfolge.",
+    icon: "factory",
+    image:
+      "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=800&q=80",
+    stats: "Spezialisiert",
+  },
+  {
+    slug: "handel",
+    title: "Handel & Einzelhandel",
+    description:
+      "Einzelhandel, Grosshandel oder E-Commerce - wir kennen die besonderen Herausforderungen der Handelsbranche.",
+    icon: "shopping",
+    image:
+      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=800&q=80",
+    stats: "Spezialisiert",
+  },
+  {
+    slug: "dienstleistungen",
+    title: "Dienstleistungen",
+    description:
+      "IT-Dienstleister, Beratungen und Engineering-Unternehmen - wir verstehen wissensintensive Unternehmen.",
+    icon: "briefcase",
+    image:
+      "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
+    stats: "Spezialisiert",
+  },
+  {
+    slug: "gesundheitswesen",
+    title: "Gesundheitswesen",
+    description:
+      "Arztpraxen, Pflegeeinrichtungen und Medizintechnik - regulierte Branchen erfordern spezielle Expertise.",
+    icon: "medical",
+    image:
+      "https://images.unsplash.com/photo-1538108149393-fbbd81895907?auto=format&fit=crop&w=800&q=80",
+    stats: "Spezialisiert",
+  },
+  {
+    slug: "gastronomie",
+    title: "Gastronomie & Hotel",
+    description:
+      "Restaurants, Hotels und Catering-Unternehmen - wir kennen die Hospitality-Branche und ihre Investoren.",
+    icon: "building-office",
+    image:
+      "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80",
+    stats: "Spezialisiert",
+  },
+];
+
+export const metadata = {
+  title: "Branchen | QANNA Unternehmensnachfolge",
+  description:
+    "Branchenexpertise fuer Ihre Unternehmensnachfolge: Industrie, Handel, Dienstleistungen, Gesundheitswesen und Gastronomie.",
+};
+
+export default function BranchenPage() {
+  return (
+    <main>
+      <Header />
+
+      <Hero
+        badge="BRANCHENEXPERTISE"
+        title="Nachfolge in Ihrer Branche"
+        subtitle="Jede Branche hat ihre Besonderheiten. Wir kennen die spezifischen Herausforderungen und finden die passenden Kaeufer."
+        primaryCTA={{ text: "Erstgespraech vereinbaren", href: "/kontakt" }}
+        backgroundImage="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&w=2000&q=80"
+      />
+
+      {/* Industries Grid */}
+      <section className="section-padding bg-white">
+        <div className="container-qanna">
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-qanna-navy mb-4">
+              Unsere Branchenschwerpunkte
+            </h2>
+            <p className="text-lg text-qanna-gray-500 max-w-2xl mx-auto">
+              Spezialisiert auf mittelstaendische Unternehmen in verschiedenen Sektoren
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {industries.map((industry) => (
+              <Card
+                key={industry.slug}
+                variant="default"
+                hover
+                padding="none"
+                className="overflow-hidden group"
+              >
+                <div className="relative h-48 overflow-hidden">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={industry.image}
+                    alt={industry.title}
+                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-qanna-navy/80 to-transparent" />
+                  <div className="absolute bottom-4 left-4 right-4 flex items-center">
+                    <Icon name={industry.icon} className="w-8 h-8 text-white" />
+                    <span className="ml-2 text-xs font-semibold text-qanna-gold bg-qanna-navy/50 px-2 py-1 rounded">
+                      {industry.stats}
+                    </span>
+                  </div>
+                </div>
+                <div className="p-6">
+                  <CardTitle className="mb-3">{industry.title}</CardTitle>
+                  <CardDescription className="mb-4">
+                    {industry.description}
+                  </CardDescription>
+                  <Link
+                    href={`/branchen/${industry.slug}`}
+                    className="inline-flex items-center text-qanna-gold font-medium hover:underline"
+                  >
+                    Mehr erfahren
+                    <svg
+                      className="w-4 h-4 ml-1"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M9 5l7 7-7 7"
+                      />
+                    </svg>
+                  </Link>
+                </div>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Cross-Industry Experience */}
+      <section className="section-padding bg-qanna-gray-50">
+        <div className="container-qanna">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            <div>
+              <h2 className="text-3xl md:text-4xl font-bold text-qanna-navy mb-6">
+                Branchenuebergreifende Expertise
+              </h2>
+              <p className="text-lg text-qanna-gray-600 mb-6 leading-relaxed">
+                Neben unseren Branchenschwerpunkten profitieren Sie von unserer
+                uebergreifenden Erfahrung in der Unternehmensnachfolge. Wir kennen
+                die wichtigsten Kaeufergruppen und Investoren.
+              </p>
+              <ul className="space-y-4">
+                {[
+                  "Zugang zu strategischen Investoren",
+                  "Netzwerk zu Private Equity und Family Offices",
+                  "Erfahrung mit Management-Buyouts",
+                  "Internationale Kaeufer-Kontakte",
+                ].map((item) => (
+                  <li key={item} className="flex items-start gap-3">
+                    <svg
+                      className="w-6 h-6 text-qanna-gold flex-shrink-0 mt-0.5"
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                    <span className="text-qanna-gray-700">{item}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="grid grid-cols-2 gap-4">
+              {[
+                { value: "100%", label: "Diskretion" },
+                { value: "5", label: "Branchen" },
+                { value: "24h", label: "Reaktionszeit" },
+                { value: "KI", label: "Gestuetzte Analyse" },
+              ].map((stat) => (
+                <Card key={stat.label} variant="default" padding="lg">
+                  <div className="text-center">
+                    <div className="text-3xl font-bold text-qanna-gold mb-2">
+                      {stat.value}
+                    </div>
+                    <div className="text-sm text-qanna-gray-600">
+                      {stat.label}
+                    </div>
+                  </div>
+                </Card>
+              ))}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="section-padding bg-qanna-navy">
+        <div className="container-qanna text-center">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            Ihre Branche ist nicht dabei?
+          </h2>
+          <p className="text-xl text-qanna-gray-300 mb-8 max-w-2xl mx-auto">
+            Kein Problem. Unsere Methodik laesst sich auf viele Branchen uebertragen.
+            Sprechen Sie mit uns ueber Ihre Nachfolge.
+          </p>
+          <Button variant="gold" size="lg">
+            <Link href="/kontakt">Jetzt Kontakt aufnehmen</Link>
+          </Button>
+        </div>
+      </section>
+
+      <Footer />
+    </main>
+  );
+}
