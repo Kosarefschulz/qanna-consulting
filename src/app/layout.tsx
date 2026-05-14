@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "de_DE",
-    url: "https://qanna-nachfolge.de",
+    url: "https://qanna-beratung.de",
     siteName: "QANNA Unternehmensnachfolge",
     title: "QANNA Unternehmensnachfolge | M&A-Beratung",
     description:

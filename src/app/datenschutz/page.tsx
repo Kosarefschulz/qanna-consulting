@@ -128,16 +128,16 @@ export default function DatenschutzPage() {
               Website ist:
             </p>
             <p className="text-qanna-gray-700 mb-6">
-              QANNA Consulting GmbH
+              Qanna GmbH
               <br />
-              Musterstraße 123
+              Suttnerstraße 10
               <br />
-              80333 München
+              33790 Halle/Westfalen
               <br />
               <br />
-              Telefon: +49 (0) 89 123 456 78
+              Telefon: 015253594902
               <br />
-              E-Mail: datenschutz@qanna-consulting.de
+              E-Mail: datenschutz@qanna-beratung.de
             </p>
 
             <h3 className="text-xl font-semibold text-qanna-navy mb-3">

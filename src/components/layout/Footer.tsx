@@ -161,7 +161,7 @@ export function Footer() {
                 01525 3594902
               </a>
               <a
-                href="mailto:info@qanna-holding.de"
+                href="mailto:info@qanna-beratung.de"
                 className="flex items-center gap-2 text-white hover:text-qanna-gold transition-colors"
               >
                 <svg
@@ -177,7 +177,7 @@ export function Footer() {
                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                   />
                 </svg>
-                info@qanna-holding.de
+                info@qanna-beratung.de
               </a>
               <p className="text-white text-xs mt-4">
                 Mo - Fr: 9:00 - 18:00 Uhr

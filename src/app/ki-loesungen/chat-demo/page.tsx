@@ -55,7 +55,7 @@ Für eine fundierte Antwort auf Ihre spezifische Situation empfehle ich ein **pe
 • Unseren Bewertungsrechner nutzen?
 • Mehr über unsere Leistungen erfahren?
 
-Kontaktieren Sie uns gerne unter [info@qanna-consulting.de](mailto:info@qanna-consulting.de) oder nutzen Sie unser Kontaktformular.`;
+Kontaktieren Sie uns gerne unter [info@qanna-beratung.de](mailto:info@qanna-beratung.de) oder nutzen Sie unser Kontaktformular.`;
 }
 
 export default function ChatDemoPage() {

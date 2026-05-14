@@ -369,10 +369,10 @@ export default function KontaktPage() {
                       />
                     </svg>
                     <a
-                      href="mailto:info@qanna-holding.de"
+                      href="mailto:info@qanna-beratung.de"
                       className="text-qanna-gray-300 hover:text-qanna-gold transition-colors text-sm"
                     >
-                      info@qanna-holding.de
+                      info@qanna-beratung.de
                     </a>
                   </div>
                 </div>

@@ -28,9 +28,9 @@ export default function ImpressumPage() {
               Anbieter und Verantwortlicher
             </h2>
             <p className="text-qanna-gray-700 mb-6">
-              Qanna Holding GmbH
+              Qanna GmbH
               <br />
-              Suttnerstr. 10
+              Suttnerstraße 10
               <br />
               33790 Halle/Westfalen
               <br />
@@ -41,6 +41,8 @@ export default function ImpressumPage() {
               Kontakt
             </h3>
             <p className="text-qanna-gray-700 mb-6">
+              Telefon: 015253594902
+              <br />
               E-Mail: info@qanna-beratung.de
             </p>
 
@@ -57,7 +59,7 @@ export default function ImpressumPage() {
               <br />
               Registergericht: Amtsgericht Gütersloh
               <br />
-              Registernummer: HRB [wird ergänzt]
+              Registernummer: HRB 13500
             </p>
 
             <h3 className="text-xl font-semibold text-qanna-navy mb-3">
@@ -66,7 +68,7 @@ export default function ImpressumPage() {
             <p className="text-qanna-gray-700 mb-6">
               Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
               <br />
-              [wird ergänzt]
+              DE366906427
             </p>
 
             <h2 className="text-2xl font-bold text-qanna-navy mt-12 mb-4">
@@ -75,9 +77,9 @@ export default function ImpressumPage() {
             <p className="text-qanna-gray-700 mb-6">
               Sergej Schulz
               <br />
-              Qanna Holding GmbH
+              Qanna GmbH
               <br />
-              Suttnerstr. 10
+              Suttnerstraße 10
               <br />
               33790 Halle/Westfalen
             </p>
