@@ -1,1 +1,182 @@
-aW1wb3J0IHsgSGVhZGVyLCBGb290ZXIgfSBmcm9tICJAL2NvbXBvbmVudHMvbGF5b3V0IjsKCmV4cG9ydCBjb25zdCBtZXRhZGF0YSA9IHsKICB0aXRsZTogIkltcHJlc3N1bSB8IFFBTk5BIENvbnN1bHRpbmciLAogIGRlc2NyaXB0aW9uOiAiSW1wcmVzc3VtIHVuZCByZWNodGxpY2hlIEluZm9ybWF0aW9uZW4gdm9uIFFBTk5BIENvbnN1bHRpbmcuIiwKfTsKCmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEltcHJlc3N1bVBhZ2UoKSB7CiAgcmV0dXJuICgKICAgIDxtYWluPgogICAgICA8SGVhZGVyIC8+CgogICAgICA8c2VjdGlvbiBjbGFzc05hbWU9InB0LTMyIHBiLTE2IGJnLXFhbm5hLW5hdnkiPgogICAgICAgIDxkaXYgY2xhc3NOYW1lPSJjb250YWluZXItcWFubmEiPgogICAgICAgICAgPGgxIGNsYXNzTmFtZT0idGV4dC00eGwgbWQ6dGV4dC01eGwgZm9udC1ib2xkIHRleHQtd2hpdGUgbWItNCI+CiAgICAgICAgICAgIEltcHJlc3N1bQogICAgICAgICAgPC9oMT4KICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC14bCB0ZXh0LWdyYXktMzAwIj4KICAgICAgICAgICAgQW5nYWJlbiBnZW3DpMOfIMKnIDUgVE1HCiAgICAgICAgICA8L3A+CiAgICAgICAgPC9kaXY+CiAgICAgIDwvc2VjdGlvbj4KCiAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT0ic2VjdGlvbi1wYWRkaW5nIGJnLXdoaXRlIj4KICAgICAgICA8ZGl2IGNsYXNzTmFtZT0iY29udGFpbmVyLXFhbm5hIG1heC13LTR4bCI+CiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT0icHJvc2UgcHJvc2UtbGcgbWF4LXctbm9uZSI+CiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbWItNCI+CiAgICAgICAgICAgICAgQW5iaWV0ZXIgdW5kIFZlcmFudHdvcnRsaWNoZXIKICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIFFBTk5BIENvbnN1bHRpbmcgR21iSAogICAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICAgIE11c3RlcnN0cmHDn2UgMTIzCiAgICAgICAgICAgICAgPGJyIC8+CiAgICAgICAgICAgICAgODAzMzMgTcO8bmNoZW4KICAgICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgICBEZXV0c2NobGFuZAogICAgICAgICAgICA8L3A+CgogICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG1iLTMiPgogICAgICAgICAgICAgIEtvbnRha3QKICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIFRlbGVmb246ICs0OSAoMCkgODkgMTIzIDQ1NiA3OAogICAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICAgIEUtTWFpbDogaW5mb0BxYW5uYS1jb25zdWx0aW5nLmRlCiAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteGwgZm9udC1zZW1pYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbWItMyI+CiAgICAgICAgICAgICAgVmVydHJldHVuZ3NiZXJlY2h0aWd0ZXIgR2VzY2jDpGZ0c2bDvGhyZXIKICAgICAgICAgICAgPC9oMz4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPkRyLiBUaG9tYXMgTcO8bGxlcjwvcD4KCiAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9InRleHQteGwgZm9udC1zZW1pYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbWItMyI+CiAgICAgICAgICAgICAgUmVnaXN0ZXJlaW50cmFnCiAgICAgICAgICAgIDwvaDM+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi02Ij4KICAgICAgICAgICAgICBFaW50cmFndW5nIGltIEhhbmRlbHNyZWdpc3RlcgogICAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICAgIFJlZ2lzdGVyZ2VyaWNodDogQW10c2dlcmljaHQgTcO8bmNoZW4KICAgICAgICAgICAgICA8YnIgLz4KICAgICAgICAgICAgICBSZWdpc3Rlcm51bW1lcjogSFJCIDEyMzQ1NgogICAgICAgICAgICA8L3A+CgogICAgICAgICAgICA8aDMgY2xhc3NOYW1lPSJ0ZXh0LXhsIGZvbnQtc2VtaWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG1iLTMiPgogICAgICAgICAgICAgIFVtc2F0enN0ZXVlci1JRAogICAgICAgICAgICA8L2gzPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS03MDAgbWItNiI+CiAgICAgICAgICAgICAgVW1zYXR6c3RldWVyLUlkZW50aWZpa2F0aW9uc251bW1lciBnZW3DpMOfIMKnIDI3IGEgVW1zYXR6c3RldWVyZ2VzZXR6OgogICAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICAgIERFIDEyMzQ1Njc4OQogICAgICAgICAgICA8L3A+CgogICAgICAgICAgICA8aDIgY2xhc3NOYW1lPSJ0ZXh0LTJ4bCBmb250LWJvbGQgdGV4dC1xYW5uYS1uYXZ5IG10LTEyIG1iLTQiPgogICAgICAgICAgICAgIFZlcmFudHdvcnRsaWNoZXIgZsO8ciBkZW4gSW5oYWx0IG5hY2ggwqcgNTUgQWJzLiAyIFJTdFYKICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIERyLiBUaG9tYXMgTcO8bGxlcgogICAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICAgIFFBTk5BIENvbnN1bHRpbmcgR21iSAogICAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICAgIE11c3RlcnN0cmHDn2UgMTIzCiAgICAgICAgICAgICAgPGJyIC8+CiAgICAgICAgICAgICAgODAzMzMgTcO8bmNoZW4KICAgICAgICAgICAgPC9wPgoKICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtcWFubmEtbmF2eSBtdC0xMiBtYi00Ij4KICAgICAgICAgICAgICBTdHJlaXRzY2hsaWNodHVuZwogICAgICAgICAgICA8L2gyPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS03MDAgbWItNiI+CiAgICAgICAgICAgICAgRGllIEV1cm9ww6Rpc2NoZSBLb21taXNzaW9uIHN0ZWxsdCBlaW5lIFBsYXR0Zm9ybSB6dXIKICAgICAgICAgICAgICBPbmxpbmUtU3RyZWl0YmVpbGVndW5nIChPUykgYmVyZWl0OnsiICJ9CiAgICAgICAgICAgICAgPGEKICAgICAgICAgICAgICAgIGhyZWY9Imh0dHBzOi8vZWMuZXVyb3BhLmV1L2NvbnN1bWVycy9vZHIiCiAgICAgICAgICAgICAgICB0YXJnZXQ9Il9ibGFuayIKICAgICAgICAgICAgICAgIHJlbD0ibm9vcGVuZXIgbm9yZWZlcnJlciIKICAgICAgICAgICAgICAgIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1nb2xkIGhvdmVyOnVuZGVybGluZSIKICAgICAgICAgICAgICA+CiAgICAgICAgICAgICAgICBodHRwczovL2VjLmV1cm9wYS5ldS9jb25zdW1lcnMvb2RyCiAgICAgICAgICAgICAgPC9hPgogICAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICAgIDxiciAvPgogICAgICAgICAgICAgIFdpciBzaW5kIG5pY2h0IGJlcmVpdCBvZGVyIHZlcnBmbGljaHRldCwgYW4KICAgICAgICAgICAgICBTdHJlaXRiZWlsZWd1bmdzdmVyZmFocmVuIHZvciBlaW5lciBWZXJicmF1Y2hlcnNjaGxpY2h0dW5nc3N0ZWxsZQogICAgICAgICAgICAgIHRlaWx6dW5laG1lbi4KICAgICAgICAgICAgPC9wPgoKICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtcWFubmEtbmF2eSBtdC0xMiBtYi00Ij4KICAgICAgICAgICAgICBIYWZ0dW5nIGbDvHIgSW5oYWx0ZQogICAgICAgICAgICA8L2gyPgogICAgICAgICAgICA8cCBjbGFzc05hbWU9InRleHQtcWFubmEtZ3JheS03MDAgbWItNiI+CiAgICAgICAgICAgICAgQWxzIERpZW5zdGVhbmJpZXRlciBzaW5kIHdpciBnZW3DpMOfIMKnIDcgQWJzLjEgVE1HIGbDvHIgZWlnZW5lCiAgICAgICAgICAgICAgSW5oYWx0ZSBhdWYgZGllc2VuIFNlaXRlbiBuYWNoIGRlbiBhbGxnZW1laW5lbiBHZXNldHplbgogICAgICAgICAgICAgIHZlcmFudHdvcnRsaWNoLiBOYWNoIMKnwqcgOCBiaXMgMTAgVE1HIHNpbmQgd2lyIGFscyBEaWVuc3RlYW5iaWV0ZXIKICAgICAgICAgICAgICBqZWRvY2ggbmljaHQgdmVycGZsaWNodGV0LCDDvGJlcm1pdHRlbHRlIG9kZXIgZ2VzcGVpY2hlcnRlIGZyZW1kZQogICAgICAgICAgICAgIEluZm9ybWF0aW9uZW4genUgw7xiZXJ3YWNoZW4gb2RlciBuYWNoIFVtc3TDpG5kZW4genUgZm9yc2NoZW4sIGRpZQogICAgICAgICAgICAgIGF1ZiBlaW5lIHJlY2h0c3dpZHJpZ2UgVMOkdGlna2VpdCBoaW53ZWlzZW4uCiAgICAgICAgICAgIDwvcD4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIFZlcnBmbGljaHR1bmdlbiB6dXIgRW50ZmVybnVuZyBvZGVyIFNwZXJydW5nIGRlciBOdXR6dW5nIHZvbgogICAgICAgICAgICAgIEluZm9ybWF0aW9uZW4gbmFjaCBkZW4gYWxsZ2VtZWluZW4gR2VzZXR6ZW4gYmxlaWJlbiBoaWVydm9uCiAgICAgICAgICAgICAgdW5iZXLDvGhydC4gRWluZSBkaWVzYmV6w7xnbGljaGUgSGFmdHVuZyBpc3QgamVkb2NoIGVyc3QgYWIgZGVtCiAgICAgICAgICAgICAgWmVpdHB1bmt0IGRlciBLZW5udG5pcyBlaW5lciBrb25rcmV0ZW4gUmVjaHRzdmVybGV0enVuZyBtw7ZnbGljaC4KICAgICAgICAgICAgICBCZWkgQmVrYW5udHdlcmRlbiB2b24gZW50c3ByZWNoZW5kZW4gUmVjaHRzdmVybGV0enVuZ2VuIHdlcmRlbiB3aXIKICAgICAgICAgICAgICBkaWVzZSBJbmhhbHRlIHVtZ2VoZW5kIGVudGZlcm5lbi4KICAgICAgICAgICAgPC9wPgoKICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtcWFubmEtbmF2eSBtdC0xMiBtYi00Ij4KICAgICAgICAgICAgICBIYWZ0dW5nIGbDvHIgTGlua3MKICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIFVuc2VyIEFuZ2Vib3QgZW50aMOkbHQgTGlua3MgenUgZXh0ZXJuZW4gV2Vic2l0ZXMgRHJpdHRlciwgYXVmCiAgICAgICAgICAgICAgZGVyZW4gSW5oYWx0ZSB3aXIga2VpbmVuIEVpbmZsdXNzIGhhYmVuLiBEZXNoYWxiIGvDtm5uZW4gd2lyIGbDvHIKICAgICAgICAgICAgICBkaWVzZSBmcmVtZGVuIEluaGFsdGUgYXVjaCBrZWluZSBHZXfDpGhyIMO8YmVybmVobWVuLiBGw7xyIGRpZQogICAgICAgICAgICAgIEluaGFsdGUgZGVyIHZlcmxpbmt0ZW4gU2VpdGVuIGlzdCBzdGV0cyBkZXIgamV3ZWlsaWdlIEFuYmlldGVyCiAgICAgICAgICAgICAgb2RlciBCZXRyZWliZXIgZGVyIFNlaXRlbiB2ZXJhbnR3b3J0bGljaC4gRGllIHZlcmxpbmt0ZW4gU2VpdGVuCiAgICAgICAgICAgICAgd3VyZGVuIHp1bSBaZWl0cHVua3QgZGVyIFZlcmxpbmt1bmcgYXVmIG3DtmdsaWNoZSBSZWNodHN2ZXJzdMO2w59lCiAgICAgICAgICAgICAgw7xiZXJwcsO8ZnQuIFJlY2h0c3dpZHJpZ2UgSW5oYWx0ZSB3YXJlbiB6dW0gWmVpdHB1bmt0IGRlcgogICAgICAgICAgICAgIFZlcmxpbmt1bmcgbmljaHQgZXJrZW5uYmFyLgogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi02Ij4KICAgICAgICAgICAgICBFaW5lIHBlcm1hbmVudGUgaW5oYWx0bGljaGUgS29udHJvbGxlIGRlciB2ZXJsaW5rdGVuIFNlaXRlbiBpc3QKICAgICAgICAgICAgICBqZWRvY2ggb2huZSBrb25rcmV0ZSBBbmhhbHRzcHVua3RlIGVpbmVyIFJlY2h0c3ZlcmxldHp1bmcgbmljaHQKICAgICAgICAgICAgICB6dW11dGJhci4gQmVpIEJla2FubnR3ZXJkZW4gdm9uIFJlY2h0c3ZlcmxldHp1bmdlbiB3ZXJkZW4gd2lyCiAgICAgICAgICAgICAgZGVyYXJ0aWdlIExpbmtzIHVtZ2VoZW5kIGVudGZlcm5lbi4KICAgICAgICAgICAgPC9wPgoKICAgICAgICAgICAgPGgyIGNsYXNzTmFtZT0idGV4dC0yeGwgZm9udC1ib2xkIHRleHQtcWFubmEtbmF2eSBtdC0xMiBtYi00Ij4KICAgICAgICAgICAgICBVcmhlYmVycmVjaHQKICAgICAgICAgICAgPC9oMj4KICAgICAgICAgICAgPHAgY2xhc3NOYW1lPSJ0ZXh0LXFhbm5hLWdyYXktNzAwIG1iLTYiPgogICAgICAgICAgICAgIERpZSBkdXJjaCBkaWUgU2VpdGVuYmV0cmVpYmVyIGVyc3RlbGx0ZW4gSW5oYWx0ZSB1bmQgV2Vya2UgYXVmCiAgICAgICAgICAgICAgZGllc2VuIFNlaXRlbiB1bnRlcmxpZWdlbiBkZW0gZGV1dHNjaGVuIFVyaGViZXJyZWNodC4gRGllCiAgICAgICAgICAgICAgVmVydmllbGbDpGx0aWd1bmcsIEJlYXJiZWl0dW5nLCBWZXJicmVpdHVuZyB1bmQgamVkZSBBcnQgZGVyCiAgICAgICAgICAgICAgVmVyd2VydHVuZyBhdcOfZXJoYWxiIGRlciBHcmVuemVuIGRlcyBVcmhlYmVycmVjaHRlcyBiZWTDvHJmZW4gZGVyCiAgICAgICAgICAgICAgc2NocmlmdGxpY2hlbiBadXN0aW1tdW5nIGRlcyBqZXdlaWxpZ2VuIEF1dG9ycyBiencuIEVyc3RlbGxlcnMuCiAgICAgICAgICAgICAgRG93bmxvYWRzIHVuZCBLb3BpZW4gZGllc2VyIFNlaXRlIHNpbmQgbnVyIGbDvHIgZGVuIHByaXZhdGVuLCBuaWNodAogICAgICAgICAgICAgIGtvbW1lcnppZWxsZW4gR2VicmF1Y2ggZ2VzdGF0dGV0LgogICAgICAgICAgICA8L3A+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi02Ij4KICAgICAgICAgICAgICBTb3dlaXQgZGllIEluaGFsdGUgYXVmIGRpZXNlciBTZWl0ZSBuaWNodCB2b20gQmV0cmVpYmVyIGVyc3RlbGx0CiAgICAgICAgICAgICAgd3VyZGVuLCB3ZXJkZW4gZGllIFVyaGViZXJyZWNodGUgRHJpdHRlciBiZWFjaHRldC4gSW5zYmVzb25kZXJlCiAgICAgICAgICAgICAgd2VyZGVuIEluaGFsdGUgRHJpdHRlciBhbHMgc29sY2hlIGdla2VubnplaWNobmV0LiBTb2xsdGVuIFNpZQogICAgICAgICAgICAgIHRyb3R6ZGVtIGF1ZiBlaW5lIFVyaGViZXJyZWNodHN2ZXJsZXR6dW5nIGF1Zm1lcmtzYW0gd2VyZGVuLAogICAgICAgICAgICAgIGJpdHRlbiB3aXIgdW0gZWluZW4gZW50c3ByZWNoZW5kZW4gSGlud2Vpcy4gQmVpIEJla2FubnR3ZXJkZW4gdm9uCiAgICAgICAgICAgICAgUmVjaHRzdmVybGV0enVuZ2VuIHdlcmRlbiB3aXIgZGVyYXJ0aWdlIEluaGFsdGUgdW1nZWhlbmQKICAgICAgICAgICAgICBlbnRmZXJuZW4uCiAgICAgICAgICAgIDwvcD4KCiAgICAgICAgICAgIDxoMiBjbGFzc05hbWU9InRleHQtMnhsIGZvbnQtYm9sZCB0ZXh0LXFhbm5hLW5hdnkgbXQtMTIgbWItNCI+CiAgICAgICAgICAgICAgQmVydWZzcmVjaHRsaWNoZSBBbmdhYmVuCiAgICAgICAgICAgIDwvaDI+CiAgICAgICAgICAgIDxwIGNsYXNzTmFtZT0idGV4dC1xYW5uYS1ncmF5LTcwMCBtYi02Ij4KICAgICAgICAgICAgICBCZXJ1ZnNiZXplaWNobnVuZzogVW50ZXJuZWhtZW5zYmVyYXRlciAodmVybGllaGVuIGluIGRlcgogICAgICAgICAgICAgIEJ1bmRlc3JlcHVibGlrIERldXRzY2hsYW5kKQogICAgICAgICAgICA8L3A+CiAgICAgICAgICA8L2Rpdj4KICAgICAgICA8L2Rpdj4KICAgICAgPC9zZWN0aW9uPgoKICAgICAgPEZvb3RlciAvPgogICAgPC9tYWluPgogICk7Cn0K
+import { Header, Footer } from "@/components/layout";
+
+export const metadata = {
+  title: "Impressum | QANNA Consulting",
+  description: "Impressum und rechtliche Informationen von QANNA Consulting.",
+};
+
+export default function ImpressumPage() {
+  return (
+    <main>
+      <Header />
+
+      <section className="pt-32 pb-16 bg-qanna-navy">
+        <div className="container-qanna">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">
+            Impressum
+          </h1>
+          <p className="text-xl text-gray-300">
+            Angaben gemäß § 5 TMG
+          </p>
+        </div>
+      </section>
+
+      <section className="section-padding bg-white">
+        <div className="container-qanna max-w-4xl">
+          <div className="prose prose-lg max-w-none">
+            <h2 className="text-2xl font-bold text-qanna-navy mb-4">
+              Anbieter und Verantwortlicher
+            </h2>
+            <p className="text-qanna-gray-700 mb-6">
+              Qanna Holding GmbH
+              <br />
+              Suttnerstr. 10
+              <br />
+              33790 Halle/Westfalen
+              <br />
+              Deutschland
+            </p>
+
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Kontakt
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              E-Mail: info@qanna-beratung.de
+            </p>
+
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Vertretungsberechtigte Geschäftsführer
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">Sergej Schulz, Andreas Sudermann</p>
+
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Registereintrag
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Eintragung im Handelsregister
+              <br />
+              Registergericht: Amtsgericht Gütersloh
+              <br />
+              Registernummer: HRB [wird ergänzt]
+            </p>
+
+            <h3 className="text-xl font-semibold text-qanna-navy mb-3">
+              Umsatzsteuer-ID
+            </h3>
+            <p className="text-qanna-gray-700 mb-6">
+              Umsatzsteuer-Identifikationsnummer gemäß § 27 a Umsatzsteuergesetz:
+              <br />
+              [wird ergänzt]
+            </p>
+
+            <h2 className="text-2xl font-bold text-qanna-navy mt-12 mb-4">
+              Verantwortlicher für den Inhalt nach § 55 Abs. 2 RStV
+            </h2>
+            <p className="text-qanna-gray-700 mb-6">
+              Sergej Schulz
+              <br />
+              Qanna Holding GmbH
+              <br />
+              Suttnerstr. 10
+              <br />
+              33790 Halle/Westfalen
+            </p>
+
+            <h2 className="text-2xl font-bold text-qanna-navy mt-12 mb-4">
+              Streitschlichtung
+            </h2>
+            <p className="text-qanna-gray-700 mb-6">
+              Die Europäische Kommission stellt eine Plattform zur
+              Online-Streitbeilegung (OS) bereit:{" "}
+              <a
+                href="https://ec.europa.eu/consumers/odr"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-qanna-gold hover:underline"
+              >
+                https://ec.europa.eu/consumers/odr
+              </a>
+              <br />
+              <br />
+              Wir sind nicht bereit oder verpflichtet, an
+              Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle
+              teilzunehmen.
+            </p>
+
+            <h2 className="text-2xl font-bold text-qanna-navy mt-12 mb-4">
+              Haftung für Inhalte
+            </h2>
+            <p className="text-qanna-gray-700 mb-6">
+              Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene
+              Inhalte auf diesen Seiten nach den allgemeinen Gesetzen
+              verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter
+              jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde
+              Informationen zu überwachen oder nach Umständen zu forschen, die
+              auf eine rechtswidrige Tätigkeit hinweisen.
+            </p>
+            <p className="text-qanna-gray-700 mb-6">
+              Verpflichtungen zur Entfernung oder Sperrung der Nutzung von
+              Informationen nach den allgemeinen Gesetzen bleiben hiervon
+              unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem
+              Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich.
+              Bei Bekanntwerden von entsprechenden Rechtsverletzungen werden wir
+              diese Inhalte umgehend entfernen.
+            </p>
+
+            <h2 className="text-2xl font-bold text-qanna-navy mt-12 mb-4">
+              Haftung für Links
+            </h2>
+            <p className="text-qanna-gray-700 mb-6">
+              Unser Angebot enthält Links zu externen Websites Dritter, auf
+              deren Inhalte wir keinen Einfluss haben. Deshalb können wir für
+              diese fremden Inhalte auch keine Gewähr übernehmen. Für die
+              Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter
+              oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten
+              wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße
+              überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der
+              Verlinkung nicht erkennbar.
+            </p>
+            <p className="text-qanna-gray-700 mb-6">
+              Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist
+              jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht
+              zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir
+              derartige Links umgehend entfernen.
+            </p>
+
+            <h2 className="text-2xl font-bold text-qanna-navy mt-12 mb-4">
+              Urheberrecht
+            </h2>
+            <p className="text-qanna-gray-700 mb-6">
+              Die durch die Seitenbetreiber erstellten Inhalte und Werke auf
+              diesen Seiten unterliegen dem deutschen Urheberrecht. Die
+              Vervielfältigung, Bearbeitung, Verbreitung und jede Art der
+              Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der
+              schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.
+              Downloads und Kopien dieser Seite sind nur für den privaten, nicht
+              kommerziellen Gebrauch gestattet.
+            </p>
+            <p className="text-qanna-gray-700 mb-6">
+              Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt
+              wurden, werden die Urheberrechte Dritter beachtet. Insbesondere
+              werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie
+              trotzdem auf eine Urheberrechtsverletzung aufmerksam werden,
+              bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von
+              Rechtsverletzungen werden wir derartige Inhalte umgehend
+              entfernen.
+            </p>
+
+            <h2 className="text-2xl font-bold text-qanna-navy mt-12 mb-4">
+              Berufsrechtliche Angaben
+            </h2>
+            <p className="text-qanna-gray-700 mb-6">
+              Berufsbezeichnung: Unternehmensberater (verliehen in der
+              Bundesrepublik Deutschland)
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <Footer />
+    </main>
+  );
+}
